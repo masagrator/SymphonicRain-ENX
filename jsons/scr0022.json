@@ -1,0 +1,4470 @@
+{
+	"HEADER": {
+		"FILE_ID": 22,
+		"CRC": "B6768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 22,
+				"UNK1": 15334,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1216,
+				"UNK5": 1325,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "btm06"
+			}
+		],
+		"FUNS": [
+			"Func_btm06"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "bt02"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "b12"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x76",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x7e",
+				"TYPE": "RainVol",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0x86",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1050,
+					1
+				]
+			},
+			{
+				"LABEL": "0x94",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x9c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x9e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t向かい側に座っているトルタに、今日も練習の誘いをか",
+					"\t\t\t\tける。"
+				]
+			},
+			{
+				"LABEL": "0xb0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「トルタ、今日も練習どうかな？」"
+				]
+			},
+			{
+				"LABEL": "0xc6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc8",
+				"TYPE": "GETF",
+				"U32": [
+					76
+				]
+			},
+			{
+				"LABEL": "0xd0",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xd8",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x152"
+			},
+			{
+				"LABEL": "0xde",
+				"TYPE": "BGMPlay",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0xe6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe8",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xfc",
+				"TYPE": "Voice",
+				"U32": [
+					22001
+				]
+			},
+			{
+				"LABEL": "0x104",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「え？　ああ、いいよ」"
+				]
+			},
+			{
+				"LABEL": "0x116",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x118",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x11a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ありがと。じゃあ、早速練習室に行こうか」"
+				]
+			},
+			{
+				"LABEL": "0x12c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x12e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x130",
+				"TYPE": "Voice",
+				"U32": [
+					22002
+				]
+			},
+			{
+				"LABEL": "0x138",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「うん」"
+				]
+			},
+			{
+				"LABEL": "0x14a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x1d4"
+			},
+			{
+				"LABEL": "0x152",
+				"TYPE": "BGMPlay",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x15a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x15c",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x170",
+				"TYPE": "Voice",
+				"U32": [
+					22003
+				]
+			},
+			{
+				"LABEL": "0x178",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「……え？　ああ、いいよ」"
+				]
+			},
+			{
+				"LABEL": "0x18a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x18c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x18e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……ありがと。じゃあ、早速練習室に行こうか」"
+				]
+			},
+			{
+				"LABEL": "0x1a0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1a2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1a4",
+				"TYPE": "MoveChar",
+				"U32": [
+					2,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1b8",
+				"TYPE": "Voice",
+				"U32": [
+					22004
+				]
+			},
+			{
+				"LABEL": "0x1c0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「うん」"
+				]
+			},
+			{
+				"LABEL": "0x1d2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1d4",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x1d6",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x1d8",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x1e0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1e2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t食堂から出るために立ち上がると、後ろから話しかけら",
+					"\t\t\t\tれた。"
+				]
+			},
+			{
+				"LABEL": "0x1f4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1f6",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x20a",
+				"TYPE": "BGMPlay",
+				"U32": [
+					8
+				]
+			},
+			{
+				"LABEL": "0x212",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x214",
+				"TYPE": "Voice",
+				"U32": [
+					22005
+				]
+			},
+			{
+				"LABEL": "0x21c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「よう、クリス」"
+				]
+			},
+			{
+				"LABEL": "0x22e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x230",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x232",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「あ、おはよう」"
+				]
+			},
+			{
+				"LABEL": "0x244",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x246",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x248",
+				"TYPE": "MoveChar",
+				"U32": [
+					102,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x25c",
+				"TYPE": "Voice",
+				"U32": [
+					22006
+				]
+			},
+			{
+				"LABEL": "0x264",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「昼からおはようはないだろ……」"
+				]
+			},
+			{
+				"LABEL": "0x276",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x278",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x27a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「だって、アーシノはさっき起きたばっかりだろ？」"
+				]
+			},
+			{
+				"LABEL": "0x28c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x28e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x290",
+				"TYPE": "Voice",
+				"U32": [
+					22007
+				]
+			},
+			{
+				"LABEL": "0x298",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「……どうしてわかる？」"
+				]
+			},
+			{
+				"LABEL": "0x2aa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2ac",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2ae",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「そのくらいわかるよ。で？　どうかした？」"
+				]
+			},
+			{
+				"LABEL": "0x2c0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2c2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2c4",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x2d8",
+				"TYPE": "Voice",
+				"U32": [
+					22008
+				]
+			},
+			{
+				"LABEL": "0x2e0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「いや、特に用はない……が」"
+				]
+			},
+			{
+				"LABEL": "0x2f2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2f4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2f6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t言いながら、僕の後ろに立っているトルタに視線を移し",
+					"\t\t\t\tた。"
+				]
+			},
+			{
+				"LABEL": "0x308",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x30a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x30c",
+				"TYPE": "Voice",
+				"U32": [
+					22009
+				]
+			},
+			{
+				"LABEL": "0x314",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「これから二人で練習か？」"
+				]
+			},
+			{
+				"LABEL": "0x326",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x328",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x32a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「まあね」"
+				]
+			},
+			{
+				"LABEL": "0x33c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x33e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x340",
+				"TYPE": "Voice",
+				"U32": [
+					22010
+				]
+			},
+			{
+				"LABEL": "0x348",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「やっぱり俺の予想通りだったな」"
+				]
+			},
+			{
+				"LABEL": "0x35a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x35c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x35e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……誰でも思いつくようなことを、わざわざ自慢する",
+					"\t\t\t\t　なよ」"
+				]
+			},
+			{
+				"LABEL": "0x37a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x37c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x37e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれにまだ決まった訳じゃない、と言うのはやめておい",
+					"\t\t\t\tた。"
+				]
+			},
+			{
+				"LABEL": "0x390",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x392",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x394",
+				"TYPE": "Voice",
+				"U32": [
+					22011
+				]
+			},
+			{
+				"LABEL": "0x39c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「でも、正しかっただろ」"
+				]
+			},
+			{
+				"LABEL": "0x3ae",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3b0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3b2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……なんか、妙に嬉しそうだな」"
+				]
+			},
+			{
+				"LABEL": "0x3c4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3c6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3c8",
+				"TYPE": "Voice",
+				"U32": [
+					22012
+				]
+			},
+			{
+				"LABEL": "0x3d0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「いやいや別に。そういうわかりやすいところが好きな",
+					"\t\t\t\t　んだよ」"
+				]
+			},
+			{
+				"LABEL": "0x3ec",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3ee",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3f0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「わかりやすくて悪かったね。用事がないんなら行くよ？",
+					"\t\t\t\t　そっちももう練習だと思ったけど」"
+				]
+			},
+			{
+				"LABEL": "0x40c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x40e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x410",
+				"TYPE": "Voice",
+				"U32": [
+					22013
+				]
+			},
+			{
+				"LABEL": "0x418",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「ああ。ちょっとお前のことが心配だったから声をかけ",
+					"\t\t\t\t　ただけだ。でも、安心したよ」"
+				]
+			},
+			{
+				"LABEL": "0x434",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x436",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x438",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「それよりも先に、自分のことを心配すれば？」"
+				]
+			},
+			{
+				"LABEL": "0x44a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x44c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x44e",
+				"TYPE": "MoveChar",
+				"U32": [
+					101,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x462",
+				"TYPE": "Voice",
+				"U32": [
+					22014
+				]
+			},
+			{
+				"LABEL": "0x46a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「ん？　"
+				]
+			},
+			{
+				"LABEL": "0x47c",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x484",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x498",
+				"TYPE": "Text",
+				"STRING": [
+					"俺は大丈夫だよ。クリスとは違う」"
+				]
+			},
+			{
+				"LABEL": "0x4a0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4a2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4a4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ま、違うのは認めるけどさ……」"
+				]
+			},
+			{
+				"LABEL": "0x4b6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4b8",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x4ba",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x4bc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4be",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアーシノはなぜか上機嫌で、僕達二人をもう一度見つめ",
+					"\t\t\t\tると、手を軽く振ってレッスン室へと歩いていった。"
+				]
+			},
+			{
+				"LABEL": "0x4d0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4d2",
+				"TYPE": "GETF",
+				"U32": [
+					76
+				]
+			},
+			{
+				"LABEL": "0x4da",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x4e2",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x4f6"
+			},
+			{
+				"LABEL": "0x4e8",
+				"TYPE": "BGMPlay",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x4f0",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x4fe"
+			},
+			{
+				"LABEL": "0x4f6",
+				"TYPE": "BGMPlay",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x4fe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x500",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「なんだったんだろ？」"
+				]
+			},
+			{
+				"LABEL": "0x512",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x514",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x516",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tさっきから一言もしゃべっていないトルタに訊ねてみる。"
+				]
+			},
+			{
+				"LABEL": "0x51e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x520",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x522",
+				"TYPE": "MoveChar",
+				"U32": [
+					9,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x536",
+				"TYPE": "Voice",
+				"U32": [
+					22015
+				]
+			},
+			{
+				"LABEL": "0x53e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「さあ？　自分の思い通りになって、嬉しかったんじゃ",
+					"\t\t\t\t　ない？」"
+				]
+			},
+			{
+				"LABEL": "0x55a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x55c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x55e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tトルタはいつものアーシノに対するときの口調で、興味",
+					"\t\t\t\tなさそうにそう答えた。"
+				]
+			},
+			{
+				"LABEL": "0x570",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x572",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x574",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「予想もなにも、あの時点ではそれしか考えられなかっ",
+					"\t\t\t\t　たのにね。アーシノはあれで、案外子供っぽいところ",
+					"\t\t\t\t　があるから」"
+				]
+			},
+			{
+				"LABEL": "0x59a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x59c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x59e",
+				"TYPE": "MoveChar",
+				"U32": [
+					6,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x5b2",
+				"TYPE": "Voice",
+				"U32": [
+					22016
+				]
+			},
+			{
+				"LABEL": "0x5ba",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「向こうもきっと……同じように思ってるんじゃない？」"
+				]
+			},
+			{
+				"LABEL": "0x5cc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5ce",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x5d0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……それはあり得る」"
+				]
+			},
+			{
+				"LABEL": "0x5e2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5e4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x5e6",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x5fa",
+				"TYPE": "Voice",
+				"U32": [
+					22017
+				]
+			},
+			{
+				"LABEL": "0x602",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「私も同意見だけどね」"
+				]
+			},
+			{
+				"LABEL": "0x614",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x616",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x618",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ちなみに、どっちが子供っぽいと思う？」"
+				]
+			},
+			{
+				"LABEL": "0x62a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x62c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x62e",
+				"TYPE": "MoveChar",
+				"U32": [
+					2,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x642",
+				"TYPE": "Voice",
+				"U32": [
+					22018
+				]
+			},
+			{
+				"LABEL": "0x64a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「決まってるじゃない。両方よ」"
+				]
+			},
+			{
+				"LABEL": "0x65c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x65e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x660",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tさも当たり前のことのように、さらりとトルタは言って",
+					"\t\t\t\tのけた。"
+				]
+			},
+			{
+				"LABEL": "0x672",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x674",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x676",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……それはどうも」"
+				]
+			},
+			{
+				"LABEL": "0x688",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x68a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x68c",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x69a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tなんだか釈然としなかったけど、否定する材料もない。"
+				]
+			},
+			{
+				"LABEL": "0x6a2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x6a4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x6a6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t無駄にしている時間もあまりなかったから、そのまま二",
+					"\t\t\t\t人で練習室へと向かった。"
+				]
+			},
+			{
+				"LABEL": "0x6b8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x6ba",
+				"TYPE": "GETF",
+				"U32": [
+					76
+				]
+			},
+			{
+				"LABEL": "0x6c2",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x6ca",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x6dc"
+			},
+			{
+				"LABEL": "0x6d0",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0xffc"
+			},
+			{
+				"LABEL": "0x6d6",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x6dc"
+			},
+			{
+				"LABEL": "0x6dc",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x6de",
+				"TYPE": "RainVol",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x6e6",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					3
+				]
+			},
+			{
+				"LABEL": "0x6f4",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x6fc",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x704",
+				"TYPE": "SetTime",
+				"U32": [
+					1800
+				]
+			},
+			{
+				"LABEL": "0x70c",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					3
+				]
+			},
+			{
+				"LABEL": "0x71a",
+				"TYPE": "BGMPlay",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x722",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x724",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t充実した時間は短く感じるもので、気づけば、じんわり",
+					"\t\t\t\tと汗をかくくらいに疲れていた。"
+				]
+			},
+			{
+				"LABEL": "0x736",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x738",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x73a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t窓のない小さな部屋では時間感覚が狂うのか、時計を見",
+					"\t\t\t\tなければ、まだそれほど練習していないようにも思える。"
+				]
+			},
+			{
+				"LABEL": "0x74c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x74e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x750",
+				"TYPE": "MoveChar",
+				"U32": [
+					121,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x764",
+				"TYPE": "Voice",
+				"U32": [
+					22019
+				]
+			},
+			{
+				"LABEL": "0x76c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「……ふう」"
+				]
+			},
+			{
+				"LABEL": "0x77e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x780",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x782",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tトルタが立ったまま背筋を伸ばし、僕もつられるように",
+					"\t\t\t\t肩を何度か回す。"
+				]
+			},
+			{
+				"LABEL": "0x794",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x796",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x798",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x7ac",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「お疲れさま」"
+				]
+			},
+			{
+				"LABEL": "0x7be",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7c0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7c2",
+				"TYPE": "MoveChar",
+				"U32": [
+					5,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x7d6",
+				"TYPE": "Voice",
+				"U32": [
+					22020
+				]
+			},
+			{
+				"LABEL": "0x7de",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「うん、そっちもね」"
+				]
+			},
+			{
+				"LABEL": "0x7f0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7f2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7f4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t感想については特になにもないかと思っていたけど、突",
+					"\t\t\t\t然トルタは、少し不思議そうな顔をして質問する。"
+				]
+			},
+			{
+				"LABEL": "0x806",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x808",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x80a",
+				"TYPE": "MoveChar",
+				"U32": [
+					3,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x81e",
+				"TYPE": "Voice",
+				"U32": [
+					22021
+				]
+			},
+			{
+				"LABEL": "0x826",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「なんかさ、クリスの音って変わった？」"
+				]
+			},
+			{
+				"LABEL": "0x838",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x83a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x83c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ん？　音？」"
+				]
+			},
+			{
+				"LABEL": "0x84e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x850",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x852",
+				"TYPE": "Voice",
+				"U32": [
+					22022
+				]
+			},
+			{
+				"LABEL": "0x85a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「なんとなくだけど……ちょっと変わったかなって思っ",
+					"\t\t\t\t　て」"
+				]
+			},
+			{
+				"LABEL": "0x876",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x878",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x87a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「具体的には、どういう風に？」"
+				]
+			},
+			{
+				"LABEL": "0x88c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x88e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x890",
+				"TYPE": "MoveChar",
+				"U32": [
+					6,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x8a4",
+				"TYPE": "Voice",
+				"U32": [
+					22023
+				]
+			},
+			{
+				"LABEL": "0x8ac",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「……わかんない」"
+				]
+			},
+			{
+				"LABEL": "0x8be",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x8c0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x8c2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「なにそれ」"
+				]
+			},
+			{
+				"LABEL": "0x8d4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x8d6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x8d8",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x8ec",
+				"TYPE": "Voice",
+				"U32": [
+					22024
+				]
+			},
+			{
+				"LABEL": "0x8f4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「わかんないから、聞いてるんじゃない」"
+				]
+			},
+			{
+				"LABEL": "0x906",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x908",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x90a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「逆だって。僕がわからないから聞いてるんだって」"
+				]
+			},
+			{
+				"LABEL": "0x91c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x91e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x920",
+				"TYPE": "MoveChar",
+				"U32": [
+					3,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x934",
+				"TYPE": "Voice",
+				"U32": [
+					22025
+				]
+			},
+			{
+				"LABEL": "0x93c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「……う～ん。言葉じゃなくて、もっと感覚的なものっ",
+					"\t\t\t\t　ていったらいいのかな」"
+				]
+			},
+			{
+				"LABEL": "0x958",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x95a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x95c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「それを僕にわかれと？　もしくは説明しろと？」"
+				]
+			},
+			{
+				"LABEL": "0x96e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x970",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x972",
+				"TYPE": "MoveChar",
+				"U32": [
+					6,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x986",
+				"TYPE": "Voice",
+				"U32": [
+					22026
+				]
+			},
+			{
+				"LABEL": "0x98e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「……クリスには無理か」"
+				]
+			},
+			{
+				"LABEL": "0x9a0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x9a2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x9a4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「いや、僕だから無理とかじゃなくてね」"
+				]
+			},
+			{
+				"LABEL": "0x9b6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x9b8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x9ba",
+				"TYPE": "MoveChar",
+				"U32": [
+					2,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x9ce",
+				"TYPE": "Voice",
+				"U32": [
+					22027
+				]
+			},
+			{
+				"LABEL": "0x9d6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「まあいいや。私にもよくわからないし」"
+				]
+			},
+			{
+				"LABEL": "0x9e8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x9ea",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x9ec",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tトルタは、僕の言葉なんかまるで聞いていない。"
+				]
+			},
+			{
+				"LABEL": "0x9f4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x9f6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x9f8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t一人で疑問に思って、一人で納得している。"
+				]
+			},
+			{
+				"LABEL": "0xa00",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa02",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa04",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xa12",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……僕だって別にいいけどね」"
+				]
+			},
+			{
+				"LABEL": "0xa24",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa26",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa28",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tもともと音楽なんて不安定なもので、その日のコンディ",
+					"\t\t\t\tションや気分によって、いくらでも左右される可能性は",
+					"\t\t\t\tある。"
+				]
+			},
+			{
+				"LABEL": "0xa44",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa46",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa48",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tプロはその幅が狭く、安定しているだけのことだ。"
+				]
+			},
+			{
+				"LABEL": "0xa50",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa52",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa54",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tもちろんそのハードル自体が、ものすごく高いところに",
+					"\t\t\t\tあるわけだけど、根本的な、もっと精神的なところは同",
+					"\t\t\t\tじ人間なのだから、違いはない。"
+				]
+			},
+			{
+				"LABEL": "0xa70",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa72",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa74",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれに、それは演奏者だけでなく、聞き取る相手の気分",
+					"\t\t\t\tによっても変わってくるものだ。"
+				]
+			},
+			{
+				"LABEL": "0xa86",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa88",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa8a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t感覚的なことを大事にするのも必要だけど、それに惑わ",
+					"\t\t\t\tされすぎるのもあまり良くない。"
+				]
+			},
+			{
+				"LABEL": "0xa9c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa9e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xaa0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「まあ、明日から二日連続で休みだ。その間にでもうま",
+					"\t\t\t\t　い説明をしてくれればいいよ」"
+				]
+			},
+			{
+				"LABEL": "0xabc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xabe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xac0",
+				"TYPE": "MoveChar",
+				"U32": [
+					9,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xad4",
+				"TYPE": "Voice",
+				"U32": [
+					22028
+				]
+			},
+			{
+				"LABEL": "0xadc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「……二日も連続で休むつもり？」"
+				]
+			},
+			{
+				"LABEL": "0xaee",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xaf0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xaf2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……え？　ま、まあそのつもりだったけど」"
+				]
+			},
+			{
+				"LABEL": "0xb04",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb06",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb08",
+				"TYPE": "MoveChar",
+				"U32": [
+					4,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xb1c",
+				"TYPE": "Voice",
+				"U32": [
+					22029
+				]
+			},
+			{
+				"LABEL": "0xb24",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「真面目にやる気はあるの？」"
+				]
+			},
+			{
+				"LABEL": "0xb36",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb38",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb3a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……はい、あります」"
+				]
+			},
+			{
+				"LABEL": "0xb4c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb4e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb50",
+				"TYPE": "MoveChar",
+				"U32": [
+					2,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xb64",
+				"TYPE": "Voice",
+				"U32": [
+					22030
+				]
+			},
+			{
+				"LABEL": "0xb6c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「なら、もう一度聞くね。二日連続で休むつもり？」"
+				]
+			},
+			{
+				"LABEL": "0xb7e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb80",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb82",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「滅相もございません」"
+				]
+			},
+			{
+				"LABEL": "0xb94",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb96",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb98",
+				"TYPE": "Voice",
+				"U32": [
+					22031
+				]
+			},
+			{
+				"LABEL": "0xba0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「もちろん、一日は休ませてあげる。どっちでも好きな",
+					"\t\t\t\t　方を選んで良いよ」"
+				]
+			},
+			{
+				"LABEL": "0xbbc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xbbe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xbc0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t顔はにこやかだったけど、これは脅迫というものではな",
+					"\t\t\t\tいだろうか？"
+				]
+			},
+			{
+				"LABEL": "0xbd2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xbd4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xbd6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「どっちでもいいけど……」"
+				]
+			},
+			{
+				"LABEL": "0xbe8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xbea",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xbec",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tどうせ、明日休めるか明後日休めるかの差でしかない。"
+				]
+			},
+			{
+				"LABEL": "0xbf4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xbf6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xbf8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tフォーニとの練習も、まとめて一日でできたらそのほう",
+					"\t\t\t\tが楽なんじゃないかとも思う。"
+				]
+			},
+			{
+				"LABEL": "0xc0a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc0c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc0e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t丸一日休んで丸一日演奏するか。"
+				]
+			},
+			{
+				"LABEL": "0xc16",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc18",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc1a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれとも二日連続、半日休むか。"
+				]
+			},
+			{
+				"LABEL": "0xc22",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc24",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc26",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tどちらにしろ、休める時間は一日分は減ったということ",
+					"\t\t\t\tか。"
+				]
+			},
+			{
+				"LABEL": "0xc38",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc3a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc3c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tさて、どちらにしようか。"
+				]
+			},
+			{
+				"LABEL": "0xc44",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc46",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc48",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xc5c",
+				"TYPE": "Voice",
+				"U32": [
+					22032
+				]
+			},
+			{
+				"LABEL": "0xc64",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「ならさ」"
+				]
+			},
+			{
+				"LABEL": "0xc76",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc78",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc7a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「え？」"
+				]
+			},
+			{
+				"LABEL": "0xc8c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc8e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc90",
+				"TYPE": "Voice",
+				"U32": [
+					22033
+				]
+			},
+			{
+				"LABEL": "0xc98",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「日曜でいいかな」"
+				]
+			},
+			{
+				"LABEL": "0xcaa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xcac",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xcae",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t選ばせてくれるんじゃなかったのか……。"
+				]
+			},
+			{
+				"LABEL": "0xcb6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xcb8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xcba",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tまあ、確かにどっちでも良いって言ったけど。"
+				]
+			},
+			{
+				"LABEL": "0xcc2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xcc4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xcc6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「でも、なんで？」"
+				]
+			},
+			{
+				"LABEL": "0xcd8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xcda",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xcdc",
+				"TYPE": "Voice",
+				"U32": [
+					22034
+				]
+			},
+			{
+				"LABEL": "0xce4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「なんとなく」"
+				]
+			},
+			{
+				"LABEL": "0xcf6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xcf8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xcfa",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……で、今度もトルタの家かな？」"
+				]
+			},
+			{
+				"LABEL": "0xd0c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd0e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xd10",
+				"TYPE": "MoveChar",
+				"U32": [
+					5,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xd24",
+				"TYPE": "Voice",
+				"U32": [
+					22035
+				]
+			},
+			{
+				"LABEL": "0xd2c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「それなんだけど、クリスの部屋でいいかな」"
+				]
+			},
+			{
+				"LABEL": "0xd3e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd40",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xd42",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「駄目じゃないけど、ニンナさんは？　行ったら喜ぶん",
+					"\t\t\t\t　じゃないかな」"
+				]
+			},
+			{
+				"LABEL": "0xd5e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd60",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xd62",
+				"TYPE": "MoveChar",
+				"U32": [
+					4,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xd76",
+				"TYPE": "Voice",
+				"U32": [
+					22036
+				]
+			},
+			{
+				"LABEL": "0xd7e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「あのね。半年も来なかったのにいきなり二週連続で来",
+					"\t\t\t\t　てみなさいよ。気を遣ったって思われるだけだって」"
+				]
+			},
+			{
+				"LABEL": "0xd9a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd9c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xd9e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「それはそうかもしれないけど」"
+				]
+			},
+			{
+				"LABEL": "0xdb0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xdb2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xdb4",
+				"TYPE": "MoveChar",
+				"U32": [
+					2,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xdc8",
+				"TYPE": "Voice",
+				"U32": [
+					22037
+				]
+			},
+			{
+				"LABEL": "0xdd0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「またクリスが、本当に来たくなった時で構わないんだ",
+					"\t\t\t\t　って。そういうのは」"
+				]
+			},
+			{
+				"LABEL": "0xdec",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xdee",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xdf0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……わかった。でも、僕の部屋？」"
+				]
+			},
+			{
+				"LABEL": "0xe02",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe04",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe06",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xe1a",
+				"TYPE": "Voice",
+				"U32": [
+					22038
+				]
+			},
+			{
+				"LABEL": "0xe22",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「最近全然行ってないから。学院よりは落ち着けて良い",
+					"\t\t\t\t　んじゃない？　それに、ぎりぎりまで寝てられるよ」"
+				]
+			},
+			{
+				"LABEL": "0xe3e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe40",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe42",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……それは魅力的だね」"
+				]
+			},
+			{
+				"LABEL": "0xe54",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe56",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe58",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれに、トルタが来るって言ったらフォーニも喜ぶだろ",
+					"\t\t\t\tう。"
+				]
+			},
+			{
+				"LABEL": "0xe6a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe6c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe6e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「わかった。いいよ」"
+				]
+			},
+			{
+				"LABEL": "0xe80",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe82",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe84",
+				"TYPE": "Voice",
+				"U32": [
+					22039
+				]
+			},
+			{
+				"LABEL": "0xe8c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「うん。じゃあ、お昼過ぎかな？　まさか、早いなんて",
+					"\t\t\t\t　言わないよね」"
+				]
+			},
+			{
+				"LABEL": "0xea8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xeaa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xeac",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ま、妥当だね」"
+				]
+			},
+			{
+				"LABEL": "0xebe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xec0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xec2",
+				"TYPE": "Voice",
+				"U32": [
+					22040
+				]
+			},
+			{
+				"LABEL": "0xeca",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「じゃ、帰りましょう」"
+				]
+			},
+			{
+				"LABEL": "0xedc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xede",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xee0",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xeee",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t子供の頃からと同じ、自然な空気。"
+				]
+			},
+			{
+				"LABEL": "0xef6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xef8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xefa",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれが妙に嬉しくて、思わず笑みがこぼれてしまう。"
+				]
+			},
+			{
+				"LABEL": "0xf02",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf04",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf06",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ああ、帰ろう」"
+				]
+			},
+			{
+				"LABEL": "0xf18",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf1a",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0xf1c",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					2360,
+					3
+				]
+			},
+			{
+				"LABEL": "0xf2a",
+				"TYPE": "RainVol",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0xf32",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xf3a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf3c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこの前の練習の時の一件も、どうやら全て、丸く収まっ",
+					"\t\t\t\tたようだ。"
+				]
+			},
+			{
+				"LABEL": "0xf4e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf50",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf52",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t考えてみれば、パートナーがトルタになるなんてことは、",
+					"\t\t\t\t最初から考えられてたことでもあり、自然なことでもあ",
+					"\t\t\t\tる。"
+				]
+			},
+			{
+				"LABEL": "0xf6e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf70",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf72",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれを無理に変えようとした努力は、無駄でしかなかっ",
+					"\t\t\t\tたのかもしれない。"
+				]
+			},
+			{
+				"LABEL": "0xf84",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf86",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf88",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tただ……。"
+				]
+			},
+			{
+				"LABEL": "0xf90",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf92",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf94",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t今、この距離を、できれば永遠に保っていられますよう",
+					"\t\t\t\tに。"
+				]
+			},
+			{
+				"LABEL": "0xfa6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xfa8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xfaa",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t近づきすぎないように。"
+				]
+			},
+			{
+				"LABEL": "0xfb2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xfb4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xfb6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそして、誰も傷ついてしまわないように。"
+				]
+			},
+			{
+				"LABEL": "0xfbe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xfc0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xfc2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそんな自分勝手なことを考えていた。"
+				]
+			},
+			{
+				"LABEL": "0xfca",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xfcc",
+				"TYPE": "GETSF",
+				"U32": [
+					63
+				]
+			},
+			{
+				"LABEL": "0xfd4",
+				"TYPE": "LNOT"
+			},
+			{
+				"LABEL": "0xfd6",
+				"TYPE": "SkipDisable"
+			},
+			{
+				"LABEL": "0xfd8",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0xfda",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0xfdc",
+				"TYPE": "BlackOut",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0xfe4",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xfec",
+				"TYPE": "RainVol",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0xff4",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xffc",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0xffe",
+				"TYPE": "RainVol",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1006",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					3
+				]
+			},
+			{
+				"LABEL": "0x1014",
+				"TYPE": "BGMPlay",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x101c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x101e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t練習室についてすぐ、トルタは黙々と用意を始める。"
+				]
+			},
+			{
+				"LABEL": "0x1026",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1028",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x102a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tまだこの前の、微妙に重い雰囲気を拭いきれないでいた。"
+				]
+			},
+			{
+				"LABEL": "0x1032",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1034",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1036",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tすっきりしたとは言っていたけど、まだ彼女の疑問や不",
+					"\t\t\t\t満は、完全に無くなったわけではない。"
+				]
+			},
+			{
+				"LABEL": "0x1048",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x104a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x104c",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x1060",
+				"TYPE": "Voice",
+				"U32": [
+					22041
+				]
+			},
+			{
+				"LABEL": "0x1068",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「どうしたの？」"
+				]
+			},
+			{
+				"LABEL": "0x107a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x107c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x107e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t普段ならなんでもないようなそんな言葉でさえも、冷た",
+					"\t\t\t\tく、素っ気ないとさえ感じてしまうのは、考え過ぎなん",
+					"\t\t\t\tだろうか。"
+				]
+			},
+			{
+				"LABEL": "0x109a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x109c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x109e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「いや、なんでもない」"
+				]
+			},
+			{
+				"LABEL": "0x10b0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x10b2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x10b4",
+				"TYPE": "Voice",
+				"U32": [
+					22042
+				]
+			},
+			{
+				"LABEL": "0x10bc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「じゃあ、始めようか。最初からでいい？」"
+				]
+			},
+			{
+				"LABEL": "0x10ce",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x10d0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x10d2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ああ。こっちはいつでもいいよ」"
+				]
+			},
+			{
+				"LABEL": "0x10e4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x10e6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x10e8",
+				"TYPE": "Voice",
+				"U32": [
+					22043
+				]
+			},
+			{
+				"LABEL": "0x10f0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「私も大丈夫」"
+				]
+			},
+			{
+				"LABEL": "0x1102",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1104",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1106",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t彼女の目を見て音楽を始めようとするのだけど、視線が",
+					"\t\t\t\tかみ合わないような違和感を覚える。"
+				]
+			},
+			{
+				"LABEL": "0x1118",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x111a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x111c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t彼女は、本当に僕を見ているのだろうか。"
+				]
+			},
+			{
+				"LABEL": "0x1124",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1126",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1128",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t何か別なものを、遠くを見ているんじゃないかという、",
+					"\t\t\t\t錯覚がまとわりついた。"
+				]
+			},
+			{
+				"LABEL": "0x113a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x113c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x113e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t――それでも僕は、彼女を見つめる振りをして、フォル",
+					"\t\t\t\tテールに指をかける。"
+				]
+			},
+			{
+				"LABEL": "0x1150",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1152",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x1154",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x1156",
+				"TYPE": "BlackOut",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x115e",
+				"TYPE": "SetTime",
+				"U32": [
+					1750
+				]
+			},
+			{
+				"LABEL": "0x1166",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x116e",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					3
+				]
+			},
+			{
+				"LABEL": "0x117c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x117e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t長かったような、それとも短かったのか。"
+				]
+			},
+			{
+				"LABEL": "0x1186",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1188",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x118a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t気づけば時計の針が、いつもなら帰っていてもおかしく",
+					"\t\t\t\tない時刻を指していた。"
+				]
+			},
+			{
+				"LABEL": "0x119c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x119e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x11a0",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x11b4",
+				"TYPE": "Voice",
+				"U32": [
+					22044
+				]
+			},
+			{
+				"LABEL": "0x11bc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「……ふう、今日はここまでかな。お疲れさま」"
+				]
+			},
+			{
+				"LABEL": "0x11ce",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x11d0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x11d2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「うん、お疲れさま……」"
+				]
+			},
+			{
+				"LABEL": "0x11e4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x11e6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x11e8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t今までだったら考えもつかなかったことだけど、僕はト",
+					"\t\t\t\tルタと何を話して良いのか、本当にわからなくなってい",
+					"\t\t\t\tた。"
+				]
+			},
+			{
+				"LABEL": "0x1204",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1206",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1208",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t毎日食堂で会った時に、わざわざ避けるようなことはも",
+					"\t\t\t\tちろんない。"
+				]
+			},
+			{
+				"LABEL": "0x121a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x121c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x121e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tパートナーとか練習の具合とかを話すこともある。"
+				]
+			},
+			{
+				"LABEL": "0x1226",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1228",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x122a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでも、こうして自分たち自身が卒業演奏の練習をし、狭",
+					"\t\t\t\tい部屋に二人きりでいるような時に、どんな話をすれば",
+					"\t\t\t\tいいんだろう。"
+				]
+			},
+			{
+				"LABEL": "0x1246",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1248",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x124a",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x1252",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t『出来はどう？』"
+				]
+			},
+			{
+				"LABEL": "0x125a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x125c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x125e",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x1266",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれは、自分が一番よくわかっている。"
+				]
+			},
+			{
+				"LABEL": "0x126e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1270",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1272",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t多分そんなことを言っても、白々しい会話になるだけだ。"
+				]
+			},
+			{
+				"LABEL": "0x127a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x127c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x127e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそうなることに怯えながらも、なにか言葉を発しなくて",
+					"\t\t\t\tはいけないような強迫観念に駆られ、焦っている。"
+				]
+			},
+			{
+				"LABEL": "0x1290",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1292",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1294",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそんな中、トルタが急におかしなことを言い出した。"
+				]
+			},
+			{
+				"LABEL": "0x129c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x129e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x12a0",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x12b4",
+				"TYPE": "Voice",
+				"U32": [
+					22045
+				]
+			},
+			{
+				"LABEL": "0x12bc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「クリスの音って、変わらないよね」"
+				]
+			},
+			{
+				"LABEL": "0x12ce",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x12d0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x12d2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「え？」"
+				]
+			},
+			{
+				"LABEL": "0x12e4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x12e6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x12e8",
+				"TYPE": "MoveChar",
+				"U32": [
+					6,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x12fc",
+				"TYPE": "Voice",
+				"U32": [
+					22046
+				]
+			},
+			{
+				"LABEL": "0x1304",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「……いや、そんな風に思っただけ」"
+				]
+			},
+			{
+				"LABEL": "0x1316",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1318",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x131a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「変わらないって？　僕のフォルテールの音？」"
+				]
+			},
+			{
+				"LABEL": "0x132c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x132e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1330",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1344",
+				"TYPE": "Voice",
+				"U32": [
+					22047
+				]
+			},
+			{
+				"LABEL": "0x134c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「そう。普通なら年が経つに連れて、少しずつ変化して",
+					"\t\t\t\t　いくものだと思ってたんだけど……」"
+				]
+			},
+			{
+				"LABEL": "0x1368",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x136a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x136c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「それは、僕が成長していないって言いたいわけ？」"
+				]
+			},
+			{
+				"LABEL": "0x137e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1380",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1382",
+				"TYPE": "MoveChar",
+				"U32": [
+					3,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1396",
+				"TYPE": "Voice",
+				"U32": [
+					22048
+				]
+			},
+			{
+				"LABEL": "0x139e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「……ちょっと違うけど」"
+				]
+			},
+			{
+				"LABEL": "0x13b0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x13b2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x13b4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ちょ、ちょっとなの？」"
+				]
+			},
+			{
+				"LABEL": "0x13c6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x13c8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x13ca",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x13de",
+				"TYPE": "Voice",
+				"U32": [
+					22049
+				]
+			},
+			{
+				"LABEL": "0x13e6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「ああ、そういう意味じゃなくて……意味合いは全然違",
+					"\t\t\t\t　うよ。成長って言葉が、しっくりきてないだけ。技術",
+					"\t\t\t\t　はきちんと、上達してると思うよ」"
+				]
+			},
+			{
+				"LABEL": "0x140c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x140e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1410",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「なら、なにが変わらないの？」"
+				]
+			},
+			{
+				"LABEL": "0x1422",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1424",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1426",
+				"TYPE": "MoveChar",
+				"U32": [
+					6,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x143a",
+				"TYPE": "Voice",
+				"U32": [
+					22050
+				]
+			},
+			{
+				"LABEL": "0x1442",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「なにって言われると、困るんだけど」"
+				]
+			},
+			{
+				"LABEL": "0x1454",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1456",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1458",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t本当に困ったように、トルタは首を傾げた。"
+				]
+			},
+			{
+				"LABEL": "0x1460",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1462",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1464",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tわかっていない、というのも本心だと思えた。"
+				]
+			},
+			{
+				"LABEL": "0x146c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x146e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1470",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこれ以上聞いても、多分明確な答えは返ってこないだろ",
+					"\t\t\t\tう。"
+				]
+			},
+			{
+				"LABEL": "0x1482",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1484",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1486",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……まあ、変わってないのなら、特に問題はないんじ",
+					"\t\t\t\t　ゃない？」"
+				]
+			},
+			{
+				"LABEL": "0x14a2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14a4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x14a6",
+				"TYPE": "MoveChar",
+				"U32": [
+					2,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x14ba",
+				"TYPE": "Voice",
+				"U32": [
+					22051
+				]
+			},
+			{
+				"LABEL": "0x14c2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「そうかもね。ちょっと気になっただけ」"
+				]
+			},
+			{
+				"LABEL": "0x14d4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14d6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x14d8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「そう言われると、やっぱり気になるね。つまるところ、",
+					"\t\t\t\t　音色とか、そういうこと？」"
+				]
+			},
+			{
+				"LABEL": "0x14f4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14f6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x14f8",
+				"TYPE": "MoveChar",
+				"U32": [
+					3,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x150c",
+				"TYPE": "Voice",
+				"U32": [
+					22052
+				]
+			},
+			{
+				"LABEL": "0x1514",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「間違いじゃない……けど、もっと根本の問題なのかな」"
+				]
+			},
+			{
+				"LABEL": "0x1526",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1528",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x152a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……フォルテール奏者は、個人による音の差が激しい。",
+					"\t\t\t\t　しかし同時に、それが個々の奏者の特徴となり、特長",
+					"\t\t\t\t　となり得る」"
+				]
+			},
+			{
+				"LABEL": "0x1550",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1552",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1554",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tずっと昔の講義で習った内容で、はっきりとは覚えてい",
+					"\t\t\t\tないけど、それほど間違ってはいないはずだ。"
+				]
+			},
+			{
+				"LABEL": "0x1566",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1568",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x156a",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x157e",
+				"TYPE": "Voice",
+				"U32": [
+					22053
+				]
+			},
+			{
+				"LABEL": "0x1586",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「ああ、そういえば習ったね。でも、変わりがないって",
+					"\t\t\t\t　いうことは」"
+				]
+			},
+			{
+				"LABEL": "0x15a2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x15a4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x15a6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「基本的に変わらないんだろうね。内面的なものが」"
+				]
+			},
+			{
+				"LABEL": "0x15b8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x15ba",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x15bc",
+				"TYPE": "MoveChar",
+				"U32": [
+					6,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x15d0",
+				"TYPE": "Voice",
+				"U32": [
+					22054
+				]
+			},
+			{
+				"LABEL": "0x15d8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「……そっか」"
+				]
+			},
+			{
+				"LABEL": "0x15ea",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x15ec",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x15ee",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1602",
+				"TYPE": "Voice",
+				"U32": [
+					22055
+				]
+			},
+			{
+				"LABEL": "0x160a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「変わらないんだね。昔も今も」"
+				]
+			},
+			{
+				"LABEL": "0x161c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x161e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1620",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「そう簡単には変われないよ」"
+				]
+			},
+			{
+				"LABEL": "0x1632",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1634",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1636",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t少し長すぎるくらいの沈黙の後、トルタは仕方なさそう",
+					"\t\t\t\tに笑いながら、呟いた。"
+				]
+			},
+			{
+				"LABEL": "0x1648",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x164a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x164c",
+				"TYPE": "MoveChar",
+				"U32": [
+					2,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1660",
+				"TYPE": "Voice",
+				"U32": [
+					22056
+				]
+			},
+			{
+				"LABEL": "0x1668",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「……ま、いいか」"
+				]
+			},
+			{
+				"LABEL": "0x167a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x167c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x167e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「なんだよ、それ」"
+				]
+			},
+			{
+				"LABEL": "0x1690",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1692",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1694",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x16a8",
+				"TYPE": "Voice",
+				"U32": [
+					22057
+				]
+			},
+			{
+				"LABEL": "0x16b0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「なんでもない。ほら、もう遅いから早く片づけて帰ろ」"
+				]
+			},
+			{
+				"LABEL": "0x16c2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x16c4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x16c6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t最近とは違う、少し明るいいつもの調子でトルタが言っ",
+					"\t\t\t\tた。"
+				]
+			},
+			{
+				"LABEL": "0x16d8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x16da",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x16dc",
+				"TYPE": "Voice",
+				"U32": [
+					22058
+				]
+			},
+			{
+				"LABEL": "0x16e4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「またいつでも誘ってよ」"
+				]
+			},
+			{
+				"LABEL": "0x16f6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x16f8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x16fa",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……あ、ああ」"
+				]
+			},
+			{
+				"LABEL": "0x170c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x170e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1710",
+				"TYPE": "Voice",
+				"U32": [
+					22059
+				]
+			},
+			{
+				"LABEL": "0x1718",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「どうしたの？」"
+				]
+			},
+			{
+				"LABEL": "0x172a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x172c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x172e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……いや、なんでもない」"
+				]
+			},
+			{
+				"LABEL": "0x1740",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1742",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1744",
+				"TYPE": "MoveChar",
+				"U32": [
+					2,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1758",
+				"TYPE": "Voice",
+				"U32": [
+					22060
+				]
+			},
+			{
+				"LABEL": "0x1760",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「ふふ。私の方は、もう用意は良いよ」"
+				]
+			},
+			{
+				"LABEL": "0x1772",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1774",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1776",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ああ、急ぐよ」"
+				]
+			},
+			{
+				"LABEL": "0x1788",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x178a",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x178c",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x178e",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					70,
+					3
+				]
+			},
+			{
+				"LABEL": "0x179c",
+				"TYPE": "RainVol",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0x17a4",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x17ac",
+				"TYPE": "AddMin",
+				"U32": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x17b4",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					170,
+					3
+				]
+			},
+			{
+				"LABEL": "0x17c2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x17c4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tいつもの分かれ道で、トルタは言った。"
+				]
+			},
+			{
+				"LABEL": "0x17cc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x17ce",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x17d0",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x17e4",
+				"TYPE": "Voice",
+				"U32": [
+					22061
+				]
+			},
+			{
+				"LABEL": "0x17ec",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「じゃ、本当にまたいつでも誘ってね」"
+				]
+			},
+			{
+				"LABEL": "0x17fe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1800",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1802",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……ありがと」"
+				]
+			},
+			{
+				"LABEL": "0x1814",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1816",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1818",
+				"TYPE": "MoveChar",
+				"U32": [
+					2,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x182c",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x1834",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x1842",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tなにかをあきらめたような、それでも清々しいような笑",
+					"\t\t\t\t顔だった。"
+				]
+			},
+			{
+				"LABEL": "0x1854",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1856",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1858",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t今、この距離を、できれば永遠に保っていられますよう",
+					"\t\t\t\tに。"
+				]
+			},
+			{
+				"LABEL": "0x186a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x186c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x186e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t近づきすぎないように。"
+				]
+			},
+			{
+				"LABEL": "0x1876",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1878",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x187a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこれ以上トルタを、傷つけてしまわないように。"
+				]
+			},
+			{
+				"LABEL": "0x1882",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1884",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1886",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x188e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t――僕はそんなことを考えながら、彼女と逆の方向を向",
+					"\t\t\t\tき、家に向かって歩き出した。"
+				]
+			},
+			{
+				"LABEL": "0x18a0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x18a2",
+				"TYPE": "GETSF",
+				"U32": [
+					63
+				]
+			},
+			{
+				"LABEL": "0x18aa",
+				"TYPE": "LNOT"
+			},
+			{
+				"LABEL": "0x18ac",
+				"TYPE": "SkipDisable"
+			},
+			{
+				"LABEL": "0x18ae",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x18b0",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x18b2",
+				"TYPE": "BlackOut",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x18ba",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x18c2",
+				"TYPE": "SCNCHG",
+				"U32": [
+					9
+				]
+			},
+			{
+				"LABEL": "0x18ca",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

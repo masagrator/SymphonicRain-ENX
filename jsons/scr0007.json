@@ -1,0 +1,1370 @@
+{
+	"HEADER": {
+		"FILE_ID": 7,
+		"CRC": "6D67D05B",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 7,
+				"UNK1": 35212,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1129,
+				"UNK5": 1335,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "ax01_1"
+			},
+			{
+				"ID": 7,
+				"UNK1": 35213,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1130,
+				"UNK5": 1335,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "ax01_2"
+			},
+			{
+				"ID": 7,
+				"UNK1": 35214,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1201,
+				"UNK5": 1335,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "ax01_3"
+			},
+			{
+				"ID": 7,
+				"UNK1": 35215,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1202,
+				"UNK5": 1335,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "ax01_4"
+			}
+		],
+		"FUNS": [
+			"Func_ax01"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "a04"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "a05"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "a06"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "a07"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0xd4",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0xdc",
+				"TYPE": "RainVol",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xe4",
+				"TYPE": "DUP",
+				"U32": [
+					74,
+					0
+				]
+			},
+			{
+				"LABEL": "0xf2",
+				"TYPE": "SWAP2"
+			},
+			{
+				"LABEL": "0xf4",
+				"TYPE": "SETF"
+			},
+			{
+				"LABEL": "0xf6",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0xf8",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					1
+				]
+			},
+			{
+				"LABEL": "0x106",
+				"TYPE": "GETF",
+				"U32": [
+					88
+				]
+			},
+			{
+				"LABEL": "0x10e",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x116",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x13e"
+			},
+			{
+				"LABEL": "0x11c",
+				"TYPE": "ShowPlace",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x124",
+				"TYPE": "DUP",
+				"U32": [
+					88,
+					1
+				]
+			},
+			{
+				"LABEL": "0x132",
+				"TYPE": "SWAP2"
+			},
+			{
+				"LABEL": "0x134",
+				"TYPE": "SETF"
+			},
+			{
+				"LABEL": "0x136",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x138",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x13e"
+			},
+			{
+				"LABEL": "0x13e",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x146",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x148",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tパートナー探しも必要だったけど、気づけば練習室に来",
+					"\t\t\t\tていた。"
+				]
+			},
+			{
+				"LABEL": "0x15a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x15c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x15e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tあまり焦っても良い結果が出るとも思えない。"
+				]
+			},
+			{
+				"LABEL": "0x166",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x168",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x16a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれなら、曲の練習でもしていこうかな。"
+				]
+			},
+			{
+				"LABEL": "0x172",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x174",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x176",
+				"TYPE": "DUP",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x17e",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x180",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x182",
+				"TYPE": "Select",
+				"STRINGS": [
+					"曲の練習をする",
+					"曲の練習をしない"
+				]
+			},
+			{
+				"LABEL": "0x19c",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x19e",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x1a0",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x1a2",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x1a4",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x1ac",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x1be"
+			},
+			{
+				"LABEL": "0x1b2",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x2ec"
+			},
+			{
+				"LABEL": "0x1b8",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x1be"
+			},
+			{
+				"LABEL": "0x1be",
+				"TYPE": "MiniGame",
+				"U32": [
+					117
+				]
+			},
+			{
+				"LABEL": "0x1c6",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x1c8",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x1ca",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x1cc",
+				"TYPE": "SetTime",
+				"U32": [
+					1420
+				]
+			},
+			{
+				"LABEL": "0x1d4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1d6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ふう……こんなものかな」"
+				]
+			},
+			{
+				"LABEL": "0x1e8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1ea",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1ec",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t最後まで曲を弾き終わり、しばらくして、練習室に本来",
+					"\t\t\t\tの静けさが戻る。"
+				]
+			},
+			{
+				"LABEL": "0x1fe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x200",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x202",
+				"TYPE": "GE",
+				"U32": [
+					40
+				]
+			},
+			{
+				"LABEL": "0x20a",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x21c"
+			},
+			{
+				"LABEL": "0x210",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x23e"
+			},
+			{
+				"LABEL": "0x216",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x21c"
+			},
+			{
+				"LABEL": "0x21c",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x21e",
+				"TYPE": "GE",
+				"U32": [
+					20
+				]
+			},
+			{
+				"LABEL": "0x226",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x238"
+			},
+			{
+				"LABEL": "0x22c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x272"
+			},
+			{
+				"LABEL": "0x232",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x238"
+			},
+			{
+				"LABEL": "0x238",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x29a"
+			},
+			{
+				"LABEL": "0x23e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x240",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t今日は、なかなか調子も良かった。"
+				]
+			},
+			{
+				"LABEL": "0x248",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x24a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x24c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこれならあまり心配することもないだろう――"
+				]
+			},
+			{
+				"LABEL": "0x254",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x256",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x258",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tと思ったところで、コーデル先生の怒った顔を思い出し",
+					"\t\t\t\tて、軽く笑った。"
+				]
+			},
+			{
+				"LABEL": "0x26a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x26c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x2c2"
+			},
+			{
+				"LABEL": "0x272",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x274",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t今日は、それほど調子は悪くない。"
+				]
+			},
+			{
+				"LABEL": "0x27c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x27e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x280",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tとはいえパートナーのいない今のような状態では、それ",
+					"\t\t\t\tにもあまり意味はなさそうだった。"
+				]
+			},
+			{
+				"LABEL": "0x292",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x294",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x2c2"
+			},
+			{
+				"LABEL": "0x29a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x29c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t今日は、あまり調子が良くないらしい。"
+				]
+			},
+			{
+				"LABEL": "0x2a4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2a6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2a8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tコーデル先生が言ったように、目標があやふやだと演奏",
+					"\t\t\t\tにもそれが出てしまうものなのだろうか。"
+				]
+			},
+			{
+				"LABEL": "0x2ba",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2bc",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x2c2"
+			},
+			{
+				"LABEL": "0x2c2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2c4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「さて」"
+				]
+			},
+			{
+				"LABEL": "0x2d6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2d8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2da",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t譜面台の上の楽譜を鞄に入れ、外へ出た。"
+				]
+			},
+			{
+				"LABEL": "0x2e2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2e4",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x2e6",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x336"
+			},
+			{
+				"LABEL": "0x2ec",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2ee",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそのまま練習をしていこうとも思ったけど、今日はあま",
+					"\t\t\t\tり気乗りがしない。"
+				]
+			},
+			{
+				"LABEL": "0x300",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x302",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x304",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそんな日は無理にしなくても良いというのが、僕の考え",
+					"\t\t\t\tだった。"
+				]
+			},
+			{
+				"LABEL": "0x316",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x318",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x31a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tただ、本当になにもしないのは気が引けたから、軽く校",
+					"\t\t\t\t内をまわってから外へ出た。"
+				]
+			},
+			{
+				"LABEL": "0x32c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x32e",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x330",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x336"
+			},
+			{
+				"LABEL": "0x336",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					999,
+					3
+				]
+			},
+			{
+				"LABEL": "0x344",
+				"TYPE": "SEPlay",
+				"U32": [
+					22
+				]
+			},
+			{
+				"LABEL": "0x34c",
+				"TYPE": "SetTime",
+				"U32": [
+					1430
+				]
+			},
+			{
+				"LABEL": "0x354",
+				"TYPE": "RainVol",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0x35c",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x364",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					70,
+					1
+				]
+			},
+			{
+				"LABEL": "0x372",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x374",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t曇り空を通して届く淡い光が、まだ昼からそんなに時間",
+					"\t\t\t\tが経過していないのだと教えてくれる。"
+				]
+			},
+			{
+				"LABEL": "0x386",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x388",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x38a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t普段なら、このくらいの時間に帰ることが多かった。"
+				]
+			},
+			{
+				"LABEL": "0x392",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x394",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x396",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tただし今はパートナー選びのことなんかがあって、そう",
+					"\t\t\t\tそうこんな時間には帰れない。"
+				]
+			},
+			{
+				"LABEL": "0x3a8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3aa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3ac",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tコーデル先生に見つかったら小言の一つでも言われそう",
+					"\t\t\t\tな気がして、足早に街へと向かった。"
+				]
+			},
+			{
+				"LABEL": "0x3be",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3c0",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x3c2",
+				"TYPE": "AddMin",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x3ca",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1180,
+					1
+				]
+			},
+			{
+				"LABEL": "0x3d8",
+				"TYPE": "ShowPlace",
+				"U32": [
+					13
+				]
+			},
+			{
+				"LABEL": "0x3e0",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x3e8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3ea",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t学院を抜けてしばらく歩くと、街を二分する大きな通り",
+					"\t\t\t\tに出くわす。"
+				]
+			},
+			{
+				"LABEL": "0x3fc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3fe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x400",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t街の西側が新市街、東側が旧市街と呼ばれる区画となっ",
+					"\t\t\t\tていて、この通りは両方のちょうど真ん中あたりを縦断",
+					"\t\t\t\tしている。"
+				]
+			},
+			{
+				"LABEL": "0x41c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x41e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x420",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t僕が住むアパートは、家賃も安く、一般の市民が多く住",
+					"\t\t\t\tむ旧市街にある。"
+				]
+			},
+			{
+				"LABEL": "0x432",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x434",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x436",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t一方新市街は、この街が音楽の街となって以来、その名",
+					"\t\t\t\t声を望む貴族達が多く移り住んできたためにできた、比",
+					"\t\t\t\t較的新しく、大きな屋敷の建ち並ぶ区画だ。"
+				]
+			},
+			{
+				"LABEL": "0x452",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x454",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x456",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t新市街とあまり縁がないから、それ以上のことはあまり",
+					"\t\t\t\t知らない。"
+				]
+			},
+			{
+				"LABEL": "0x468",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x46a",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x46c",
+				"TYPE": "AddMin",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x474",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					150,
+					1
+				]
+			},
+			{
+				"LABEL": "0x482",
+				"TYPE": "GETF",
+				"U32": [
+					86
+				]
+			},
+			{
+				"LABEL": "0x48a",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x492",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x4ba"
+			},
+			{
+				"LABEL": "0x498",
+				"TYPE": "ShowPlace",
+				"U32": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x4a0",
+				"TYPE": "DUP",
+				"U32": [
+					86,
+					1
+				]
+			},
+			{
+				"LABEL": "0x4ae",
+				"TYPE": "SWAP2"
+			},
+			{
+				"LABEL": "0x4b0",
+				"TYPE": "SETF"
+			},
+			{
+				"LABEL": "0x4b2",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x4b4",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x4ba"
+			},
+			{
+				"LABEL": "0x4ba",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x4c2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4c4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tその大通りを東に抜けると、そこはもう、慣れ親しんだ",
+					"\t\t\t\t旧市街だ。"
+				]
+			},
+			{
+				"LABEL": "0x4d6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4d8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4da",
+				"TYPE": "SEPlay",
+				"U32": [
+					46
+				]
+			},
+			{
+				"LABEL": "0x4e2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t立ち並ぶ建物の窓からは、子供が練習しているような、",
+					"\t\t\t\t幼い音が聞こえた。"
+				]
+			},
+			{
+				"LABEL": "0x4f4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4f6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4f8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t夜ともなれば、酒と共に陽気になったこの街の大人達の、",
+					"\t\t\t\t歌や楽器の喧噪を聞くことができるだろう。"
+				]
+			},
+			{
+				"LABEL": "0x50a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x50c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x50e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t雨をはじく石畳の道に、僕の靴音が響いてしまわないよ",
+					"\t\t\t\tうに、慎重に歩きながら、雨と共に流れる音楽を耳にと",
+					"\t\t\t\tめた。"
+				]
+			},
+			{
+				"LABEL": "0x52a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x52c",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x52e",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					999,
+					3
+				]
+			},
+			{
+				"LABEL": "0x53c",
+				"TYPE": "Wait",
+				"U32": [
+					2000
+				]
+			},
+			{
+				"LABEL": "0x544",
+				"TYPE": "SEPlay",
+				"U32": [
+					34
+				]
+			},
+			{
+				"LABEL": "0x54c",
+				"TYPE": "AddMin",
+				"U32": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x554",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1260,
+					1
+				]
+			},
+			{
+				"LABEL": "0x562",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x564",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ただいま」"
+				]
+			},
+			{
+				"LABEL": "0x576",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x578",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x57a",
+				"TYPE": "Voice",
+				"U32": [
+					7001
+				]
+			},
+			{
+				"LABEL": "0x582",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「あ、おかえり」"
+				]
+			},
+			{
+				"LABEL": "0x594",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x596",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x598",
+				"TYPE": "SEPlay",
+				"U32": [
+					15
+				]
+			},
+			{
+				"LABEL": "0x5a0",
+				"TYPE": "MoveChar",
+				"U32": [
+					90,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x5b4",
+				"TYPE": "Voice",
+				"U32": [
+					7002
+				]
+			},
+			{
+				"LABEL": "0x5bc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「今日は早かったんだね」"
+				]
+			},
+			{
+				"LABEL": "0x5ce",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5d0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x5d2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「まあね」"
+				]
+			},
+			{
+				"LABEL": "0x5e4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5e6",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x5f4",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x5f6",
+				"TYPE": "BlackOut",
+				"U32": [
+					18
+				]
+			},
+			{
+				"LABEL": "0x5fe",
+				"TYPE": "Wait",
+				"U32": [
+					2000
+				]
+			},
+			{
+				"LABEL": "0x606",
+				"TYPE": "SetTime",
+				"U32": [
+					2245
+				]
+			},
+			{
+				"LABEL": "0x60e",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1260,
+					18
+				]
+			},
+			{
+				"LABEL": "0x61c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x61e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t特にやることのなかった、今日一日の報告をフォーニに",
+					"\t\t\t\t済ませる。"
+				]
+			},
+			{
+				"LABEL": "0x630",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x632",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x634",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそしていつものように食事を作り、いつものようにただ、",
+					"\t\t\t\t眠りについた。"
+				]
+			},
+			{
+				"LABEL": "0x646",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x648",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x650",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x652",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x654",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x656",
+				"TYPE": "BlackOut",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x65e",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x666",
+				"TYPE": "GetWeek"
+			},
+			{
+				"LABEL": "0x668",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x66a",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x66c",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x66e",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x670",
+				"TYPE": "EQ",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x678",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x68c"
+			},
+			{
+				"LABEL": "0x67e",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x686",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x68c"
+			},
+			{
+				"LABEL": "0x68c",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x68e",
+				"TYPE": "EQ",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x696",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x6aa"
+			},
+			{
+				"LABEL": "0x69c",
+				"TYPE": "SCNCHG",
+				"U32": [
+					8
+				]
+			},
+			{
+				"LABEL": "0x6a4",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x6aa"
+			},
+			{
+				"LABEL": "0x6aa",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x6ac",
+				"TYPE": "EQ",
+				"U32": [
+					4
+				]
+			},
+			{
+				"LABEL": "0x6b4",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x6c8"
+			},
+			{
+				"LABEL": "0x6ba",
+				"TYPE": "SCNCHG",
+				"U32": [
+					16
+				]
+			},
+			{
+				"LABEL": "0x6c2",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x6c8"
+			},
+			{
+				"LABEL": "0x6c8",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x6ca",
+				"TYPE": "EQ",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x6d2",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x6e6"
+			},
+			{
+				"LABEL": "0x6d8",
+				"TYPE": "SCNCHG",
+				"U32": [
+					24
+				]
+			},
+			{
+				"LABEL": "0x6e0",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x6e6"
+			},
+			{
+				"LABEL": "0x6e6",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

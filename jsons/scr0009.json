@@ -1,0 +1,682 @@
+{
+	"HEADER": {
+		"FILE_ID": 9,
+		"CRC": "B6768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 9,
+				"UNK1": 58154,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1130,
+				"UNK5": 1320,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "a04"
+			}
+		],
+		"FUNS": [
+			"Func_a04"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "at01_3"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "af01_3"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "al01_3"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "ax02_3"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "ax01_2"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x74",
+				"TYPE": "DateHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x7c",
+				"TYPE": "TimeHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x84",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x8c",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					70,
+					3
+				]
+			},
+			{
+				"LABEL": "0x9a",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0xa2",
+				"TYPE": "MoveChar",
+				"U32": [
+					163,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xb6",
+				"TYPE": "Wait",
+				"U32": [
+					2500
+				]
+			},
+			{
+				"LABEL": "0xbe",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xcc",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xd4",
+				"TYPE": "DateShow",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xdc",
+				"TYPE": "TimeShow",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xe4",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1050,
+					3
+				]
+			},
+			{
+				"LABEL": "0xf2",
+				"TYPE": "BGMPlay",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0xfa",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x102",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x104",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tコーデル先生のレッスンを終え、食堂での食事も済ませ",
+					"\t\t\t\tた。"
+				]
+			},
+			{
+				"LABEL": "0x116",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x118",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x11a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t今までならこれで一日はほとんど終わったようなものだ",
+					"\t\t\t\tったけど……。"
+				]
+			},
+			{
+				"LABEL": "0x12c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x12e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x130",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x144",
+				"TYPE": "Voice",
+				"U32": [
+					9001
+				]
+			},
+			{
+				"LABEL": "0x14c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「今日は、これからどうするの？」"
+				]
+			},
+			{
+				"LABEL": "0x15e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x160",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x162",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこれからはそうはいかないらしい。"
+				]
+			},
+			{
+				"LABEL": "0x16a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x16c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x16e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「パートナーもまだ決まっていないような状態だし、適",
+					"\t\t\t\t　当に捜してみるよ」"
+				]
+			},
+			{
+				"LABEL": "0x18a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x18c",
+				"TYPE": "GETF",
+				"U32": [
+					14
+				]
+			},
+			{
+				"LABEL": "0x194",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x19c",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x1ae"
+			},
+			{
+				"LABEL": "0x1a2",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x1e6"
+			},
+			{
+				"LABEL": "0x1a8",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x1ae"
+			},
+			{
+				"LABEL": "0x1ae",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1b0",
+				"TYPE": "MoveChar",
+				"U32": [
+					2,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1c4",
+				"TYPE": "Voice",
+				"U32": [
+					9002
+				]
+			},
+			{
+				"LABEL": "0x1cc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「そっか。じゃあがんばってね」"
+				]
+			},
+			{
+				"LABEL": "0x1de",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1e0",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x218"
+			},
+			{
+				"LABEL": "0x1e6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1e8",
+				"TYPE": "MoveChar",
+				"U32": [
+					2,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1fc",
+				"TYPE": "Voice",
+				"U32": [
+					9003
+				]
+			},
+			{
+				"LABEL": "0x204",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「そっか。私で良ければ、いつでも手伝ってあげるから」"
+				]
+			},
+			{
+				"LABEL": "0x216",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x218",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x21a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「うん、ありがとう」"
+				]
+			},
+			{
+				"LABEL": "0x22c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x22e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x230",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x23e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tさて、どうしようか？"
+				]
+			},
+			{
+				"LABEL": "0x246",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x248",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x24a",
+				"TYPE": "BGMVol",
+				"U32": [
+					50
+				]
+			},
+			{
+				"LABEL": "0x252",
+				"TYPE": "BGMPlay",
+				"U32": [
+					11
+				]
+			},
+			{
+				"LABEL": "0x25a",
+				"TYPE": "UNK_x7D"
+			},
+			{
+				"LABEL": "0x25c",
+				"TYPE": "GETF",
+				"U32": [
+					7,
+					70
+				]
+			},
+			{
+				"LABEL": "0x26a",
+				"TYPE": "GetWeek"
+			},
+			{
+				"LABEL": "0x26c",
+				"TYPE": "NE",
+				"U32": [
+					4
+				]
+			},
+			{
+				"LABEL": "0x274",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x276",
+				"TYPE": "UNK_x7F"
+			},
+			{
+				"LABEL": "0x278",
+				"TYPE": "GETF",
+				"U32": [
+					8,
+					71
+				]
+			},
+			{
+				"LABEL": "0x286",
+				"TYPE": "UNK_x7F"
+			},
+			{
+				"LABEL": "0x288",
+				"TYPE": "GETF",
+				"U32": [
+					9,
+					72
+				]
+			},
+			{
+				"LABEL": "0x296",
+				"TYPE": "UNK_x7F"
+			},
+			{
+				"LABEL": "0x298",
+				"TYPE": "GETF",
+				"U32": [
+					3,
+					73
+				]
+			},
+			{
+				"LABEL": "0x2a6",
+				"TYPE": "UNK_x7F"
+			},
+			{
+				"LABEL": "0x2a8",
+				"TYPE": "GETF",
+				"U32": [
+					5,
+					74
+				]
+			},
+			{
+				"LABEL": "0x2b6",
+				"TYPE": "UNK_x7F"
+			},
+			{
+				"LABEL": "0x2b8",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x2c0",
+				"TYPE": "MapMove"
+			},
+			{
+				"LABEL": "0x2c2",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x2c4",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x2c6",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x2c8",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x2ca",
+				"TYPE": "BGMVol",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0x2d2",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x2d4",
+				"TYPE": "EQ",
+				"U32": [
+					7
+				]
+			},
+			{
+				"LABEL": "0x2dc",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x2f2"
+			},
+			{
+				"LABEL": "0x2e2",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x2e4",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2ec",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x2f2"
+			},
+			{
+				"LABEL": "0x2f2",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x2f4",
+				"TYPE": "EQ",
+				"U32": [
+					8
+				]
+			},
+			{
+				"LABEL": "0x2fc",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x312"
+			},
+			{
+				"LABEL": "0x302",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x304",
+				"TYPE": "SCNCHG",
+				"U32": [
+					11
+				]
+			},
+			{
+				"LABEL": "0x30c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x312"
+			},
+			{
+				"LABEL": "0x312",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x314",
+				"TYPE": "EQ",
+				"U32": [
+					9
+				]
+			},
+			{
+				"LABEL": "0x31c",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x332"
+			},
+			{
+				"LABEL": "0x322",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x324",
+				"TYPE": "SCNCHG",
+				"U32": [
+					22
+				]
+			},
+			{
+				"LABEL": "0x32c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x332"
+			},
+			{
+				"LABEL": "0x332",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x334",
+				"TYPE": "EQ",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x33c",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x352"
+			},
+			{
+				"LABEL": "0x342",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x344",
+				"TYPE": "SCNCHG",
+				"U32": [
+					33
+				]
+			},
+			{
+				"LABEL": "0x34c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x352"
+			},
+			{
+				"LABEL": "0x352",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x354",
+				"TYPE": "EQ",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x35c",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x372"
+			},
+			{
+				"LABEL": "0x362",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x364",
+				"TYPE": "SCNCHG",
+				"U32": [
+					44
+				]
+			},
+			{
+				"LABEL": "0x36c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x372"
+			},
+			{
+				"LABEL": "0x372",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

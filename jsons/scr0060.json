@@ -1,0 +1,701 @@
+{
+	"HEADER": {
+		"FILE_ID": 60,
+		"CRC": "7A67D05B",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 60,
+				"UNK1": 48792,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1207,
+				"UNK5": 1200,
+				"UNK6": 1215,
+				"UNK7": 2200,
+				"STRING": "bxm02_1"
+			},
+			{
+				"ID": 60,
+				"UNK1": 48793,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1209,
+				"UNK5": 1200,
+				"UNK6": 1216,
+				"UNK7": 2200,
+				"STRING": "bxm02_2"
+			}
+		],
+		"FUNS": [
+			"Func_bxm02"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "b04"
+			},
+			{
+				"TYPE": 2,
+				"STRING": "SCR0180::Func_b05_2"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x96",
+				"TYPE": "RainVol",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x9e",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0xa6",
+				"TYPE": "GetRainPower"
+			},
+			{
+				"LABEL": "0xa8",
+				"TYPE": "GE",
+				"U32": [
+					150
+				]
+			},
+			{
+				"LABEL": "0xb0",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0xc4"
+			},
+			{
+				"LABEL": "0xb6",
+				"TYPE": "BGMPlay",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xbe",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0xcc"
+			},
+			{
+				"LABEL": "0xc4",
+				"TYPE": "BGMPlay",
+				"U32": [
+					11
+				]
+			},
+			{
+				"LABEL": "0xcc",
+				"TYPE": "SetTime",
+				"U32": [
+					1330
+				]
+			},
+			{
+				"LABEL": "0xd4",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					1
+				]
+			},
+			{
+				"LABEL": "0xe2",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xea",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xec",
+				"TYPE": "Text",
+				"STRING": [
+					"今日は誰かに会いに行くのを止めて、一人で練習をする",
+					"ことにする。"
+				]
+			},
+			{
+				"LABEL": "0xfe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x100",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x102",
+				"TYPE": "Text",
+				"STRING": [
+					"会ったときに今よりもより上手く演奏できるようにして",
+					"おくため。"
+				]
+			},
+			{
+				"LABEL": "0x114",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x116",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x118",
+				"TYPE": "Text",
+				"STRING": [
+					"そんな理由もあるにはあった。"
+				]
+			},
+			{
+				"LABEL": "0x120",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x122",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x124",
+				"TYPE": "Text",
+				"STRING": [
+					"さて、どの曲を練習しよう。"
+				]
+			},
+			{
+				"LABEL": "0x12c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x12e",
+				"TYPE": "GETV",
+				"U32": [
+					6
+				]
+			},
+			{
+				"LABEL": "0x136",
+				"TYPE": "LT",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x13e",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x310"
+			},
+			{
+				"LABEL": "0x144",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x146",
+				"TYPE": "Text",
+				"STRING": [
+					"もしくは、作りかけのあの曲の続きを書こうか。"
+				]
+			},
+			{
+				"LABEL": "0x14e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x150",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x152",
+				"TYPE": "Select",
+				"STRINGS": [
+					"作曲する",
+					"作曲しない"
+				]
+			},
+			{
+				"LABEL": "0x16c",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x16e",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x170",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x172",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x174",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x17c",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x30a"
+			},
+			{
+				"LABEL": "0x182",
+				"TYPE": "GETV",
+				"U32": [
+					6,
+					6
+				]
+			},
+			{
+				"LABEL": "0x190",
+				"TYPE": "ADD",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x198",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x19a",
+				"TYPE": "SWAP2"
+			},
+			{
+				"LABEL": "0x19c",
+				"TYPE": "SETV"
+			},
+			{
+				"LABEL": "0x19e",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x1a0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1a2",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「よし、今日は曲の続きでも書こうか」"
+				]
+			},
+			{
+				"LABEL": "0x1b4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1b6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1b8",
+				"TYPE": "Text",
+				"STRING": [
+					"ペンと書きかけの五線紙を取り出し、フォルテールの用",
+					"意を始める。"
+				]
+			},
+			{
+				"LABEL": "0x1ca",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1cc",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x1ce",
+				"TYPE": "GETV",
+				"U32": [
+					6
+				]
+			},
+			{
+				"LABEL": "0x1d6",
+				"TYPE": "EQ",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x1de",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x282"
+			},
+			{
+				"LABEL": "0x1e4",
+				"TYPE": "BlackOut",
+				"U32": [
+					18
+				]
+			},
+			{
+				"LABEL": "0x1ec",
+				"TYPE": "SEPlay",
+				"U32": [
+					45
+				]
+			},
+			{
+				"LABEL": "0x1f4",
+				"TYPE": "SetTime",
+				"U32": [
+					1845
+				]
+			},
+			{
+				"LABEL": "0x1fc",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x204",
+				"TYPE": "AddRainPower",
+				"U32": [
+					-5
+				]
+			},
+			{
+				"LABEL": "0x20c",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					18
+				]
+			},
+			{
+				"LABEL": "0x21a",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x222",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x224",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「……ふう」"
+				]
+			},
+			{
+				"LABEL": "0x236",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x238",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x23a",
+				"TYPE": "Text",
+				"STRING": [
+					"この曲も、だいぶ完成に近づいてきた。"
+				]
+			},
+			{
+				"LABEL": "0x242",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x244",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x246",
+				"TYPE": "Text",
+				"STRING": [
+					"あと一回くらいで、曲も完成するだろう。"
+				]
+			},
+			{
+				"LABEL": "0x24e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x250",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x252",
+				"TYPE": "Text",
+				"STRING": [
+					"そうしたら、フォーニと一緒にアンサンブルでもしてみ",
+					"ようかな。"
+				]
+			},
+			{
+				"LABEL": "0x264",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x266",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x268",
+				"TYPE": "Text",
+				"STRING": [
+					"そんなことを考えながら、片づけをしてフォーニの待つ",
+					"部屋へと帰った。"
+				]
+			},
+			{
+				"LABEL": "0x27a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x27c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x304"
+			},
+			{
+				"LABEL": "0x282",
+				"TYPE": "BlackOut",
+				"U32": [
+					18
+				]
+			},
+			{
+				"LABEL": "0x28a",
+				"TYPE": "SEPlay",
+				"U32": [
+					45
+				]
+			},
+			{
+				"LABEL": "0x292",
+				"TYPE": "SetTime",
+				"U32": [
+					1845
+				]
+			},
+			{
+				"LABEL": "0x29a",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x2a2",
+				"TYPE": "AddRainPower",
+				"U32": [
+					-5
+				]
+			},
+			{
+				"LABEL": "0x2aa",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					18
+				]
+			},
+			{
+				"LABEL": "0x2b8",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x2c0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2c2",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「……ふう」"
+				]
+			},
+			{
+				"LABEL": "0x2d4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2d6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2d8",
+				"TYPE": "Text",
+				"STRING": [
+					"今日はこのくらいにしておこうかな。"
+				]
+			},
+			{
+				"LABEL": "0x2e0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2e2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2e4",
+				"TYPE": "Text",
+				"STRING": [
+					"やっぱり、こうして真剣になにかをしていると、時間が",
+					"経つのが早い。"
+				]
+			},
+			{
+				"LABEL": "0x2f6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2f8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2fa",
+				"TYPE": "Text",
+				"STRING": [
+					"帰り支度をして、今日はそのまま家に帰った。"
+				]
+			},
+			{
+				"LABEL": "0x302",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x304",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x30a"
+			},
+			{
+				"LABEL": "0x30a",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x310"
+			},
+			{
+				"LABEL": "0x310",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x312",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x31a",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x31c",
+				"TYPE": "GETSF",
+				"U32": [
+					63
+				]
+			},
+			{
+				"LABEL": "0x324",
+				"TYPE": "LNOT"
+			},
+			{
+				"LABEL": "0x326",
+				"TYPE": "SkipDisable"
+			},
+			{
+				"LABEL": "0x328",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x330",
+				"TYPE": "RainVol",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0x338",
+				"TYPE": "GetDate"
+			},
+			{
+				"LABEL": "0x33a",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x33c",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x33e",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x340",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x342",
+				"TYPE": "EQ",
+				"U32": [
+					1207
+				]
+			},
+			{
+				"LABEL": "0x34a",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x35e"
+			},
+			{
+				"LABEL": "0x350",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x358",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x368"
+			},
+			{
+				"LABEL": "0x35e",
+				"TYPE": "CALL",
+				"U32": [
+					8
+				]
+			},
+			{
+				"LABEL": "0x366",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x368",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

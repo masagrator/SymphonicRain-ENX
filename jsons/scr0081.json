@@ -1,0 +1,759 @@
+{
+	"HEADER": {
+		"FILE_ID": 81,
+		"CRC": "B6768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 81,
+				"UNK1": 11538,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1219,
+				"UNK5": 1330,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "b13"
+			}
+		],
+		"FUNS": [
+			"Func_b13"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "b14"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "b16"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x74",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x7c",
+				"TYPE": "GETF",
+				"U32": [
+					35
+				]
+			},
+			{
+				"LABEL": "0x84",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x8c",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x9e"
+			},
+			{
+				"LABEL": "0x92",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x23a"
+			},
+			{
+				"LABEL": "0x98",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x9e"
+			},
+			{
+				"LABEL": "0x9e",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1050,
+					1
+				]
+			},
+			{
+				"LABEL": "0xac",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xb4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tパートナーを捜し始めてから、すでに二週間が過ぎてい",
+					"\t\t\t\tた。"
+				]
+			},
+			{
+				"LABEL": "0xc8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xca",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xcc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tまだパートナーは決まってはいなかったけど、それでも",
+					"\t\t\t\tある程度は決まりかけているともいえた。"
+				]
+			},
+			{
+				"LABEL": "0xde",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t最近ではずっとファルさんと練習していて、それが当た",
+					"\t\t\t\tり前になっているような気もする。"
+				]
+			},
+			{
+				"LABEL": "0xf4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこのままパートナーになってしまうんじゃないかとも考",
+					"\t\t\t\tえるけど、一つだけ気に掛かることがある。"
+				]
+			},
+			{
+				"LABEL": "0x10a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x10c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x10e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t――アリエッタは、手紙では気丈なことを書いていたけ",
+					"\t\t\t\tど、考えてみればそういう気の遣い方をするような性格",
+					"\t\t\t\tだった。"
+				]
+			},
+			{
+				"LABEL": "0x12a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x12c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x12e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそうは言ってみても、本心では不安に違いない。"
+				]
+			},
+			{
+				"LABEL": "0x136",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x138",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x13a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tだから、今までは積極的に捜す気にもなれず、ずるずる",
+					"\t\t\t\tと引き延ばしてしまった。"
+				]
+			},
+			{
+				"LABEL": "0x14c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x150",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれでも、決めなければならない時期が来ているのは確",
+					"\t\t\t\tかだった。"
+				]
+			},
+			{
+				"LABEL": "0x162",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x164",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x166",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t今日は、どうしようか。"
+				]
+			},
+			{
+				"LABEL": "0x16e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x170",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x172",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tファルさんはバイトでいないから、トルタやリセを誘う",
+					"\t\t\t\tべきなんだろうけど……。"
+				]
+			},
+			{
+				"LABEL": "0x184",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x186",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x188",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれもできそうにない。"
+				]
+			},
+			{
+				"LABEL": "0x190",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x192",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x194",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t……トルタは、僕に近すぎた。"
+				]
+			},
+			{
+				"LABEL": "0x19c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x19e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1a0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそしてリセは……これは僕にもよくわからない。"
+				]
+			},
+			{
+				"LABEL": "0x1a8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1aa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1ac",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t彼女が歌っているのを初めて見たとき、ある種の共感の",
+					"\t\t\t\tようなものを感じた。"
+				]
+			},
+			{
+				"LABEL": "0x1be",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1c0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1c2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでも僕は、彼女に近づくのを怖れていた気がする。"
+				]
+			},
+			{
+				"LABEL": "0x1ca",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1cc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1ce",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアルに似ているから……というのが理由になるかもしれ",
+					"\t\t\t\tないけど、その考えにも絶対の自信があるわけじゃない。"
+				]
+			},
+			{
+				"LABEL": "0x1e0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1e2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1e4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tとはいえ、練習もせずに彼女と組むことはできない。"
+				]
+			},
+			{
+				"LABEL": "0x1ec",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1ee",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1f0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれに彼女はまだ一年生で、組む理由がなかった。"
+				]
+			},
+			{
+				"LABEL": "0x1f8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1fa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1fc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……」"
+				]
+			},
+			{
+				"LABEL": "0x20e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x210",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x212",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t隣でサンドイッチを美味しそうに食べているトルタを横",
+					"\t\t\t\t目で見ながら、そんなことを考えていた。"
+				]
+			},
+			{
+				"LABEL": "0x224",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x226",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x228",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t今日は、適当に練習して、それで帰ろう。"
+				]
+			},
+			{
+				"LABEL": "0x230",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x232",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x23a",
+				"TYPE": "AddMin",
+				"U32": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x242",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1050,
+					1
+				]
+			},
+			{
+				"LABEL": "0x250",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x258",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x25a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tパートナーを捜し始めてから、すでに二週間が過ぎてい",
+					"\t\t\t\tた。"
+				]
+			},
+			{
+				"LABEL": "0x26c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x26e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x270",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれなりに練習もしてきたし、パートナーの候補となる",
+					"\t\t\t\t人達との出会いもあった。"
+				]
+			},
+			{
+				"LABEL": "0x282",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x284",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x286",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでも結局、僕は誰か一人に決められないでいる。"
+				]
+			},
+			{
+				"LABEL": "0x28e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x290",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x292",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t優柔不断とか、そういうのでもないとは思う。"
+				]
+			},
+			{
+				"LABEL": "0x29a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x29c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x29e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tただ……出会った人達がみんな女の子だったこともあり、",
+					"\t\t\t\tどうしても決められなかった。"
+				]
+			},
+			{
+				"LABEL": "0x2b0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2b2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2b4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアリエッタは、手紙では気丈なことを書いていたけど、",
+					"\t\t\t\t考えてみれば、アルはそういう気の遣い方をするような",
+					"\t\t\t\t性格だった。"
+				]
+			},
+			{
+				"LABEL": "0x2d0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2d2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2d4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tああは言っているけど、本心では不安に違いない。"
+				]
+			},
+			{
+				"LABEL": "0x2dc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2de",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2e0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t――音楽は僕にとっては大切なものだったけど、アリエ",
+					"\t\t\t\tッタとどちらが大事かと聞かれたら、迷う余地もなく彼",
+					"\t\t\t\t女のほうをとるだろう。"
+				]
+			},
+			{
+				"LABEL": "0x2fc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2fe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x300",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tだから僕は、誰とも親しくならないようにしなければな",
+					"\t\t\t\tらなかった。"
+				]
+			},
+			{
+				"LABEL": "0x312",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x314",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x316",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tならない……というほどのものではないけど、少なくと",
+					"\t\t\t\tも僕は、そう思っていた。"
+				]
+			},
+			{
+				"LABEL": "0x328",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x32a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x32c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……これからどうしようか」"
+				]
+			},
+			{
+				"LABEL": "0x33e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x340",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x342",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそう呟いてみても、なにが変わるわけでもない。"
+				]
+			},
+			{
+				"LABEL": "0x34a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x34c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x34e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tただ、この時期に誰かを誘うことは、もうできないだろ",
+					"\t\t\t\tう。"
+				]
+			},
+			{
+				"LABEL": "0x360",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x362",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x364",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこれ以上迷惑をかけるわけにはいかなかった。"
+				]
+			},
+			{
+				"LABEL": "0x36c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x36e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x370",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tあとは、コーデル先生の言っていた、声楽科の誰かに期",
+					"\t\t\t\t待するしかない。"
+				]
+			},
+			{
+				"LABEL": "0x382",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x384",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x386",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t練習はそれからでも遅くないはずだ。"
+				]
+			},
+			{
+				"LABEL": "0x38e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x390",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x392",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t卒業さえできれば、今では構わないような気持ちになっ",
+					"\t\t\t\tていた。"
+				]
+			},
+			{
+				"LABEL": "0x3a4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3a6",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x3ae",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x3b0",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x3b2",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x3b4",
+				"TYPE": "BlackOut",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x3bc",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x3c4",
+				"TYPE": "SCNCHG",
+				"U32": [
+					8
+				]
+			},
+			{
+				"LABEL": "0x3cc",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

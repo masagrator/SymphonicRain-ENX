@@ -1,0 +1,564 @@
+{
+	"HEADER": {
+		"FILE_ID": 63,
+		"CRC": "B6768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 63,
+				"UNK1": 13947,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1213,
+				"UNK5": 1200,
+				"UNK6": 1213,
+				"UNK7": 2200,
+				"STRING": "bxm04"
+			}
+		],
+		"FUNS": [
+			"Func_bxm04"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "b09"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x76",
+				"TYPE": "GETF",
+				"U32": [
+					65
+				]
+			},
+			{
+				"LABEL": "0x7e",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x86",
+				"TYPE": "GETF",
+				"U32": [
+					66
+				]
+			},
+			{
+				"LABEL": "0x8e",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x96",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x98",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x28e"
+			},
+			{
+				"LABEL": "0x9e",
+				"TYPE": "RainVol",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xa6",
+				"TYPE": "DUP",
+				"U32": [
+					66,
+					1
+				]
+			},
+			{
+				"LABEL": "0xb4",
+				"TYPE": "SWAP2"
+			},
+			{
+				"LABEL": "0xb6",
+				"TYPE": "SETF"
+			},
+			{
+				"LABEL": "0xb8",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0xba",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0xc2",
+				"TYPE": "GetRainPower"
+			},
+			{
+				"LABEL": "0xc4",
+				"TYPE": "GE",
+				"U32": [
+					150
+				]
+			},
+			{
+				"LABEL": "0xcc",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0xe0"
+			},
+			{
+				"LABEL": "0xd2",
+				"TYPE": "BGMPlay",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xda",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0xe8"
+			},
+			{
+				"LABEL": "0xe0",
+				"TYPE": "BGMPlay",
+				"U32": [
+					11
+				]
+			},
+			{
+				"LABEL": "0xe8",
+				"TYPE": "SetTime",
+				"U32": [
+					1330
+				]
+			},
+			{
+				"LABEL": "0xf0",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					1
+				]
+			},
+			{
+				"LABEL": "0xfe",
+				"TYPE": "Wait",
+				"U32": [
+					2000
+				]
+			},
+			{
+				"LABEL": "0x106",
+				"TYPE": "NovelMode",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x10e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x110",
+				"TYPE": "Text",
+				"STRING": [
+					"全ての約束や練習の予定を放棄して、僕は練習室にいた。"
+				]
+			},
+			{
+				"LABEL": "0x118",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x11a",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x11c",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x11e",
+				"TYPE": "Text",
+				"STRING": [
+					"写しかけの楽譜が愛おしくて、それと同じくらいにフォ",
+					"ーニのことを大切に思っている。"
+				]
+			},
+			{
+				"LABEL": "0x130",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x132",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x134",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x136",
+				"TYPE": "Text",
+				"STRING": [
+					"もうできあがる寸前の、フォーニのための曲。"
+				]
+			},
+			{
+				"LABEL": "0x13e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x140",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x142",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x144",
+				"TYPE": "Text",
+				"STRING": [
+					"後は彼女が歌いたい歌詞を書き加えれば、それで完成だ。"
+				]
+			},
+			{
+				"LABEL": "0x14c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14e",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x150",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x152",
+				"TYPE": "Text",
+				"STRING": [
+					"他人から見れば、全く意味はないのかもしれない。"
+				]
+			},
+			{
+				"LABEL": "0x15a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x15c",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x15e",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x160",
+				"TYPE": "Text",
+				"STRING": [
+					"でも少なくとも、僕はこのために費やした時間を無駄だ",
+					"とは全く思っていなかったし、多分これから費やすであ",
+					"ろう時間を、無駄に思うこともないだろう。"
+				]
+			},
+			{
+				"LABEL": "0x17c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x17e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x180",
+				"TYPE": "Text",
+				"STRING": [
+					"だから、明日は少し時間をずらして、それから歌詞の進",
+					"み具合を訊ねてみよう。"
+				]
+			},
+			{
+				"LABEL": "0x192",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x194",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x196",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x198",
+				"TYPE": "Text",
+				"STRING": [
+					"今週末までには完成しているだろうか。"
+				]
+			},
+			{
+				"LABEL": "0x1a0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1a2",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1a4",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1a6",
+				"TYPE": "Text",
+				"STRING": [
+					"そうしたら記念に、一度合わせて、それからのことはそ",
+					"れから考える。"
+				]
+			},
+			{
+				"LABEL": "0x1b8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1ba",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1bc",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1be",
+				"TYPE": "Text",
+				"STRING": [
+					"今はそれでいい。"
+				]
+			},
+			{
+				"LABEL": "0x1c6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1c8",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x1ca",
+				"TYPE": "BlackOut",
+				"U32": [
+					18
+				]
+			},
+			{
+				"LABEL": "0x1d2",
+				"TYPE": "SetTime",
+				"U32": [
+					1845
+				]
+			},
+			{
+				"LABEL": "0x1da",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x1e2",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					18
+				]
+			},
+			{
+				"LABEL": "0x1f0",
+				"TYPE": "BGMPlay",
+				"U32": [
+					11
+				]
+			},
+			{
+				"LABEL": "0x1f8",
+				"TYPE": "NovelMode",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x200",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x208",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x20a",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「よし……こんなものかな」"
+				]
+			},
+			{
+				"LABEL": "0x21c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x21e",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x226",
+				"TYPE": "NovelMode",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x22e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x230",
+				"TYPE": "Text",
+				"STRING": [
+					"あと少しで完成する楽譜を眺め、妙に満足している自分",
+					"に気づく。"
+				]
+			},
+			{
+				"LABEL": "0x242",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x244",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x246",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x248",
+				"TYPE": "Text",
+				"STRING": [
+					"考えているのは、ただ、この曲を演奏している僕達の幸",
+					"福な未来だけだった。"
+				]
+			},
+			{
+				"LABEL": "0x25a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x25c",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x25e",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x260",
+				"TYPE": "Text",
+				"STRING": [
+					"例えそれがひとときの幻想であろうと、今は構わない気",
+					"がした。"
+				]
+			},
+			{
+				"LABEL": "0x272",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x274",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x276",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x278",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x280",
+				"TYPE": "NovelMode",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x288",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x28e"
+			},
+			{
+				"LABEL": "0x28e",
+				"TYPE": "GETSF",
+				"U32": [
+					63
+				]
+			},
+			{
+				"LABEL": "0x296",
+				"TYPE": "LNOT"
+			},
+			{
+				"LABEL": "0x298",
+				"TYPE": "SkipDisable"
+			},
+			{
+				"LABEL": "0x29a",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x2a2",
+				"TYPE": "RainVol",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0x2aa",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2b2",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

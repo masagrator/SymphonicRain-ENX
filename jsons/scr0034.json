@@ -1,0 +1,3688 @@
+{
+	"HEADER": {
+		"FILE_ID": 34,
+		"CRC": "B6768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 34,
+				"UNK1": 19784,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1214,
+				"UNK5": 1200,
+				"UNK6": 1214,
+				"UNK7": 2200,
+				"STRING": "bf03"
+			}
+		],
+		"FUNS": [
+			"FuncFal_bf03"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "b10"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x78",
+				"TYPE": "GETF",
+				"U32": [
+					31
+				]
+			},
+			{
+				"LABEL": "0x80",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x88",
+				"TYPE": "GETF",
+				"U32": [
+					32
+				]
+			},
+			{
+				"LABEL": "0x90",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x98",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x9a",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x1552"
+			},
+			{
+				"LABEL": "0xa0",
+				"TYPE": "DUP",
+				"U32": [
+					32,
+					1
+				]
+			},
+			{
+				"LABEL": "0xae",
+				"TYPE": "SWAP2"
+			},
+			{
+				"LABEL": "0xb0",
+				"TYPE": "SETF"
+			},
+			{
+				"LABEL": "0xb2",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0xb4",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0xbc",
+				"TYPE": "BGMPlay",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xc4",
+				"TYPE": "SetTime",
+				"U32": [
+					1235
+				]
+			},
+			{
+				"LABEL": "0xcc",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1050,
+					1
+				]
+			},
+			{
+				"LABEL": "0xda",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0xe2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe4",
+				"TYPE": "Text",
+				"STRING": [
+					"食堂から何気なく廊下を眺めていると、ファルさんが講",
+					"師の一人に話しかけられているのが見えた。"
+				]
+			},
+			{
+				"LABEL": "0xf6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xfa",
+				"TYPE": "Text",
+				"STRING": [
+					"と同時に、なにか紙のような物を渡されている。"
+				]
+			},
+			{
+				"LABEL": "0x102",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x104",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x106",
+				"TYPE": "Text",
+				"STRING": [
+					"……またか。"
+				]
+			},
+			{
+				"LABEL": "0x10e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x110",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x112",
+				"TYPE": "Text",
+				"STRING": [
+					"そう思いながら、トルタを残し席を立った。"
+				]
+			},
+			{
+				"LABEL": "0x11a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x11c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x11e",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「ちょっと用事」"
+				]
+			},
+			{
+				"LABEL": "0x130",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x132",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x146",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x148",
+				"TYPE": "Voice",
+				"U32": [
+					34001
+				]
+			},
+			{
+				"LABEL": "0x150",
+				"TYPE": "Text",
+				"STRING": [
+					"【トルタ】",
+					"「廊下に、なにかあるの？」"
+				]
+			},
+			{
+				"LABEL": "0x162",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x164",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x166",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「だから、ちょっとした用事が。ごめん」"
+				]
+			},
+			{
+				"LABEL": "0x178",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x17a",
+				"TYPE": "MoveChar",
+				"U32": [
+					3,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x18e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x190",
+				"TYPE": "Voice",
+				"U32": [
+					34002
+				]
+			},
+			{
+				"LABEL": "0x198",
+				"TYPE": "Text",
+				"STRING": [
+					"【トルタ】",
+					"「あ……"
+				]
+			},
+			{
+				"LABEL": "0x1aa",
+				"TYPE": "Wait",
+				"U32": [
+					200
+				]
+			},
+			{
+				"LABEL": "0x1b2",
+				"TYPE": "MoveChar",
+				"U32": [
+					135,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1c6",
+				"TYPE": "Text",
+				"STRING": [
+					"うん」"
+				]
+			},
+			{
+				"LABEL": "0x1ce",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1d0",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x1d2",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x1d4",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x1dc",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x1e4",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1020,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1f2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1f4",
+				"TYPE": "Text",
+				"STRING": [
+					"心の中で、ここにはいないもう一人にも言い訳をして、",
+					"トルタから離れた。"
+				]
+			},
+			{
+				"LABEL": "0x206",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x208",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x20a",
+				"TYPE": "Text",
+				"STRING": [
+					"それが誰のためかを、深く考えることも今はやめて。"
+				]
+			},
+			{
+				"LABEL": "0x212",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x214",
+				"TYPE": "SEPlay",
+				"U32": [
+					28
+				]
+			},
+			{
+				"LABEL": "0x21c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x21e",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「ファルさん？」"
+				]
+			},
+			{
+				"LABEL": "0x230",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x232",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x234",
+				"TYPE": "Text",
+				"STRING": [
+					"少しだけ走って追いつくと、困ったような笑顔を浮かべ",
+					"ながら、彼女が振り向く。"
+				]
+			},
+			{
+				"LABEL": "0x246",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x248",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x24a",
+				"TYPE": "Text",
+				"STRING": [
+					"その困り顔が一瞬だけ、以前よりも深刻そうに見えた。"
+				]
+			},
+			{
+				"LABEL": "0x252",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x254",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x256",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「……ファルさん？」"
+				]
+			},
+			{
+				"LABEL": "0x268",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x26a",
+				"TYPE": "MoveChar",
+				"U32": [
+					34,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x27e",
+				"TYPE": "BGMPlay",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x286",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x288",
+				"TYPE": "Voice",
+				"U32": [
+					34003
+				]
+			},
+			{
+				"LABEL": "0x290",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「あ……"
+				]
+			},
+			{
+				"LABEL": "0x2a2",
+				"TYPE": "Wait",
+				"U32": [
+					800
+				]
+			},
+			{
+				"LABEL": "0x2aa",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x2be",
+				"TYPE": "Text",
+				"STRING": [
+					"クリスさん」"
+				]
+			},
+			{
+				"LABEL": "0x2c6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2c8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2ca",
+				"TYPE": "Text",
+				"STRING": [
+					"と思ったのも一瞬で、いつもの笑顔でファルさんは僕の",
+					"名前を呼んだ。"
+				]
+			},
+			{
+				"LABEL": "0x2dc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2de",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2e0",
+				"TYPE": "Text",
+				"STRING": [
+					"気のせいとも思えなかったけど……"
+				]
+			},
+			{
+				"LABEL": "0x2e8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2ea",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2ec",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「また、なにか頼まれごと？」"
+				]
+			},
+			{
+				"LABEL": "0x2fe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x300",
+				"TYPE": "MoveChar",
+				"U32": [
+					36,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x314",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x316",
+				"TYPE": "Voice",
+				"U32": [
+					34004
+				]
+			},
+			{
+				"LABEL": "0x31e",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「あ……うん。そうなんだけど……」"
+				]
+			},
+			{
+				"LABEL": "0x330",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x332",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x334",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「大変そうだね」"
+				]
+			},
+			{
+				"LABEL": "0x346",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x348",
+				"TYPE": "MoveChar",
+				"U32": [
+					35,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x35c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x35e",
+				"TYPE": "Voice",
+				"U32": [
+					34005
+				]
+			},
+			{
+				"LABEL": "0x366",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「えっと……"
+				]
+			},
+			{
+				"LABEL": "0x378",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x380",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x394",
+				"TYPE": "Text",
+				"STRING": [
+					"うん。そうなの、結構大変なの」"
+				]
+			},
+			{
+				"LABEL": "0x39c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x39e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3a0",
+				"TYPE": "Text",
+				"STRING": [
+					"そう言いながら、ファルさんは上目遣いに僕を見た。"
+				]
+			},
+			{
+				"LABEL": "0x3a8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3aa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3ac",
+				"TYPE": "Text",
+				"STRING": [
+					"頼み事をする女の子がよくそうするように、かわいらし",
+					"く続ける。"
+				]
+			},
+			{
+				"LABEL": "0x3be",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3c0",
+				"TYPE": "MoveChar",
+				"U32": [
+					34,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x3d4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3d6",
+				"TYPE": "Voice",
+				"U32": [
+					34006
+				]
+			},
+			{
+				"LABEL": "0x3de",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「この前みたいに、手伝ってくれる？」"
+				]
+			},
+			{
+				"LABEL": "0x3f0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3f2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3f4",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「ものにもよるかな。後で手伝えないとは言いたくない",
+					"　から。……で、なにを頼まれたの？」"
+				]
+			},
+			{
+				"LABEL": "0x410",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x412",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x426",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x428",
+				"TYPE": "Voice",
+				"U32": [
+					34007
+				]
+			},
+			{
+				"LABEL": "0x430",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「男の子なら、なにも聞かずに手伝うって言ってくれな",
+					"　いと」"
+				]
+			},
+			{
+				"LABEL": "0x44c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x44e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x450",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「できることならね」"
+				]
+			},
+			{
+				"LABEL": "0x462",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x464",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x466",
+				"TYPE": "Text",
+				"STRING": [
+					"そのために追ってきたんだから。"
+				]
+			},
+			{
+				"LABEL": "0x46e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x470",
+				"TYPE": "MoveChar",
+				"U32": [
+					32,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x484",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x486",
+				"TYPE": "Voice",
+				"U32": [
+					34008
+				]
+			},
+			{
+				"LABEL": "0x48e",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「用心深いのね。説明に時間がかかりそうだから、講義",
+					"　室に入ってからでいい？」"
+				]
+			},
+			{
+				"LABEL": "0x4aa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4ac",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4ae",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「……そこまで行ったら、抜けられそうにないんだけど」"
+				]
+			},
+			{
+				"LABEL": "0x4c0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4c2",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x4d6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4d8",
+				"TYPE": "Voice",
+				"U32": [
+					34009
+				]
+			},
+			{
+				"LABEL": "0x4e0",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「だからよ。この前の講義室で待っててくれる？　鍵を",
+					"　借りてくるから」"
+				]
+			},
+			{
+				"LABEL": "0x4fc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4fe",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x500",
+				"TYPE": "SEPlay",
+				"U32": [
+					29
+				]
+			},
+			{
+				"LABEL": "0x508",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x50a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x50c",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「あ、まだ……」"
+				]
+			},
+			{
+				"LABEL": "0x51e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x520",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x522",
+				"TYPE": "Text",
+				"STRING": [
+					"受けるとは言ってないんだけど。"
+				]
+			},
+			{
+				"LABEL": "0x52a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x52c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x52e",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「……」"
+				]
+			},
+			{
+				"LABEL": "0x540",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x542",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x544",
+				"TYPE": "Text",
+				"STRING": [
+					"仕方ないか。"
+				]
+			},
+			{
+				"LABEL": "0x54c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x54e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x550",
+				"TYPE": "Text",
+				"STRING": [
+					"絶対にできそうにないことを、ファルさんが押しつけて",
+					"くることはないはずだ。"
+				]
+			},
+			{
+				"LABEL": "0x562",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x564",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x566",
+				"TYPE": "Text",
+				"STRING": [
+					"ああいう言い方も、彼女なりの悪ふざけだろう。"
+				]
+			},
+			{
+				"LABEL": "0x56e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x570",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x572",
+				"TYPE": "Text",
+				"STRING": [
+					"なるべくなら簡単な仕事だと良いな、なんて考えながら、",
+					"以前写譜を手伝った講義室に向かい、彼女の事を待つこ",
+					"とにした。"
+				]
+			},
+			{
+				"LABEL": "0x58e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x590",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x592",
+				"TYPE": "BlackOut",
+				"U32": [
+					18
+				]
+			},
+			{
+				"LABEL": "0x59a",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x5a2",
+				"TYPE": "AddMin",
+				"U32": [
+					7
+				]
+			},
+			{
+				"LABEL": "0x5aa",
+				"TYPE": "SEPlay",
+				"U32": [
+					22
+				]
+			},
+			{
+				"LABEL": "0x5b2",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1060,
+					18
+				]
+			},
+			{
+				"LABEL": "0x5c0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x5c2",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「あんまり久しぶりな気がしないね」"
+				]
+			},
+			{
+				"LABEL": "0x5d4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5d6",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x5ea",
+				"TYPE": "BGMPlay",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x5f2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x5f4",
+				"TYPE": "Voice",
+				"U32": [
+					34010
+				]
+			},
+			{
+				"LABEL": "0x5fc",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「私の気持ちがわかった？」"
+				]
+			},
+			{
+				"LABEL": "0x60e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x610",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x612",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「まあね」"
+				]
+			},
+			{
+				"LABEL": "0x624",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x626",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x628",
+				"TYPE": "Text",
+				"STRING": [
+					"もちろん慣れたわけじゃなく、単純にこの前来てからあ",
+					"まり日が経っていないからだ。"
+				]
+			},
+			{
+				"LABEL": "0x63a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x63c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x63e",
+				"TYPE": "Text",
+				"STRING": [
+					"……それにしても、こんな風に講義室に何度も来るなん",
+					"て、ちょっと前には想像もできなかった。"
+				]
+			},
+			{
+				"LABEL": "0x650",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x652",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x654",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「今日もバイトだよね？」"
+				]
+			},
+			{
+				"LABEL": "0x666",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x668",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x66a",
+				"TYPE": "Voice",
+				"U32": [
+					34011
+				]
+			},
+			{
+				"LABEL": "0x672",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「もちろん。"
+				]
+			},
+			{
+				"LABEL": "0x684",
+				"TYPE": "Wait",
+				"U32": [
+					800
+				]
+			},
+			{
+				"LABEL": "0x68c",
+				"TYPE": "MoveChar",
+				"U32": [
+					32,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x6a0",
+				"TYPE": "Text",
+				"STRING": [
+					"それなのに、こういう日に限って頼まれご",
+					"　とをされちゃうみたい」"
+				]
+			},
+			{
+				"LABEL": "0x6b2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x6b4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x6b6",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「それだけ信用されてるってことかな？」"
+				]
+			},
+			{
+				"LABEL": "0x6c8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x6ca",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x6de",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x6e0",
+				"TYPE": "Voice",
+				"U32": [
+					34012
+				]
+			},
+			{
+				"LABEL": "0x6e8",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「前向きに考えるとね。"
+				]
+			},
+			{
+				"LABEL": "0x6fa",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x702",
+				"TYPE": "MoveChar",
+				"U32": [
+					35,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x716",
+				"TYPE": "Text",
+				"STRING": [
+					"でも、練習日に言われないだけ",
+					"　ましなのかな」"
+				]
+			},
+			{
+				"LABEL": "0x728",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x72a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x72c",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「練習日って、火曜と木曜日？」"
+				]
+			},
+			{
+				"LABEL": "0x73e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x740",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x754",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x756",
+				"TYPE": "Voice",
+				"U32": [
+					34013
+				]
+			},
+			{
+				"LABEL": "0x75e",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「うん。その曜日は私が練習してるってみんな知ってる",
+					"　から、今月に入ってからは頼まれたことはないかな」"
+				]
+			},
+			{
+				"LABEL": "0x77a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x77c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x77e",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「でも、バイトのこともみんな知ってるんじゃないの？」"
+				]
+			},
+			{
+				"LABEL": "0x790",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x792",
+				"TYPE": "MoveChar",
+				"U32": [
+					36,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x7a6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7a8",
+				"TYPE": "Voice",
+				"U32": [
+					34014
+				]
+			},
+			{
+				"LABEL": "0x7b0",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「この前もそうだったけど、結局バイトまでに終わらせ",
+					"　ちゃうから」"
+				]
+			},
+			{
+				"LABEL": "0x7cc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7ce",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7d0",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「それはまた、贅沢な悩みだね」"
+				]
+			},
+			{
+				"LABEL": "0x7e2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7e4",
+				"TYPE": "MoveChar",
+				"U32": [
+					32,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x7f8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7fa",
+				"TYPE": "Voice",
+				"U32": [
+					34015
+				]
+			},
+			{
+				"LABEL": "0x802",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「……もう。"
+				]
+			},
+			{
+				"LABEL": "0x814",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x81c",
+				"TYPE": "MoveChar",
+				"U32": [
+					35,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x830",
+				"TYPE": "Text",
+				"STRING": [
+					"でも、そろそろ始めないと、今回は駄目か",
+					"　も」"
+				]
+			},
+			{
+				"LABEL": "0x842",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x844",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x846",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「わかった。で？　今日はなにを頼まれたの？」"
+				]
+			},
+			{
+				"LABEL": "0x858",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x85a",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x86e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x870",
+				"TYPE": "Voice",
+				"U32": [
+					34016
+				]
+			},
+			{
+				"LABEL": "0x878",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「ん、今日はスピーチ用の原稿を書かないといけないの。",
+					"　期限は明日まで」"
+				]
+			},
+			{
+				"LABEL": "0x894",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x896",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x898",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「……ごめんなさい」"
+				]
+			},
+			{
+				"LABEL": "0x8aa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x8ac",
+				"TYPE": "MoveChar",
+				"U32": [
+					32,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x8c0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x8c2",
+				"TYPE": "Voice",
+				"U32": [
+					34017
+				]
+			},
+			{
+				"LABEL": "0x8ca",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「あ、ちょっと！　"
+				]
+			},
+			{
+				"LABEL": "0x8dc",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x8e4",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x8f8",
+				"TYPE": "Text",
+				"STRING": [
+					"……手伝って欲しいのは、文面に関",
+					"　してじゃないの」"
+				]
+			},
+			{
+				"LABEL": "0x90a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x90c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x90e",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「……というと？」"
+				]
+			},
+			{
+				"LABEL": "0x920",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x922",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x936",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x938",
+				"TYPE": "Voice",
+				"U32": [
+					34018
+				]
+			},
+			{
+				"LABEL": "0x940",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「私が考えながらしゃべるから、それを書き写して欲し",
+					"　いの」"
+				]
+			},
+			{
+				"LABEL": "0x95c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x95e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x960",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「それなら大丈夫かな。でもスピーチ用の原稿って……",
+					"　そんなのまで頼まれるんだね。頼む講師がいることに",
+					"　も驚きだけど」"
+				]
+			},
+			{
+				"LABEL": "0x986",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x988",
+				"TYPE": "MoveChar",
+				"U32": [
+					33,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x99c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x99e",
+				"TYPE": "Voice",
+				"U32": [
+					34019
+				]
+			},
+			{
+				"LABEL": "0x9a6",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「さすがに明日までっていうのは初めてだけど、"
+				]
+			},
+			{
+				"LABEL": "0x9b8",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x9c0",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x9d4",
+				"TYPE": "Text",
+				"STRING": [
+					"結構あ",
+					"　るよ？　そういうのも苦手じゃないから」"
+				]
+			},
+			{
+				"LABEL": "0x9e6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x9e8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x9ea",
+				"TYPE": "Text",
+				"STRING": [
+					"苦手じゃない、というよりも得意なんだろうな、この場",
+					"合。"
+				]
+			},
+			{
+				"LABEL": "0x9fc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x9fe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa00",
+				"TYPE": "Text",
+				"STRING": [
+					"ここまで講師の信頼が厚いとは、正直思っていなかった。"
+				]
+			},
+			{
+				"LABEL": "0xa08",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa0a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa0c",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「でも……時間が全然ないよね」"
+				]
+			},
+			{
+				"LABEL": "0xa1e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa20",
+				"TYPE": "MoveChar",
+				"U32": [
+					35,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xa34",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa36",
+				"TYPE": "Voice",
+				"U32": [
+					34020
+				]
+			},
+			{
+				"LABEL": "0xa3e",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「あ、ううん。そんなに時間が足りない訳じゃないの。",
+					"　"
+				]
+			},
+			{
+				"LABEL": "0xa5a",
+				"TYPE": "Wait",
+				"U32": [
+					2500
+				]
+			},
+			{
+				"LABEL": "0xa62",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xa76",
+				"TYPE": "Text",
+				"STRING": [
+					"こういうときの文章って、それほど変なことも書けな",
+					"　いし、誰が書いても大差ないものだから」"
+				]
+			},
+			{
+				"LABEL": "0xa88",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa8a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa8c",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「それも、そうか」"
+				]
+			},
+			{
+				"LABEL": "0xa9e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xaa0",
+				"TYPE": "MoveChar",
+				"U32": [
+					32,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xab4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xab6",
+				"TYPE": "Voice",
+				"U32": [
+					34021
+				]
+			},
+			{
+				"LABEL": "0xabe",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「仕事が終わってからでも駄目じゃないんだけど……"
+				]
+			},
+			{
+				"LABEL": "0xad0",
+				"TYPE": "Wait",
+				"U32": [
+					1800
+				]
+			},
+			{
+				"LABEL": "0xad8",
+				"TYPE": "MoveChar",
+				"U32": [
+					34,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xaec",
+				"TYPE": "Text",
+				"STRING": [
+					"ち",
+					"　ょっとね」"
+				]
+			},
+			{
+				"LABEL": "0xafe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb00",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb02",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「ん？　そうなんだ……でも、ちょっとって？」"
+				]
+			},
+			{
+				"LABEL": "0xb14",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb16",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb18",
+				"TYPE": "Text",
+				"STRING": [
+					"さっきも彼女が見せた、本当に困ったようなその顔が気",
+					"にかかる。"
+				]
+			},
+			{
+				"LABEL": "0xb2a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb2c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb2e",
+				"TYPE": "Voice",
+				"U32": [
+					34022
+				]
+			},
+			{
+				"LABEL": "0xb36",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「一つだけ苦手なことがあって」"
+				]
+			},
+			{
+				"LABEL": "0xb48",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb4a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb4c",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「へえ、あるんだ。ファルさんにも」"
+				]
+			},
+			{
+				"LABEL": "0xb5e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb60",
+				"TYPE": "MoveChar",
+				"U32": [
+					37,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xb74",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb76",
+				"TYPE": "Voice",
+				"U32": [
+					34023
+				]
+			},
+			{
+				"LABEL": "0xb7e",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「もう……あるに決まってるでしょ」"
+				]
+			},
+			{
+				"LABEL": "0xb90",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb92",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb94",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「それを聞いて、ちょっと安心した」"
+				]
+			},
+			{
+				"LABEL": "0xba6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xba8",
+				"TYPE": "MoveChar",
+				"U32": [
+					32,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xbbc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xbbe",
+				"TYPE": "Voice",
+				"U32": [
+					34024
+				]
+			},
+			{
+				"LABEL": "0xbc6",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「なに、私ってそんなイメージなの？」"
+				]
+			},
+			{
+				"LABEL": "0xbd8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xbda",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xbdc",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「まあね。それに、そういうのが聞けて、ちょっと嬉し",
+					"　いかも」"
+				]
+			},
+			{
+				"LABEL": "0xbf8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xbfa",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xc0e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc10",
+				"TYPE": "Voice",
+				"U32": [
+					34025
+				]
+			},
+			{
+				"LABEL": "0xc18",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「そう？　それなら……"
+				]
+			},
+			{
+				"LABEL": "0xc2a",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xc32",
+				"TYPE": "MoveChar",
+				"U32": [
+					34,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xc46",
+				"TYPE": "Text",
+				"STRING": [
+					"いや、あんまり良くないかも。",
+					"　さすがにこれは、自慢できないよ」"
+				]
+			},
+			{
+				"LABEL": "0xc58",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc5a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc5c",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「それで、なんなの？　苦手なことって」"
+				]
+			},
+			{
+				"LABEL": "0xc6e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc70",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc72",
+				"TYPE": "Voice",
+				"U32": [
+					34026
+				]
+			},
+			{
+				"LABEL": "0xc7a",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「……字」"
+				]
+			},
+			{
+				"LABEL": "0xc8c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc8e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc90",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「ん？」"
+				]
+			},
+			{
+				"LABEL": "0xca2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xca4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xca6",
+				"TYPE": "Voice",
+				"U32": [
+					34027
+				]
+			},
+			{
+				"LABEL": "0xcae",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「……字がね、あんまり綺麗じゃないの」"
+				]
+			},
+			{
+				"LABEL": "0xcc0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xcc2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xcc4",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「字？」"
+				]
+			},
+			{
+				"LABEL": "0xcd6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xcd8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xcda",
+				"TYPE": "Voice",
+				"U32": [
+					34028
+				]
+			},
+			{
+				"LABEL": "0xce2",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「聞き返さないで」"
+				]
+			},
+			{
+				"LABEL": "0xcf4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xcf6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xcf8",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「なんだ、そんなこと？」"
+				]
+			},
+			{
+				"LABEL": "0xd0a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd0c",
+				"TYPE": "MoveChar",
+				"U32": [
+					37,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xd20",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xd22",
+				"TYPE": "Voice",
+				"U32": [
+					34029
+				]
+			},
+			{
+				"LABEL": "0xd2a",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「軽く言わないでよ。"
+				]
+			},
+			{
+				"LABEL": "0xd3c",
+				"TYPE": "Wait",
+				"U32": [
+					900
+				]
+			},
+			{
+				"LABEL": "0xd44",
+				"TYPE": "MoveChar",
+				"U32": [
+					34,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xd58",
+				"TYPE": "Text",
+				"STRING": [
+					"これでも結構、気にしてるんだか",
+					"　ら」"
+				]
+			},
+			{
+				"LABEL": "0xd6a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd6c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xd6e",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「どのくらい汚いの？　そうまで言われると、さすがに",
+					"　気になってきた」"
+				]
+			},
+			{
+				"LABEL": "0xd8a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd8c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xd8e",
+				"TYPE": "Voice",
+				"U32": [
+					34030
+				]
+			},
+			{
+				"LABEL": "0xd96",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「……見せたくないくらい」"
+				]
+			},
+			{
+				"LABEL": "0xda8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xdaa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xdac",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「え？」"
+				]
+			},
+			{
+				"LABEL": "0xdbe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xdc0",
+				"TYPE": "MoveChar",
+				"U32": [
+					37,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xdd4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xdd6",
+				"TYPE": "Voice",
+				"U32": [
+					34031
+				]
+			},
+			{
+				"LABEL": "0xdde",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「見せたくないくらい汚いの！　"
+				]
+			},
+			{
+				"LABEL": "0xdf0",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0xdf8",
+				"TYPE": "MoveChar",
+				"U32": [
+					32,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xe0c",
+				"TYPE": "Text",
+				"STRING": [
+					"ああもう、"
+				]
+			},
+			{
+				"LABEL": "0xe14",
+				"TYPE": "Wait",
+				"U32": [
+					300
+				]
+			},
+			{
+				"LABEL": "0xe1c",
+				"TYPE": "MoveChar",
+				"U32": [
+					35,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xe30",
+				"TYPE": "Text",
+				"STRING": [
+					"本当に時間",
+					"　ないから始めよ」"
+				]
+			},
+			{
+				"LABEL": "0xe42",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe44",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe46",
+				"TYPE": "Text",
+				"STRING": [
+					"照れを隠すためなのか素っ気なくそう言ったファルさん",
+					"が、少しだけかわいく見えた。"
+				]
+			},
+			{
+				"LABEL": "0xe58",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe5a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe5c",
+				"TYPE": "Text",
+				"STRING": [
+					"今まで完璧すぎる面しかみてこなかったせいか、それが",
+					"新鮮に映る。"
+				]
+			},
+			{
+				"LABEL": "0xe6e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe70",
+				"TYPE": "MoveChar",
+				"U32": [
+					37,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xe84",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe86",
+				"TYPE": "Voice",
+				"U32": [
+					34032
+				]
+			},
+			{
+				"LABEL": "0xe8e",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「用意は良い？」"
+				]
+			},
+			{
+				"LABEL": "0xea0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xea2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xea4",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「あはは。うん、大丈夫」"
+				]
+			},
+			{
+				"LABEL": "0xeb6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xeb8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xeba",
+				"TYPE": "Voice",
+				"U32": [
+					34033
+				]
+			},
+			{
+				"LABEL": "0xec2",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「……まず、挨拶から」"
+				]
+			},
+			{
+				"LABEL": "0xed4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xed6",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0xed8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xeda",
+				"TYPE": "Text",
+				"STRING": [
+					"まず型どおりの挨拶から始まり、彼女が話す差し支えの",
+					"ない話を続けて書き綴る。"
+				]
+			},
+			{
+				"LABEL": "0xeec",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xeee",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xef0",
+				"TYPE": "Text",
+				"STRING": [
+					"慣れているのか、淀みなく話し続けられるのはさすがと",
+					"いうべきか。"
+				]
+			},
+			{
+				"LABEL": "0xf02",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf04",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf06",
+				"TYPE": "Text",
+				"STRING": [
+					"僕の方も、すごく綺麗だというわけじゃないけど、他人",
+					"に字が汚いと指摘されたことは今まで特にない。"
+				]
+			},
+			{
+				"LABEL": "0xf18",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf1a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf1c",
+				"TYPE": "Text",
+				"STRING": [
+					"案外良い組み合わせなのかもしれないな。"
+				]
+			},
+			{
+				"LABEL": "0xf24",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf26",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf28",
+				"TYPE": "Text",
+				"STRING": [
+					"圧倒的に、僕の方が色々足りてないのは確実だったけど。"
+				]
+			},
+			{
+				"LABEL": "0xf30",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf32",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf34",
+				"TYPE": "Voice",
+				"U32": [
+					34034
+				]
+			},
+			{
+				"LABEL": "0xf3c",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「あ、さっきのエピソードだけど」"
+				]
+			},
+			{
+				"LABEL": "0xf4e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf50",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf52",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「え？」"
+				]
+			},
+			{
+				"LABEL": "0xf64",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf66",
+				"TYPE": "MoveChar",
+				"U32": [
+					35,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xf7a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf7c",
+				"TYPE": "Voice",
+				"U32": [
+					34035
+				]
+			},
+			{
+				"LABEL": "0xf84",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「さっきの、先生の学生時代のエピソードなんだけど」"
+				]
+			},
+			{
+				"LABEL": "0xf96",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf98",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf9a",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「あ……ああ」"
+				]
+			},
+			{
+				"LABEL": "0xfac",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xfae",
+				"TYPE": "MoveChar",
+				"U32": [
+					32,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xfc2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xfc4",
+				"TYPE": "Voice",
+				"U32": [
+					34036
+				]
+			},
+			{
+				"LABEL": "0xfcc",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「聞いてた？」"
+				]
+			},
+			{
+				"LABEL": "0xfde",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xfe0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xfe2",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「もちろん。きちんと書いてるよ」"
+				]
+			},
+			{
+				"LABEL": "0xff4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xff6",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x100a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x100c",
+				"TYPE": "Voice",
+				"U32": [
+					34037
+				]
+			},
+			{
+				"LABEL": "0x1014",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「最初に持ってきた方がいいかなって思ったんだけど」"
+				]
+			},
+			{
+				"LABEL": "0x1026",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1028",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x102a",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「どこまで最初？」"
+				]
+			},
+			{
+				"LABEL": "0x103c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x103e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1040",
+				"TYPE": "Voice",
+				"U32": [
+					34038
+				]
+			},
+			{
+				"LABEL": "0x1048",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「挨拶のすぐ後。生徒が聞いてて飽きないようにするに",
+					"　は、その方が良いかなって」"
+				]
+			},
+			{
+				"LABEL": "0x1064",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1066",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1068",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「そう言われれば、そうかも」"
+				]
+			},
+			{
+				"LABEL": "0x107a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x107c",
+				"TYPE": "MoveChar",
+				"U32": [
+					34,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1090",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1092",
+				"TYPE": "Voice",
+				"U32": [
+					34039
+				]
+			},
+			{
+				"LABEL": "0x109a",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「……ごめん、書き直す事になっちゃうかも」"
+				]
+			},
+			{
+				"LABEL": "0x10ac",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x10ae",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x10b0",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「構わないよ。ファルさんさえバイトに遅れなければ」"
+				]
+			},
+			{
+				"LABEL": "0x10c2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x10c4",
+				"TYPE": "MoveChar",
+				"U32": [
+					33,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x10d8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x10da",
+				"TYPE": "Voice",
+				"U32": [
+					34040
+				]
+			},
+			{
+				"LABEL": "0x10e2",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「ありがと」"
+				]
+			},
+			{
+				"LABEL": "0x10f4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x10f6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x10f8",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「でも、完璧主義？」"
+				]
+			},
+			{
+				"LABEL": "0x110a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x110c",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1120",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1122",
+				"TYPE": "Voice",
+				"U32": [
+					34041
+				]
+			},
+			{
+				"LABEL": "0x112a",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「頼まれたことにはね。このお礼はするから」"
+				]
+			},
+			{
+				"LABEL": "0x113c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x113e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1140",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「あはは。別にいいよ、お礼なんて」"
+				]
+			},
+			{
+				"LABEL": "0x1152",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1154",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1156",
+				"TYPE": "Voice",
+				"U32": [
+					34042
+				]
+			},
+			{
+				"LABEL": "0x115e",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「……さて、じゃあ、そこの変更につけ加えて、次から",
+					"　も少し変えないとね」"
+				]
+			},
+			{
+				"LABEL": "0x117a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x117c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x117e",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「わかった。メモしておいて、後で全部直そう」"
+				]
+			},
+			{
+				"LABEL": "0x1190",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1192",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x1194",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x1196",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x1198",
+				"TYPE": "BlackOut",
+				"U32": [
+					18
+				]
+			},
+			{
+				"LABEL": "0x11a0",
+				"TYPE": "AddMin",
+				"U32": [
+					90
+				]
+			},
+			{
+				"LABEL": "0x11a8",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x11b0",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1060,
+					18
+				]
+			},
+			{
+				"LABEL": "0x11be",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x11c0",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「……ふう」"
+				]
+			},
+			{
+				"LABEL": "0x11d2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x11d4",
+				"TYPE": "MoveChar",
+				"U32": [
+					35,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x11e8",
+				"TYPE": "BGMPlay",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x11f0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x11f2",
+				"TYPE": "Voice",
+				"U32": [
+					34043
+				]
+			},
+			{
+				"LABEL": "0x11fa",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「お疲れさま。"
+				]
+			},
+			{
+				"LABEL": "0x120c",
+				"TYPE": "Wait",
+				"U32": [
+					850
+				]
+			},
+			{
+				"LABEL": "0x1214",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1228",
+				"TYPE": "Text",
+				"STRING": [
+					"ごめんね、最後の方はクリスさんに任せ",
+					"　っきりになっちゃって」"
+				]
+			},
+			{
+				"LABEL": "0x123a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x123c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x123e",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「少しでもお役に立てたなら」"
+				]
+			},
+			{
+				"LABEL": "0x1250",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1252",
+				"TYPE": "MoveChar",
+				"U32": [
+					31,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1266",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1268",
+				"TYPE": "Voice",
+				"U32": [
+					34044
+				]
+			},
+			{
+				"LABEL": "0x1270",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「すごく助かった。"
+				]
+			},
+			{
+				"LABEL": "0x1282",
+				"TYPE": "Wait",
+				"U32": [
+					900
+				]
+			},
+			{
+				"LABEL": "0x128a",
+				"TYPE": "MoveChar",
+				"U32": [
+					35,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x129e",
+				"TYPE": "Text",
+				"STRING": [
+					"そろそろ時間だから出ないといけな",
+					"　いんだけど……」"
+				]
+			},
+			{
+				"LABEL": "0x12b0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x12b2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x12b4",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「どうぞ。原稿は？」"
+				]
+			},
+			{
+				"LABEL": "0x12c6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x12c8",
+				"TYPE": "MoveChar",
+				"U32": [
+					32,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x12dc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x12de",
+				"TYPE": "Voice",
+				"U32": [
+					34045
+				]
+			},
+			{
+				"LABEL": "0x12e6",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「ああ、そっか。早いほうがいいから、渡してから行く",
+					"　ね」"
+				]
+			},
+			{
+				"LABEL": "0x1302",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1304",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1306",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「はい」"
+				]
+			},
+			{
+				"LABEL": "0x1318",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x131a",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x132e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1330",
+				"TYPE": "Voice",
+				"U32": [
+					34046
+				]
+			},
+			{
+				"LABEL": "0x1338",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「ありがと。あ……字、綺麗なんだね」"
+				]
+			},
+			{
+				"LABEL": "0x134a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x134c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x134e",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「そんなことはないけど……まあ、汚くはないかな」"
+				]
+			},
+			{
+				"LABEL": "0x1360",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1362",
+				"TYPE": "MoveChar",
+				"U32": [
+					37,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1376",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1378",
+				"TYPE": "Voice",
+				"U32": [
+					34047
+				]
+			},
+			{
+				"LABEL": "0x1380",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「あ、ひどい」"
+				]
+			},
+			{
+				"LABEL": "0x1392",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1394",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1396",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「いや……そういう意味じゃなくて」"
+				]
+			},
+			{
+				"LABEL": "0x13a8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x13aa",
+				"TYPE": "MoveChar",
+				"U32": [
+					30,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x13be",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x13c0",
+				"TYPE": "Voice",
+				"U32": [
+					34048
+				]
+			},
+			{
+				"LABEL": "0x13c8",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「知ってる。お礼はするから」"
+				]
+			},
+			{
+				"LABEL": "0x13da",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x13dc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x13de",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「だから」"
+				]
+			},
+			{
+				"LABEL": "0x13f0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x13f2",
+				"TYPE": "MoveChar",
+				"U32": [
+					37,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1406",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1408",
+				"TYPE": "Voice",
+				"U32": [
+					34049
+				]
+			},
+			{
+				"LABEL": "0x1410",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「絶対させてもらうから」"
+				]
+			},
+			{
+				"LABEL": "0x1422",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1424",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1426",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「……まさか、今のを根にもって？」"
+				]
+			},
+			{
+				"LABEL": "0x1438",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x143a",
+				"TYPE": "MoveChar",
+				"U32": [
+					33,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x144e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1450",
+				"TYPE": "Voice",
+				"U32": [
+					34050
+				]
+			},
+			{
+				"LABEL": "0x1458",
+				"TYPE": "Text",
+				"STRING": [
+					"【ファル】",
+					"「さあ？　……じゃあ、また明日ね」"
+				]
+			},
+			{
+				"LABEL": "0x146a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x146c",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x146e",
+				"TYPE": "EnvPos",
+				"U32": [
+					100,
+					0
+				]
+			},
+			{
+				"LABEL": "0x147c",
+				"TYPE": "SEPlay",
+				"U32": [
+					22
+				]
+			},
+			{
+				"LABEL": "0x1484",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1486",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「あ……」"
+				]
+			},
+			{
+				"LABEL": "0x1498",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x149a",
+				"TYPE": "BGMPlay",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x14a2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x14a4",
+				"TYPE": "Text",
+				"STRING": [
+					"僕の返事を待たずに、ファルさんは勢いよく廊下へと出",
+					"ていった。"
+				]
+			},
+			{
+				"LABEL": "0x14b6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14b8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x14ba",
+				"TYPE": "Text",
+				"STRING": [
+					"明日の練習に行くとは……決まっていないはずなんだけ",
+					"ど……"
+				]
+			},
+			{
+				"LABEL": "0x14cc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14ce",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x14d0",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「また、明日か……」"
+				]
+			},
+			{
+				"LABEL": "0x14e2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14e4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x14e6",
+				"TYPE": "Text",
+				"STRING": [
+					"いつもその日になってから練習する相手を決めていたけ",
+					"ど、それではいけないのかもしれない。"
+				]
+			},
+			{
+				"LABEL": "0x14f8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14fa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x14fc",
+				"TYPE": "Text",
+				"STRING": [
+					"そして――"
+				]
+			},
+			{
+				"LABEL": "0x1504",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1506",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1508",
+				"TYPE": "Text",
+				"STRING": [
+					"それを考えるのを明日にしてしまおうと考えている自分",
+					"に気づき、少しだけ情けない気持ちになった。"
+				]
+			},
+			{
+				"LABEL": "0x151a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x151c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x151e",
+				"TYPE": "Text",
+				"STRING": [
+					"明日の練習は……どうしようか。"
+				]
+			},
+			{
+				"LABEL": "0x1526",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1528",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x152a",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x152c",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x1534",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x153c",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x1544",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x154c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x1552"
+			},
+			{
+				"LABEL": "0x1552",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

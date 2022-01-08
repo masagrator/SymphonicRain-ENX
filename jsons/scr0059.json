@@ -1,0 +1,2130 @@
+{
+	"HEADER": {
+		"FILE_ID": 59,
+		"CRC": "B6768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 59,
+				"UNK1": 30023,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1205,
+				"UNK5": 1200,
+				"UNK6": 1205,
+				"UNK7": 2200,
+				"STRING": "bxm01_1"
+			},
+			{
+				"ID": 59,
+				"UNK1": 30024,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1206,
+				"UNK5": 1200,
+				"UNK6": 1206,
+				"UNK7": 2200,
+				"STRING": "bxm01_2"
+			},
+			{
+				"ID": 59,
+				"UNK1": 30025,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1207,
+				"UNK5": 1200,
+				"UNK6": 1207,
+				"UNK7": 2200,
+				"STRING": "bxm01_3"
+			},
+			{
+				"ID": 59,
+				"UNK1": 30026,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1208,
+				"UNK5": 1200,
+				"UNK6": 1208,
+				"UNK7": 2200,
+				"STRING": "bxm01_4"
+			},
+			{
+				"ID": 59,
+				"UNK1": 30027,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1209,
+				"UNK5": 1200,
+				"UNK6": 1209,
+				"UNK7": 2200,
+				"STRING": "bxm01_5"
+			},
+			{
+				"ID": 59,
+				"UNK1": 30028,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1212,
+				"UNK5": 1200,
+				"UNK6": 1212,
+				"UNK7": 2200,
+				"STRING": "bxm01_6"
+			},
+			{
+				"ID": 59,
+				"UNK1": 30029,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1213,
+				"UNK5": 1200,
+				"UNK6": 1213,
+				"UNK7": 2200,
+				"STRING": "bxm01_7"
+			},
+			{
+				"ID": 59,
+				"UNK1": 30030,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1214,
+				"UNK5": 1200,
+				"UNK6": 1214,
+				"UNK7": 2200,
+				"STRING": "bxm01_8"
+			},
+			{
+				"ID": 59,
+				"UNK1": 30031,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1215,
+				"UNK5": 1200,
+				"UNK6": 1215,
+				"UNK7": 2200,
+				"STRING": "bxm01_9"
+			},
+			{
+				"ID": 59,
+				"UNK1": 27047,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1216,
+				"UNK5": 1200,
+				"UNK6": 1216,
+				"UNK7": 2200,
+				"STRING": "bxm01_10"
+			}
+		],
+		"FUNS": [
+			"Func_bxm01"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "b02"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "b03"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "b04"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "b05"
+			},
+			{
+				"TYPE": 2,
+				"STRING": "SCR0180::Func_b05_2"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "b08"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "b09"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "b10"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "b11"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "bf05"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "b12"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x186",
+				"TYPE": "RainVol",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x18e",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x196",
+				"TYPE": "GetRainPower"
+			},
+			{
+				"LABEL": "0x198",
+				"TYPE": "GE",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0x1a0",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x1b4"
+			},
+			{
+				"LABEL": "0x1a6",
+				"TYPE": "BGMPlay",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x1ae",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x1bc"
+			},
+			{
+				"LABEL": "0x1b4",
+				"TYPE": "BGMPlay",
+				"U32": [
+					11
+				]
+			},
+			{
+				"LABEL": "0x1bc",
+				"TYPE": "SetTime",
+				"U32": [
+					1330
+				]
+			},
+			{
+				"LABEL": "0x1c4",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1d2",
+				"TYPE": "GETF",
+				"U32": [
+					64
+				]
+			},
+			{
+				"LABEL": "0x1da",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1e2",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x226"
+			},
+			{
+				"LABEL": "0x1e8",
+				"TYPE": "GETF",
+				"U32": [
+					88
+				]
+			},
+			{
+				"LABEL": "0x1f0",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1f8",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x220"
+			},
+			{
+				"LABEL": "0x1fe",
+				"TYPE": "ShowPlace",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x206",
+				"TYPE": "DUP",
+				"U32": [
+					88,
+					1
+				]
+			},
+			{
+				"LABEL": "0x214",
+				"TYPE": "SWAP2"
+			},
+			{
+				"LABEL": "0x216",
+				"TYPE": "SETF"
+			},
+			{
+				"LABEL": "0x218",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x21a",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x220"
+			},
+			{
+				"LABEL": "0x220",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x226"
+			},
+			{
+				"LABEL": "0x226",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x22e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x230",
+				"TYPE": "Text",
+				"STRING": [
+					"今日は誰かに会いに行くのを止めて、一人で練習をする",
+					"ことにする。"
+				]
+			},
+			{
+				"LABEL": "0x242",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x244",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x246",
+				"TYPE": "Text",
+				"STRING": [
+					"会ったときにいまよりもより上手く演奏できるようにし",
+					"ておくため。"
+				]
+			},
+			{
+				"LABEL": "0x258",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x25a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x25c",
+				"TYPE": "Text",
+				"STRING": [
+					"そんな理由もあるにはあった。"
+				]
+			},
+			{
+				"LABEL": "0x264",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x266",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x268",
+				"TYPE": "Text",
+				"STRING": [
+					"まず、曲を最初から弾いてみるか、それともちょこち",
+					"ょこと練習するかを決めるか。"
+				]
+			},
+			{
+				"LABEL": "0x27a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x27c",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x27e",
+				"TYPE": "Select",
+				"STRINGS": [
+					"最初から弾く",
+					"曲を通さずに練習"
+				]
+			},
+			{
+				"LABEL": "0x298",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x29a",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x29c",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x29e",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x2a0",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2a8",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x820"
+			},
+			{
+				"LABEL": "0x2ae",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2b0",
+				"TYPE": "Text",
+				"STRING": [
+					"さて、どの曲を練習しよう。"
+				]
+			},
+			{
+				"LABEL": "0x2b8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2ba",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x2bc",
+				"TYPE": "GETF",
+				"U32": [
+					20
+				]
+			},
+			{
+				"LABEL": "0x2c4",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x2cc",
+				"TYPE": "GETF",
+				"U32": [
+					25
+				]
+			},
+			{
+				"LABEL": "0x2d4",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x2dc",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x2de",
+				"TYPE": "GETF",
+				"U32": [
+					68
+				]
+			},
+			{
+				"LABEL": "0x2e6",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x2ee",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x2f0",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x376"
+			},
+			{
+				"LABEL": "0x2f6",
+				"TYPE": "Select",
+				"STRINGS": [
+					"トルタとの練習曲",
+					"ファルとの練習曲",
+					"リセとの練習曲",
+					"フォーニの曲"
+				]
+			},
+			{
+				"LABEL": "0x310",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x312",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x314",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x316",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x318",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x320",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x332"
+			},
+			{
+				"LABEL": "0x326",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x712"
+			},
+			{
+				"LABEL": "0x32c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x370"
+			},
+			{
+				"LABEL": "0x332",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x334",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x33c",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x34e"
+			},
+			{
+				"LABEL": "0x342",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x726"
+			},
+			{
+				"LABEL": "0x348",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x370"
+			},
+			{
+				"LABEL": "0x34e",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x350",
+				"TYPE": "EQ",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x358",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x36a"
+			},
+			{
+				"LABEL": "0x35e",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x73a"
+			},
+			{
+				"LABEL": "0x364",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x370"
+			},
+			{
+				"LABEL": "0x36a",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x74e"
+			},
+			{
+				"LABEL": "0x370",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x712"
+			},
+			{
+				"LABEL": "0x376",
+				"TYPE": "GETF",
+				"U32": [
+					20
+				]
+			},
+			{
+				"LABEL": "0x37e",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x386",
+				"TYPE": "GETF",
+				"U32": [
+					25
+				]
+			},
+			{
+				"LABEL": "0x38e",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x396",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x398",
+				"TYPE": "GETF",
+				"U32": [
+					68
+				]
+			},
+			{
+				"LABEL": "0x3a0",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x3a8",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x3aa",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x414"
+			},
+			{
+				"LABEL": "0x3b0",
+				"TYPE": "Select",
+				"STRINGS": [
+					"ファルとの練習曲",
+					"リセとの練習曲",
+					"フォーニの曲"
+				]
+			},
+			{
+				"LABEL": "0x3ca",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x3cc",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x3ce",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x3d0",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x3d2",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3da",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x3ec"
+			},
+			{
+				"LABEL": "0x3e0",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x726"
+			},
+			{
+				"LABEL": "0x3e6",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x40e"
+			},
+			{
+				"LABEL": "0x3ec",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x3ee",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x3f6",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x408"
+			},
+			{
+				"LABEL": "0x3fc",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x73a"
+			},
+			{
+				"LABEL": "0x402",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x40e"
+			},
+			{
+				"LABEL": "0x408",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x74e"
+			},
+			{
+				"LABEL": "0x40e",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x712"
+			},
+			{
+				"LABEL": "0x414",
+				"TYPE": "GETF",
+				"U32": [
+					20
+				]
+			},
+			{
+				"LABEL": "0x41c",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x424",
+				"TYPE": "GETF",
+				"U32": [
+					25
+				]
+			},
+			{
+				"LABEL": "0x42c",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x434",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x436",
+				"TYPE": "GETF",
+				"U32": [
+					68
+				]
+			},
+			{
+				"LABEL": "0x43e",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x446",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x448",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x4b2"
+			},
+			{
+				"LABEL": "0x44e",
+				"TYPE": "Select",
+				"STRINGS": [
+					"トルタとの練習曲",
+					"リセとの練習曲",
+					"フォーニの曲"
+				]
+			},
+			{
+				"LABEL": "0x468",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x46a",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x46c",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x46e",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x470",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x478",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x48a"
+			},
+			{
+				"LABEL": "0x47e",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x712"
+			},
+			{
+				"LABEL": "0x484",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x4ac"
+			},
+			{
+				"LABEL": "0x48a",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x48c",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x494",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x4a6"
+			},
+			{
+				"LABEL": "0x49a",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x73a"
+			},
+			{
+				"LABEL": "0x4a0",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x4ac"
+			},
+			{
+				"LABEL": "0x4a6",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x74e"
+			},
+			{
+				"LABEL": "0x4ac",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x712"
+			},
+			{
+				"LABEL": "0x4b2",
+				"TYPE": "GETF",
+				"U32": [
+					20
+				]
+			},
+			{
+				"LABEL": "0x4ba",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x4c2",
+				"TYPE": "GETF",
+				"U32": [
+					25
+				]
+			},
+			{
+				"LABEL": "0x4ca",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x4d2",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x4d4",
+				"TYPE": "GETF",
+				"U32": [
+					68
+				]
+			},
+			{
+				"LABEL": "0x4dc",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x4e4",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x4e6",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x550"
+			},
+			{
+				"LABEL": "0x4ec",
+				"TYPE": "Select",
+				"STRINGS": [
+					"トルタとの練習曲",
+					"ファルとの練習曲",
+					"フォーニの曲"
+				]
+			},
+			{
+				"LABEL": "0x506",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x508",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x50a",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x50c",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x50e",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x516",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x528"
+			},
+			{
+				"LABEL": "0x51c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x712"
+			},
+			{
+				"LABEL": "0x522",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x54a"
+			},
+			{
+				"LABEL": "0x528",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x52a",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x532",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x544"
+			},
+			{
+				"LABEL": "0x538",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x726"
+			},
+			{
+				"LABEL": "0x53e",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x54a"
+			},
+			{
+				"LABEL": "0x544",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x74e"
+			},
+			{
+				"LABEL": "0x54a",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x712"
+			},
+			{
+				"LABEL": "0x550",
+				"TYPE": "GETF",
+				"U32": [
+					20
+				]
+			},
+			{
+				"LABEL": "0x558",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x560",
+				"TYPE": "GETF",
+				"U32": [
+					25
+				]
+			},
+			{
+				"LABEL": "0x568",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x570",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x572",
+				"TYPE": "GETF",
+				"U32": [
+					68
+				]
+			},
+			{
+				"LABEL": "0x57a",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x582",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x584",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x5d2"
+			},
+			{
+				"LABEL": "0x58a",
+				"TYPE": "Select",
+				"STRINGS": [
+					"リセとの練習曲",
+					"フォーニの曲"
+				]
+			},
+			{
+				"LABEL": "0x5a4",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x5a6",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x5a8",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x5aa",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x5ac",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x5b4",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x5c6"
+			},
+			{
+				"LABEL": "0x5ba",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x73a"
+			},
+			{
+				"LABEL": "0x5c0",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x5cc"
+			},
+			{
+				"LABEL": "0x5c6",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x74e"
+			},
+			{
+				"LABEL": "0x5cc",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x712"
+			},
+			{
+				"LABEL": "0x5d2",
+				"TYPE": "GETF",
+				"U32": [
+					20
+				]
+			},
+			{
+				"LABEL": "0x5da",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x5e2",
+				"TYPE": "GETF",
+				"U32": [
+					25
+				]
+			},
+			{
+				"LABEL": "0x5ea",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x5f2",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x5f4",
+				"TYPE": "GETF",
+				"U32": [
+					68
+				]
+			},
+			{
+				"LABEL": "0x5fc",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x604",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x606",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x654"
+			},
+			{
+				"LABEL": "0x60c",
+				"TYPE": "Select",
+				"STRINGS": [
+					"ファルとの練習曲",
+					"フォーニの曲"
+				]
+			},
+			{
+				"LABEL": "0x626",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x628",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x62a",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x62c",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x62e",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x636",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x648"
+			},
+			{
+				"LABEL": "0x63c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x726"
+			},
+			{
+				"LABEL": "0x642",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x64e"
+			},
+			{
+				"LABEL": "0x648",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x74e"
+			},
+			{
+				"LABEL": "0x64e",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x712"
+			},
+			{
+				"LABEL": "0x654",
+				"TYPE": "GETF",
+				"U32": [
+					20
+				]
+			},
+			{
+				"LABEL": "0x65c",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x664",
+				"TYPE": "GETF",
+				"U32": [
+					25
+				]
+			},
+			{
+				"LABEL": "0x66c",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x674",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x676",
+				"TYPE": "GETF",
+				"U32": [
+					68
+				]
+			},
+			{
+				"LABEL": "0x67e",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x686",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x688",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x6d6"
+			},
+			{
+				"LABEL": "0x68e",
+				"TYPE": "Select",
+				"STRINGS": [
+					"トルタとの練習曲",
+					"フォーニの曲"
+				]
+			},
+			{
+				"LABEL": "0x6a8",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x6aa",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x6ac",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x6ae",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x6b0",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x6b8",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x6ca"
+			},
+			{
+				"LABEL": "0x6be",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x712"
+			},
+			{
+				"LABEL": "0x6c4",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x6d0"
+			},
+			{
+				"LABEL": "0x6ca",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x74e"
+			},
+			{
+				"LABEL": "0x6d0",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x712"
+			},
+			{
+				"LABEL": "0x6d6",
+				"TYPE": "Select",
+				"STRINGS": [
+					"フォーニの曲"
+				]
+			},
+			{
+				"LABEL": "0x6f0",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x6f2",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x6f4",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x6f6",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x6f8",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x700",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x712"
+			},
+			{
+				"LABEL": "0x706",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x74e"
+			},
+			{
+				"LABEL": "0x70c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x712"
+			},
+			{
+				"LABEL": "0x712",
+				"TYPE": "MiniGame",
+				"U32": [
+					113
+				]
+			},
+			{
+				"LABEL": "0x71a",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x71c",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x71e",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x720",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x762"
+			},
+			{
+				"LABEL": "0x726",
+				"TYPE": "MiniGame",
+				"U32": [
+					114
+				]
+			},
+			{
+				"LABEL": "0x72e",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x730",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x732",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x734",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x762"
+			},
+			{
+				"LABEL": "0x73a",
+				"TYPE": "MiniGame",
+				"U32": [
+					115
+				]
+			},
+			{
+				"LABEL": "0x742",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x744",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x746",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x748",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x762"
+			},
+			{
+				"LABEL": "0x74e",
+				"TYPE": "MiniGame",
+				"U32": [
+					117
+				]
+			},
+			{
+				"LABEL": "0x756",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x758",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x75a",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x75c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x762"
+			},
+			{
+				"LABEL": "0x762",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x764",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x766",
+				"TYPE": "BlackOut",
+				"U32": [
+					18
+				]
+			},
+			{
+				"LABEL": "0x76e",
+				"TYPE": "SetTime",
+				"U32": [
+					1845
+				]
+			},
+			{
+				"LABEL": "0x776",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x77e",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					18
+				]
+			},
+			{
+				"LABEL": "0x78c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x78e",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「……ふう」"
+				]
+			},
+			{
+				"LABEL": "0x7a0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7a2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7a4",
+				"TYPE": "Text",
+				"STRING": [
+					"今日は、このくらいにしておこうかな。"
+				]
+			},
+			{
+				"LABEL": "0x7ac",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7ae",
+				"TYPE": "GETF",
+				"U32": [
+					64
+				]
+			},
+			{
+				"LABEL": "0x7b6",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x7be",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x81a"
+			},
+			{
+				"LABEL": "0x7c4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7c6",
+				"TYPE": "Text",
+				"STRING": [
+					"出来は自分が一番良く知っている。"
+				]
+			},
+			{
+				"LABEL": "0x7ce",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7d0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7d2",
+				"TYPE": "Text",
+				"STRING": [
+					"練習は繰り返しが基本だ。"
+				]
+			},
+			{
+				"LABEL": "0x7da",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7dc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7de",
+				"TYPE": "Text",
+				"STRING": [
+					"とはいえ、慣れも必要だったけど、他人と合わせたり、",
+					"人に聴いてもらう緊張感も、結構重要だったりする。"
+				]
+			},
+			{
+				"LABEL": "0x7f0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7f2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7f4",
+				"TYPE": "Text",
+				"STRING": [
+					"必要だと感じたときは、もちろん一人で練習することも",
+					"あるだろう。"
+				]
+			},
+			{
+				"LABEL": "0x806",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x808",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x80a",
+				"TYPE": "Text",
+				"STRING": [
+					"これからも、時々はここに寄ることがあるかもしれない。"
+				]
+			},
+			{
+				"LABEL": "0x812",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x814",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x81a"
+			},
+			{
+				"LABEL": "0x81a",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x84a"
+			},
+			{
+				"LABEL": "0x820",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x822",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x824",
+				"TYPE": "BlackOut",
+				"U32": [
+					18
+				]
+			},
+			{
+				"LABEL": "0x82c",
+				"TYPE": "SetTime",
+				"U32": [
+					1845
+				]
+			},
+			{
+				"LABEL": "0x834",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x83c",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					18
+				]
+			},
+			{
+				"LABEL": "0x84a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x84c",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「さて、今日は帰るか」"
+				]
+			},
+			{
+				"LABEL": "0x85e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x860",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x862",
+				"TYPE": "Text",
+				"STRING": [
+					"時間も、それなりになっていた。"
+				]
+			},
+			{
+				"LABEL": "0x86a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x86c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x86e",
+				"TYPE": "Text",
+				"STRING": [
+					"練習室の片づけをして、それから家に帰った。"
+				]
+			},
+			{
+				"LABEL": "0x876",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x878",
+				"TYPE": "DUP",
+				"U32": [
+					64,
+					1
+				]
+			},
+			{
+				"LABEL": "0x886",
+				"TYPE": "SWAP2"
+			},
+			{
+				"LABEL": "0x888",
+				"TYPE": "SETF"
+			},
+			{
+				"LABEL": "0x88a",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x88c",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x88e",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x890",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x898",
+				"TYPE": "GETSF",
+				"U32": [
+					63
+				]
+			},
+			{
+				"LABEL": "0x8a0",
+				"TYPE": "LNOT"
+			},
+			{
+				"LABEL": "0x8a2",
+				"TYPE": "SkipDisable"
+			},
+			{
+				"LABEL": "0x8a4",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x8ac",
+				"TYPE": "RainVol",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0x8b4",
+				"TYPE": "GetDate"
+			},
+			{
+				"LABEL": "0x8b6",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x8b8",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x8ba",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x8bc",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x8be",
+				"TYPE": "EQ",
+				"U32": [
+					1205
+				]
+			},
+			{
+				"LABEL": "0x8c6",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x8da"
+			},
+			{
+				"LABEL": "0x8cc",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x8d4",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x9f8"
+			},
+			{
+				"LABEL": "0x8da",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x8dc",
+				"TYPE": "EQ",
+				"U32": [
+					1206
+				]
+			},
+			{
+				"LABEL": "0x8e4",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x8f8"
+			},
+			{
+				"LABEL": "0x8ea",
+				"TYPE": "SCNCHG",
+				"U32": [
+					8
+				]
+			},
+			{
+				"LABEL": "0x8f2",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x9f8"
+			},
+			{
+				"LABEL": "0x8f8",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x8fa",
+				"TYPE": "EQ",
+				"U32": [
+					1207
+				]
+			},
+			{
+				"LABEL": "0x902",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x916"
+			},
+			{
+				"LABEL": "0x908",
+				"TYPE": "SCNCHG",
+				"U32": [
+					16
+				]
+			},
+			{
+				"LABEL": "0x910",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x9f8"
+			},
+			{
+				"LABEL": "0x916",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x918",
+				"TYPE": "EQ",
+				"U32": [
+					1208
+				]
+			},
+			{
+				"LABEL": "0x920",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x934"
+			},
+			{
+				"LABEL": "0x926",
+				"TYPE": "SCNCHG",
+				"U32": [
+					24
+				]
+			},
+			{
+				"LABEL": "0x92e",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x9f8"
+			},
+			{
+				"LABEL": "0x934",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x936",
+				"TYPE": "EQ",
+				"U32": [
+					1209
+				]
+			},
+			{
+				"LABEL": "0x93e",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x954"
+			},
+			{
+				"LABEL": "0x944",
+				"TYPE": "CALL",
+				"U32": [
+					32
+				]
+			},
+			{
+				"LABEL": "0x94c",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x94e",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x9f8"
+			},
+			{
+				"LABEL": "0x954",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x956",
+				"TYPE": "EQ",
+				"U32": [
+					1212
+				]
+			},
+			{
+				"LABEL": "0x95e",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x972"
+			},
+			{
+				"LABEL": "0x964",
+				"TYPE": "SCNCHG",
+				"U32": [
+					56
+				]
+			},
+			{
+				"LABEL": "0x96c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x9f8"
+			},
+			{
+				"LABEL": "0x972",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x974",
+				"TYPE": "EQ",
+				"U32": [
+					1213
+				]
+			},
+			{
+				"LABEL": "0x97c",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x990"
+			},
+			{
+				"LABEL": "0x982",
+				"TYPE": "SCNCHG",
+				"U32": [
+					64
+				]
+			},
+			{
+				"LABEL": "0x98a",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x9f8"
+			},
+			{
+				"LABEL": "0x990",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x992",
+				"TYPE": "EQ",
+				"U32": [
+					1214
+				]
+			},
+			{
+				"LABEL": "0x99a",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x9ae"
+			},
+			{
+				"LABEL": "0x9a0",
+				"TYPE": "SCNCHG",
+				"U32": [
+					72
+				]
+			},
+			{
+				"LABEL": "0x9a8",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x9f8"
+			},
+			{
+				"LABEL": "0x9ae",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x9b0",
+				"TYPE": "EQ",
+				"U32": [
+					1215
+				]
+			},
+			{
+				"LABEL": "0x9b8",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x9cc"
+			},
+			{
+				"LABEL": "0x9be",
+				"TYPE": "SCNCHG",
+				"U32": [
+					80
+				]
+			},
+			{
+				"LABEL": "0x9c6",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x9f8"
+			},
+			{
+				"LABEL": "0x9cc",
+				"TYPE": "GETF",
+				"U32": [
+					33
+				]
+			},
+			{
+				"LABEL": "0x9d4",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x9dc",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x9f0"
+			},
+			{
+				"LABEL": "0x9e2",
+				"TYPE": "SCNCHG",
+				"U32": [
+					88
+				]
+			},
+			{
+				"LABEL": "0x9ea",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x9f8"
+			},
+			{
+				"LABEL": "0x9f0",
+				"TYPE": "SCNCHG",
+				"U32": [
+					97
+				]
+			},
+			{
+				"LABEL": "0x9f8",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

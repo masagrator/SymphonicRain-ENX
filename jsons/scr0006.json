@@ -1,0 +1,7430 @@
+{
+	"HEADER": {
+		"FILE_ID": 6,
+		"CRC": "B6768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 6,
+				"UNK1": 53981,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1128,
+				"UNK5": 1330,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "ax02_1"
+			},
+			{
+				"ID": 6,
+				"UNK1": 53982,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1129,
+				"UNK5": 1330,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "ax02_2"
+			},
+			{
+				"ID": 6,
+				"UNK1": 53983,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1130,
+				"UNK5": 1330,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "ax02_3"
+			},
+			{
+				"ID": 6,
+				"UNK1": 53984,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1201,
+				"UNK5": 1330,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "ax02_4"
+			},
+			{
+				"ID": 6,
+				"UNK1": 53985,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1202,
+				"UNK5": 1330,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "ax02_5"
+			}
+		],
+		"FUNS": [
+			"Func_ax02"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "a03"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "a04"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "a05"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "a06"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "a07"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0xf4",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0xfc",
+				"TYPE": "DUP",
+				"U32": [
+					73,
+					0
+				]
+			},
+			{
+				"LABEL": "0x10a",
+				"TYPE": "SWAP2"
+			},
+			{
+				"LABEL": "0x10c",
+				"TYPE": "SETF"
+			},
+			{
+				"LABEL": "0x10e",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x110",
+				"TYPE": "BGMPlay",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x118",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1050,
+					2
+				]
+			},
+			{
+				"LABEL": "0x126",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x128",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアーシノに相談するため、トルタが食堂を出ていくのを",
+					"\t\t\t\t見送ってそのまま食堂に残った。"
+				]
+			},
+			{
+				"LABEL": "0x13a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x13c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x13e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t同じくコーデル先生が担当のアーシノは、ちょうど僕の",
+					"\t\t\t\t後、昼休み明けに授業をとっていた。"
+				]
+			},
+			{
+				"LABEL": "0x150",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x152",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x154",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t食堂で適当に時間をつぶし、それからレッスン室へと向",
+					"\t\t\t\tかうことにする。"
+				]
+			},
+			{
+				"LABEL": "0x166",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x168",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x16a",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					999,
+					3
+				]
+			},
+			{
+				"LABEL": "0x178",
+				"TYPE": "SetTime",
+				"U32": [
+					1455
+				]
+			},
+			{
+				"LABEL": "0x180",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1020,
+					3
+				]
+			},
+			{
+				"LABEL": "0x18e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x190",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t今は三限目の授業が終わる五分くらい前で、廊下に人影",
+					"\t\t\t\tはない。"
+				]
+			},
+			{
+				"LABEL": "0x1a2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1a4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1a6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tさっきまで自分が授業を受けていた部屋の前に立ち、自",
+					"\t\t\t\t分で書いた楽譜なんかを眺めながら、ほんの少しだけま",
+					"\t\t\t\tた時間を潰す。"
+				]
+			},
+			{
+				"LABEL": "0x1c2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1c4",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x1c6",
+				"TYPE": "Wait",
+				"U32": [
+					2000
+				]
+			},
+			{
+				"LABEL": "0x1ce",
+				"TYPE": "SetTime",
+				"U32": [
+					1501
+				]
+			},
+			{
+				"LABEL": "0x1d6",
+				"TYPE": "SEPlay",
+				"U32": [
+					22
+				]
+			},
+			{
+				"LABEL": "0x1de",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x1e6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1e8",
+				"TYPE": "Voice",
+				"U32": [
+					6001
+				]
+			},
+			{
+				"LABEL": "0x1f0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【？？？】",
+					"\t\t\t\t「……ん？」"
+				]
+			},
+			{
+				"LABEL": "0x202",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x204",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x206",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアーシノの声を確認し、楽譜を閉じて顔を上げる。"
+				]
+			},
+			{
+				"LABEL": "0x20e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x210",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x212",
+				"TYPE": "MoveChar",
+				"U32": [
+					101,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x226",
+				"TYPE": "Voice",
+				"U32": [
+					6002
+				]
+			},
+			{
+				"LABEL": "0x22e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「クリスか。どうかしたのか？」"
+				]
+			},
+			{
+				"LABEL": "0x240",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x242",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x244",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ん、まあね」"
+				]
+			},
+			{
+				"LABEL": "0x256",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x258",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x25a",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x26e",
+				"TYPE": "Voice",
+				"U32": [
+					6003
+				]
+			},
+			{
+				"LABEL": "0x276",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「珍しいな。とはいえ、俺を待ってたわけでもないんだ",
+					"\t\t\t\t　ろ？　コーデル先生ならまだ中だ」"
+				]
+			},
+			{
+				"LABEL": "0x292",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x294",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x296",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「いや、アーシノを待ってたんだよ」"
+				]
+			},
+			{
+				"LABEL": "0x2a8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2aa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2ac",
+				"TYPE": "MoveChar",
+				"U32": [
+					101,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x2c0",
+				"TYPE": "Voice",
+				"U32": [
+					6004
+				]
+			},
+			{
+				"LABEL": "0x2c8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「……それは、本当に珍しいな」"
+				]
+			},
+			{
+				"LABEL": "0x2da",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2dc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2de",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアーシノは、トルタを抜かせば唯一、といってもいい僕",
+					"\t\t\t\tの友人だった。"
+				]
+			},
+			{
+				"LABEL": "0x2f0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2f2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2f4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tとはいえ、四六時中側にいることもないし、その必要性",
+					"\t\t\t\tも感じなかった。"
+				]
+			},
+			{
+				"LABEL": "0x306",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x308",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x30a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t用があればいつでも会うけど、ないときは一週間以上会",
+					"\t\t\t\tわないこともある。"
+				]
+			},
+			{
+				"LABEL": "0x31c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x31e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x320",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tもちろん用がないときでも、偶然会えば食事に行ったり",
+					"\t\t\t\tもする。"
+				]
+			},
+			{
+				"LABEL": "0x332",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x334",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x336",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tただ、今日は偶然でもなかった。"
+				]
+			},
+			{
+				"LABEL": "0x33e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x340",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x342",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ちょっと、お願いしたいことがあってね」"
+				]
+			},
+			{
+				"LABEL": "0x354",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x356",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x358",
+				"TYPE": "Voice",
+				"U32": [
+					6005
+				]
+			},
+			{
+				"LABEL": "0x360",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「俺にか？　"
+				]
+			},
+			{
+				"LABEL": "0x372",
+				"TYPE": "Wait",
+				"U32": [
+					700
+				]
+			},
+			{
+				"LABEL": "0x37a",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x38e",
+				"TYPE": "Text",
+				"STRING": [
+					"……わかった。長くなるんだったら、どこ",
+					"\t\t\t\t　か落ち着ける場所にでも行くか」"
+				]
+			},
+			{
+				"LABEL": "0x3a0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3a2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3a4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「それも含めて、歩きながらかな」"
+				]
+			},
+			{
+				"LABEL": "0x3b6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3b8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3ba",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x3ce",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t唇の端を歪めるだけの、彼らしい笑顔を答えとして返し",
+					"\t\t\t\tて、アーシノはそのまま歩き出そうとした。"
+				]
+			},
+			{
+				"LABEL": "0x3e0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3e2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3e4",
+				"TYPE": "SEPlay",
+				"U32": [
+					20
+				]
+			},
+			{
+				"LABEL": "0x3ec",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x3f4",
+				"TYPE": "Voice",
+				"U32": [
+					6006
+				]
+			},
+			{
+				"LABEL": "0x3fc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「もしもし？」"
+				]
+			},
+			{
+				"LABEL": "0x40e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x410",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x412",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x414",
+				"TYPE": "MoveChar",
+				"U32": [
+					104,
+					2,
+					2
+				]
+			},
+			{
+				"LABEL": "0x428",
+				"TYPE": "MoveChar",
+				"U32": [
+					101,
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x43c",
+				"TYPE": "Voice",
+				"U32": [
+					6007
+				]
+			},
+			{
+				"LABEL": "0x444",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「あ、先生」"
+				]
+			},
+			{
+				"LABEL": "0x456",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x458",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x45a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「どうも」"
+				]
+			},
+			{
+				"LABEL": "0x46c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x46e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x470",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t開いたままだったドアに寄りかかるように、先生がこち",
+					"\t\t\t\tらを見ていた。"
+				]
+			},
+			{
+				"LABEL": "0x482",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x484",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x486",
+				"TYPE": "Voice",
+				"U32": [
+					6008
+				]
+			},
+			{
+				"LABEL": "0x48e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「パートナーの相談か？」"
+				]
+			},
+			{
+				"LABEL": "0x4a0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4a2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4a4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「そんなところです」"
+				]
+			},
+			{
+				"LABEL": "0x4b6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4b8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4ba",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x4ce",
+				"TYPE": "Voice",
+				"U32": [
+					6009
+				]
+			},
+			{
+				"LABEL": "0x4d6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「なんだ、クリスもまだ決まってなかったのか」"
+				]
+			},
+			{
+				"LABEL": "0x4e8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4ea",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4ec",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「僕もってことは？」"
+				]
+			},
+			{
+				"LABEL": "0x4fe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x500",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x502",
+				"TYPE": "MoveChar",
+				"U32": [
+					105,
+					2,
+					1
+				]
+			},
+			{
+				"LABEL": "0x516",
+				"TYPE": "Voice",
+				"U32": [
+					6010
+				]
+			},
+			{
+				"LABEL": "0x51e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「どちらもまだだな」"
+				]
+			},
+			{
+				"LABEL": "0x530",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x532",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x534",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t怒るのでも許すのでもなく、淡々と先生がそう言った。"
+				]
+			},
+			{
+				"LABEL": "0x53c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x53e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x540",
+				"TYPE": "MoveChar",
+				"U32": [
+					102,
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x554",
+				"TYPE": "Voice",
+				"U32": [
+					6011
+				]
+			},
+			{
+				"LABEL": "0x55c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「とはいえ、俺の方は一応候補がいるんでね。こいつと",
+					"\t\t\t\t　一緒にしないでくださいよ」"
+				]
+			},
+			{
+				"LABEL": "0x578",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x57a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x57c",
+				"TYPE": "MoveChar",
+				"U32": [
+					104,
+					2,
+					1
+				]
+			},
+			{
+				"LABEL": "0x590",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「そっちだけじゃないよ」"
+				]
+			},
+			{
+				"LABEL": "0x5a2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5a4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x5a6",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x5ba",
+				"TYPE": "Voice",
+				"U32": [
+					6012
+				]
+			},
+			{
+				"LABEL": "0x5c2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「トルティニタだろ？」"
+				]
+			},
+			{
+				"LABEL": "0x5d4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5d6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x5d8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「悪いか？」"
+				]
+			},
+			{
+				"LABEL": "0x5ea",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5ec",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x5ee",
+				"TYPE": "Voice",
+				"U32": [
+					6013
+				]
+			},
+			{
+				"LABEL": "0x5f6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「もちろん、悪くはない」"
+				]
+			},
+			{
+				"LABEL": "0x608",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x60a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x60c",
+				"TYPE": "MoveChar",
+				"U32": [
+					105,
+					2,
+					1
+				]
+			},
+			{
+				"LABEL": "0x620",
+				"TYPE": "Voice",
+				"U32": [
+					6014
+				]
+			},
+			{
+				"LABEL": "0x628",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「私から言わせれば、二人とも変わらない」"
+				]
+			},
+			{
+				"LABEL": "0x63a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x63c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x63e",
+				"TYPE": "MoveChar",
+				"U32": [
+					103,
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x652",
+				"TYPE": "Voice",
+				"U32": [
+					6015
+				]
+			},
+			{
+				"LABEL": "0x65a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「それは……そうですけど」"
+				]
+			},
+			{
+				"LABEL": "0x66c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x66e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x670",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「わかってます。だからアーシノに相談しようと思った",
+					"\t\t\t\t　んですが……彼までそんな状態じゃ、期待はできそう",
+					"\t\t\t\t　にないですね」"
+				]
+			},
+			{
+				"LABEL": "0x696",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x698",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x69a",
+				"TYPE": "MoveChar",
+				"U32": [
+					102,
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x6ae",
+				"TYPE": "Voice",
+				"U32": [
+					6016
+				]
+			},
+			{
+				"LABEL": "0x6b6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「決めつけるなって」"
+				]
+			},
+			{
+				"LABEL": "0x6c8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x6ca",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x6cc",
+				"TYPE": "MoveChar",
+				"U32": [
+					104,
+					2,
+					1
+				]
+			},
+			{
+				"LABEL": "0x6e0",
+				"TYPE": "Voice",
+				"U32": [
+					6017
+				]
+			},
+			{
+				"LABEL": "0x6e8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「とにかく、見つけようとしている意志だけは汲んでお",
+					"\t\t\t\t　こう」"
+				]
+			},
+			{
+				"LABEL": "0x704",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x706",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x708",
+				"TYPE": "Voice",
+				"U32": [
+					6018
+				]
+			},
+			{
+				"LABEL": "0x710",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「クリスだけですか？」"
+				]
+			},
+			{
+				"LABEL": "0x722",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x724",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x726",
+				"TYPE": "Voice",
+				"U32": [
+					6019
+				]
+			},
+			{
+				"LABEL": "0x72e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「アーシノの場合、候補の名前も聞いていないからな」"
+				]
+			},
+			{
+				"LABEL": "0x740",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x742",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x744",
+				"TYPE": "Voice",
+				"U32": [
+					6020
+				]
+			},
+			{
+				"LABEL": "0x74c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「決まったら言いますよ」"
+				]
+			},
+			{
+				"LABEL": "0x75e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x760",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x762",
+				"TYPE": "MoveChar",
+				"U32": [
+					106,
+					2,
+					1
+				]
+			},
+			{
+				"LABEL": "0x776",
+				"TYPE": "Voice",
+				"U32": [
+					6021
+				]
+			},
+			{
+				"LABEL": "0x77e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「ああ。だから、心配はしていない」"
+				]
+			},
+			{
+				"LABEL": "0x790",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x792",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x794",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「僕は心配なんですか？」"
+				]
+			},
+			{
+				"LABEL": "0x7a6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7a8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7aa",
+				"TYPE": "Voice",
+				"U32": [
+					6022
+				]
+			},
+			{
+				"LABEL": "0x7b2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「ああ」"
+				]
+			},
+			{
+				"LABEL": "0x7c4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7c6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7c8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t普段からあまり浮かべない笑みを浮かべ、先生は軽やか",
+					"\t\t\t\tに頷いた。"
+				]
+			},
+			{
+				"LABEL": "0x7da",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7dc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7de",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x7f2",
+				"TYPE": "Voice",
+				"U32": [
+					6023
+				]
+			},
+			{
+				"LABEL": "0x7fa",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「良かったな、クリス」"
+				]
+			},
+			{
+				"LABEL": "0x80c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x80e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x810",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……うるさい」"
+				]
+			},
+			{
+				"LABEL": "0x822",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x824",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x826",
+				"TYPE": "MoveChar",
+				"U32": [
+					104,
+					2,
+					1
+				]
+			},
+			{
+				"LABEL": "0x83a",
+				"TYPE": "Voice",
+				"U32": [
+					6024
+				]
+			},
+			{
+				"LABEL": "0x842",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「とにかく！」"
+				]
+			},
+			{
+				"LABEL": "0x854",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x856",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x858",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t皮肉を言ったアーシノをにらんでいると、先生がそれを",
+					"\t\t\t\tたしなめるように声を張り上げた。"
+				]
+			},
+			{
+				"LABEL": "0x86a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x86c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x86e",
+				"TYPE": "Voice",
+				"U32": [
+					6025
+				]
+			},
+			{
+				"LABEL": "0x876",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「何もしないよりは、何かをしていた方がいい。言い訳",
+					"\t\t\t\t　にもなる」"
+				]
+			},
+			{
+				"LABEL": "0x892",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x894",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x896",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「先生に対してですか？」"
+				]
+			},
+			{
+				"LABEL": "0x8a8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x8aa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x8ac",
+				"TYPE": "MoveChar",
+				"U32": [
+					106,
+					2,
+					1
+				]
+			},
+			{
+				"LABEL": "0x8c0",
+				"TYPE": "Voice",
+				"U32": [
+					6026
+				]
+			},
+			{
+				"LABEL": "0x8c8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「自分に対しても、だな」"
+				]
+			},
+			{
+				"LABEL": "0x8da",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x8dc",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x8de",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x8e0",
+				"TYPE": "HideChar",
+				"U32": [
+					2,
+					2
+				]
+			},
+			{
+				"LABEL": "0x8ee",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x8f6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t次のレッスンに備えるためか、コーデル先生は挨拶代わ",
+					"\t\t\t\tりに軽く微笑み、一旦職員用の部屋のある方へと歩いて",
+					"\t\t\t\tいった。"
+				]
+			},
+			{
+				"LABEL": "0x912",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x914",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x916",
+				"TYPE": "Voice",
+				"U32": [
+					6027
+				]
+			},
+			{
+				"LABEL": "0x91e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「というわけで」"
+				]
+			},
+			{
+				"LABEL": "0x930",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x932",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x934",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれを機にアーシノが僕と向き合い、ことさらさっきの",
+					"\t\t\t\t言葉を反復するように言った。"
+				]
+			},
+			{
+				"LABEL": "0x946",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x948",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x94a",
+				"TYPE": "Voice",
+				"U32": [
+					6028
+				]
+			},
+			{
+				"LABEL": "0x952",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「俺もおまえのことが心配だから、つきあってやること",
+					"\t\t\t\t　にするよ」"
+				]
+			},
+			{
+				"LABEL": "0x96e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x970",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x972",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……はいはい、よろしく頼むよ」"
+				]
+			},
+			{
+				"LABEL": "0x984",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x986",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x988",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tコーデル先生に言われたのもあって、断るわけにはいか",
+					"\t\t\t\tなかった。"
+				]
+			},
+			{
+				"LABEL": "0x99a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x99c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x99e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tもとよりお願いするつもりでもあったことだ。"
+				]
+			},
+			{
+				"LABEL": "0x9a6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x9a8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x9aa",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t素直に頷いて、これからどうするかをアーシノに任せる。"
+				]
+			},
+			{
+				"LABEL": "0x9b2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x9b4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x9b6",
+				"TYPE": "Voice",
+				"U32": [
+					6029
+				]
+			},
+			{
+				"LABEL": "0x9be",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「じゃあとりあえず、行こうか」"
+				]
+			},
+			{
+				"LABEL": "0x9d0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x9d2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x9d4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ああ。でも、どこに？」"
+				]
+			},
+			{
+				"LABEL": "0x9e6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x9e8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x9ea",
+				"TYPE": "Voice",
+				"U32": [
+					6030
+				]
+			},
+			{
+				"LABEL": "0x9f2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「妥当なところで、チェナーコロだろうな」"
+				]
+			},
+			{
+				"LABEL": "0xa04",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa06",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa08",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「本当に妥当だね」"
+				]
+			},
+			{
+				"LABEL": "0xa1a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa1c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa1e",
+				"TYPE": "Voice",
+				"U32": [
+					6031
+				]
+			},
+			{
+				"LABEL": "0xa26",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「だからだよ」"
+				]
+			},
+			{
+				"LABEL": "0xa38",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa3a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa3c",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xa4a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t分かり切ったことのようにアーシノはそう言って、第二",
+					"\t\t\t\t校舎の方向に向かって歩き出す。"
+				]
+			},
+			{
+				"LABEL": "0xa5c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa5e",
+				"TYPE": "GETF",
+				"U32": [
+					15
+				]
+			},
+			{
+				"LABEL": "0xa66",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xa6e",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0xa80"
+			},
+			{
+				"LABEL": "0xa74",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0xaf4"
+			},
+			{
+				"LABEL": "0xa7a",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0xa80"
+			},
+			{
+				"LABEL": "0xa80",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa82",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこの前あそこに行ったときは、僕にはここでパートナー",
+					"\t\t\t\tを見つけることは無理だろうと、嫌になるくらいに思い",
+					"\t\t\t\t知らされた。"
+				]
+			},
+			{
+				"LABEL": "0xa9e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xaa0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xaa2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tもっとも、ファルさんと会うことが出来たし、全く成果",
+					"\t\t\t\tがなかったとは言い切れない。"
+				]
+			},
+			{
+				"LABEL": "0xab4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xab6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xab8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれに、人とのつきあい方のうまいアーシノと一緒にい",
+					"\t\t\t\tれば、少しは違うだろうか？"
+				]
+			},
+			{
+				"LABEL": "0xaca",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xacc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xace",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ま……いいか」"
+				]
+			},
+			{
+				"LABEL": "0xae0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xae2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xae4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t独り言のようにそうつぶやいて、その後に続いた。"
+				]
+			},
+			{
+				"LABEL": "0xaec",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xaee",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0xb1c"
+			},
+			{
+				"LABEL": "0xaf4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xaf6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「それもそうか」"
+				]
+			},
+			{
+				"LABEL": "0xb08",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb0a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb0c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t独り言のようにそう返して、その後に続いた。"
+				]
+			},
+			{
+				"LABEL": "0xb14",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb16",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0xb1c"
+			},
+			{
+				"LABEL": "0xb1c",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0xb1e",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0xb20",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xb28",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0xb30",
+				"TYPE": "AddMin",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0xb38",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1080,
+					5
+				]
+			},
+			{
+				"LABEL": "0xb46",
+				"TYPE": "GETF",
+				"U32": [
+					87
+				]
+			},
+			{
+				"LABEL": "0xb4e",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xb56",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0xb7e"
+			},
+			{
+				"LABEL": "0xb5c",
+				"TYPE": "ShowPlace",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0xb64",
+				"TYPE": "DUP",
+				"U32": [
+					87,
+					1
+				]
+			},
+			{
+				"LABEL": "0xb72",
+				"TYPE": "SWAP2"
+			},
+			{
+				"LABEL": "0xb74",
+				"TYPE": "SETF"
+			},
+			{
+				"LABEL": "0xb76",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0xb78",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0xb7e"
+			},
+			{
+				"LABEL": "0xb7e",
+				"TYPE": "SEPlay",
+				"U32": [
+					24
+				]
+			},
+			{
+				"LABEL": "0xb86",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xb8e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb90",
+				"TYPE": "SEPlay",
+				"U32": [
+					43
+				]
+			},
+			{
+				"LABEL": "0xb98",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t部屋には僕達と同じ、三年生と思われる生徒達がすでに",
+					"\t\t\t\t数人いて、即興でなにかを演奏している最中だった。"
+				]
+			},
+			{
+				"LABEL": "0xbaa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xbac",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xbae",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t一年生や二年生はまだ普通に授業がある時間だったから、",
+					"\t\t\t\t多分間違いないだろう。"
+				]
+			},
+			{
+				"LABEL": "0xbc0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xbc2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xbc4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t部屋に誰かが入ってきたのに気づいたのか、演奏は直ち",
+					"\t\t\t\tに止み、その内の一人がアーシノに話しかけた。"
+				]
+			},
+			{
+				"LABEL": "0xbd6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xbd8",
+				"TYPE": "BGMPlay",
+				"U32": [
+					8
+				]
+			},
+			{
+				"LABEL": "0xbe0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xbe2",
+				"TYPE": "Voice",
+				"U32": [
+					6032
+				]
+			},
+			{
+				"LABEL": "0xbea",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【女子生徒】",
+					"\t\t\t\t「あら、アーシノ。どうしたの？」"
+				]
+			},
+			{
+				"LABEL": "0xbfc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xbfe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc00",
+				"TYPE": "Voice",
+				"U32": [
+					6033
+				]
+			},
+			{
+				"LABEL": "0xc08",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「ちょっとね。ところで君は、声楽科だったっけ？」"
+				]
+			},
+			{
+				"LABEL": "0xc1a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc1c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc1e",
+				"TYPE": "Voice",
+				"U32": [
+					6034
+				]
+			},
+			{
+				"LABEL": "0xc26",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【女子生徒】",
+					"\t\t\t\t「なに言ってるのよ。ピアノ科に決まってるでしょ。",
+					"\t\t\t\t　忘れちゃったの？」"
+				]
+			},
+			{
+				"LABEL": "0xc42",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc44",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc46",
+				"TYPE": "Voice",
+				"U32": [
+					6035
+				]
+			},
+			{
+				"LABEL": "0xc4e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「姿だけでなく、歌声も美しそうに見えたからな」"
+				]
+			},
+			{
+				"LABEL": "0xc60",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc62",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc64",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tその冗談を真に受けたわけではないだろうけど、彼女は",
+					"\t\t\t\t笑ってその間違いを許した。"
+				]
+			},
+			{
+				"LABEL": "0xc76",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc78",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc7a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそんな風にアーシノが誰かに話しかけるのを、僕は壁際",
+					"\t\t\t\tでただ見つめている。"
+				]
+			},
+			{
+				"LABEL": "0xc8c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc8e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc90",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tフォルテール科に在籍しているものの、本当は詩作科に",
+					"\t\t\t\t行きたかったと、彼はいつか言っていた。"
+				]
+			},
+			{
+				"LABEL": "0xca2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xca4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xca6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそのせいかどうかはわからないが、歯の浮くような言葉",
+					"\t\t\t\tをアーシノは平気で口にする。"
+				]
+			},
+			{
+				"LABEL": "0xcb8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xcba",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xcbc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそして、周りもそれを受け入れているようだから、それ",
+					"\t\t\t\tもある種の才能なのかもしれない。"
+				]
+			},
+			{
+				"LABEL": "0xcce",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xcd0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xcd2",
+				"TYPE": "Voice",
+				"U32": [
+					6036
+				]
+			},
+			{
+				"LABEL": "0xcda",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「声楽科の子は、今日はたくさん来そうかな？」"
+				]
+			},
+			{
+				"LABEL": "0xcec",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xcee",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xcf0",
+				"TYPE": "Voice",
+				"U32": [
+					6037
+				]
+			},
+			{
+				"LABEL": "0xcf8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【女子生徒】",
+					"\t\t\t\t「そうね、私の友達が後で来るって言ってたよ。なに？",
+					"\t\t\t\t　アーシノってまだ相手が決まってないの？」"
+				]
+			},
+			{
+				"LABEL": "0xd14",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd16",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xd18",
+				"TYPE": "Voice",
+				"U32": [
+					6038
+				]
+			},
+			{
+				"LABEL": "0xd20",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「残念ながらね。とはいえ、今日は俺の相手捜しじゃな",
+					"\t\t\t\t　いんだ」"
+				]
+			},
+			{
+				"LABEL": "0xd3c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd3e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xd40",
+				"TYPE": "Voice",
+				"U32": [
+					6039
+				]
+			},
+			{
+				"LABEL": "0xd48",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【女子生徒】",
+					"\t\t\t\t「そうなの？」"
+				]
+			},
+			{
+				"LABEL": "0xd5a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd5c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xd5e",
+				"TYPE": "Voice",
+				"U32": [
+					6040
+				]
+			},
+			{
+				"LABEL": "0xd66",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「ま、とにかく。その子達が来るまで待たせてもらおう",
+					"\t\t\t\t　かな」"
+				]
+			},
+			{
+				"LABEL": "0xd82",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd84",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xd86",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアーシノが手をひらひらさせてその子に別れを告げ、そ",
+					"\t\t\t\tれからこっちへ向かって歩いてきた。"
+				]
+			},
+			{
+				"LABEL": "0xd98",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd9a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xd9c",
+				"TYPE": "MoveChar",
+				"U32": [
+					102,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xdb0",
+				"TYPE": "Voice",
+				"U32": [
+					6041
+				]
+			},
+			{
+				"LABEL": "0xdb8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「おい、クリス。やる気はあるのか？」"
+				]
+			},
+			{
+				"LABEL": "0xdca",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xdcc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xdce",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……あまりないね」"
+				]
+			},
+			{
+				"LABEL": "0xde0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xde2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xde4",
+				"TYPE": "Voice",
+				"U32": [
+					6042
+				]
+			},
+			{
+				"LABEL": "0xdec",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「なにしに来たんだよ」"
+				]
+			},
+			{
+				"LABEL": "0xdfe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe00",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe02",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「捜しに来たんでしょ？」"
+				]
+			},
+			{
+				"LABEL": "0xe14",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe16",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe18",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xe2c",
+				"TYPE": "Voice",
+				"U32": [
+					6043
+				]
+			},
+			{
+				"LABEL": "0xe34",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「……まあいいか。どのみち声楽科の子が来ないことに",
+					"\t\t\t\t　は話にならないしな。ちなみに俺は適当に時間を潰し",
+					"\t\t\t\t　てるけど？」"
+				]
+			},
+			{
+				"LABEL": "0xe5a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe5c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe5e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「僕も適当に」"
+				]
+			},
+			{
+				"LABEL": "0xe70",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe72",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe74",
+				"TYPE": "Voice",
+				"U32": [
+					6044
+				]
+			},
+			{
+				"LABEL": "0xe7c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「わかった。それらしい子が来たら、お前も積極的に話",
+					"\t\t\t\t　しかけろよ？」"
+				]
+			},
+			{
+				"LABEL": "0xe98",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe9a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xe9c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「一応ね」"
+				]
+			},
+			{
+				"LABEL": "0xeae",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xeb0",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0xeb2",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0xeb4",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					999,
+					18
+				]
+			},
+			{
+				"LABEL": "0xec2",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0xec4",
+				"TYPE": "SetTime",
+				"U32": [
+					1650
+				]
+			},
+			{
+				"LABEL": "0xecc",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1080,
+					18
+				]
+			},
+			{
+				"LABEL": "0xeda",
+				"TYPE": "AddRainPower",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0xee2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xee4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t壁に背をつけ、部屋をゆっくりと見回す。"
+				]
+			},
+			{
+				"LABEL": "0xeec",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xeee",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xef0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t時間と共に人は増えている。"
+				]
+			},
+			{
+				"LABEL": "0xef8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xefa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xefc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t生徒達の社交を促すサロンとしての役割は、きちんと果",
+					"\t\t\t\tたされているようだった。"
+				]
+			},
+			{
+				"LABEL": "0xf0e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf10",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf12",
+				"TYPE": "Voice",
+				"U32": [
+					6045
+				]
+			},
+			{
+				"LABEL": "0xf1a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「へえ、そうなんだ」"
+				]
+			},
+			{
+				"LABEL": "0xf2c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf2e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf30",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそして僕は、明るく女生徒に話しかけるアーシノの声を、",
+					"\t\t\t\tやっぱり遠くから聞いていた。"
+				]
+			},
+			{
+				"LABEL": "0xf42",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf44",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf46",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそんな風に親しげに話しているように見えて、女生徒の",
+					"\t\t\t\t名前をほとんど覚えていないって言ってたことがある。"
+				]
+			},
+			{
+				"LABEL": "0xf58",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf5a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf5c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれがすごいのかすごくないのかは、よくわからなかっ",
+					"\t\t\t\tた。"
+				]
+			},
+			{
+				"LABEL": "0xf6e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf70",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf72",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t僕はといえば、初対面の人間に話しかけるのは苦手だっ",
+					"\t\t\t\tたし、話しかけられるのはもっと苦手だ。"
+				]
+			},
+			{
+				"LABEL": "0xf84",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf86",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf88",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t端から見てもそれがわかるのか、僕に話しかけるような",
+					"\t\t\t\t物好きは、今のところいない。"
+				]
+			},
+			{
+				"LABEL": "0xf9a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf9c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xf9e",
+				"TYPE": "Voice",
+				"U32": [
+					6046
+				]
+			},
+			{
+				"LABEL": "0xfa6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「クリス。君に壁の花は似合わない」"
+				]
+			},
+			{
+				"LABEL": "0xfb8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xfba",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xfbc",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xfd0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……はい？」"
+				]
+			},
+			{
+				"LABEL": "0xfe2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xfe4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xfe6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tかつての物好きが、かつてと同じ言葉で語りかけてきた。"
+				]
+			},
+			{
+				"LABEL": "0xfee",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xff0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xff2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t懐かしさも感じたけど、それ以上におかしな言葉だと思",
+					"\t\t\t\tった。"
+				]
+			},
+			{
+				"LABEL": "0x1004",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1006",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1008",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「そういう言葉は、女の子にでもかけてあげれば？」"
+				]
+			},
+			{
+				"LABEL": "0x101a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x101c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x101e",
+				"TYPE": "Voice",
+				"U32": [
+					6047
+				]
+			},
+			{
+				"LABEL": "0x1026",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「いや、それはもう飽きた」"
+				]
+			},
+			{
+				"LABEL": "0x1038",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x103a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x103c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「それで、男に声をかけてると？」"
+				]
+			},
+			{
+				"LABEL": "0x104e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1050",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1052",
+				"TYPE": "Voice",
+				"U32": [
+					6048
+				]
+			},
+			{
+				"LABEL": "0x105a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「そういうこと」"
+				]
+			},
+			{
+				"LABEL": "0x106c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x106e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1070",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tいかにも冗談めいて、アーシノはそう言った。"
+				]
+			},
+			{
+				"LABEL": "0x1078",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x107a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x107c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそして、それから少しだけ真面目な顔になる。"
+				]
+			},
+			{
+				"LABEL": "0x1084",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1086",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1088",
+				"TYPE": "MoveChar",
+				"U32": [
+					102,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x109c",
+				"TYPE": "Voice",
+				"U32": [
+					6049
+				]
+			},
+			{
+				"LABEL": "0x10a4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「今日はどうする？」"
+				]
+			},
+			{
+				"LABEL": "0x10b6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x10b8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x10ba",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「連れてきてもらってなんだけど……僕にはやっぱりこ",
+					"\t\t\t\t　ういう場所は合わないと思う」"
+				]
+			},
+			{
+				"LABEL": "0x10d6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x10d8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x10da",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x10ee",
+				"TYPE": "Voice",
+				"U32": [
+					6050
+				]
+			},
+			{
+				"LABEL": "0x10f6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「……それもそうだな。じゃあ行くか？」"
+				]
+			},
+			{
+				"LABEL": "0x1108",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x110a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x110c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「えらくあっさりしてるね。いいの？」"
+				]
+			},
+			{
+				"LABEL": "0x111e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1120",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1122",
+				"TYPE": "Voice",
+				"U32": [
+					6051
+				]
+			},
+			{
+				"LABEL": "0x112a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「まあな。とりあえず外に出よう」"
+				]
+			},
+			{
+				"LABEL": "0x113c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x113e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1140",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「わかった」"
+				]
+			},
+			{
+				"LABEL": "0x1152",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1154",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x1156",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x1158",
+				"TYPE": "BGMPlay",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x1160",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1020,
+					3
+				]
+			},
+			{
+				"LABEL": "0x116e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1170",
+				"TYPE": "SEPlay",
+				"U32": [
+					24
+				]
+			},
+			{
+				"LABEL": "0x1178",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tドアを閉め、歩き出してからアーシノは話し始めた。"
+				]
+			},
+			{
+				"LABEL": "0x1180",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1182",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1184",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x1198",
+				"TYPE": "Voice",
+				"U32": [
+					6052
+				]
+			},
+			{
+				"LABEL": "0x11a0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「あっさりしてる理由だっけ？」"
+				]
+			},
+			{
+				"LABEL": "0x11b2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x11b4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x11b6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ああ。楽しそうだったし、悪いかと思って」"
+				]
+			},
+			{
+				"LABEL": "0x11c8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x11ca",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x11cc",
+				"TYPE": "Voice",
+				"U32": [
+					6053
+				]
+			},
+			{
+				"LABEL": "0x11d4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「今日は自分のために来たわけじゃないからな」"
+				]
+			},
+			{
+				"LABEL": "0x11e6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x11e8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x11ea",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「悪かったね」"
+				]
+			},
+			{
+				"LABEL": "0x11fc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x11fe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1200",
+				"TYPE": "Voice",
+				"U32": [
+					6054
+				]
+			},
+			{
+				"LABEL": "0x1208",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「いや、悪くはないさ」"
+				]
+			},
+			{
+				"LABEL": "0x121a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x121c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x121e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「でも、真面目に捜してたわけじゃないし」"
+				]
+			},
+			{
+				"LABEL": "0x1230",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1232",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1234",
+				"TYPE": "MoveChar",
+				"U32": [
+					101,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1248",
+				"TYPE": "Voice",
+				"U32": [
+					6055
+				]
+			},
+			{
+				"LABEL": "0x1250",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「少しは捜してたんだろ？」"
+				]
+			},
+			{
+				"LABEL": "0x1262",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1264",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1266",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……一応は」"
+				]
+			},
+			{
+				"LABEL": "0x1278",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x127a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x127c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t行き交う生徒の顔を見ては勝手に駄目だと判断している",
+					"\t\t\t\tのを、そう表現してもいいならば、だったけど。"
+				]
+			},
+			{
+				"LABEL": "0x128e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1290",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1292",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x12a6",
+				"TYPE": "Voice",
+				"U32": [
+					6056
+				]
+			},
+			{
+				"LABEL": "0x12ae",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「だろ？　それに、あそこにはおまえに似合う奴はいな",
+					"\t\t\t\t　いよ」"
+				]
+			},
+			{
+				"LABEL": "0x12ca",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x12cc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x12ce",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「似合う？」"
+				]
+			},
+			{
+				"LABEL": "0x12e0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x12e2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x12e4",
+				"TYPE": "Voice",
+				"U32": [
+					6057
+				]
+			},
+			{
+				"LABEL": "0x12ec",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「いろんな意味でな。人間的にも、音楽的にもだ」"
+				]
+			},
+			{
+				"LABEL": "0x12fe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1300",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1302",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ああ……まあ、そんな気もする」"
+				]
+			},
+			{
+				"LABEL": "0x1314",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1316",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x1318",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x131a",
+				"TYPE": "SetTime",
+				"U32": [
+					1800
+				]
+			},
+			{
+				"LABEL": "0x1322",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					70,
+					2
+				]
+			},
+			{
+				"LABEL": "0x1330",
+				"TYPE": "BGMPlay",
+				"U32": [
+					9
+				]
+			},
+			{
+				"LABEL": "0x1338",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x133a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tしばらく校内を二人でまわってみたものの、結局なんの",
+					"\t\t\t\t成果もなかった。"
+				]
+			},
+			{
+				"LABEL": "0x134c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x134e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1350",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tキャンパスまで出たところで、一度立ち止まる。"
+				]
+			},
+			{
+				"LABEL": "0x1358",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x135a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x135c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアーシノはといえば、霧のような雨の中を、颯爽と歩い",
+					"\t\t\t\tていく。"
+				]
+			},
+			{
+				"LABEL": "0x136e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1370",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1372",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t僕が顔をしかめていると、いつものようにアーシノは振",
+					"\t\t\t\tり返って言った。"
+				]
+			},
+			{
+				"LABEL": "0x1384",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1386",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1388",
+				"TYPE": "MoveChar",
+				"U32": [
+					102,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x139c",
+				"TYPE": "Voice",
+				"U32": [
+					6058
+				]
+			},
+			{
+				"LABEL": "0x13a4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「早く来いよ。雨なんて珍しくもないだろ？」"
+				]
+			},
+			{
+				"LABEL": "0x13b6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x13b8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x13ba",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「わかってる。濡れるのがあまり好きじゃないだけだっ",
+					"\t\t\t\t　て」"
+				]
+			},
+			{
+				"LABEL": "0x13d6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x13d8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x13da",
+				"TYPE": "Voice",
+				"U32": [
+					6059
+				]
+			},
+			{
+				"LABEL": "0x13e2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「そんなこと言ったって、傘なんか差してたら注目の的",
+					"\t\t\t\t　だぞ？」"
+				]
+			},
+			{
+				"LABEL": "0x13fe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1400",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1402",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「知ってる。そういうのを格好悪いことだと思う、周り",
+					"\t\t\t\t　の方がどうかしてるだけだろうけど」"
+				]
+			},
+			{
+				"LABEL": "0x141e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1420",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1422",
+				"TYPE": "Voice",
+				"U32": [
+					6060
+				]
+			},
+			{
+				"LABEL": "0x142a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「……子供なんだろ」"
+				]
+			},
+			{
+				"LABEL": "0x143c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x143e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1440",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……そうだね」"
+				]
+			},
+			{
+				"LABEL": "0x1452",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1454",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1456",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t軽く走って追いつくと、アーシノはさっきまでの話を続",
+					"\t\t\t\tけた。"
+				]
+			},
+			{
+				"LABEL": "0x1468",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x146a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x146c",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1480",
+				"TYPE": "Voice",
+				"U32": [
+					6061
+				]
+			},
+			{
+				"LABEL": "0x1488",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「お前は、いざとなったらトルティニタとでも組めばい",
+					"\t\t\t\t　いんだし。今日はこれくらいでいいだろ」"
+				]
+			},
+			{
+				"LABEL": "0x14a4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14a6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x14a8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……まあね」"
+				]
+			},
+			{
+				"LABEL": "0x14ba",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14bc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x14be",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれについては、あまり気分が乗らなかった。"
+				]
+			},
+			{
+				"LABEL": "0x14c6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14c8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x14ca",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tかといって、コーデル先生が連れてきてくれるらしい誰",
+					"\t\t\t\tかに、あまり期待するわけにもいかない。"
+				]
+			},
+			{
+				"LABEL": "0x14dc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14de",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x14e0",
+				"TYPE": "MoveChar",
+				"U32": [
+					103,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x14f4",
+				"TYPE": "Voice",
+				"U32": [
+					6062
+				]
+			},
+			{
+				"LABEL": "0x14fc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「……ふう」"
+				]
+			},
+			{
+				"LABEL": "0x150e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1510",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1512",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ん？　どうかした？」"
+				]
+			},
+			{
+				"LABEL": "0x1524",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1526",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1528",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t話が一段落したからか、思わずといった感じでアーシノ",
+					"\t\t\t\tが軽くため息をついた。"
+				]
+			},
+			{
+				"LABEL": "0x153a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x153c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x153e",
+				"TYPE": "MoveChar",
+				"U32": [
+					101,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1552",
+				"TYPE": "Voice",
+				"U32": [
+					6063
+				]
+			},
+			{
+				"LABEL": "0x155a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「ん？　……ああ。ちょっと疲れたかな」"
+				]
+			},
+			{
+				"LABEL": "0x156c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x156e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1570",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「そっか。今日は悪かったね、あんまり意味のないこと",
+					"\t\t\t\t　につきあわせて」"
+				]
+			},
+			{
+				"LABEL": "0x158c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x158e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1590",
+				"TYPE": "MoveChar",
+				"U32": [
+					102,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x15a4",
+				"TYPE": "Voice",
+				"U32": [
+					6064
+				]
+			},
+			{
+				"LABEL": "0x15ac",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「だから、そういうんじゃないって」"
+				]
+			},
+			{
+				"LABEL": "0x15be",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x15c0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x15c2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「さっき、僕には似合ってないって言ったろ？」"
+				]
+			},
+			{
+				"LABEL": "0x15d4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x15d6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x15d8",
+				"TYPE": "MoveChar",
+				"U32": [
+					101,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x15ec",
+				"TYPE": "Voice",
+				"U32": [
+					6065
+				]
+			},
+			{
+				"LABEL": "0x15f4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「女の子のことか？」"
+				]
+			},
+			{
+				"LABEL": "0x1606",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1608",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x160a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ああ。でもさ……アーシノにも、似合ってないんじゃ",
+					"\t\t\t\t　ないか？」"
+				]
+			},
+			{
+				"LABEL": "0x1626",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1628",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x162a",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x163e",
+				"TYPE": "Voice",
+				"U32": [
+					6066
+				]
+			},
+			{
+				"LABEL": "0x1646",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「……なにが？」"
+				]
+			},
+			{
+				"LABEL": "0x1658",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x165a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x165c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「名前も覚えていないような女の子のことだよ。だから",
+					"\t\t\t\t　疲れるんじゃないの？」"
+				]
+			},
+			{
+				"LABEL": "0x1678",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x167a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x167c",
+				"TYPE": "Voice",
+				"U32": [
+					6067
+				]
+			},
+			{
+				"LABEL": "0x1684",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「いや、みんな楽しんでる」"
+				]
+			},
+			{
+				"LABEL": "0x1696",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1698",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x169a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「みんなの中に、自分は入ってる？」"
+				]
+			},
+			{
+				"LABEL": "0x16ac",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x16ae",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x16b0",
+				"TYPE": "MoveChar",
+				"U32": [
+					102,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x16c4",
+				"TYPE": "Voice",
+				"U32": [
+					6068
+				]
+			},
+			{
+				"LABEL": "0x16cc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「……」"
+				]
+			},
+			{
+				"LABEL": "0x16de",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x16e0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x16e2",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x16f6",
+				"TYPE": "Voice",
+				"U32": [
+					6069
+				]
+			},
+			{
+				"LABEL": "0x16fe",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「妬いてるのか？」"
+				]
+			},
+			{
+				"LABEL": "0x1710",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1712",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1714",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……はい？」"
+				]
+			},
+			{
+				"LABEL": "0x1726",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1728",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x172a",
+				"TYPE": "Voice",
+				"U32": [
+					6070
+				]
+			},
+			{
+				"LABEL": "0x1732",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「女の子にだよ」"
+				]
+			},
+			{
+				"LABEL": "0x1744",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1746",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1748",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「どうしてそういう結論になるか、全然わからないんだ",
+					"\t\t\t\t　けど……」"
+				]
+			},
+			{
+				"LABEL": "0x1764",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1766",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1768",
+				"TYPE": "Voice",
+				"U32": [
+					6071
+				]
+			},
+			{
+				"LABEL": "0x1770",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「クリスは、かわいいねえ」"
+				]
+			},
+			{
+				"LABEL": "0x1782",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1784",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1786",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t――などと意味のわからない言葉をいいながら、なぜか",
+					"\t\t\t\t頭をなでられる。"
+				]
+			},
+			{
+				"LABEL": "0x1798",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x179a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x179c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……おい」"
+				]
+			},
+			{
+				"LABEL": "0x17ae",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x17b0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x17b2",
+				"TYPE": "Voice",
+				"U32": [
+					6072
+				]
+			},
+			{
+				"LABEL": "0x17ba",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「はいはい。そろそろ帰るか？」"
+				]
+			},
+			{
+				"LABEL": "0x17cc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x17ce",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x17d0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……言われなくても帰るよ」"
+				]
+			},
+			{
+				"LABEL": "0x17e2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x17e4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x17e6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t頭に置かれた手を少し乱暴に払いのけながらそう言い返",
+					"\t\t\t\tしたものの、アーシノの意味不明な笑顔は崩れそうには",
+					"\t\t\t\tなかった。"
+				]
+			},
+			{
+				"LABEL": "0x1802",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1804",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1806",
+				"TYPE": "Voice",
+				"U32": [
+					6073
+				]
+			},
+			{
+				"LABEL": "0x180e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「じゃあ、大通りまで一緒に行くか」"
+				]
+			},
+			{
+				"LABEL": "0x1820",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1822",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x1824",
+				"TYPE": "AddMin",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x182c",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x182e",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					150,
+					1
+				]
+			},
+			{
+				"LABEL": "0x183c",
+				"TYPE": "GETF",
+				"U32": [
+					86
+				]
+			},
+			{
+				"LABEL": "0x1844",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x184c",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x1874"
+			},
+			{
+				"LABEL": "0x1852",
+				"TYPE": "ShowPlace",
+				"U32": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x185a",
+				"TYPE": "DUP",
+				"U32": [
+					86,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1868",
+				"TYPE": "SWAP2"
+			},
+			{
+				"LABEL": "0x186a",
+				"TYPE": "SETF"
+			},
+			{
+				"LABEL": "0x186c",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x186e",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x1874"
+			},
+			{
+				"LABEL": "0x1874",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1876",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t結局、文句を言い続ける僕を気にかけることもなく、ア",
+					"\t\t\t\tーシノは上機嫌のままだ。"
+				]
+			},
+			{
+				"LABEL": "0x1888",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x188a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x188c",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x18a0",
+				"TYPE": "Voice",
+				"U32": [
+					6074
+				]
+			},
+			{
+				"LABEL": "0x18a8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「そうだ、クリス。これから特に用事がなければ、一緒",
+					"\t\t\t\t　に晩ご飯でもどうだ？」"
+				]
+			},
+			{
+				"LABEL": "0x18c4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x18c6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x18c8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ん？　用事はないけど……まあいいか」"
+				]
+			},
+			{
+				"LABEL": "0x18da",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x18dc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x18de",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t僕は、いつも自炊をしている。"
+				]
+			},
+			{
+				"LABEL": "0x18e6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x18e8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x18ea",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tバイトをしているわけじゃないから、生活費は全て両親",
+					"\t\t\t\tからの仕送りに頼っていた。"
+				]
+			},
+			{
+				"LABEL": "0x18fc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x18fe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1900",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t学費自体は、国からの支援があるフォルテール科だった",
+					"\t\t\t\tから、大したことはない。"
+				]
+			},
+			{
+				"LABEL": "0x1912",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1914",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1916",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tだから、親にもあまり負担をかけずに、結構余裕のある",
+					"\t\t\t\t生活を送らせてもらっている。"
+				]
+			},
+			{
+				"LABEL": "0x1928",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x192a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x192c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでも、そんな立場ではあったから、無駄遣いはできない",
+					"\t\t\t\tと自分を戒めていた。"
+				]
+			},
+			{
+				"LABEL": "0x193e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1940",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1942",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「場所は？」"
+				]
+			},
+			{
+				"LABEL": "0x1954",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1956",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1958",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアーシノはこの街に家族と一緒に住んでいるから、贅沢",
+					"\t\t\t\tを平気でするところがある。"
+				]
+			},
+			{
+				"LABEL": "0x196a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x196c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x196e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t僕に払えそうにない場所のときは、いつも断っていた。"
+				]
+			},
+			{
+				"LABEL": "0x1976",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1978",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x197a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでも、アーシノもそれを知っているから、滅多にそんな",
+					"\t\t\t\tところには誘おうとはしなかった。"
+				]
+			},
+			{
+				"LABEL": "0x198c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x198e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1990",
+				"TYPE": "Voice",
+				"U32": [
+					6075
+				]
+			},
+			{
+				"LABEL": "0x1998",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「良いトラットリアを最近見つけたんだ。値段ももちろ",
+					"\t\t\t\t　ん手頃だ」"
+				]
+			},
+			{
+				"LABEL": "0x19b4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x19b6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x19b8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「そっか……それならいいか。最近一緒に食べてなかっ",
+					"\t\t\t\t　たしね」"
+				]
+			},
+			{
+				"LABEL": "0x19d4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x19d6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x19d8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t大衆的な食堂であるトラットリアなら、それほど贅沢と",
+					"\t\t\t\tいうわけでもない。"
+				]
+			},
+			{
+				"LABEL": "0x19ea",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x19ec",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x19ee",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t月に一度くらい、こうして外で食べるくらいの余裕はあ",
+					"\t\t\t\tるし、親もそうしろとは言ってくれている。"
+				]
+			},
+			{
+				"LABEL": "0x1a00",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1a02",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1a04",
+				"TYPE": "Voice",
+				"U32": [
+					6076
+				]
+			},
+			{
+				"LABEL": "0x1a0c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「ああ。場所は旧市街で、クリスの家から近いはずだ。",
+					"\t\t\t\t　ひょっとしたら知ってるかもしれないがな」"
+				]
+			},
+			{
+				"LABEL": "0x1a28",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1a2a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1a2c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「いや、家の近くにトラットリアがあるとは知らなかっ",
+					"\t\t\t\t　たよ。あんまり外食しないし、するにしてもアーシノ",
+					"\t\t\t\t　と一緒の時が多いから。でも……旧市街か」"
+				]
+			},
+			{
+				"LABEL": "0x1a52",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1a54",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1a56",
+				"TYPE": "MoveChar",
+				"U32": [
+					101,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1a6a",
+				"TYPE": "Voice",
+				"U32": [
+					6077
+				]
+			},
+			{
+				"LABEL": "0x1a72",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「ん？　どうかしたか？」"
+				]
+			},
+			{
+				"LABEL": "0x1a84",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1a86",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1a88",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「珍しいね。アーシノが連れてってくれるのって、ほと",
+					"\t\t\t\t　んど新市街か、良くて大通り沿いのお店だろ？」"
+				]
+			},
+			{
+				"LABEL": "0x1aa4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1aa6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1aa8",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1abc",
+				"TYPE": "Voice",
+				"U32": [
+					6078
+				]
+			},
+			{
+				"LABEL": "0x1ac4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「知り合いに連れてってもらってね。それから気に入っ",
+					"\t\t\t\t　てるんだ」"
+				]
+			},
+			{
+				"LABEL": "0x1ae0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1ae2",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x1ae4",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x1ae6",
+				"TYPE": "AddMin",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x1aee",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					240,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1afc",
+				"TYPE": "ShowPlace",
+				"U32": [
+					17
+				]
+			},
+			{
+				"LABEL": "0x1b04",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x1b0c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1b0e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアーシノに紹介されたお店は、看板に『コペルト』と書",
+					"\t\t\t\tかれている、結構お洒落な店構えをしていた。"
+				]
+			},
+			{
+				"LABEL": "0x1b20",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1b22",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1b24",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「へえ、アーシノにしては良い趣味してるね」"
+				]
+			},
+			{
+				"LABEL": "0x1b36",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1b38",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1b3a",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x1b4e",
+				"TYPE": "Voice",
+				"U32": [
+					6079
+				]
+			},
+			{
+				"LABEL": "0x1b56",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「お前程じゃないよ」"
+				]
+			},
+			{
+				"LABEL": "0x1b68",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1b6a",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x1b6c",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x1b6e",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x1b76",
+				"TYPE": "SEPlay",
+				"U32": [
+					52
+				]
+			},
+			{
+				"LABEL": "0x1b7e",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1250,
+					4
+				]
+			},
+			{
+				"LABEL": "0x1b8c",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x1b94",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1b96",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t店内は、ちょうど食事時ということもあって、混みあっ",
+					"\t\t\t\tている。"
+				]
+			},
+			{
+				"LABEL": "0x1ba8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1baa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1bac",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアーシノはすでに何度か来ているのか、女の子の店員に",
+					"\t\t\t\t気さくに声をかけ、楽しげに話しながら中へと案内して",
+					"\t\t\t\tもらった。"
+				]
+			},
+			{
+				"LABEL": "0x1bc8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1bca",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1bcc",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x1be0",
+				"TYPE": "Voice",
+				"U32": [
+					6080
+				]
+			},
+			{
+				"LABEL": "0x1be8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「クリスは何を頼む？」"
+				]
+			},
+			{
+				"LABEL": "0x1bfa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1bfc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1bfe",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「なんでも。適当に」"
+				]
+			},
+			{
+				"LABEL": "0x1c10",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1c12",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1c14",
+				"TYPE": "Voice",
+				"U32": [
+					6081
+				]
+			},
+			{
+				"LABEL": "0x1c1c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「いつもそれだな。じゃあこの店のお勧めなんて、聞く",
+					"\t\t\t\t　必要もないか」"
+				]
+			},
+			{
+				"LABEL": "0x1c38",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1c3a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1c3c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「まあね。パスタにするよ。わかりやすいからペペロン",
+					"\t\t\t\t　チーニで」"
+				]
+			},
+			{
+				"LABEL": "0x1c58",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1c5a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1c5c",
+				"TYPE": "Voice",
+				"U32": [
+					6082
+				]
+			},
+			{
+				"LABEL": "0x1c64",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「通っぽい頼みかたしやがって。ま、俺もそれでいいか。",
+					"\t\t\t\t　他のは食べたしな」"
+				]
+			},
+			{
+				"LABEL": "0x1c80",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1c82",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1c84",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t唐辛子とニンニク、そしてオリーブオイルだけの簡単な",
+					"\t\t\t\tそのパスタは、それだけにそのお店の味がよくわかると",
+					"\t\t\t\tいう。"
+				]
+			},
+			{
+				"LABEL": "0x1ca0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1ca2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1ca4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tもちろん僕にはそんなつもりはなく、単純に好きだから",
+					"\t\t\t\t頼んでいるに過ぎない。"
+				]
+			},
+			{
+				"LABEL": "0x1cb6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1cb8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1cba",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでもアーシノは、そのことを知っていながら僕をからか",
+					"\t\t\t\tうようにそう言って肩を竦めた。"
+				]
+			},
+			{
+				"LABEL": "0x1ccc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1cce",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1cd0",
+				"TYPE": "MoveChar",
+				"U32": [
+					102,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1ce4",
+				"TYPE": "Voice",
+				"U32": [
+					6083
+				]
+			},
+			{
+				"LABEL": "0x1cec",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「なあ、お前のパートナーのことだけど」"
+				]
+			},
+			{
+				"LABEL": "0x1cfe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1d00",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1d02",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t運ばれてきた料理を口に運びながら、アーシノが話しか",
+					"\t\t\t\tける。"
+				]
+			},
+			{
+				"LABEL": "0x1d14",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1d16",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1d18",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアーシノが気に入っているだけあって、味は素晴らしい。"
+				]
+			},
+			{
+				"LABEL": "0x1d20",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1d22",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1d24",
+				"TYPE": "Voice",
+				"U32": [
+					6084
+				]
+			},
+			{
+				"LABEL": "0x1d2c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「トルティニタじゃないのか？」"
+				]
+			},
+			{
+				"LABEL": "0x1d3e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1d40",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1d42",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……だから、どうしてみんなトルタと組ませたがるん",
+					"\t\t\t\t　だよ」"
+				]
+			},
+			{
+				"LABEL": "0x1d5e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1d60",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1d62",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1d76",
+				"TYPE": "Voice",
+				"U32": [
+					6085
+				]
+			},
+			{
+				"LABEL": "0x1d7e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「それが自然だからだろ」"
+				]
+			},
+			{
+				"LABEL": "0x1d90",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1d92",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1d94",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「それはわかるけどね」"
+				]
+			},
+			{
+				"LABEL": "0x1da6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1da8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1daa",
+				"TYPE": "MoveChar",
+				"U32": [
+					103,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1dbe",
+				"TYPE": "Voice",
+				"U32": [
+					6086
+				]
+			},
+			{
+				"LABEL": "0x1dc6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「それに、お前が組んでくれないと俺が困るんだよ」"
+				]
+			},
+			{
+				"LABEL": "0x1dd8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1dda",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1ddc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ん？　どうしてアーシノが困るの？」"
+				]
+			},
+			{
+				"LABEL": "0x1dee",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1df0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1df2",
+				"TYPE": "MoveChar",
+				"U32": [
+					102,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1e06",
+				"TYPE": "Voice",
+				"U32": [
+					6087
+				]
+			},
+			{
+				"LABEL": "0x1e0e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「……トルティニタに脅されてるんだよ。協力しろって",
+					"\t\t\t\t　さ」"
+				]
+			},
+			{
+				"LABEL": "0x1e2a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1e2c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1e2e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……それは、嘘だね」"
+				]
+			},
+			{
+				"LABEL": "0x1e40",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1e42",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1e44",
+				"TYPE": "Voice",
+				"U32": [
+					6088
+				]
+			},
+			{
+				"LABEL": "0x1e4c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「口では言わないけどな。俺にはわかるんだよ」"
+				]
+			},
+			{
+				"LABEL": "0x1e5e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1e60",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1e62",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「勝手に言ってれば」"
+				]
+			},
+			{
+				"LABEL": "0x1e74",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1e76",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1e78",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1e8c",
+				"TYPE": "Voice",
+				"U32": [
+					6089
+				]
+			},
+			{
+				"LABEL": "0x1e94",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「まあ、それはどうでもいいんだが」"
+				]
+			},
+			{
+				"LABEL": "0x1ea6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1ea8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1eaa",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……いいんだ」"
+				]
+			},
+			{
+				"LABEL": "0x1ebc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1ebe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1ec0",
+				"TYPE": "Voice",
+				"U32": [
+					6090
+				]
+			},
+			{
+				"LABEL": "0x1ec8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「理由はなんなんだ？」"
+				]
+			},
+			{
+				"LABEL": "0x1eda",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1edc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1ede",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……僕がトルタと組まない理由？」"
+				]
+			},
+			{
+				"LABEL": "0x1ef0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1ef2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1ef4",
+				"TYPE": "Voice",
+				"U32": [
+					6091
+				]
+			},
+			{
+				"LABEL": "0x1efc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「俺には思いつかないんでね」"
+				]
+			},
+			{
+				"LABEL": "0x1f0e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1f10",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1f12",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「友人として、心配してくれてるの？　それとも……」"
+				]
+			},
+			{
+				"LABEL": "0x1f24",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1f26",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1f28",
+				"TYPE": "Voice",
+				"U32": [
+					6092
+				]
+			},
+			{
+				"LABEL": "0x1f30",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「もちろん、下世話な好奇心だよ」"
+				]
+			},
+			{
+				"LABEL": "0x1f42",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1f44",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1f46",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……はあ、ありがと。アルのことだよ」"
+				]
+			},
+			{
+				"LABEL": "0x1f58",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1f5a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1f5c",
+				"TYPE": "Voice",
+				"U32": [
+					6093
+				]
+			},
+			{
+				"LABEL": "0x1f64",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「アリエッタか。俺は会ったことがないからわからない",
+					"\t\t\t\t　が、お前にはトルティニタの方が似合ってると思うけ",
+					"\t\t\t\t　どな」"
+				]
+			},
+			{
+				"LABEL": "0x1f8a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1f8c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1f8e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「アーシノにはわからないよ。トルタは大丈夫。でもア",
+					"\t\t\t\t　ルは……」"
+				]
+			},
+			{
+				"LABEL": "0x1faa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1fac",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1fae",
+				"TYPE": "MoveChar",
+				"U32": [
+					102,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1fc2",
+				"TYPE": "Voice",
+				"U32": [
+					6094
+				]
+			},
+			{
+				"LABEL": "0x1fca",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「大丈夫じゃない……か。"
+				]
+			},
+			{
+				"LABEL": "0x1fdc",
+				"TYPE": "Wait",
+				"U32": [
+					2500
+				]
+			},
+			{
+				"LABEL": "0x1fe4",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1ff8",
+				"TYPE": "Text",
+				"STRING": [
+					"ま、お前のことだから好きに",
+					"\t\t\t\t　すればいいさ」"
+				]
+			},
+			{
+				"LABEL": "0x200a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x200c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x200e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「もちろんそのつもりだよ。そっちが振ってきたんだ",
+					"\t\t\t\t　ろ？」"
+				]
+			},
+			{
+				"LABEL": "0x202a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x202c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x202e",
+				"TYPE": "MoveChar",
+				"U32": [
+					103,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x2042",
+				"TYPE": "Voice",
+				"U32": [
+					6095
+				]
+			},
+			{
+				"LABEL": "0x204a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「心配なんだよ」"
+				]
+			},
+			{
+				"LABEL": "0x205c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x205e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2060",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「それよりも、自分の心配をまずしたら？」"
+				]
+			},
+			{
+				"LABEL": "0x2072",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2074",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2076",
+				"TYPE": "MoveChar",
+				"U32": [
+					102,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x208a",
+				"TYPE": "Voice",
+				"U32": [
+					6096
+				]
+			},
+			{
+				"LABEL": "0x2092",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【アーシノ】",
+					"\t\t\t\t「当たり前だ。誰がお前の心配してるって言った？」"
+				]
+			},
+			{
+				"LABEL": "0x20a4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x20a6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x20a8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「はいはい、ありがとね」"
+				]
+			},
+			{
+				"LABEL": "0x20ba",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x20bc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x20be",
+				"TYPE": "MoveChar",
+				"U32": [
+					100,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x20d2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアーシノのこういう言い方にはもう慣れた。"
+				]
+			},
+			{
+				"LABEL": "0x20da",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x20dc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x20de",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t本心から心配しているからこそ、あえて下世話な好奇心",
+					"\t\t\t\tだと言う。"
+				]
+			},
+			{
+				"LABEL": "0x20f0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x20f2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x20f4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t本当に好奇心から聞いているだけなら、初めから真摯な",
+					"\t\t\t\tふりをして、心配そうな顔をつくるような男だった。"
+				]
+			},
+			{
+				"LABEL": "0x2106",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2108",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x210a",
+				"TYPE": "AddMin",
+				"U32": [
+					60
+				]
+			},
+			{
+				"LABEL": "0x2112",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2114",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t――結局それが話したいことだったのか、それからは下",
+					"\t\t\t\tらない話しかしなかった。"
+				]
+			},
+			{
+				"LABEL": "0x2126",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2128",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x212a",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x212c",
+				"TYPE": "AddMin",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x2134",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					170,
+					1
+				]
+			},
+			{
+				"LABEL": "0x2142",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2144",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t食べ終わった後は、店を出てその場で別れる。"
+				]
+			},
+			{
+				"LABEL": "0x214c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x214e",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x2150",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					999,
+					1
+				]
+			},
+			{
+				"LABEL": "0x215e",
+				"TYPE": "AddMin",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x2166",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1260,
+					1
+				]
+			},
+			{
+				"LABEL": "0x2174",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2176",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ただいま」"
+				]
+			},
+			{
+				"LABEL": "0x2188",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x218a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x218c",
+				"TYPE": "Voice",
+				"U32": [
+					6097
+				]
+			},
+			{
+				"LABEL": "0x2194",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「あ、おかえり。今日は遅かったね」"
+				]
+			},
+			{
+				"LABEL": "0x21a6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x21a8",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x21aa",
+				"TYPE": "BGMPlay",
+				"U32": [
+					7
+				]
+			},
+			{
+				"LABEL": "0x21b2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x21b4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ご飯を外で食べてきたから」"
+				]
+			},
+			{
+				"LABEL": "0x21c6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x21c8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x21ca",
+				"TYPE": "MoveChar",
+				"U32": [
+					90,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x21de",
+				"TYPE": "Voice",
+				"U32": [
+					6098
+				]
+			},
+			{
+				"LABEL": "0x21e6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「あ、そうなんだ」"
+				]
+			},
+			{
+				"LABEL": "0x21f8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x21fa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x21fc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアーシノに紹介されたお店は、美味しかったし満足もし",
+					"\t\t\t\tていた。"
+				]
+			},
+			{
+				"LABEL": "0x220e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2210",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2212",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでも、アーシノの態度に少しだけ違和感を覚えた。"
+				]
+			},
+			{
+				"LABEL": "0x221a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x221c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x221e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそんなに心配されるようなことなんだろうか。"
+				]
+			},
+			{
+				"LABEL": "0x2226",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2228",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x222a",
+				"TYPE": "Voice",
+				"U32": [
+					6099
+				]
+			},
+			{
+				"LABEL": "0x2232",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「相手はアーシノ？」"
+				]
+			},
+			{
+				"LABEL": "0x2244",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2246",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2248",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「まあね」"
+				]
+			},
+			{
+				"LABEL": "0x225a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x225c",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x225e",
+				"TYPE": "GetWeek"
+			},
+			{
+				"LABEL": "0x2260",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x2262",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x2264",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x2266",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x2268",
+				"TYPE": "NE",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x2270",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x2282"
+			},
+			{
+				"LABEL": "0x2276",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x2816"
+			},
+			{
+				"LABEL": "0x227c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x2282"
+			},
+			{
+				"LABEL": "0x2282",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2284",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t簡単に、今日起こったことをフォーニに話す。"
+				]
+			},
+			{
+				"LABEL": "0x228c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x228e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2290",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tかわいい、と言われたことや、変に心配されていること",
+					"\t\t\t\tなんかだ。"
+				]
+			},
+			{
+				"LABEL": "0x22a2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x22a4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x22a6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……というわけ。ちょっとわけがわからなくてね」"
+				]
+			},
+			{
+				"LABEL": "0x22b8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x22ba",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x22bc",
+				"TYPE": "MoveChar",
+				"U32": [
+					93,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x22d0",
+				"TYPE": "Voice",
+				"U32": [
+					6100
+				]
+			},
+			{
+				"LABEL": "0x22d8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「あの、アーシノがね～」"
+				]
+			},
+			{
+				"LABEL": "0x22ea",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x22ec",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x22ee",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x22fc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t遠慮なく呼び捨てにしているが、フォーニはアーシノに",
+					"\t\t\t\t会ったことはない。"
+				]
+			},
+			{
+				"LABEL": "0x230e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2310",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2312",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t何度か家まで僕を迎えに来たこともあったけど、中に入",
+					"\t\t\t\tって話をするようなことは今までなかった。"
+				]
+			},
+			{
+				"LABEL": "0x2324",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2326",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2328",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t僕もアーシノの家には行ったことがない。"
+				]
+			},
+			{
+				"LABEL": "0x2330",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2332",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2334",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tただ、会えば話もするし、休みの日にふらっとどこかに",
+					"\t\t\t\t遊びに行くこともある。"
+				]
+			},
+			{
+				"LABEL": "0x2346",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2348",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x234a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t普通から考えればかなり特殊ではあったけど、それでも",
+					"\t\t\t\t僕達は友人に変わりない。"
+				]
+			},
+			{
+				"LABEL": "0x235c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x235e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2360",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tとにかくフォーニは、僕の話を聞いてアーシノがどんな",
+					"\t\t\t\t人間かを判断しているに過ぎない。"
+				]
+			},
+			{
+				"LABEL": "0x2372",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2374",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2376",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t彼女の中でのアーシノは、少々いい加減で女の子にもて",
+					"\t\t\t\tる、気障な詩人だった。"
+				]
+			},
+			{
+				"LABEL": "0x2388",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x238a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x238c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそうして彼女なりのイメージを少々勝手に作り上げてし",
+					"\t\t\t\tまうのは、僕以外の人と触れあうことがないフォーニな",
+					"\t\t\t\tりの、処世術なのかもしれなかった。"
+				]
+			},
+			{
+				"LABEL": "0x23a8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x23aa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x23ac",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tもっとも、その感覚はかなり優秀で、ほとんど間違いが",
+					"\t\t\t\tない。"
+				]
+			},
+			{
+				"LABEL": "0x23be",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x23c0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x23c2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「変でしょ？」"
+				]
+			},
+			{
+				"LABEL": "0x23d4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x23d6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x23d8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tもちろん一応は長い付き合いのある僕は、それほどアー",
+					"\t\t\t\tシノが単純な人間でないことくらいは知っている。"
+				]
+			},
+			{
+				"LABEL": "0x23ea",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x23ec",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x23ee",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t言葉を使うことに長けている彼が、全くの思いつきで言",
+					"\t\t\t\tったわけでないとも思った。"
+				]
+			},
+			{
+				"LABEL": "0x2400",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2402",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2404",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tただしそれは、少々勘ぐりすぎかもしれないとは思った",
+					"\t\t\t\tけど。"
+				]
+			},
+			{
+				"LABEL": "0x2416",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2418",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x241a",
+				"TYPE": "MoveChar",
+				"U32": [
+					93,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x242e",
+				"TYPE": "Voice",
+				"U32": [
+					6101
+				]
+			},
+			{
+				"LABEL": "0x2436",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「でもね、なんとなくわかる気がするよ」"
+				]
+			},
+			{
+				"LABEL": "0x2448",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x244a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x244c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「わかる？」"
+				]
+			},
+			{
+				"LABEL": "0x245e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2460",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2462",
+				"TYPE": "MoveChar",
+				"U32": [
+					96,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x2476",
+				"TYPE": "Voice",
+				"U32": [
+					6102
+				]
+			},
+			{
+				"LABEL": "0x247e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「ねえねえ、ちょっとちょっと」"
+				]
+			},
+			{
+				"LABEL": "0x2490",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2492",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2494",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t耳を貸せというように、フォーニが小さい手をかわいら",
+					"\t\t\t\tしく振った。"
+				]
+			},
+			{
+				"LABEL": "0x24a6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x24a8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x24aa",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……ん？」"
+				]
+			},
+			{
+				"LABEL": "0x24bc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x24be",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x24c0",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x24ce",
+				"TYPE": "Voice",
+				"U32": [
+					6103
+				]
+			},
+			{
+				"LABEL": "0x24d6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「クリスは、かわいいねぇ」"
+				]
+			},
+			{
+				"LABEL": "0x24e8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x24ea",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x24ec",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tふっと顔を近づけた瞬間、フォーニの手が僕の髪に触れ、",
+					"\t\t\t\tどうやら撫でられていることに気づく。"
+				]
+			},
+			{
+				"LABEL": "0x24fe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2500",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2502",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……おい」"
+				]
+			},
+			{
+				"LABEL": "0x2514",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2516",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2518",
+				"TYPE": "Voice",
+				"U32": [
+					6104
+				]
+			},
+			{
+				"LABEL": "0x2520",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「あははは」"
+				]
+			},
+			{
+				"LABEL": "0x2532",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2534",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2536",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t笑いながら、フォーニはその手を止めようとはしない。"
+				]
+			},
+			{
+				"LABEL": "0x253e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2540",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2542",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t彼女の腕自体が小さいために、手のひら全体で触れてい",
+					"\t\t\t\tても、指一本で触られているような感触だった。"
+				]
+			},
+			{
+				"LABEL": "0x2554",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2556",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2558",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれが少しくすぐったくて、顔を上げたいと思ったけど",
+					"\t\t\t\tすぐに思い直した。"
+				]
+			},
+			{
+				"LABEL": "0x256a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x256c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x256e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t今そんなことをしたら、髪に手がからまったりして、フ",
+					"\t\t\t\tォーニが転んでしまうんじゃないかと、余計な心配をし",
+					"\t\t\t\tてしまう。"
+				]
+			},
+			{
+				"LABEL": "0x258a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x258c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x258e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……フォーニ。顔を上げるから、手を離して」"
+				]
+			},
+			{
+				"LABEL": "0x25a0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x25a2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x25a4",
+				"TYPE": "Voice",
+				"U32": [
+					6105
+				]
+			},
+			{
+				"LABEL": "0x25ac",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「ええ？　どうしようかな～」"
+				]
+			},
+			{
+				"LABEL": "0x25be",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x25c0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x25c2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「聞いてるんじゃないの、やめてって言ってるんだって」"
+				]
+			},
+			{
+				"LABEL": "0x25d4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x25d6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x25d8",
+				"TYPE": "Voice",
+				"U32": [
+					6106
+				]
+			},
+			{
+				"LABEL": "0x25e0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「仕方がないなぁ。クリスはわがままなんだから」"
+				]
+			},
+			{
+				"LABEL": "0x25f2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x25f4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x25f6",
+				"TYPE": "MoveChar",
+				"U32": [
+					96,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x260a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……誰がわがままだって？」"
+				]
+			},
+			{
+				"LABEL": "0x261c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x261e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2620",
+				"TYPE": "MoveChar",
+				"U32": [
+					95,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x2634",
+				"TYPE": "Voice",
+				"U32": [
+					6107
+				]
+			},
+			{
+				"LABEL": "0x263c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「あれ？　聞こえなかったの？」"
+				]
+			},
+			{
+				"LABEL": "0x264e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2650",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2652",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……もういい」"
+				]
+			},
+			{
+				"LABEL": "0x2664",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2666",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2668",
+				"TYPE": "MoveChar",
+				"U32": [
+					93,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x267c",
+				"TYPE": "Voice",
+				"U32": [
+					6108
+				]
+			},
+			{
+				"LABEL": "0x2684",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【フォーニ】",
+					"\t\t\t\t「あはは、すねないでってば。それで？　あとはどんな",
+					"\t\t\t\t　ことがあったの？」"
+				]
+			},
+			{
+				"LABEL": "0x26a0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x26a2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x26a4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t本気で怒っていないのはお互いにわかっていたから、フ",
+					"\t\t\t\tォーニは満面に笑みを浮かべたまま、続けて訊ねた。"
+				]
+			},
+			{
+				"LABEL": "0x26b6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x26b8",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x26ba",
+				"TYPE": "BGMPlay",
+				"U32": [
+					13
+				]
+			},
+			{
+				"LABEL": "0x26c2",
+				"TYPE": "NovelMode",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x26ca",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x26cc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこうして、その日に起こったことをフォーニに話すのは、",
+					"\t\t\t\tもはや日課だった。"
+				]
+			},
+			{
+				"LABEL": "0x26de",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x26e0",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x26e2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tあまり外に出たがらない彼女が、それでも外の話を聞き",
+					"\t\t\t\tたがるせいだった。"
+				]
+			},
+			{
+				"LABEL": "0x26f4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x26f6",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x26f8",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x26fa",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t妖精という存在は曖昧で、三年近く一緒にいる僕でさえ、",
+					"\t\t\t\tよくわかっていない。"
+				]
+			},
+			{
+				"LABEL": "0x270c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x270e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2710",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t物に触れることはできるけど、雨には濡れない。"
+				]
+			},
+			{
+				"LABEL": "0x2718",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x271a",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x271c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tなにかを食べるわけでなく、疲れ知らずに歌を歌ったり",
+					"\t\t\t\tする。"
+				]
+			},
+			{
+				"LABEL": "0x272e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2730",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x2732",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t宙に浮かんではいるけど空は飛べず、消えたり現れたり",
+					"\t\t\t\tも自由自在だ。"
+				]
+			},
+			{
+				"LABEL": "0x2744",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2746",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x2748",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t物理法則を無視しているくせに、高いところにはいけな",
+					"\t\t\t\tいからって僕の手を煩わせることも多くあった。"
+				]
+			},
+			{
+				"LABEL": "0x275a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x275c",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x275e",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x2760",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t……でも、毎朝僕が出かけた後に玄関にタオルを置くの",
+					"\t\t\t\tは、いつの間にか決まったフォーニの仕事だった。"
+				]
+			},
+			{
+				"LABEL": "0x2772",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2774",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x2776",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t要するに、フォーニのことを理論的に考えることは不可",
+					"\t\t\t\t能だったし、彼女がそういう存在であることを受け入れ",
+					"\t\t\t\tさえすれば、それはそれで楽しくもある。"
+				]
+			},
+			{
+				"LABEL": "0x2792",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2794",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2796",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t歴史の教科書に載るような大昔、人々は『魔法』という",
+					"\t\t\t\t一つの文明を失った。"
+				]
+			},
+			{
+				"LABEL": "0x27a8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x27aa",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x27ac",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tいつしか『科学』という分野がそれに取って代わり、長",
+					"\t\t\t\tい年月をかけてそれなりに進歩を続けてはいる。"
+				]
+			},
+			{
+				"LABEL": "0x27be",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x27c0",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x27c2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれでも世界には、まだよくわかっていないことがたく",
+					"\t\t\t\tさんある。"
+				]
+			},
+			{
+				"LABEL": "0x27d4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x27d6",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x27d8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tその内の一つに、陽気で歌の巧い妖精がいたってだけの",
+					"\t\t\t\t話だ。"
+				]
+			},
+			{
+				"LABEL": "0x27ea",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x27ec",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x27ee",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x27f0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t世界の曖昧な境界線については、考えるだけ無駄だ。"
+				]
+			},
+			{
+				"LABEL": "0x27f8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x27fa",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x27fc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t今では、そう考えるようになっていた。"
+				]
+			},
+			{
+				"LABEL": "0x2804",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2806",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x2808",
+				"TYPE": "NovelMode",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2810",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x2840"
+			},
+			{
+				"LABEL": "0x2816",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2818",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x2826",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそして、いつものように、今日の出来事をフォーニに話",
+					"\t\t\t\tしてやった。"
+				]
+			},
+			{
+				"LABEL": "0x2838",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x283a",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x2840"
+			},
+			{
+				"LABEL": "0x2840",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x2842",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					999,
+					2
+				]
+			},
+			{
+				"LABEL": "0x2850",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x2858",
+				"TYPE": "SetTime",
+				"U32": [
+					2300
+				]
+			},
+			{
+				"LABEL": "0x2860",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1260,
+					2
+				]
+			},
+			{
+				"LABEL": "0x286e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2870",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこうして今日も、何事もなくというか、大した成果もな",
+					"\t\t\t\tいまま終わりを告げた。"
+				]
+			},
+			{
+				"LABEL": "0x2882",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2884",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x288c",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x288e",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x2890",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x2892",
+				"TYPE": "BlackOut",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x289a",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x28a2",
+				"TYPE": "GetWeek"
+			},
+			{
+				"LABEL": "0x28a4",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x28a6",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x28a8",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x28aa",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x28ac",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x28b4",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x28c8"
+			},
+			{
+				"LABEL": "0x28ba",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x28c2",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x28c8"
+			},
+			{
+				"LABEL": "0x28c8",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x28ca",
+				"TYPE": "EQ",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x28d2",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x28e6"
+			},
+			{
+				"LABEL": "0x28d8",
+				"TYPE": "SCNCHG",
+				"U32": [
+					8
+				]
+			},
+			{
+				"LABEL": "0x28e0",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x28e6"
+			},
+			{
+				"LABEL": "0x28e6",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x28e8",
+				"TYPE": "EQ",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x28f0",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x2904"
+			},
+			{
+				"LABEL": "0x28f6",
+				"TYPE": "SCNCHG",
+				"U32": [
+					16
+				]
+			},
+			{
+				"LABEL": "0x28fe",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x2904"
+			},
+			{
+				"LABEL": "0x2904",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x2906",
+				"TYPE": "EQ",
+				"U32": [
+					4
+				]
+			},
+			{
+				"LABEL": "0x290e",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x2922"
+			},
+			{
+				"LABEL": "0x2914",
+				"TYPE": "SCNCHG",
+				"U32": [
+					24
+				]
+			},
+			{
+				"LABEL": "0x291c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x2922"
+			},
+			{
+				"LABEL": "0x2922",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x2924",
+				"TYPE": "EQ",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x292c",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x2940"
+			},
+			{
+				"LABEL": "0x2932",
+				"TYPE": "SCNCHG",
+				"U32": [
+					32
+				]
+			},
+			{
+				"LABEL": "0x293a",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x2940"
+			},
+			{
+				"LABEL": "0x2940",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

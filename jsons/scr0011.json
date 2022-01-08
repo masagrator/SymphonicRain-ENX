@@ -1,0 +1,990 @@
+{
+	"HEADER": {
+		"FILE_ID": 11,
+		"CRC": "B6768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 11,
+				"UNK1": 58156,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1202,
+				"UNK5": 1320,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "a06"
+			}
+		],
+		"FUNS": [
+			"Func_a06"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "at01_4"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "af01_5"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "al01_5"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "ax02_5"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "ax01_4"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x74",
+				"TYPE": "DateHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x7c",
+				"TYPE": "TimeHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x84",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x8c",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					70,
+					3
+				]
+			},
+			{
+				"LABEL": "0x9a",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0xa2",
+				"TYPE": "MoveChar",
+				"U32": [
+					165,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xb6",
+				"TYPE": "Wait",
+				"U32": [
+					2500
+				]
+			},
+			{
+				"LABEL": "0xbe",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xcc",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xd4",
+				"TYPE": "DateShow",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xdc",
+				"TYPE": "TimeShow",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xe4",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1050,
+					3
+				]
+			},
+			{
+				"LABEL": "0xf2",
+				"TYPE": "BGMPlay",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0xfa",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x102",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x104",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t練習と食事。"
+				]
+			},
+			{
+				"LABEL": "0x10c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x10e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x110",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tお昼までのいつも通りの時間をいつも通りに過ごし、こ",
+					"\t\t\t\tれからどうしようかと考えていると、やっぱりトルタが",
+					"\t\t\t\t僕に話しかけてきた。"
+				]
+			},
+			{
+				"LABEL": "0x12c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x12e",
+				"TYPE": "BGMPlay",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x136",
+				"TYPE": "GETF",
+				"U32": [
+					14
+				]
+			},
+			{
+				"LABEL": "0x13e",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x146",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x158"
+			},
+			{
+				"LABEL": "0x14c",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x2cc"
+			},
+			{
+				"LABEL": "0x152",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x158"
+			},
+			{
+				"LABEL": "0x158",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x15a",
+				"TYPE": "MoveChar",
+				"U32": [
+					6,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x16e",
+				"TYPE": "Voice",
+				"U32": [
+					11001
+				]
+			},
+			{
+				"LABEL": "0x176",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「……もう、これで一週間よ？　そろそろ決まったの？」"
+				]
+			},
+			{
+				"LABEL": "0x188",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x18a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x18c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「いや、まあ、それなりには」"
+				]
+			},
+			{
+				"LABEL": "0x19e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1a0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1a2",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1b6",
+				"TYPE": "Voice",
+				"U32": [
+					11002
+				]
+			},
+			{
+				"LABEL": "0x1be",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「嘘だね。もう、今日こそは一緒に捜しに行くからね」"
+				]
+			},
+			{
+				"LABEL": "0x1d0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1d2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1d4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……それって、強制？」"
+				]
+			},
+			{
+				"LABEL": "0x1e6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1e8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1ea",
+				"TYPE": "MoveChar",
+				"U32": [
+					9,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1fe",
+				"TYPE": "Voice",
+				"U32": [
+					11003
+				]
+			},
+			{
+				"LABEL": "0x206",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「もちろん。選択の余地はありません」"
+				]
+			},
+			{
+				"LABEL": "0x218",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x21a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x21c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……はい」"
+				]
+			},
+			{
+				"LABEL": "0x22e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x230",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x232",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x246",
+				"TYPE": "Voice",
+				"U32": [
+					11004
+				]
+			},
+			{
+				"LABEL": "0x24e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「そんな顔しないの。怒ってるわけじゃないんだから」"
+				]
+			},
+			{
+				"LABEL": "0x260",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x262",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x264",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「そんなの、知ってるよ」"
+				]
+			},
+			{
+				"LABEL": "0x276",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x278",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x27a",
+				"TYPE": "MoveChar",
+				"U32": [
+					2,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x28e",
+				"TYPE": "Voice",
+				"U32": [
+					11005
+				]
+			},
+			{
+				"LABEL": "0x296",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「なら、行きましょう」"
+				]
+			},
+			{
+				"LABEL": "0x2a8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2aa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2ac",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……はいはい」"
+				]
+			},
+			{
+				"LABEL": "0x2be",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2c0",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x2c2",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x2c4",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2cc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2ce",
+				"TYPE": "MoveChar",
+				"U32": [
+					9,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x2e2",
+				"TYPE": "Voice",
+				"U32": [
+					11006
+				]
+			},
+			{
+				"LABEL": "0x2ea",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「……それで、調子はどうなの？」"
+				]
+			},
+			{
+				"LABEL": "0x2fc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2fe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x300",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「まあ、それなりに」"
+				]
+			},
+			{
+				"LABEL": "0x312",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x314",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x316",
+				"TYPE": "Voice",
+				"U32": [
+					11007
+				]
+			},
+			{
+				"LABEL": "0x31e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「なんか嘘っぽい言葉だけど……」"
+				]
+			},
+			{
+				"LABEL": "0x330",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x332",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x334",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「信じてもらうしかないね」"
+				]
+			},
+			{
+				"LABEL": "0x346",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x348",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x34a",
+				"TYPE": "MoveChar",
+				"U32": [
+					6,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x35e",
+				"TYPE": "Voice",
+				"U32": [
+					11008
+				]
+			},
+			{
+				"LABEL": "0x366",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「はあ……なんでこんなにやる気がないのかな？」"
+				]
+			},
+			{
+				"LABEL": "0x378",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x37a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x37c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「聞いても無駄だって、わかってて聞いてるんだよね？」"
+				]
+			},
+			{
+				"LABEL": "0x38e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x390",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x392",
+				"TYPE": "MoveChar",
+				"U32": [
+					9,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x3a6",
+				"TYPE": "Voice",
+				"U32": [
+					11009
+				]
+			},
+			{
+				"LABEL": "0x3ae",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「はいはい……わかってるって」"
+				]
+			},
+			{
+				"LABEL": "0x3c0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3c2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3c4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「ありがと」"
+				]
+			},
+			{
+				"LABEL": "0x3d6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3d8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3da",
+				"TYPE": "MoveChar",
+				"U32": [
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x3ee",
+				"TYPE": "Voice",
+				"U32": [
+					11010
+				]
+			},
+			{
+				"LABEL": "0x3f6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「じゃ、私はもう行くからね」"
+				]
+			},
+			{
+				"LABEL": "0x408",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x40a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x40c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「わかった。また来週」"
+				]
+			},
+			{
+				"LABEL": "0x41e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x420",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x422",
+				"TYPE": "Voice",
+				"U32": [
+					11011
+				]
+			},
+			{
+				"LABEL": "0x42a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【トルタ】",
+					"\t\t\t\t「ん、じゃあね」"
+				]
+			},
+			{
+				"LABEL": "0x43c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x43e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x440",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x44e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tさて、今日はどうしようか？"
+				]
+			},
+			{
+				"LABEL": "0x456",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x458",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x45a",
+				"TYPE": "BGMVol",
+				"U32": [
+					50
+				]
+			},
+			{
+				"LABEL": "0x462",
+				"TYPE": "BGMPlay",
+				"U32": [
+					11
+				]
+			},
+			{
+				"LABEL": "0x46a",
+				"TYPE": "UNK_x7D"
+			},
+			{
+				"LABEL": "0x46c",
+				"TYPE": "GETF",
+				"U32": [
+					8,
+					71
+				]
+			},
+			{
+				"LABEL": "0x47a",
+				"TYPE": "UNK_x7F"
+			},
+			{
+				"LABEL": "0x47c",
+				"TYPE": "GETF",
+				"U32": [
+					9,
+					72
+				]
+			},
+			{
+				"LABEL": "0x48a",
+				"TYPE": "UNK_x7F"
+			},
+			{
+				"LABEL": "0x48c",
+				"TYPE": "GETF",
+				"U32": [
+					3,
+					73
+				]
+			},
+			{
+				"LABEL": "0x49a",
+				"TYPE": "UNK_x7F"
+			},
+			{
+				"LABEL": "0x49c",
+				"TYPE": "GETF",
+				"U32": [
+					5,
+					74
+				]
+			},
+			{
+				"LABEL": "0x4aa",
+				"TYPE": "UNK_x7F"
+			},
+			{
+				"LABEL": "0x4ac",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x4b4",
+				"TYPE": "MapMove"
+			},
+			{
+				"LABEL": "0x4b6",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x4b8",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x4ba",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x4bc",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x4be",
+				"TYPE": "BGMVol",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0x4c6",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x4c8",
+				"TYPE": "EQ",
+				"U32": [
+					8
+				]
+			},
+			{
+				"LABEL": "0x4d0",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x4e6"
+			},
+			{
+				"LABEL": "0x4d6",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x4d8",
+				"TYPE": "SCNCHG",
+				"U32": [
+					11
+				]
+			},
+			{
+				"LABEL": "0x4e0",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x4e6"
+			},
+			{
+				"LABEL": "0x4e6",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x4e8",
+				"TYPE": "EQ",
+				"U32": [
+					9
+				]
+			},
+			{
+				"LABEL": "0x4f0",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x506"
+			},
+			{
+				"LABEL": "0x4f6",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x4f8",
+				"TYPE": "SCNCHG",
+				"U32": [
+					22
+				]
+			},
+			{
+				"LABEL": "0x500",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x506"
+			},
+			{
+				"LABEL": "0x506",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x508",
+				"TYPE": "EQ",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x510",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x526"
+			},
+			{
+				"LABEL": "0x516",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x518",
+				"TYPE": "SCNCHG",
+				"U32": [
+					33
+				]
+			},
+			{
+				"LABEL": "0x520",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x526"
+			},
+			{
+				"LABEL": "0x526",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x528",
+				"TYPE": "EQ",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x530",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x546"
+			},
+			{
+				"LABEL": "0x536",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x538",
+				"TYPE": "SCNCHG",
+				"U32": [
+					44
+				]
+			},
+			{
+				"LABEL": "0x540",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x546"
+			},
+			{
+				"LABEL": "0x546",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

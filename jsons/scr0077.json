@@ -1,0 +1,455 @@
+{
+	"HEADER": {
+		"FILE_ID": 77,
+		"CRC": "B6768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 77,
+				"UNK1": 11406,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1213,
+				"UNK5": 1320,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "b08"
+			}
+		],
+		"FUNS": [
+			"Func_b08"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "bl02"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "bxm04"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "bxm01_7"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "bfm03_1"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "bfm02_2"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x74",
+				"TYPE": "GETSF",
+				"U32": [
+					63
+				]
+			},
+			{
+				"LABEL": "0x7c",
+				"TYPE": "LNOT"
+			},
+			{
+				"LABEL": "0x7e",
+				"TYPE": "SkipDisable"
+			},
+			{
+				"LABEL": "0x80",
+				"TYPE": "DateHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x88",
+				"TYPE": "TimeHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x90",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x98",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					70,
+					1
+				]
+			},
+			{
+				"LABEL": "0xa6",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0xae",
+				"TYPE": "MoveChar",
+				"U32": [
+					176,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xc2",
+				"TYPE": "Wait",
+				"U32": [
+					2500
+				]
+			},
+			{
+				"LABEL": "0xca",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xd8",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xe0",
+				"TYPE": "DateShow",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xe8",
+				"TYPE": "TimeShow",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xf0",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1050,
+					1
+				]
+			},
+			{
+				"LABEL": "0xfe",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x106",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x108",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tさて、これからどうしようか。"
+				]
+			},
+			{
+				"LABEL": "0x110",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x112",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x114",
+				"TYPE": "BGMVol",
+				"U32": [
+					50
+				]
+			},
+			{
+				"LABEL": "0x11c",
+				"TYPE": "BGMPlay",
+				"U32": [
+					11
+				]
+			},
+			{
+				"LABEL": "0x124",
+				"TYPE": "UNK_x7D"
+			},
+			{
+				"LABEL": "0x126",
+				"TYPE": "GETV",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x12e",
+				"TYPE": "EQ",
+				"U32": [
+					4
+				]
+			},
+			{
+				"LABEL": "0x136",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x150"
+			},
+			{
+				"LABEL": "0x13c",
+				"TYPE": "UNK_x7F",
+				"U32": [
+					9,
+					1
+				]
+			},
+			{
+				"LABEL": "0x14a",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x150"
+			},
+			{
+				"LABEL": "0x150",
+				"TYPE": "UNK_x7F",
+				"U32": [
+					5,
+					1
+				]
+			},
+			{
+				"LABEL": "0x15e",
+				"TYPE": "GETV",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x166",
+				"TYPE": "GE",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x16e",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x188"
+			},
+			{
+				"LABEL": "0x174",
+				"TYPE": "UNK_x7F",
+				"U32": [
+					6,
+					1
+				]
+			},
+			{
+				"LABEL": "0x182",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x188"
+			},
+			{
+				"LABEL": "0x188",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x190",
+				"TYPE": "MapMove"
+			},
+			{
+				"LABEL": "0x192",
+				"TYPE": "DUP"
+			},
+			{
+				"LABEL": "0x194",
+				"TYPE": "SETRES"
+			},
+			{
+				"LABEL": "0x196",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0x198",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x19a",
+				"TYPE": "BGMVol",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0x1a2",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x1a4",
+				"TYPE": "EQ",
+				"U32": [
+					9
+				]
+			},
+			{
+				"LABEL": "0x1ac",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x1c0"
+			},
+			{
+				"LABEL": "0x1b2",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1ba",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x1c0"
+			},
+			{
+				"LABEL": "0x1c0",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x1c2",
+				"TYPE": "EQ",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x1ca",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x202"
+			},
+			{
+				"LABEL": "0x1d0",
+				"TYPE": "GETF",
+				"U32": [
+					65
+				]
+			},
+			{
+				"LABEL": "0x1d8",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x1e0",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x1f4"
+			},
+			{
+				"LABEL": "0x1e6",
+				"TYPE": "SCNCHG",
+				"U32": [
+					9
+				]
+			},
+			{
+				"LABEL": "0x1ee",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x1f4"
+			},
+			{
+				"LABEL": "0x1f4",
+				"TYPE": "SCNCHG",
+				"U32": [
+					19
+				]
+			},
+			{
+				"LABEL": "0x1fc",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x202"
+			},
+			{
+				"LABEL": "0x202",
+				"TYPE": "GETRES"
+			},
+			{
+				"LABEL": "0x204",
+				"TYPE": "EQ",
+				"U32": [
+					6
+				]
+			},
+			{
+				"LABEL": "0x20c",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x244"
+			},
+			{
+				"LABEL": "0x212",
+				"TYPE": "GETV",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x21a",
+				"TYPE": "EQ",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x222",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x236"
+			},
+			{
+				"LABEL": "0x228",
+				"TYPE": "SCNCHG",
+				"U32": [
+					31
+				]
+			},
+			{
+				"LABEL": "0x230",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x236"
+			},
+			{
+				"LABEL": "0x236",
+				"TYPE": "SCNCHG",
+				"U32": [
+					43
+				]
+			},
+			{
+				"LABEL": "0x23e",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x244"
+			},
+			{
+				"LABEL": "0x244",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}
