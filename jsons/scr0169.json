@@ -1,0 +1,965 @@
+{
+	"HEADER": {
+		"FILE_ID": 169,
+		"CRC": "B8768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 169,
+				"UNK1": 23527,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1231,
+				"UNK5": 2200,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "da02"
+			}
+		],
+		"FUNS": [
+			"Func_da02"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "da03"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x74",
+				"TYPE": "GETSF",
+				"U32": [
+					63
+				]
+			},
+			{
+				"LABEL": "0x7c",
+				"TYPE": "LNOT"
+			},
+			{
+				"LABEL": "0x7e",
+				"TYPE": "SkipDisable"
+			},
+			{
+				"LABEL": "0x80",
+				"TYPE": "DateHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x88",
+				"TYPE": "TimeHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x90",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x98",
+				"TYPE": "AddRainPower",
+				"U32": [
+					50
+				]
+			},
+			{
+				"LABEL": "0xa0",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1260,
+					3
+				]
+			},
+			{
+				"LABEL": "0xae",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0xb6",
+				"TYPE": "MoveChar",
+				"U32": [
+					194,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xca",
+				"TYPE": "Wait",
+				"U32": [
+					2500
+				]
+			},
+			{
+				"LABEL": "0xd2",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xe0",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xe8",
+				"TYPE": "BGMPlay",
+				"U32": [
+					12
+				]
+			},
+			{
+				"LABEL": "0xf0",
+				"TYPE": "NovelMode",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xf8",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x100",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x102",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t何日もこの部屋の中だけで過ごしている内に、一つの可",
+					"\t\t\t\t能性を考えずにはいられなくなった。"
+				]
+			},
+			{
+				"LABEL": "0x114",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x116",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x118",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tフォーニはすでに姿を現して、どこか別の場所に行って",
+					"\t\t\t\tしまったんじゃないだろうか、と。"
+				]
+			},
+			{
+				"LABEL": "0x12a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x12c",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x12e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそもそも、姿を現す必要もなく、好きなようにどこかへ",
+					"\t\t\t\t行けるのかもしれない。"
+				]
+			},
+			{
+				"LABEL": "0x140",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x142",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x144",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x146",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tなら、外に出てなにをしているんだろうか？"
+				]
+			},
+			{
+				"LABEL": "0x14e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x150",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x152",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t時間を潰している？"
+				]
+			},
+			{
+				"LABEL": "0x15a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x15c",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x15e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれとも、僕が改心するのをひたすらに待っているのか。"
+				]
+			},
+			{
+				"LABEL": "0x166",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x168",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x16a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t――フォーニという存在が、初めから幻だったとは考え",
+					"\t\t\t\tにくかった。"
+				]
+			},
+			{
+				"LABEL": "0x17c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x17e",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x180",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t確かにフォーニの歌声を聞いた者がいたのだし、それも",
+					"\t\t\t\t一人ではなかった。"
+				]
+			},
+			{
+				"LABEL": "0x192",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x194",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x196",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t学院の誰かと、屋台のおじさんの二人は少なくとも聴い",
+					"\t\t\t\tている。"
+				]
+			},
+			{
+				"LABEL": "0x1a8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1aa",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1ac",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1ae",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれに、アルからの手紙が詰まった引き出しには、フォ",
+					"\t\t\t\tーニが書いた汚い文字の歌詞が、今でもきちんと入って",
+					"\t\t\t\tいる。"
+				]
+			},
+			{
+				"LABEL": "0x1ca",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1cc",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1ce",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tあれから何度かその紙を眺め、その存在を確認したりし",
+					"\t\t\t\tた。"
+				]
+			},
+			{
+				"LABEL": "0x1e0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1e2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1e4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tだから、フォーニは、確かにここにいたんだ。"
+				]
+			},
+			{
+				"LABEL": "0x1ec",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1ee",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1f0",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1f2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t――なら、フォーニは、今どこにいるんだろう？"
+				]
+			},
+			{
+				"LABEL": "0x1fa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1fc",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1fe",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t消えたのと同じ場所で、じっと耳をこらしている？"
+				]
+			},
+			{
+				"LABEL": "0x206",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x208",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x20a",
+				"TYPE": "Wait",
+				"U32": [
+					2000
+				]
+			},
+			{
+				"LABEL": "0x212",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x214",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x216",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれとも、本当に外に出ていってしまったのか。"
+				]
+			},
+			{
+				"LABEL": "0x21e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x220",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x222",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x22a",
+				"TYPE": "NovelMode",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x232",
+				"TYPE": "DateShow",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x23a",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					2360,
+					3
+				]
+			},
+			{
+				"LABEL": "0x248",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x250",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x252",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t窓に近寄り、外を眺める。"
+				]
+			},
+			{
+				"LABEL": "0x25a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x25c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x25e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそこにフォーニがいるなんてちっとも思っていないのに、",
+					"\t\t\t\tその行動を止めることはできなかった。"
+				]
+			},
+			{
+				"LABEL": "0x270",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x272",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x274",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tなぜだか、身体が震え出す。"
+				]
+			},
+			{
+				"LABEL": "0x27c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x27e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x280",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tフォーニが、事故にでもあっているんじゃないかと、馬",
+					"\t\t\t\t鹿な妄想まで抱いてしまう。"
+				]
+			},
+			{
+				"LABEL": "0x292",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x294",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x296",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t彼女は妖精だ。"
+				]
+			},
+			{
+				"LABEL": "0x29e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2a0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2a2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t事故に遭う前に姿を消せばいい。"
+				]
+			},
+			{
+				"LABEL": "0x2aa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2ac",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2ae",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそもそも、外に出ていったという証拠すらもない。"
+				]
+			},
+			{
+				"LABEL": "0x2b6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2b8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2ba",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tここにいるはずだ。"
+				]
+			},
+			{
+				"LABEL": "0x2c2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2c4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2c6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそう思いながらも、やはり身体の震えがとまらなかった。"
+				]
+			},
+			{
+				"LABEL": "0x2ce",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2d0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2d2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……フォーニ」"
+				]
+			},
+			{
+				"LABEL": "0x2e4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2e6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2e8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t僕はもう、食事を作るのさえやめていた。"
+				]
+			},
+			{
+				"LABEL": "0x2f0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2f2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2f4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t極度の不安感と、焦りと……。"
+				]
+			},
+			{
+				"LABEL": "0x2fc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2fe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x300",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t後悔と懺悔。"
+				]
+			},
+			{
+				"LABEL": "0x308",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x30a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x30c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t――愛情と、ひょっとしたら少しの罪悪感と。"
+				]
+			},
+			{
+				"LABEL": "0x314",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x316",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x31e",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x320",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x328",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x32a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t様々な感情に支配され、僕は一人、震えていた。"
+				]
+			},
+			{
+				"LABEL": "0x332",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x334",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x336",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tいわれのない、焦燥感に駆られて。"
+				]
+			},
+			{
+				"LABEL": "0x33e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x340",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x342",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x34a",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x352",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x354",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……アリエッタ」"
+				]
+			},
+			{
+				"LABEL": "0x366",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x368",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x36a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t僕は、誰か違う人の名前を呼んでいた。"
+				]
+			},
+			{
+				"LABEL": "0x372",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x374",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x376",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでもそれが、誰の名前だったかも、すでに定かではない。"
+				]
+			},
+			{
+				"LABEL": "0x37e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x380",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x382",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t他にすることもなく、その気力もなく、ベッドに横たわ",
+					"\t\t\t\tり、静かに目を閉じた。"
+				]
+			},
+			{
+				"LABEL": "0x394",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x396",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x398",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x3a0",
+				"TYPE": "BlackOut",
+				"U32": [
+					28
+				]
+			},
+			{
+				"LABEL": "0x3a8",
+				"TYPE": "Wait",
+				"U32": [
+					2000
+				]
+			},
+			{
+				"LABEL": "0x3b0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3b2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t僕は闇の中で、やっぱり震えていた。"
+				]
+			},
+			{
+				"LABEL": "0x3ba",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3bc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3be",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれが夢なのかどうかもわからず、ただ、子供のように",
+					"\t\t\t\t身体を丸めて。"
+				]
+			},
+			{
+				"LABEL": "0x3d0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3d2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3d4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t暖房はつけたままにしてあるのに、寒さを感じている。"
+				]
+			},
+			{
+				"LABEL": "0x3dc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3de",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3e0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tどうやら風邪を引いたみたいだったけど、それに構って",
+					"\t\t\t\tいる余裕はなかった。"
+				]
+			},
+			{
+				"LABEL": "0x3f2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3f4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3f6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tベッドの中で、僕はただひたすらに朝が来るのを待って",
+					"\t\t\t\tいた。"
+				]
+			},
+			{
+				"LABEL": "0x408",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x40a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x40c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tまるで、明日になれば全てが良くなってくれると思いこ",
+					"\t\t\t\tんでいるかのように。"
+				]
+			},
+			{
+				"LABEL": "0x41e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x420",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x422",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t僕は一人、闇の中で身体を丸めていた。"
+				]
+			},
+			{
+				"LABEL": "0x42a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x42c",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x42e",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x436",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x438",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x43a",
+				"TYPE": "BlackOut",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x442",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x44a",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x452",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

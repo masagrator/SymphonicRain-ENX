@@ -1,0 +1,1210 @@
+{
+	"HEADER": {
+		"FILE_ID": 151,
+		"CRC": "B8768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 151,
+				"UNK1": 51987,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 115,
+				"UNK5": 900,
+				"UNK6": 115,
+				"UNK7": 2200,
+				"STRING": "df11"
+			}
+		],
+		"FUNS": [
+			"FuncFal_df11"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "df12"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x78",
+				"TYPE": "GETF",
+				"U32": [
+					48
+				]
+			},
+			{
+				"LABEL": "0x80",
+				"TYPE": "EQ",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x88",
+				"TYPE": "GETF",
+				"U32": [
+					49
+				]
+			},
+			{
+				"LABEL": "0x90",
+				"TYPE": "EQ",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x98",
+				"TYPE": "LAND"
+			},
+			{
+				"LABEL": "0x9a",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x634"
+			},
+			{
+				"LABEL": "0xa0",
+				"TYPE": "DUP",
+				"U32": [
+					49,
+					1
+				]
+			},
+			{
+				"LABEL": "0xae",
+				"TYPE": "SWAP2"
+			},
+			{
+				"LABEL": "0xb0",
+				"TYPE": "SETF"
+			},
+			{
+				"LABEL": "0xb2",
+				"TYPE": "POP"
+			},
+			{
+				"LABEL": "0xb4",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0xbc",
+				"TYPE": "SetTime",
+				"U32": [
+					1400
+				]
+			},
+			{
+				"LABEL": "0xc4",
+				"TYPE": "DateHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xcc",
+				"TYPE": "TimeHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xd4",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					2360,
+					1
+				]
+			},
+			{
+				"LABEL": "0xe2",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0xea",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xf2",
+				"TYPE": "MoveChar",
+				"U32": [
+					209,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x106",
+				"TYPE": "Wait",
+				"U32": [
+					2500
+				]
+			},
+			{
+				"LABEL": "0x10e",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x11c",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x124",
+				"TYPE": "DateShow",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x12c",
+				"TYPE": "TimeShow",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x134",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1260,
+					1
+				]
+			},
+			{
+				"LABEL": "0x142",
+				"TYPE": "BGMPlay",
+				"U32": [
+					12
+				]
+			},
+			{
+				"LABEL": "0x14a",
+				"TYPE": "Wait",
+				"U32": [
+					3000
+				]
+			},
+			{
+				"LABEL": "0x152",
+				"TYPE": "NovelMode",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x15a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x15c",
+				"TYPE": "Text",
+				"STRING": [
+					"十二月にファルさんとの練習が始まり、ナターレには彼",
+					"女との卒業演奏が正式に決まった。"
+				]
+			},
+			{
+				"LABEL": "0x16e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x170",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x172",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x174",
+				"TYPE": "Text",
+				"STRING": [
+					"それからというもの、自分でも驚くほどに練習に練習を",
+					"重ね、気づけばあと一週間を切るという時期まできた。"
+				]
+			},
+			{
+				"LABEL": "0x186",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x188",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x18a",
+				"TYPE": "Text",
+				"STRING": [
+					"辛いという感覚はそれほどなく、誰かのためになにかが",
+					"できているという充実感のほうが強い。"
+				]
+			},
+			{
+				"LABEL": "0x19c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x19e",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1a0",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1a2",
+				"TYPE": "Text",
+				"STRING": [
+					"そして、そのために犠牲にしてしまったことを、半ば放",
+					"り出すようにして、逃げている。"
+				]
+			},
+			{
+				"LABEL": "0x1b4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1b6",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1b8",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1ba",
+				"TYPE": "Text",
+				"STRING": [
+					"もし僕が手紙を書いたとしても、アリエッタはきっとそ",
+					"れを読まないだろう。"
+				]
+			},
+			{
+				"LABEL": "0x1cc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1ce",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1d0",
+				"TYPE": "Text",
+				"STRING": [
+					"そんな言い訳もあることにはある。"
+				]
+			},
+			{
+				"LABEL": "0x1d8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1da",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1dc",
+				"TYPE": "Text",
+				"STRING": [
+					"でも、僕からの手紙がアルの元へと届いたという事実は、",
+					"確実に彼女に伝わるはずだった。"
+				]
+			},
+			{
+				"LABEL": "0x1ee",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1f0",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1f2",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1f4",
+				"TYPE": "Text",
+				"STRING": [
+					"それをしないのは、怖いからだろう。"
+				]
+			},
+			{
+				"LABEL": "0x1fc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1fe",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x200",
+				"TYPE": "Text",
+				"STRING": [
+					"自分がこれ以上アルを裏切ってしまうことが。"
+				]
+			},
+			{
+				"LABEL": "0x208",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x20a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x20c",
+				"TYPE": "Locate",
+				"U32": [
+					11,
+					7
+				]
+			},
+			{
+				"LABEL": "0x21a",
+				"TYPE": "Text",
+				"STRING": [
+					"そして――"
+				]
+			},
+			{
+				"LABEL": "0x222",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x224",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x226",
+				"TYPE": "Text",
+				"STRING": [
+					"本当に自己中心的で、嫌な考えなんだろうけど――"
+				]
+			},
+			{
+				"LABEL": "0x22e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x230",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x232",
+				"TYPE": "Text",
+				"STRING": [
+					"ファルさんにそれを知られてしまうことが、だ。"
+				]
+			},
+			{
+				"LABEL": "0x23a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x23c",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x23e",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x240",
+				"TYPE": "Text",
+				"STRING": [
+					"僕がアリエッタと別れたと言ったら、ファルさんはどん",
+					"な顔をするだろう？"
+				]
+			},
+			{
+				"LABEL": "0x252",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x254",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x256",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x258",
+				"TYPE": "Text",
+				"STRING": [
+					"僕がアリエッタと仲直りをしたと言ったら？"
+				]
+			},
+			{
+				"LABEL": "0x260",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x262",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x264",
+				"TYPE": "SetTime",
+				"U32": [
+					1730
+				]
+			},
+			{
+				"LABEL": "0x26c",
+				"TYPE": "NovelMode",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x274",
+				"TYPE": "MoveChar",
+				"U32": [
+					95,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x288",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x28a",
+				"TYPE": "Voice",
+				"U32": [
+					151001
+				]
+			},
+			{
+				"LABEL": "0x292",
+				"TYPE": "Text",
+				"STRING": [
+					"【フォーニ】",
+					"「クリス」"
+				]
+			},
+			{
+				"LABEL": "0x2a4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2a6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2a8",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「……ん？」"
+				]
+			},
+			{
+				"LABEL": "0x2ba",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2bc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2be",
+				"TYPE": "Text",
+				"STRING": [
+					"気づくと心配そうな顔で、フォーニが僕を覗きこんでい",
+					"た。"
+				]
+			},
+			{
+				"LABEL": "0x2d0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2d2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2d4",
+				"TYPE": "Text",
+				"STRING": [
+					"昼過ぎに起きてから、なにもする気が起きず、時刻もす",
+					"でに夕方になっている。"
+				]
+			},
+			{
+				"LABEL": "0x2e6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2e8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2ea",
+				"TYPE": "Text",
+				"STRING": [
+					"昼まで眠り続けていた僕を起こしてから、ずっと心配し",
+					"ていたんだろうか？"
+				]
+			},
+			{
+				"LABEL": "0x2fc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2fe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x300",
+				"TYPE": "Text",
+				"STRING": [
+					"その顔はいつになく暗く、本気で僕のことを思っている",
+					"のがわかった。"
+				]
+			},
+			{
+				"LABEL": "0x312",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x314",
+				"TYPE": "MoveChar",
+				"U32": [
+					94,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x328",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x32a",
+				"TYPE": "Voice",
+				"U32": [
+					151002
+				]
+			},
+			{
+				"LABEL": "0x332",
+				"TYPE": "Text",
+				"STRING": [
+					"【フォーニ】",
+					"「起きてから、なんにも食べてないんでしょう？」"
+				]
+			},
+			{
+				"LABEL": "0x344",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x346",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x348",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「お腹が空けば、なにか食べるよ」"
+				]
+			},
+			{
+				"LABEL": "0x35a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x35c",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x35e",
+				"TYPE": "NovelMode",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x366",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x368",
+				"TYPE": "Text",
+				"STRING": [
+					"実際に、フォーニが思うほどには落ち込んでいるわけで",
+					"もなかった。"
+				]
+			},
+			{
+				"LABEL": "0x37a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x37c",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x37e",
+				"TYPE": "Text",
+				"STRING": [
+					"決して身体の調子が悪いということもなく、ただただ、",
+					"だるいだけだ。"
+				]
+			},
+			{
+				"LABEL": "0x390",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x392",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x394",
+				"TYPE": "Text",
+				"STRING": [
+					"ファルさんと会っていたり、フォーニやトルタと話して",
+					"いるときには感じない、焦燥感が身体を支配している。"
+				]
+			},
+			{
+				"LABEL": "0x3a6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3a8",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x3aa",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x3ac",
+				"TYPE": "Text",
+				"STRING": [
+					"特に今日は日曜日で、強くアルのことを思い出していた。"
+				]
+			},
+			{
+				"LABEL": "0x3b4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3b6",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x3b8",
+				"TYPE": "Text",
+				"STRING": [
+					"そして届くことのない手紙を、待ち続けている。"
+				]
+			},
+			{
+				"LABEL": "0x3c0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3c2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3c4",
+				"TYPE": "Locate",
+				"U32": [
+					7,
+					7
+				]
+			},
+			{
+				"LABEL": "0x3d2",
+				"TYPE": "Text",
+				"STRING": [
+					"……本当に待っているのか？"
+				]
+			},
+			{
+				"LABEL": "0x3da",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3dc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3de",
+				"TYPE": "Text",
+				"STRING": [
+					"そんな自問も、今日は嫌というほど繰り返した。"
+				]
+			},
+			{
+				"LABEL": "0x3e6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3e8",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x3ea",
+				"TYPE": "Text",
+				"STRING": [
+					"もし今アパートの玄関まで行って、ポストにアルからの",
+					"手紙が入っていたら、僕は喜ぶだろうか？"
+				]
+			},
+			{
+				"LABEL": "0x3fc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3fe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x400",
+				"TYPE": "Locate",
+				"U32": [
+					3,
+					7
+				]
+			},
+			{
+				"LABEL": "0x40e",
+				"TYPE": "Text",
+				"STRING": [
+					"――答えは、そのときにならないとわからない。"
+				]
+			},
+			{
+				"LABEL": "0x416",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x418",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x41a",
+				"TYPE": "NovelMode",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x422",
+				"TYPE": "MoveChar",
+				"U32": [
+					92,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x436",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x438",
+				"TYPE": "Voice",
+				"U32": [
+					151003
+				]
+			},
+			{
+				"LABEL": "0x440",
+				"TYPE": "Text",
+				"STRING": [
+					"【フォーニ】",
+					"「……わかった。もういいよ」"
+				]
+			},
+			{
+				"LABEL": "0x452",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x454",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x456",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「ごめんね」"
+				]
+			},
+			{
+				"LABEL": "0x468",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x46a",
+				"TYPE": "MoveChar",
+				"U32": [
+					94,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x47e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x480",
+				"TYPE": "Voice",
+				"U32": [
+					151004
+				]
+			},
+			{
+				"LABEL": "0x488",
+				"TYPE": "Text",
+				"STRING": [
+					"【フォーニ】",
+					"「謝らないで。それならもうちょっと元気出してくれる",
+					"　方が、ずっといい」"
+				]
+			},
+			{
+				"LABEL": "0x4a4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4a6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4a8",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「なら、ポストでも見てこようかな」"
+				]
+			},
+			{
+				"LABEL": "0x4ba",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4bc",
+				"TYPE": "MoveChar",
+				"U32": [
+					95,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x4d0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4d2",
+				"TYPE": "Voice",
+				"U32": [
+					151005
+				]
+			},
+			{
+				"LABEL": "0x4da",
+				"TYPE": "Text",
+				"STRING": [
+					"【フォーニ】",
+					"「来るの？」"
+				]
+			},
+			{
+				"LABEL": "0x4ec",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4ee",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4f0",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「いや、多分来ないと思う」"
+				]
+			},
+			{
+				"LABEL": "0x502",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x504",
+				"TYPE": "MoveChar",
+				"U32": [
+					92,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x518",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x51a",
+				"TYPE": "Voice",
+				"U32": [
+					151006
+				]
+			},
+			{
+				"LABEL": "0x522",
+				"TYPE": "Text",
+				"STRING": [
+					"【フォーニ】",
+					"「なら、なんで見に行くの？」"
+				]
+			},
+			{
+				"LABEL": "0x534",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x536",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x538",
+				"TYPE": "Text",
+				"STRING": [
+					"【クリス】",
+					"「見に行きたいからだよ」"
+				]
+			},
+			{
+				"LABEL": "0x54a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x54c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x54e",
+				"TYPE": "Text",
+				"STRING": [
+					"多分、フォーニには納得できないような理由で、僕はポ",
+					"ストを眺めに行った。"
+				]
+			},
+			{
+				"LABEL": "0x560",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x562",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x564",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x566",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x56e",
+				"TYPE": "SEPlay",
+				"U32": [
+					35
+				]
+			},
+			{
+				"LABEL": "0x576",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x57e",
+				"TYPE": "SetTime",
+				"U32": [
+					2100
+				]
+			},
+			{
+				"LABEL": "0x586",
+				"TYPE": "NovelMode",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x58e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x590",
+				"TYPE": "Text",
+				"STRING": [
+					"ポストの蓋を手でもてあそびながら、何も入っていない",
+					"郵便受けを何度か確認して、再び部屋に戻る。"
+				]
+			},
+			{
+				"LABEL": "0x5a2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5a4",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x5a6",
+				"TYPE": "Text",
+				"STRING": [
+					"それを何回か繰り返していると、すぐに辺りは暗くなっ",
+					"ていった。"
+				]
+			},
+			{
+				"LABEL": "0x5b8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5ba",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x5bc",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x5be",
+				"TYPE": "Text",
+				"STRING": [
+					"フォーニは結局、アンサンブルをしようとは一言も言わ",
+					"なかった。"
+				]
+			},
+			{
+				"LABEL": "0x5d0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5d2",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x5d4",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x5d6",
+				"TYPE": "Text",
+				"STRING": [
+					"手紙の存在などなかったかのように振る舞い、今まで築",
+					"いてきた習慣さえも、忘れたように、ただ、僕が眠りに",
+					"つくまで一緒にいてくれた。"
+				]
+			},
+			{
+				"LABEL": "0x5f2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5f4",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x5f6",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x5f8",
+				"TYPE": "Text",
+				"STRING": [
+					"せっかくファルさんに断って休みをもらったのに、そん",
+					"な風にして、一日は無駄に過ぎていった。"
+				]
+			},
+			{
+				"LABEL": "0x60a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x60c",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x60e",
+				"TYPE": "NovelMode",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x616",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x61e",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x626",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x62e",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x634"
+			},
+			{
+				"LABEL": "0x634",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

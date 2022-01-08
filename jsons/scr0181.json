@@ -1,0 +1,233 @@
+{
+	"HEADER": {
+		"FILE_ID": 181,
+		"CRC": "B8768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 181,
+				"UNK1": 13948,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1220,
+				"UNK5": 1330,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "bxm05"
+			}
+		],
+		"FUNS": [
+			"Func_bxm05"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "b16"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x76",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x7e",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1030,
+					3
+				]
+			},
+			{
+				"LABEL": "0x8c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x8e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t結局、僕はファルさんの待つ練習室にも向かわず、一人",
+					"\t\t\t\tでぼんやりとしていた。"
+				]
+			},
+			{
+				"LABEL": "0xa0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xa4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t誰かの曲を練習する気にもなれず、ただ、時間を潰す。"
+				]
+			},
+			{
+				"LABEL": "0xac",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xae",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xb0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアルのため――"
+				]
+			},
+			{
+				"LABEL": "0xb8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xba",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xbc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれが一番良いんだろう。"
+				]
+			},
+			{
+				"LABEL": "0xc4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xc8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tここまで時間を延ばしてしまって、ファルさんには本当",
+					"\t\t\t\tに申し訳ないことをしたとは思う。"
+				]
+			},
+			{
+				"LABEL": "0xda",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xdc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xde",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでも、僕はそうすることを選んだ。"
+				]
+			},
+			{
+				"LABEL": "0xe6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xea",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t金曜日になれば、見も知らぬパートナーとの練習に明け",
+					"\t\t\t\t暮れることになるだろう。"
+				]
+			},
+			{
+				"LABEL": "0xfc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xfe",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x100",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tアルからの手紙を待ち、卒業までをそんな風にして過ご",
+					"\t\t\t\tす。"
+				]
+			},
+			{
+				"LABEL": "0x112",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x114",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x116",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれは、今までとなんら変わりなかった。"
+				]
+			},
+			{
+				"LABEL": "0x11e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x120",
+				"TYPE": "GETSF",
+				"U32": [
+					63
+				]
+			},
+			{
+				"LABEL": "0x128",
+				"TYPE": "LNOT"
+			},
+			{
+				"LABEL": "0x12a",
+				"TYPE": "SkipDisable"
+			},
+			{
+				"LABEL": "0x12c",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x12e",
+				"TYPE": "BlackOut",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x136",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x13e",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x146",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

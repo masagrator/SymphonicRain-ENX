@@ -1,0 +1,104 @@
+{
+	"HEADER": {
+		"FILE_ID": 180,
+		"CRC": "B8768558",
+		"REGISTRATION_BLOCK": [],
+		"FUNS": [
+			"Func_b05_2"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "ba01"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "bl01"
+			},
+			{
+				"TYPE": 3,
+				"STRING": "b06"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x56",
+				"TYPE": "GETV",
+				"U32": [
+					4
+				]
+			},
+			{
+				"LABEL": "0x5e",
+				"TYPE": "EQ",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x66",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x7a"
+			},
+			{
+				"LABEL": "0x6c",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x74",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x7a"
+			},
+			{
+				"LABEL": "0x7a",
+				"TYPE": "GETV",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x82",
+				"TYPE": "EQ",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x8a",
+				"TYPE": "JZ",
+				"JUMP_TO_LABEL": "0x9e"
+			},
+			{
+				"LABEL": "0x90",
+				"TYPE": "SCNCHG",
+				"U32": [
+					9
+				]
+			},
+			{
+				"LABEL": "0x98",
+				"TYPE": "JMP",
+				"JUMP_TO_LABEL": "0x9e"
+			},
+			{
+				"LABEL": "0x9e",
+				"TYPE": "SCNCHG",
+				"U32": [
+					18
+				]
+			},
+			{
+				"LABEL": "0xa6",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

@@ -1,0 +1,1709 @@
+{
+	"HEADER": {
+		"FILE_ID": 179,
+		"CRC": "B8768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 179,
+				"UNK1": 33427,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 110,
+				"UNK5": 800,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "dl06"
+			}
+		],
+		"FUNS": [
+			"Func_dl06"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "dl07"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x74",
+				"TYPE": "GETSF",
+				"U32": [
+					63
+				]
+			},
+			{
+				"LABEL": "0x7c",
+				"TYPE": "LNOT"
+			},
+			{
+				"LABEL": "0x7e",
+				"TYPE": "SkipDisable"
+			},
+			{
+				"LABEL": "0x80",
+				"TYPE": "SetWeather",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x88",
+				"TYPE": "DateHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x90",
+				"TYPE": "TimeHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x98",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					2360,
+					1
+				]
+			},
+			{
+				"LABEL": "0xa6",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0xae",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xb6",
+				"TYPE": "MoveChar",
+				"U32": [
+					204,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xca",
+				"TYPE": "Wait",
+				"U32": [
+					2500
+				]
+			},
+			{
+				"LABEL": "0xd2",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xe0",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xe8",
+				"TYPE": "SetTime",
+				"U32": [
+					1004
+				]
+			},
+			{
+				"LABEL": "0xf0",
+				"TYPE": "DateShow",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xf8",
+				"TYPE": "TimeShow",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x100",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					70,
+					1
+				]
+			},
+			{
+				"LABEL": "0x10e",
+				"TYPE": "BGMPlay",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x116",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x118",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t昨日の出来事のせいか、あまりよくは眠れなかった。"
+				]
+			},
+			{
+				"LABEL": "0x120",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x122",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x124",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでも、寝不足の身体を……重い身体を引きずってでも、",
+					"\t\t\t\t僕は学院に来なければならなかった。"
+				]
+			},
+			{
+				"LABEL": "0x136",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x138",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x13a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tリセのことを知っているらしいコーデル先生に、話を聞",
+					"\t\t\t\tこうと思ったのは自然なことだろう。"
+				]
+			},
+			{
+				"LABEL": "0x14c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x14e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x150",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t具体的な話で無くても構わない。"
+				]
+			},
+			{
+				"LABEL": "0x158",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x15a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x15c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tただ、彼女のクラスを聞くだけでも良い。"
+				]
+			},
+			{
+				"LABEL": "0x164",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x166",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x168",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t結局最後には、僕自身が彼女と話をしなければならなかっ",
+					"\t\t\t\tた。"
+				]
+			},
+			{
+				"LABEL": "0x17a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x17c",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x17e",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x186",
+				"TYPE": "AddMin",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x18e",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x196",
+				"TYPE": "SEPlay",
+				"U32": [
+					22
+				]
+			},
+			{
+				"LABEL": "0x19e",
+				"TYPE": "Wait",
+				"U32": [
+					800
+				]
+			},
+			{
+				"LABEL": "0x1a6",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1040,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1b4",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x1bc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1be",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tレッスン室に着くと、コーデル先生は少し暇そうで、椅",
+					"\t\t\t\t子に深く腰を掛けて本を読んでいるところだった。"
+				]
+			},
+			{
+				"LABEL": "0x1d0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1d2",
+				"TYPE": "MoveChar",
+				"U32": [
+					104,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x1e6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1e8",
+				"TYPE": "Voice",
+				"U32": [
+					179001
+				]
+			},
+			{
+				"LABEL": "0x1f0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「クリスか。今日はどうした？　フォルテールを持って",
+					"\t\t\t\t　いないところを見ると、練習でもなさそうだな」"
+				]
+			},
+			{
+				"LABEL": "0x20c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x20e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x210",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……先生。ちょっとお聞きしたいことが」"
+				]
+			},
+			{
+				"LABEL": "0x222",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x224",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x226",
+				"TYPE": "Voice",
+				"U32": [
+					179002
+				]
+			},
+			{
+				"LABEL": "0x22e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「なんだ？　わざわざここまで来るとは」"
+				]
+			},
+			{
+				"LABEL": "0x240",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x242",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x244",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t少しだけ真剣な表情になって、コーデル先生は僕の方を",
+					"\t\t\t\t向いた。"
+				]
+			},
+			{
+				"LABEL": "0x256",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x258",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x25a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「リセの……リセルシアのクラスって、どこだかわかり",
+					"\t\t\t\t　ますか？」"
+				]
+			},
+			{
+				"LABEL": "0x276",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x278",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x27a",
+				"TYPE": "Voice",
+				"U32": [
+					179003
+				]
+			},
+			{
+				"LABEL": "0x282",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「それがどうかしたのか？」"
+				]
+			},
+			{
+				"LABEL": "0x294",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x296",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x298",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……ちょっと、仲違いをしてしまいまして」"
+				]
+			},
+			{
+				"LABEL": "0x2aa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2ac",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2ae",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tその言葉が正確かどうかは別にして、あの状況をうまく",
+					"\t\t\t\t説明するのは無理そうだった。"
+				]
+			},
+			{
+				"LABEL": "0x2c0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2c2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2c4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t僕自身も、リセすらもわかっていなかったから。"
+				]
+			},
+			{
+				"LABEL": "0x2cc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2ce",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2d0",
+				"TYPE": "MoveChar",
+				"U32": [
+					105,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x2e4",
+				"TYPE": "Voice",
+				"U32": [
+					179004
+				]
+			},
+			{
+				"LABEL": "0x2ec",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「また、いきなりだな。"
+				]
+			},
+			{
+				"LABEL": "0x2fe",
+				"TYPE": "Wait",
+				"U32": [
+					700
+				]
+			},
+			{
+				"LABEL": "0x306",
+				"TYPE": "MoveChar",
+				"U32": [
+					104,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x31a",
+				"TYPE": "Text",
+				"STRING": [
+					"それで謝りに行くのか？」"
+				]
+			},
+			{
+				"LABEL": "0x322",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x324",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x326",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……そんなところです」"
+				]
+			},
+			{
+				"LABEL": "0x338",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x33a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x33c",
+				"TYPE": "Voice",
+				"U32": [
+					179005
+				]
+			},
+			{
+				"LABEL": "0x344",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「リセルシアは……確か一年のフォルテール科の、第二",
+					"\t\t\t\t　クラスだったはずだ。確か今なら、科の掲示板に時間",
+					"\t\t\t\t　割が貼ってあるはずだ。学期の始まりだからな」"
+				]
+			},
+			{
+				"LABEL": "0x36a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x36c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x36e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……ありがとうございます」"
+				]
+			},
+			{
+				"LABEL": "0x380",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x382",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x384",
+				"TYPE": "MoveChar",
+				"U32": [
+					105,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x398",
+				"TYPE": "Voice",
+				"U32": [
+					179006
+				]
+			},
+			{
+				"LABEL": "0x3a0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「こんな時期に仲違いとはな。いったいなにをやらかし",
+					"\t\t\t\t　たんだ？」"
+				]
+			},
+			{
+				"LABEL": "0x3bc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3be",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3c0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……さあ？　僕が知りたいくらいです」"
+				]
+			},
+			{
+				"LABEL": "0x3d2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3d4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x3d6",
+				"TYPE": "Voice",
+				"U32": [
+					179007
+				]
+			},
+			{
+				"LABEL": "0x3de",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「自覚がないとはな……"
+				]
+			},
+			{
+				"LABEL": "0x3f0",
+				"TYPE": "Wait",
+				"U32": [
+					700
+				]
+			},
+			{
+				"LABEL": "0x3f8",
+				"TYPE": "MoveChar",
+				"U32": [
+					104,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x40c",
+				"TYPE": "Text",
+				"STRING": [
+					"まあいい、残り時間は少ないぞ。",
+					"\t\t\t\t　そのまま終わることのないように」"
+				]
+			},
+			{
+				"LABEL": "0x41e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x420",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x422",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「努力します」"
+				]
+			},
+			{
+				"LABEL": "0x434",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x436",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x438",
+				"TYPE": "MoveChar",
+				"U32": [
+					106,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x44c",
+				"TYPE": "Voice",
+				"U32": [
+					179008
+				]
+			},
+			{
+				"LABEL": "0x454",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「一応、とは言わないんだな」"
+				]
+			},
+			{
+				"LABEL": "0x466",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x468",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x46a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……一応は、真面目に考えてるんですよ」"
+				]
+			},
+			{
+				"LABEL": "0x47c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x47e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x480",
+				"TYPE": "MoveChar",
+				"U32": [
+					104,
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x494",
+				"TYPE": "Voice",
+				"U32": [
+					179009
+				]
+			},
+			{
+				"LABEL": "0x49c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【コーデル】",
+					"\t\t\t\t「ならいい。さ、チャイムが鳴る前に急げ」"
+				]
+			},
+			{
+				"LABEL": "0x4ae",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4b0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4b2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「はい！」"
+				]
+			},
+			{
+				"LABEL": "0x4c4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4c6",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x4c8",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x4ca",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1020,
+					1
+				]
+			},
+			{
+				"LABEL": "0x4d8",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x4e0",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x4e8",
+				"TYPE": "AddMin",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x4f0",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x4f8",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					70,
+					1
+				]
+			},
+			{
+				"LABEL": "0x506",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x50e",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x516",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x51e",
+				"TYPE": "AddMin",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x526",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1020,
+					1
+				]
+			},
+			{
+				"LABEL": "0x534",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x536",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t急いで、フォルテール科の一年生の時間割を確認する。"
+				]
+			},
+			{
+				"LABEL": "0x53e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x540",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x542",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t月曜日の二時限目は、第三講義室で和声学か。"
+				]
+			},
+			{
+				"LABEL": "0x54a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x54c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x54e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t一年生の時は、全ての科目は必修となっているが、声楽",
+					"\t\t\t\tに関する授業だけあって、リセも休む可能性はさらに少",
+					"\t\t\t\tなくなるだろう。"
+				]
+			},
+			{
+				"LABEL": "0x56a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x56c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x56e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tとりあえず都合が良かったので、もう一度第一校舎へと",
+					"\t\t\t\t戻る。"
+				]
+			},
+			{
+				"LABEL": "0x580",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x582",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x584",
+				"TYPE": "BlackOut",
+				"U32": [
+					18
+				]
+			},
+			{
+				"LABEL": "0x58c",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x594",
+				"TYPE": "SEPlay",
+				"U32": [
+					47
+				]
+			},
+			{
+				"LABEL": "0x59c",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x5a4",
+				"TYPE": "AddMin",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x5ac",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x5b4",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1020,
+					18
+				]
+			},
+			{
+				"LABEL": "0x5c2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x5c4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t外から中を見る限り、リセの姿はない。"
+				]
+			},
+			{
+				"LABEL": "0x5cc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5ce",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x5d0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t誰かに聞くにしても、どうしよう。"
+				]
+			},
+			{
+				"LABEL": "0x5d8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5da",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x5dc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tまだチャイムが鳴る前だったから、講義室の中に入るこ",
+					"\t\t\t\tとは自由だった。"
+				]
+			},
+			{
+				"LABEL": "0x5ee",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x5f0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x5f2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでも、さすがに他学年の生徒がいきなり入ってきたら、",
+					"\t\t\t\tびっくりされるというか、異質な目で見られるだけだろ",
+					"\t\t\t\tう。"
+				]
+			},
+			{
+				"LABEL": "0x60e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x610",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x612",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれほど体裁にこだわっているわけではないが、最終的",
+					"\t\t\t\tにリセにしわ寄せが来るとも限らない。"
+				]
+			},
+			{
+				"LABEL": "0x624",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x626",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x628",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t出来る限り目立たぬよう、講義室に入ろうとしている生",
+					"\t\t\t\t徒に話しかけることにした。"
+				]
+			},
+			{
+				"LABEL": "0x63a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x63c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x63e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「あの……すみません」"
+				]
+			},
+			{
+				"LABEL": "0x650",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x652",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x654",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t授業が始まる直前ということもあって、僕の前を通り過",
+					"\t\t\t\tぎようとした女子生徒は、少し急いでいた。"
+				]
+			},
+			{
+				"LABEL": "0x666",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x668",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x66a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれに話しかけるのは、普段なら絶対にできなかっただ",
+					"\t\t\t\tろう。"
+				]
+			},
+			{
+				"LABEL": "0x67c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x67e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x680",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでも今は、そんなことも言っていられない。"
+				]
+			},
+			{
+				"LABEL": "0x688",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x68a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x68c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「フォルテール科一年の第二クラスの方ですよね？」"
+				]
+			},
+			{
+				"LABEL": "0x69e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x6a0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x6a2",
+				"TYPE": "Voice",
+				"U32": [
+					179010
+				]
+			},
+			{
+				"LABEL": "0x6aa",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【女子生徒】",
+					"\t\t\t\t「は……はい」"
+				]
+			},
+			{
+				"LABEL": "0x6bc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x6be",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x6c0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「一つお聞きしたいんですが、リセルシア・チェザリー",
+					"\t\t\t\t　ニという生徒がクラスにいますよね？」"
+				]
+			},
+			{
+				"LABEL": "0x6dc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x6de",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x6e0",
+				"TYPE": "Voice",
+				"U32": [
+					179011
+				]
+			},
+			{
+				"LABEL": "0x6e8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【女子生徒】",
+					"\t\t\t\t「……はい」"
+				]
+			},
+			{
+				"LABEL": "0x6fa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x6fc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x6fe",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「一時限目の授業に、彼女は来ていましたか？」"
+				]
+			},
+			{
+				"LABEL": "0x710",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x712",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x714",
+				"TYPE": "Voice",
+				"U32": [
+					179012
+				]
+			},
+			{
+				"LABEL": "0x71c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【女子生徒】",
+					"\t\t\t\t「わかりません。でも多分、今日は見てないんじゃない",
+					"\t\t\t\t　ですか？」"
+				]
+			},
+			{
+				"LABEL": "0x738",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x73a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x73c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tリセの名前を出した途端、明らかに態度が変わる。"
+				]
+			},
+			{
+				"LABEL": "0x744",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x746",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x748",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t学年ごとに分けられたネクタイの色から、僕が上級生で",
+					"\t\t\t\tあることは、多分わかっているはずだ。"
+				]
+			},
+			{
+				"LABEL": "0x75a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x75c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x75e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれでもなお、リセのことを訊ねているという事実だけ",
+					"\t\t\t\tで、彼女は僕を軽んじるように、面倒くさそうにそう答",
+					"\t\t\t\tえた。"
+				]
+			},
+			{
+				"LABEL": "0x77a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x77c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x77e",
+				"TYPE": "Voice",
+				"U32": [
+					179013
+				]
+			},
+			{
+				"LABEL": "0x786",
+				"TYPE": "Text",
+				"STRING": [
+					"\t【女子生徒】",
+					"\t\t\t\t「失礼します」"
+				]
+			},
+			{
+				"LABEL": "0x798",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x79a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x79c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t彼女は、それでもなんとか軽く頭を下げて、講義室へと",
+					"\t\t\t\t入っていった。"
+				]
+			},
+			{
+				"LABEL": "0x7ae",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7b0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7b2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tその後についていくわけにも行かず、もう一度後ろのド",
+					"\t\t\t\tアから講義室の中を見渡す。"
+				]
+			},
+			{
+				"LABEL": "0x7c4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7c6",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x7c8",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1060,
+					1
+				]
+			},
+			{
+				"LABEL": "0x7d6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7d8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t例え後ろ姿であったとしても、リセならわかるはずだっ",
+					"\t\t\t\tた。"
+				]
+			},
+			{
+				"LABEL": "0x7ea",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7ec",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7ee",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれだけは自信がある。"
+				]
+			},
+			{
+				"LABEL": "0x7f6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x7f8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7fa",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t彼女はここにいない。"
+				]
+			},
+			{
+				"LABEL": "0x802",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x804",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x806",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれだけ確信して、とりあえず時間を潰すために食堂へ",
+					"\t\t\t\tと向かった。"
+				]
+			},
+			{
+				"LABEL": "0x818",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x81a",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x81c",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x824",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x82c",
+				"TYPE": "AddMin",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0x834",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1050,
+					1
+				]
+			},
+			{
+				"LABEL": "0x842",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x84a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x84c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t食堂には、もちろんリセの姿はない。"
+				]
+			},
+			{
+				"LABEL": "0x854",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x856",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x858",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれでも、なんとなくここまで来てしまったのは、ただ",
+					"\t\t\t\tの習慣に過ぎなかった。"
+				]
+			},
+			{
+				"LABEL": "0x86a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x86c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x86e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t【クリス】",
+					"\t\t\t\t「……」"
+				]
+			},
+			{
+				"LABEL": "0x880",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x882",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x884",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tなんとなく食堂全体を見回して、それからすぐに、ここ",
+					"\t\t\t\tを出ようと思った。"
+				]
+			},
+			{
+				"LABEL": "0x896",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x898",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x89a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tトルタに会ったとしても、今は何も言えないだろう。"
+				]
+			},
+			{
+				"LABEL": "0x8a2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x8a4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x8a6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t――リセさんはどうしたの？"
+				]
+			},
+			{
+				"LABEL": "0x8ae",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x8b0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x8b2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそんな風に聞かれても、きっと僕は口ごもり、トルタに",
+					"\t\t\t\t心配をかけてしまうだけになる。"
+				]
+			},
+			{
+				"LABEL": "0x8c4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x8c6",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x8c8",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					2360,
+					1
+				]
+			},
+			{
+				"LABEL": "0x8d6",
+				"TYPE": "Wait",
+				"U32": [
+					800
+				]
+			},
+			{
+				"LABEL": "0x8de",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x8e0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t外はまだ、朝の静けさを失ってはない。"
+				]
+			},
+			{
+				"LABEL": "0x8e8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x8ea",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x8ec",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tただ、降りしきる雨の音だけが、耳にこびりついて離れ",
+					"\t\t\t\tようとはしなかった。"
+				]
+			},
+			{
+				"LABEL": "0x8fe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x900",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x902",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x904",
+				"TYPE": "BlackOut",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x90c",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x914",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x91c",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

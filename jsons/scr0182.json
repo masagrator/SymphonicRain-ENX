@@ -1,0 +1,99 @@
+{
+	"HEADER": {
+		"FILE_ID": 182,
+		"CRC": "B8768558",
+		"REGISTRATION_BLOCK": [],
+		"FUNS": [
+			"Func_PassWord"
+		],
+		"BLOCK_2_REGISTRATION": []
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x58",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x60",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x68",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					999,
+					3
+				]
+			},
+			{
+				"LABEL": "0x76",
+				"TYPE": "BGMPlay",
+				"U32": [
+					19
+				]
+			},
+			{
+				"LABEL": "0x7e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x80",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t　　　　　　　　　パスワード",
+					"\t\t\t\t　　　　　　　　　『　包丁　』"
+				]
+			},
+			{
+				"LABEL": "0x92",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x94",
+				"TYPE": "SongEnable",
+				"U32": [
+					11
+				]
+			},
+			{
+				"LABEL": "0x9c",
+				"TYPE": "Wait",
+				"U32": [
+					9000
+				]
+			},
+			{
+				"LABEL": "0xa4",
+				"TYPE": "BlackOut",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0xac",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0xae",
+				"TYPE": "Wait",
+				"U32": [
+					3000
+				]
+			},
+			{
+				"LABEL": "0xb6",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

@@ -1,0 +1,1215 @@
+{
+	"HEADER": {
+		"FILE_ID": 109,
+		"CRC": "FEA8CD5B",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 109,
+				"UNK1": 21636,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1215,
+				"UNK5": 1430,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "t01"
+			}
+		],
+		"FUNS": [
+			"Func_t01"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "t02"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x74",
+				"TYPE": "SetRainPower",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x7c",
+				"TYPE": "SetWeather",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x84",
+				"TYPE": "DateHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x8c",
+				"TYPE": "TimeHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x94",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x9c",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					2360,
+					3
+				]
+			},
+			{
+				"LABEL": "0xaa",
+				"TYPE": "Wait",
+				"U32": [
+					3000
+				]
+			},
+			{
+				"LABEL": "0xb2",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1290,
+					3
+				]
+			},
+			{
+				"LABEL": "0xc0",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xc8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xca",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t冬の陽射しは、強くもなく、弱くもなかった。"
+				]
+			},
+			{
+				"LABEL": "0xd2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xd6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t窓辺に置いてある鉢植えから、ローズマリーの香りが風",
+					"\t\t\t\tに乗って漂ってくる。"
+				]
+			},
+			{
+				"LABEL": "0xe8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xea",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0xec",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそんな陽気な午後のひとときを、クリスからの手紙で過",
+					"\t\t\t\tごしている。"
+				]
+			},
+			{
+				"LABEL": "0xfe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x100",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x102",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x10a",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1585,
+					3
+				]
+			},
+			{
+				"LABEL": "0x118",
+				"TYPE": "Wait",
+				"U32": [
+					3000
+				]
+			},
+			{
+				"LABEL": "0x120",
+				"TYPE": "NovelMode",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x128",
+				"TYPE": "TextSpeed",
+				"U32": [
+					60
+				]
+			},
+			{
+				"LABEL": "0x130",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x132",
+				"TYPE": "Voice",
+				"U32": [
+					109001
+				]
+			},
+			{
+				"LABEL": "0x13a",
+				"TYPE": "Text",
+				"STRING": [
+					"\tアリエッタへ。"
+				]
+			},
+			{
+				"LABEL": "0x142",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x144",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x146",
+				"TYPE": "Voice",
+				"U32": [
+					109002
+				]
+			},
+			{
+				"LABEL": "0x14e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t雨の街から、君への手紙を書いています。"
+				]
+			},
+			{
+				"LABEL": "0x156",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x158",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x15a",
+				"TYPE": "NovelMode",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x162",
+				"TYPE": "TextSpeed",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0x16a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x16c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tクリスからの手紙は、いつでもそんな風にして始まった。"
+				]
+			},
+			{
+				"LABEL": "0x174",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x176",
+				"TYPE": "NovelMode",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x17e",
+				"TYPE": "TextSpeed",
+				"U32": [
+					60
+				]
+			},
+			{
+				"LABEL": "0x186",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x188",
+				"TYPE": "Voice",
+				"U32": [
+					109006
+				]
+			},
+			{
+				"LABEL": "0x190",
+				"TYPE": "Text",
+				"STRING": [
+					"\tアルは少し嬉しいって書いてたけど、こう毎日毎日雨だ",
+					"\t\t\t\tと、さすがに喜んではいられなくなるでしょう。"
+				]
+			},
+			{
+				"LABEL": "0x1a2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1a4",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1a6",
+				"TYPE": "Voice",
+				"U32": [
+					109007
+				]
+			},
+			{
+				"LABEL": "0x1ae",
+				"TYPE": "Text",
+				"STRING": [
+					"\t僕は慣れてしまったけど、きっとアルは、最初の一ヶ月",
+					"\t\t\t\tで嫌になるんじゃないかと思います。"
+				]
+			},
+			{
+				"LABEL": "0x1c0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1c2",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1c4",
+				"TYPE": "Voice",
+				"U32": [
+					109008
+				]
+			},
+			{
+				"LABEL": "0x1cc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t本当にわけてあげられるのなら、喜んでわけてあげるの",
+					"\t\t\t\tに。"
+				]
+			},
+			{
+				"LABEL": "0x1de",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1e0",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1e2",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1e4",
+				"TYPE": "Voice",
+				"U32": [
+					109009
+				]
+			},
+			{
+				"LABEL": "0x1ec",
+				"TYPE": "Text",
+				"STRING": [
+					"\tでもやっぱり、アルだけは良く晴れた空の下で、元気に",
+					"\t\t\t\t過ごして欲しいから、そんな考えはやめておきます。"
+				]
+			},
+			{
+				"LABEL": "0x1fe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x200",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x202",
+				"TYPE": "Voice",
+				"U32": [
+					109010
+				]
+			},
+			{
+				"LABEL": "0x20a",
+				"TYPE": "Text",
+				"STRING": [
+					"\tアルには青い空がよく似合っているから。"
+				]
+			},
+			{
+				"LABEL": "0x212",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x214",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x216",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x218",
+				"TYPE": "Voice",
+				"U32": [
+					109011
+				]
+			},
+			{
+				"LABEL": "0x220",
+				"TYPE": "Text",
+				"STRING": [
+					"\t最初はアルの思った通り、馬鹿みたいな話だねって笑っ",
+					"\t\t\t\tてしまったけど、最後はそんな風に考えるようになりま",
+					"\t\t\t\tした。"
+				]
+			},
+			{
+				"LABEL": "0x23c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x23e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x240",
+				"TYPE": "Voice",
+				"U32": [
+					109012
+				]
+			},
+			{
+				"LABEL": "0x248",
+				"TYPE": "Text",
+				"STRING": [
+					"\t卒業演奏のことだけど、今は色々な人と一緒に練習をし",
+					"\t\t\t\tています。"
+				]
+			},
+			{
+				"LABEL": "0x25a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x25c",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x25e",
+				"TYPE": "Voice",
+				"U32": [
+					109013
+				]
+			},
+			{
+				"LABEL": "0x266",
+				"TYPE": "Text",
+				"STRING": [
+					"\t人づきあいが苦手な僕にしては、がんばっているほうだ",
+					"\t\t\t\tと誉めてくれるかな？"
+				]
+			},
+			{
+				"LABEL": "0x278",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x27a",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x27c",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x27e",
+				"TYPE": "Voice",
+				"U32": [
+					109014
+				]
+			},
+			{
+				"LABEL": "0x286",
+				"TYPE": "Text",
+				"STRING": [
+					"\tトルタとも練習をしているけど、やっぱり一番合ってい",
+					"\t\t\t\tるとも感じました。"
+				]
+			},
+			{
+				"LABEL": "0x298",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x29a",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x29c",
+				"TYPE": "Voice",
+				"U32": [
+					109015
+				]
+			},
+			{
+				"LABEL": "0x2a4",
+				"TYPE": "Text",
+				"STRING": [
+					"\tアルが勧めてくれなくても、きっとそうなるような気は",
+					"\t\t\t\tしてたんだ。"
+				]
+			},
+			{
+				"LABEL": "0x2b6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2b8",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x2ba",
+				"TYPE": "Voice",
+				"U32": [
+					109016
+				]
+			},
+			{
+				"LABEL": "0x2c2",
+				"TYPE": "Text",
+				"STRING": [
+					"\tトルタならアルも安心だろうし、なにより気を遣わなく",
+					"\t\t\t\tて済むし。"
+				]
+			},
+			{
+				"LABEL": "0x2d4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2d6",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x2d8",
+				"TYPE": "Voice",
+				"U32": [
+					109017
+				]
+			},
+			{
+				"LABEL": "0x2e0",
+				"TYPE": "Text",
+				"STRING": [
+					"\tでも、練習熱心すぎて、僕みたいな怠け者には、ちょっ",
+					"\t\t\t\tともったいないくらいかな。"
+				]
+			},
+			{
+				"LABEL": "0x2f2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2f4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2f6",
+				"TYPE": "Voice",
+				"U32": [
+					109018
+				]
+			},
+			{
+				"LABEL": "0x2fe",
+				"TYPE": "Text",
+				"STRING": [
+					"\tでもまだなにも決まったわけではないから、この話はこ",
+					"\t\t\t\tこまでにしておくね。"
+				]
+			},
+			{
+				"LABEL": "0x310",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x312",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x314",
+				"TYPE": "Voice",
+				"U32": [
+					109019
+				]
+			},
+			{
+				"LABEL": "0x31c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t次の手紙にでも、細かい話を書きます。"
+				]
+			},
+			{
+				"LABEL": "0x324",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x326",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x328",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x32a",
+				"TYPE": "Voice",
+				"U32": [
+					109020
+				]
+			},
+			{
+				"LABEL": "0x332",
+				"TYPE": "Text",
+				"STRING": [
+					"\tそれと、パン屋さんの話、本当におめでとう。"
+				]
+			},
+			{
+				"LABEL": "0x33a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x33c",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x33e",
+				"TYPE": "Voice",
+				"U32": [
+					109021
+				]
+			},
+			{
+				"LABEL": "0x346",
+				"TYPE": "Text",
+				"STRING": [
+					"\tいつか食べたアルのパンの味を思い出してみたけど、そ",
+					"\t\t\t\tれよりももっと、美味しくなっているんだろうね。"
+				]
+			},
+			{
+				"LABEL": "0x358",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x35a",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x35c",
+				"TYPE": "Voice",
+				"U32": [
+					109022
+				]
+			},
+			{
+				"LABEL": "0x364",
+				"TYPE": "Text",
+				"STRING": [
+					"\t僕も、その日が来るのを楽しみに待っています。"
+				]
+			},
+			{
+				"LABEL": "0x36c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x36e",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x370",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x372",
+				"TYPE": "Wait",
+				"U32": [
+					2000
+				]
+			},
+			{
+				"LABEL": "0x37a",
+				"TYPE": "Voice",
+				"U32": [
+					109023
+				]
+			},
+			{
+				"LABEL": "0x382",
+				"TYPE": "Text",
+				"STRING": [
+					"\tクリス"
+				]
+			},
+			{
+				"LABEL": "0x38a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x38c",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x38e",
+				"TYPE": "Wait",
+				"U32": [
+					250
+				]
+			},
+			{
+				"LABEL": "0x396",
+				"TYPE": "TextSpeed",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0x39e",
+				"TYPE": "NovelMode",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3a6",
+				"TYPE": "Wait",
+				"U32": [
+					1750
+				]
+			},
+			{
+				"LABEL": "0x3ae",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1290,
+					3
+				]
+			},
+			{
+				"LABEL": "0x3bc",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x3c4",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x3cc",
+				"TYPE": "MoveChar",
+				"U32": [
+					178,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0x3e0",
+				"TYPE": "Wait",
+				"U32": [
+					2500
+				]
+			},
+			{
+				"LABEL": "0x3e8",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x3f6",
+				"TYPE": "Wait",
+				"U32": [
+					2000
+				]
+			},
+			{
+				"LABEL": "0x3fe",
+				"TYPE": "DateShow",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x406",
+				"TYPE": "TimeShow",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x40e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x410",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t本当はもっとゆっくりとこの手紙を読んでいたかったけ",
+					"\t\t\t\tど、私にはその時間がなかった。"
+				]
+			},
+			{
+				"LABEL": "0x422",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x424",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x426",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t男の子にしては綺麗な字で丁寧に書かれたその手紙を、",
+					"\t\t\t\tそっと胸に押し当てる。"
+				]
+			},
+			{
+				"LABEL": "0x438",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x43a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x43c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそして――クリスの言ったように窓から見える空を見上",
+					"\t\t\t\tげた。"
+				]
+			},
+			{
+				"LABEL": "0x44e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x450",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x452",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x45a",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					2360,
+					3
+				]
+			},
+			{
+				"LABEL": "0x468",
+				"TYPE": "Wait",
+				"U32": [
+					3000
+				]
+			},
+			{
+				"LABEL": "0x470",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x472",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t本当に綺麗な、青い空だった。"
+				]
+			},
+			{
+				"LABEL": "0x47a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x47c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x47e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこの空は繋がっているはずなのに、クリスの元では、雨",
+					"\t\t\t\tが降り続いているという。"
+				]
+			},
+			{
+				"LABEL": "0x490",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x492",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x494",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t信じられないような話だったけど、それは真実だった。"
+				]
+			},
+			{
+				"LABEL": "0x49c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x49e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4a0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tいくらここに雨が降っていなくても、それは変わること",
+					"\t\t\t\tはない。"
+				]
+			},
+			{
+				"LABEL": "0x4b2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4b4",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4b6",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tそれが、私とクリスとの距離だ。"
+				]
+			},
+			{
+				"LABEL": "0x4be",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4c0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4c2",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t――遠い。"
+				]
+			},
+			{
+				"LABEL": "0x4ca",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4cc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4ce",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t本当に遠くなってしまった。"
+				]
+			},
+			{
+				"LABEL": "0x4d6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4d8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4da",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこの距離を縮めることはもうできないのかと、何度も何",
+					"\t\t\t\t度も考えた。"
+				]
+			},
+			{
+				"LABEL": "0x4ec",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4ee",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4f0",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t私は私なりに、がんばってもいる。"
+				]
+			},
+			{
+				"LABEL": "0x4f8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4fa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4fc",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでも、足りないんだろうか？"
+				]
+			},
+			{
+				"LABEL": "0x504",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x506",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x508",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t学院を無事卒業したら、クリスは戻ってきてくれるんだ",
+					"\t\t\t\tろうか。"
+				]
+			},
+			{
+				"LABEL": "0x51a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x51c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x51e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこの青空の下に。"
+				]
+			},
+			{
+				"LABEL": "0x526",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x528",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x52a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tつまりは、私の元に。"
+				]
+			},
+			{
+				"LABEL": "0x532",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x534",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x536",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1290,
+					1
+				]
+			},
+			{
+				"LABEL": "0x544",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x54c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x54e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t……クリス。"
+				]
+			},
+			{
+				"LABEL": "0x556",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x558",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x55a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t人知れずそう呟いて、私はもう一度空を見上げた。"
+				]
+			},
+			{
+				"LABEL": "0x562",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x564",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x566",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1593,
+					3
+				]
+			},
+			{
+				"LABEL": "0x574",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x57c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x57e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこの空は、本当に私に似合っているのだろうかと、そん",
+					"\t\t\t\tなことを考えた。"
+				]
+			},
+			{
+				"LABEL": "0x590",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x592",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x59a",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x59c",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x59e",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x5a0",
+				"TYPE": "BlackOut",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x5a8",
+				"TYPE": "Wait",
+				"U32": [
+					2000
+				]
+			},
+			{
+				"LABEL": "0x5b0",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x5b8",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

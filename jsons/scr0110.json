@@ -1,0 +1,973 @@
+{
+	"HEADER": {
+		"FILE_ID": 110,
+		"CRC": "B8768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 110,
+				"UNK1": 21637,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1208,
+				"UNK5": 1430,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "t02"
+			}
+		],
+		"FUNS": [
+			"Func_t02"
+		],
+		"BLOCK_2_REGISTRATION": [
+			{
+				"TYPE": 3,
+				"STRING": "t03"
+			}
+		]
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x74",
+				"TYPE": "SetWeather",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x7c",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x84",
+				"TYPE": "DateHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x8c",
+				"TYPE": "TimeHide",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x94",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					2360,
+					1
+				]
+			},
+			{
+				"LABEL": "0xa2",
+				"TYPE": "Wait",
+				"U32": [
+					500
+				]
+			},
+			{
+				"LABEL": "0xaa",
+				"TYPE": "MoveChar",
+				"U32": [
+					171,
+					1,
+					2
+				]
+			},
+			{
+				"LABEL": "0xbe",
+				"TYPE": "Wait",
+				"U32": [
+					2500
+				]
+			},
+			{
+				"LABEL": "0xc6",
+				"TYPE": "HideChar",
+				"U32": [
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0xd4",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xdc",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1585,
+					3
+				]
+			},
+			{
+				"LABEL": "0xea",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xf2",
+				"TYPE": "NovelMode",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xfa",
+				"TYPE": "BGMPlay",
+				"U32": [
+					13
+				]
+			},
+			{
+				"LABEL": "0x102",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x10a",
+				"TYPE": "TextSpeed",
+				"U32": [
+					60
+				]
+			},
+			{
+				"LABEL": "0x112",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x114",
+				"TYPE": "Voice",
+				"U32": [
+					110001
+				]
+			},
+			{
+				"LABEL": "0x11c",
+				"TYPE": "Text",
+				"STRING": [
+					"\tアリエッタへ。"
+				]
+			},
+			{
+				"LABEL": "0x124",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x126",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x128",
+				"TYPE": "Voice",
+				"U32": [
+					110002
+				]
+			},
+			{
+				"LABEL": "0x130",
+				"TYPE": "Text",
+				"STRING": [
+					"\t雨の降る街から、雨の降る街へ、君への手紙を書いてい",
+					"\t\t\t\tます。"
+				]
+			},
+			{
+				"LABEL": "0x142",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x144",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x146",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x148",
+				"TYPE": "Voice",
+				"U32": [
+					110003
+				]
+			},
+			{
+				"LABEL": "0x150",
+				"TYPE": "Text",
+				"STRING": [
+					"\tなんてね。"
+				]
+			},
+			{
+				"LABEL": "0x158",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x15a",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x15c",
+				"TYPE": "Voice",
+				"U32": [
+					109004
+				]
+			},
+			{
+				"LABEL": "0x164",
+				"TYPE": "Text",
+				"STRING": [
+					"\tこの手紙が届く頃には、きっとそっちではすでに雨は止",
+					"\t\t\t\tんでいるんだろうね。"
+				]
+			},
+			{
+				"LABEL": "0x176",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x178",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x17a",
+				"TYPE": "Voice",
+				"U32": [
+					109005
+				]
+			},
+			{
+				"LABEL": "0x182",
+				"TYPE": "Text",
+				"STRING": [
+					"\t今はもう、青い空を見上げている頃かな。"
+				]
+			},
+			{
+				"LABEL": "0x18a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x18c",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x18e",
+				"TYPE": "Voice",
+				"U32": [
+					110024
+				]
+			},
+			{
+				"LABEL": "0x196",
+				"TYPE": "Text",
+				"STRING": [
+					"\tちょっと珍しかったから、そんなことを書いてみました。"
+				]
+			},
+			{
+				"LABEL": "0x19e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1a0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x1a2",
+				"TYPE": "Voice",
+				"U32": [
+					110006
+				]
+			},
+			{
+				"LABEL": "0x1aa",
+				"TYPE": "Text",
+				"STRING": [
+					"\tそっちでも雨が降っているなんて、本当に珍しいことだ",
+					"\t\t\t\tよね。"
+				]
+			},
+			{
+				"LABEL": "0x1bc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1be",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1c0",
+				"TYPE": "Voice",
+				"U32": [
+					110007
+				]
+			},
+			{
+				"LABEL": "0x1c8",
+				"TYPE": "Text",
+				"STRING": [
+					"\tあまりにもこの街のイメージが強すぎて、アルのところ",
+					"\t\t\t\tには雨が降らないんじゃないかなんて、馬鹿な思いこみ",
+					"\t\t\t\tをしてしまうところでした。"
+				]
+			},
+			{
+				"LABEL": "0x1e4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1e6",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1e8",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x1ea",
+				"TYPE": "Voice",
+				"U32": [
+					110008
+				]
+			},
+			{
+				"LABEL": "0x1f2",
+				"TYPE": "Text",
+				"STRING": [
+					"\tでも、想い出の中の街はいつだって晴れていて、その下",
+					"\t\t\t\tを一緒に歩いた記憶とか、暖かい空気の匂いとか、思い",
+					"\t\t\t\t出すのはそんな風景ばかりです。"
+				]
+			},
+			{
+				"LABEL": "0x20e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x210",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x212",
+				"TYPE": "Voice",
+				"U32": [
+					110009
+				]
+			},
+			{
+				"LABEL": "0x21a",
+				"TYPE": "Text",
+				"STRING": [
+					"\tそんな記憶は鮮明に覚えているのに、雨の日は、ほとん",
+					"\t\t\t\tど思い出せないくらいです。"
+				]
+			},
+			{
+				"LABEL": "0x22c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x22e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x230",
+				"TYPE": "Voice",
+				"U32": [
+					110010
+				]
+			},
+			{
+				"LABEL": "0x238",
+				"TYPE": "Text",
+				"STRING": [
+					"\tそう言えば、卒業演奏のことでトルタが困ってるって書",
+					"\t\t\t\tいてたけど、僕も真面目に捜す気がないわけじゃないん",
+					"\t\t\t\tだよ。"
+				]
+			},
+			{
+				"LABEL": "0x254",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x256",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x258",
+				"TYPE": "Voice",
+				"U32": [
+					110011
+				]
+			},
+			{
+				"LABEL": "0x260",
+				"TYPE": "Text",
+				"STRING": [
+					"\t好きなことに対してだけ真剣……っていうのとも少し違",
+					"\t\t\t\tうけど、まだ時間もあるし、なにより大切なことだから、",
+					"\t\t\t\tもう少し時間をかけて決めてみたいんだ。"
+				]
+			},
+			{
+				"LABEL": "0x27c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x27e",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x280",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x282",
+				"TYPE": "Voice",
+				"U32": [
+					110012
+				]
+			},
+			{
+				"LABEL": "0x28a",
+				"TYPE": "Text",
+				"STRING": [
+					"\t残念ながらまだ誰にも決まってはいないんだけど、それ",
+					"\t\t\t\tでも候補として、一緒に練習してくれる人が何人か見つ",
+					"\t\t\t\tかりました。"
+				]
+			},
+			{
+				"LABEL": "0x2a6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2a8",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x2aa",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x2ac",
+				"TYPE": "Voice",
+				"U32": [
+					110013
+				]
+			},
+			{
+				"LABEL": "0x2b4",
+				"TYPE": "Text",
+				"STRING": [
+					"\tでも大丈夫。"
+				]
+			},
+			{
+				"LABEL": "0x2bc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2be",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x2c0",
+				"TYPE": "Voice",
+				"U32": [
+					110014
+				]
+			},
+			{
+				"LABEL": "0x2c8",
+				"TYPE": "Text",
+				"STRING": [
+					"\t今ちゃんとやってるところだって、アルのことを怒った",
+					"\t\t\t\tりはしないから。"
+				]
+			},
+			{
+				"LABEL": "0x2da",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2dc",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x2de",
+				"TYPE": "Voice",
+				"U32": [
+					110015
+				]
+			},
+			{
+				"LABEL": "0x2e6",
+				"TYPE": "Text",
+				"STRING": [
+					"\tトルタももちろん候補の一人だけど、あまりにも僕が頼",
+					"\t\t\t\tりすぎている気がして、頼みづらいっていうのも少しだ",
+					"\t\t\t\tけあるんだ。"
+				]
+			},
+			{
+				"LABEL": "0x302",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x304",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x306",
+				"TYPE": "Voice",
+				"U32": [
+					110016
+				]
+			},
+			{
+				"LABEL": "0x30e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t周りのみんなも、そうした方がいいって言うし、僕もそ",
+					"\t\t\t\tうは思ってはいるんだけどね。"
+				]
+			},
+			{
+				"LABEL": "0x320",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x322",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x324",
+				"TYPE": "Voice",
+				"U32": [
+					110017
+				]
+			},
+			{
+				"LABEL": "0x32c",
+				"TYPE": "Text",
+				"STRING": [
+					"\tでもこの問題に関しては、もう少しだけ考えてみたいと",
+					"\t\t\t\t思います。"
+				]
+			},
+			{
+				"LABEL": "0x33e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x340",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x342",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x344",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x34c",
+				"TYPE": "Voice",
+				"U32": [
+					110018
+				]
+			},
+			{
+				"LABEL": "0x354",
+				"TYPE": "Text",
+				"STRING": [
+					"\tあ、そうそう。"
+				]
+			},
+			{
+				"LABEL": "0x35c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x35e",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x360",
+				"TYPE": "Voice",
+				"U32": [
+					110019
+				]
+			},
+			{
+				"LABEL": "0x368",
+				"TYPE": "Text",
+				"STRING": [
+					"\tアルがこうやって心配してくれるのを、お節介とも思っ",
+					"\t\t\t\tたことはないから、大丈夫だよ。"
+				]
+			},
+			{
+				"LABEL": "0x37a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x37c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x37e",
+				"TYPE": "Voice",
+				"U32": [
+					110020
+				]
+			},
+			{
+				"LABEL": "0x386",
+				"TYPE": "Text",
+				"STRING": [
+					"\t最近はこんな話題ばかりで、アルが気にしてくれている",
+					"\t\t\t\tのはわかります。"
+				]
+			},
+			{
+				"LABEL": "0x398",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x39a",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x39c",
+				"TYPE": "Voice",
+				"U32": [
+					110021
+				]
+			},
+			{
+				"LABEL": "0x3a4",
+				"TYPE": "Text",
+				"STRING": [
+					"\tでも、それでも僕なりに一生懸命がんばってみるから、",
+					"\t\t\t\tだからあまり心配はしないで。"
+				]
+			},
+			{
+				"LABEL": "0x3b6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3b8",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x3ba",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x3bc",
+				"TYPE": "Voice",
+				"U32": [
+					110022
+				]
+			},
+			{
+				"LABEL": "0x3c4",
+				"TYPE": "Text",
+				"STRING": [
+					"\tでは、また次の手紙で。"
+				]
+			},
+			{
+				"LABEL": "0x3cc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3ce",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x3d0",
+				"TYPE": "NewLine"
+			},
+			{
+				"LABEL": "0x3d2",
+				"TYPE": "Wait",
+				"U32": [
+					2000
+				]
+			},
+			{
+				"LABEL": "0x3da",
+				"TYPE": "Voice",
+				"U32": [
+					110023
+				]
+			},
+			{
+				"LABEL": "0x3e2",
+				"TYPE": "Text",
+				"STRING": [
+					"\tクリス"
+				]
+			},
+			{
+				"LABEL": "0x3ea",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x3ec",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x3ee",
+				"TYPE": "TextSpeed",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0x3f6",
+				"TYPE": "NovelMode",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3fe",
+				"TYPE": "DateShow",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x406",
+				"TYPE": "TimeShow",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x40e",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x410",
+				"TYPE": "FadeBGtoSetBG",
+				"U32": [
+					1290,
+					3
+				]
+			},
+			{
+				"LABEL": "0x41e",
+				"TYPE": "Wait",
+				"U32": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x426",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x428",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t一週間前に降った雨はたったの一日で止んでしまい、今",
+					"\t\t\t\tではもう、その名残りすら感じられなかった。"
+				]
+			},
+			{
+				"LABEL": "0x43a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x43c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x43e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\t窓から射し込む日の光は眩しすぎて、思わず目を閉じた",
+					"\t\t\t\tくなってしまう。"
+				]
+			},
+			{
+				"LABEL": "0x450",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x452",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x454",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tだから手紙にも書いた通り、雨の日は少しだけ嬉しい。"
+				]
+			},
+			{
+				"LABEL": "0x45c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x45e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x460",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tクリスの感じている、雨を感じることができるから。"
+				]
+			},
+			{
+				"LABEL": "0x468",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x46a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x46c",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tクリスのことを、近くに感じられるから。"
+				]
+			},
+			{
+				"LABEL": "0x474",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x476",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x478",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tでも雨はいつでもすぐに止んでしまって、やっぱりクリ",
+					"\t\t\t\tスとの距離を思い知らされることになる。"
+				]
+			},
+			{
+				"LABEL": "0x48a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x48c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x48e",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tだから私は、雨を待ち望んでいる。"
+				]
+			},
+			{
+				"LABEL": "0x496",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x498",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x49a",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x4a2",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4a4",
+				"TYPE": "Text",
+				"STRING": [
+					"\t\t\t\tこの、雨の降る街で。"
+				]
+			},
+			{
+				"LABEL": "0x4ac",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x4ae",
+				"TYPE": "SkipDisable",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x4b6",
+				"TYPE": "AllHideChar"
+			},
+			{
+				"LABEL": "0x4b8",
+				"TYPE": "BGMStop"
+			},
+			{
+				"LABEL": "0x4ba",
+				"TYPE": "TextHide"
+			},
+			{
+				"LABEL": "0x4bc",
+				"TYPE": "BlackOut",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x4c4",
+				"TYPE": "Wait",
+				"U32": [
+					2000
+				]
+			},
+			{
+				"LABEL": "0x4cc",
+				"TYPE": "SCNCHG",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x4d4",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

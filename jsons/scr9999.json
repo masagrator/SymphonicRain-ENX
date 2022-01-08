@@ -1,0 +1,691 @@
+{
+	"HEADER": {
+		"FILE_ID": 9999,
+		"CRC": "B8768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 9999,
+				"UNK1": 7602,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 0,
+				"UNK5": 0,
+				"UNK6": 0,
+				"UNK7": 0,
+				"STRING": "SETest"
+			}
+		],
+		"FUNS": [
+			"Func_SE"
+		],
+		"BLOCK_2_REGISTRATION": []
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x72",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x74",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x76",
+				"TYPE": "SEPlay",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x7e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x80",
+				"TYPE": "SEPlay",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x88",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x8a",
+				"TYPE": "SEPlay",
+				"U32": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x92",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x94",
+				"TYPE": "SEPlay",
+				"U32": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x9c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x9e",
+				"TYPE": "SEPlay",
+				"U32": [
+					4
+				]
+			},
+			{
+				"LABEL": "0xa6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xa8",
+				"TYPE": "SEPlay",
+				"U32": [
+					5
+				]
+			},
+			{
+				"LABEL": "0xb0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xb2",
+				"TYPE": "SEPlay",
+				"U32": [
+					6
+				]
+			},
+			{
+				"LABEL": "0xba",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xbc",
+				"TYPE": "SEPlay",
+				"U32": [
+					7
+				]
+			},
+			{
+				"LABEL": "0xc4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xc6",
+				"TYPE": "SEPlay",
+				"U32": [
+					8
+				]
+			},
+			{
+				"LABEL": "0xce",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xd0",
+				"TYPE": "SEPlay",
+				"U32": [
+					9
+				]
+			},
+			{
+				"LABEL": "0xd8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xda",
+				"TYPE": "SEPlay",
+				"U32": [
+					10
+				]
+			},
+			{
+				"LABEL": "0xe2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xe4",
+				"TYPE": "SEPlay",
+				"U32": [
+					11
+				]
+			},
+			{
+				"LABEL": "0xec",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xee",
+				"TYPE": "SEPlay",
+				"U32": [
+					12
+				]
+			},
+			{
+				"LABEL": "0xf6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0xf8",
+				"TYPE": "SEPlay",
+				"U32": [
+					13
+				]
+			},
+			{
+				"LABEL": "0x100",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x102",
+				"TYPE": "SEPlay",
+				"U32": [
+					14
+				]
+			},
+			{
+				"LABEL": "0x10a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x10c",
+				"TYPE": "SEPlay",
+				"U32": [
+					15
+				]
+			},
+			{
+				"LABEL": "0x114",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x116",
+				"TYPE": "SEPlay",
+				"U32": [
+					16
+				]
+			},
+			{
+				"LABEL": "0x11e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x120",
+				"TYPE": "SEPlay",
+				"U32": [
+					17
+				]
+			},
+			{
+				"LABEL": "0x128",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x12a",
+				"TYPE": "SEPlay",
+				"U32": [
+					18
+				]
+			},
+			{
+				"LABEL": "0x132",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x134",
+				"TYPE": "SEPlay",
+				"U32": [
+					19
+				]
+			},
+			{
+				"LABEL": "0x13c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x13e",
+				"TYPE": "SEPlay",
+				"U32": [
+					20
+				]
+			},
+			{
+				"LABEL": "0x146",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x148",
+				"TYPE": "SEPlay",
+				"U32": [
+					21
+				]
+			},
+			{
+				"LABEL": "0x150",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x152",
+				"TYPE": "SEPlay",
+				"U32": [
+					22
+				]
+			},
+			{
+				"LABEL": "0x15a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x15c",
+				"TYPE": "SEPlay",
+				"U32": [
+					23
+				]
+			},
+			{
+				"LABEL": "0x164",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x166",
+				"TYPE": "SEPlay",
+				"U32": [
+					24
+				]
+			},
+			{
+				"LABEL": "0x16e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x170",
+				"TYPE": "SEPlay",
+				"U32": [
+					25
+				]
+			},
+			{
+				"LABEL": "0x178",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x17a",
+				"TYPE": "SEPlay",
+				"U32": [
+					26
+				]
+			},
+			{
+				"LABEL": "0x182",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x184",
+				"TYPE": "SEPlay",
+				"U32": [
+					27
+				]
+			},
+			{
+				"LABEL": "0x18c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x18e",
+				"TYPE": "SEPlay",
+				"U32": [
+					28
+				]
+			},
+			{
+				"LABEL": "0x196",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x198",
+				"TYPE": "SEPlay",
+				"U32": [
+					29
+				]
+			},
+			{
+				"LABEL": "0x1a0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1a2",
+				"TYPE": "SEPlay",
+				"U32": [
+					30
+				]
+			},
+			{
+				"LABEL": "0x1aa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1ac",
+				"TYPE": "SEPlay",
+				"U32": [
+					31
+				]
+			},
+			{
+				"LABEL": "0x1b4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1b6",
+				"TYPE": "SEPlay",
+				"U32": [
+					32
+				]
+			},
+			{
+				"LABEL": "0x1be",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1c0",
+				"TYPE": "SEPlay",
+				"U32": [
+					33
+				]
+			},
+			{
+				"LABEL": "0x1c8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1ca",
+				"TYPE": "SEPlay",
+				"U32": [
+					34
+				]
+			},
+			{
+				"LABEL": "0x1d2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1d4",
+				"TYPE": "SEPlay",
+				"U32": [
+					35
+				]
+			},
+			{
+				"LABEL": "0x1dc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1de",
+				"TYPE": "SEPlay",
+				"U32": [
+					36
+				]
+			},
+			{
+				"LABEL": "0x1e6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1e8",
+				"TYPE": "SEPlay",
+				"U32": [
+					37
+				]
+			},
+			{
+				"LABEL": "0x1f0",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1f2",
+				"TYPE": "SEPlay",
+				"U32": [
+					38
+				]
+			},
+			{
+				"LABEL": "0x1fa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x1fc",
+				"TYPE": "SEPlay",
+				"U32": [
+					39
+				]
+			},
+			{
+				"LABEL": "0x204",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x206",
+				"TYPE": "SEPlay",
+				"U32": [
+					40
+				]
+			},
+			{
+				"LABEL": "0x20e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x210",
+				"TYPE": "SEPlay",
+				"U32": [
+					41
+				]
+			},
+			{
+				"LABEL": "0x218",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x21a",
+				"TYPE": "SEPlay",
+				"U32": [
+					42
+				]
+			},
+			{
+				"LABEL": "0x222",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x224",
+				"TYPE": "SEPlay",
+				"U32": [
+					43
+				]
+			},
+			{
+				"LABEL": "0x22c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x22e",
+				"TYPE": "SEPlay",
+				"U32": [
+					44
+				]
+			},
+			{
+				"LABEL": "0x236",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x238",
+				"TYPE": "SEPlay",
+				"U32": [
+					45
+				]
+			},
+			{
+				"LABEL": "0x240",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x242",
+				"TYPE": "SEPlay",
+				"U32": [
+					46
+				]
+			},
+			{
+				"LABEL": "0x24a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x24c",
+				"TYPE": "SEPlay",
+				"U32": [
+					47
+				]
+			},
+			{
+				"LABEL": "0x254",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x256",
+				"TYPE": "SEPlay",
+				"U32": [
+					48
+				]
+			},
+			{
+				"LABEL": "0x25e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x260",
+				"TYPE": "SEPlay",
+				"U32": [
+					49
+				]
+			},
+			{
+				"LABEL": "0x268",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x26a",
+				"TYPE": "SEPlay",
+				"U32": [
+					50
+				]
+			},
+			{
+				"LABEL": "0x272",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x274",
+				"TYPE": "SEPlay",
+				"U32": [
+					51
+				]
+			},
+			{
+				"LABEL": "0x27c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x27e",
+				"TYPE": "SEPlay",
+				"U32": [
+					52
+				]
+			},
+			{
+				"LABEL": "0x286",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x288",
+				"TYPE": "SEPlay",
+				"U32": [
+					53
+				]
+			},
+			{
+				"LABEL": "0x290",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x292",
+				"TYPE": "SEPlay",
+				"U32": [
+					54
+				]
+			},
+			{
+				"LABEL": "0x29a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x29c",
+				"TYPE": "SEPlay",
+				"U32": [
+					55
+				]
+			},
+			{
+				"LABEL": "0x2a4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2a6",
+				"TYPE": "SEPlay",
+				"U32": [
+					56
+				]
+			},
+			{
+				"LABEL": "0x2ae",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2b0",
+				"TYPE": "SEPlay",
+				"U32": [
+					57
+				]
+			},
+			{
+				"LABEL": "0x2b8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2ba",
+				"TYPE": "SEPlay",
+				"U32": [
+					58
+				]
+			},
+			{
+				"LABEL": "0x2c2",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x2c4",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}

@@ -1,0 +1,93 @@
+{
+	"HEADER": {
+		"FILE_ID": 9000,
+		"CRC": "B8768558",
+		"REGISTRATION_BLOCK": [
+			{
+				"ID": 9000,
+				"UNK1": 42803,
+				"UNK2": 0,
+				"UNK3": 0,
+				"UNK4": 1210,
+				"UNK5": 800,
+				"UNK6": 1210,
+				"UNK7": 2200,
+				"STRING": "LCTEST"
+			}
+		],
+		"FUNS": [
+			"LCTEST"
+		],
+		"BLOCK_2_REGISTRATION": []
+	},
+	"COMMANDS": [
+		[
+			{
+				"LABEL": "0x72",
+				"TYPE": "NovelMode",
+				"U32": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x7a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x7c",
+				"TYPE": "Locate",
+				"U32": [
+					9,
+					7
+				]
+			},
+			{
+				"LABEL": "0x8a",
+				"TYPE": "Text",
+				"STRING": [
+					"『マンモーニ』"
+				]
+			},
+			{
+				"LABEL": "0x92",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x94",
+				"TYPE": "Wait",
+				"U32": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x9c",
+				"TYPE": "TextSpeed",
+				"U32": [
+					100
+				]
+			},
+			{
+				"LABEL": "0xa4",
+				"TYPE": "Locate",
+				"U32": [
+					0,
+					0
+				]
+			},
+			{
+				"LABEL": "0xb2",
+				"TYPE": "NovelMode",
+				"U32": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xba",
+				"TYPE": "RET",
+				"U32": [
+					0
+				]
+			}
+		]
+	]
+}
