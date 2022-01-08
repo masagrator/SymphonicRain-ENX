@@ -1,0 +1,42 @@
+name: Scripts
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+    - 'CreatePatch.py'
+    - 'jsons/**'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install numpy
+        pip install keystone-engine
+    - name: Compile KGOs and making exefs patch
+      run: |
+        python kgo_assembler.py
+        python CreatePatch.py
+    - name: Move contents
+      run: |
+        mkdir -p atmosphere/contents/01002F800CB16000/romfs/jp/script
+        mv -v New_KGO/* atmosphere/contents/01002F800CB16000/romfs/jp/script
+        cd atmosphere
+        mkdir -p exefs_patches/SymphonicRainENX
+        cd ../
+        mv E9A68278EDF6287D6543DE1B96A69A16.ips atmosphere/exefs_patches/SymphonicRainENX
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: Scripts
+        path: atmosphere
