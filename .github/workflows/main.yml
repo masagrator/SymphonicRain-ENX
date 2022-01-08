@@ -28,9 +28,13 @@ jobs:
         python CreatePatch.py
     - name: Move contents
       run: |
-        mkdir -p /jp/script
+        cd jp
+        mkdir script
+        cd ../
         mkdir -p atmosphere/contents/01002F800CB16000/romfs/
-        mkdir -p atmosphere/exefs_patches/SymphonicRainENX
+        cd atmosphere
+        mkdir -p exefs_patches/SymphonicRainENX
+        cd ../
         mv -v New_KGO/* jp/script/
         mv -v jp atmosphere/contents/01002F800CB16000/romfs/
         mv -v song atmosphere/contents/01002F800CB16000/romfs/
