@@ -320,8 +320,8 @@
 				"LABEL": "0x230",
 				"TYPE": "Text",
 				"STRING": [
-					"今日は誰かに会いに行くのを止めて、一人で練習をする",
-					"ことにする。"
+					"I decided not to meet anyone today and practice by",
+					"myself."
 				]
 			},
 			{
@@ -336,8 +336,8 @@
 				"LABEL": "0x246",
 				"TYPE": "Text",
 				"STRING": [
-					"会ったときにいまよりもより上手く演奏できるようにし",
-					"ておくため。"
+					"That way, I'd be a better performer when I did meet",
+					"someone."
 				]
 			},
 			{
@@ -352,7 +352,7 @@
 				"LABEL": "0x25c",
 				"TYPE": "Text",
 				"STRING": [
-					"そんな理由もあるにはあった。"
+					"Such reasons did, in fact, exist."
 				]
 			},
 			{
@@ -367,8 +367,8 @@
 				"LABEL": "0x268",
 				"TYPE": "Text",
 				"STRING": [
-					"まず、曲を最初から弾いてみるか、それともちょこち",
-					"ょこと練習するかを決めるか。"
+					"First, shall I play the song from start to end, or practice",
+					"it in parts?"
 				]
 			},
 			{
@@ -383,8 +383,8 @@
 				"LABEL": "0x27e",
 				"TYPE": "Select",
 				"STRINGS": [
-					"最初から弾く",
-					"曲を通さずに練習"
+					"Play from start to end",
+					"Practice in parts"
 				]
 			},
 			{
@@ -423,7 +423,7 @@
 				"LABEL": "0x2b0",
 				"TYPE": "Text",
 				"STRING": [
-					"さて、どの曲を練習しよう。"
+					"Now then, which song shall I practice?"
 				]
 			},
 			{
@@ -493,10 +493,10 @@
 				"LABEL": "0x2f6",
 				"TYPE": "Select",
 				"STRINGS": [
-					"トルタとの練習曲",
-					"ファルとの練習曲",
-					"リセとの練習曲",
-					"フォーニの曲"
+					"Etude with Torta",
+					"Etude with Fal",
+					"Etude with Lise",
+					"Phorni's Song"
 				]
 			},
 			{
@@ -658,9 +658,9 @@
 				"LABEL": "0x3b0",
 				"TYPE": "Select",
 				"STRINGS": [
-					"ファルとの練習曲",
-					"リセとの練習曲",
-					"フォーニの曲"
+					"Etude with Fal",
+					"Etude with Lise",
+					"Phorni's Song"
 				]
 			},
 			{
@@ -796,9 +796,9 @@
 				"LABEL": "0x44e",
 				"TYPE": "Select",
 				"STRINGS": [
-					"トルタとの練習曲",
-					"リセとの練習曲",
-					"フォーニの曲"
+					"Etude with Torta",
+					"Etude with Lise",
+					"Phorni's Song"
 				]
 			},
 			{
@@ -934,9 +934,9 @@
 				"LABEL": "0x4ec",
 				"TYPE": "Select",
 				"STRINGS": [
-					"トルタとの練習曲",
-					"ファルとの練習曲",
-					"フォーニの曲"
+					"Etude with Torta",
+					"Etude with Fal",
+					"Phorni's Song"
 				]
 			},
 			{
@@ -1072,8 +1072,8 @@
 				"LABEL": "0x58a",
 				"TYPE": "Select",
 				"STRINGS": [
-					"リセとの練習曲",
-					"フォーニの曲"
+					"Etude with Lise",
+					"Phorni's Song"
 				]
 			},
 			{
@@ -1183,8 +1183,8 @@
 				"LABEL": "0x60c",
 				"TYPE": "Select",
 				"STRINGS": [
-					"ファルとの練習曲",
-					"フォーニの曲"
+					"Etude with Fal",
+					"Phorni's Song"
 				]
 			},
 			{
@@ -1294,8 +1294,8 @@
 				"LABEL": "0x68e",
 				"TYPE": "Select",
 				"STRINGS": [
-					"トルタとの練習曲",
-					"フォーニの曲"
+					"Etude with Torta",
+					"Phorni's Song"
 				]
 			},
 			{
@@ -1350,7 +1350,7 @@
 				"LABEL": "0x6d6",
 				"TYPE": "Select",
 				"STRINGS": [
-					"フォーニの曲"
+					"Phorni's Song"
 				]
 			},
 			{
@@ -1532,8 +1532,7 @@
 				"LABEL": "0x78e",
 				"TYPE": "Text",
 				"STRING": [
-					"【クリス】",
-					"「……ふう」"
+					"[Chris] “Phew...”"
 				]
 			},
 			{
@@ -1548,7 +1547,7 @@
 				"LABEL": "0x7a4",
 				"TYPE": "Text",
 				"STRING": [
-					"今日は、このくらいにしておこうかな。"
+					"That's enough for today."
 				]
 			},
 			{
@@ -1582,7 +1581,7 @@
 				"LABEL": "0x7c6",
 				"TYPE": "Text",
 				"STRING": [
-					"出来は自分が一番良く知っている。"
+					"I knew best how the performance went."
 				]
 			},
 			{
@@ -1597,7 +1596,7 @@
 				"LABEL": "0x7d2",
 				"TYPE": "Text",
 				"STRING": [
-					"練習は繰り返しが基本だ。"
+					"The foundation of practice is repetition."
 				]
 			},
 			{
@@ -1612,8 +1611,9 @@
 				"LABEL": "0x7de",
 				"TYPE": "Text",
 				"STRING": [
-					"とはいえ、慣れも必要だったけど、他人と合わせたり、",
-					"人に聴いてもらう緊張感も、結構重要だったりする。"
+					"On the other hand, getting used to playing with other",
+					"people, or the anxiety of performing for an",
+					"audience-these are important too."
 				]
 			},
 			{
@@ -1628,8 +1628,7 @@
 				"LABEL": "0x7f4",
 				"TYPE": "Text",
 				"STRING": [
-					"必要だと感じたときは、もちろん一人で練習することも",
-					"あるだろう。"
+					"If I felt it was necessary, I'd practice by myself, of course."
 				]
 			},
 			{
@@ -1644,7 +1643,7 @@
 				"LABEL": "0x80a",
 				"TYPE": "Text",
 				"STRING": [
-					"これからも、時々はここに寄ることがあるかもしれない。"
+					"I'd probably come back here from time to time."
 				]
 			},
 			{
@@ -1706,8 +1705,7 @@
 				"LABEL": "0x84c",
 				"TYPE": "Text",
 				"STRING": [
-					"【クリス】",
-					"「さて、今日は帰るか」"
+					"[Chris] “Well, guess it's time to go home.”"
 				]
 			},
 			{
@@ -1722,7 +1720,7 @@
 				"LABEL": "0x862",
 				"TYPE": "Text",
 				"STRING": [
-					"時間も、それなりになっていた。"
+					"It was getting late."
 				]
 			},
 			{
@@ -1737,7 +1735,7 @@
 				"LABEL": "0x86e",
 				"TYPE": "Text",
 				"STRING": [
-					"練習室の片づけをして、それから家に帰った。"
+					"I tidied up the practice room and went home."
 				]
 			},
 			{
