@@ -1,0 +1,28 @@
+name: Assets
+
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+    - 'CreatePatch.py'
+    - 'jsons/**'
+    - 'workflows/**'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Move contents
+      run: |
+        mkdir -p atmosphere/contents/01002F800CB16000/romfs/
+        mv -v jp atmosphere/contents/01002F800CB16000/romfs/
+        mv -v song atmosphere/contents/01002F800CB16000/romfs/
+        mv -v evcg atmosphere/contents/01002F800CB16000/romfs/
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: Assets
+        path: atmosphere
