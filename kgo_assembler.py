@@ -457,7 +457,7 @@ for y in range(0, len(files)):
 		entry[0] = numpy.uint16(len(b"".join(entry)))
 		text_block_registration.append(b"".join(entry))
 
-	file = open("New_KGO/%s.kgo" % files[y][10:-5], "wb")
+	file = open("New_KGO/%s.kgo" % files[y][6:-5], "wb")
 	file.write(b"SR10")
 	file.write(b"\x00" * 4)
 	file.write(numpy.uint32(dump["HEADER"]["FILE_ID"]))
