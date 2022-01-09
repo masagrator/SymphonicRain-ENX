@@ -649,7 +649,7 @@
 				"LABEL": "0x386",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Yes, so about that... "
+					"[Fal] “Yes, so about that..."
 				]
 			},
 			{
@@ -672,8 +672,9 @@
 				"LABEL": "0x3b4",
 				"TYPE": "Text",
 				"STRING": [
-					"We're running out of time, so I think it may be best for",
-					"us to get as many practices in as possible.”"
+					" We're running out of time,",
+					"so I think it may be best for us to get",
+					"as many practices in as possible.”"
 				]
 			},
 			{
@@ -720,7 +721,7 @@
 				"LABEL": "0x3fc",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Yes. Not just for me, "
+					"[Fal] “Yes. Not just for me,"
 				]
 			},
 			{
@@ -743,8 +744,9 @@
 				"LABEL": "0x42a",
 				"TYPE": "Text",
 				"STRING": [
-					"but I think we're at the point where being focused is",
-					"important, regardless of who we are playing with.”"
+					" but I think we're at",
+					"the point where being focused is important,",
+					"regardless of who we are playing with.”"
 				]
 			},
 			{
@@ -781,8 +783,8 @@
 				"LABEL": "0x45e",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “And also so that we can iron out the little things, I",
-					"think it might be good for us to just practice more",
+					"[Fal] “And also so that we can iron out the little things,",
+					"I think it might be good for us to just practice more",
 					"together and share our opinions.”"
 				]
 			},
@@ -1156,7 +1158,7 @@
 				"LABEL": "0x618",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “I know. "
+					"[Fal] “I know."
 				]
 			},
 			{
@@ -1179,7 +1181,8 @@
 				"LABEL": "0x646",
 				"TYPE": "Text",
 				"STRING": [
-					"But, I said it because I felt great singing just now.”"
+					" But, I said it because I felt great",
+					"singing just now.”"
 				]
 			},
 			{
@@ -1445,8 +1448,8 @@
 				"STRING": [
 					"Seeing her close her eyes and sing without faltering,",
 					"despite actually having the score in her hands, showed",
-					"that she was already beyond the realm of being just a",
-					"'student'."
+					"that she was already beyond the realm of being",
+					"just a 'student'."
 				]
 			},
 			{
@@ -2268,7 +2271,7 @@
 				"LABEL": "0xcae",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Right. I've seen her around. "
+					"[Fal] “Right. I've seen her around."
 				]
 			},
 			{
@@ -2291,7 +2294,7 @@
 				"LABEL": "0xcdc",
 				"TYPE": "Text",
 				"STRING": [
-					"So, what about her?”"
+					" So, what about her?”"
 				]
 			},
 			{
@@ -2308,8 +2311,8 @@
 				"STRING": [
 					"[Chris] “She almost never repeats the things she says,",
 					"regardless of whether the student has improved or not.",
-					"She kind of just leaves it to the student to make the",
-					"difference.”"
+					"She kind of just leaves it to the student to make",
+					"the difference.”"
 				]
 			},
 			{
@@ -2378,7 +2381,7 @@
 				"LABEL": "0xd6c",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “In that case, I'm glad I helped. "
+					"[Fal] “In that case, I'm glad I helped."
 				]
 			},
 			{
@@ -2401,8 +2404,9 @@
 				"LABEL": "0xd9a",
 				"TYPE": "Text",
 				"STRING": [
-					"I don't think it would hurt for Ms. Cordell to repeat",
-					"things, though.”"
+					" I don't think",
+					"it would hurt for Ms. Cordell to repeat things,",
+					"though.”"
 				]
 			},
 			{
@@ -2479,7 +2483,7 @@
 				"LABEL": "0xe04",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “I see... "
+					"[Fal] “I see..."
 				]
 			},
 			{
@@ -2502,7 +2506,7 @@
 				"LABEL": "0xe32",
 				"TYPE": "Text",
 				"STRING": [
-					"That's good.”"
+					" That's good.”"
 				]
 			},
 			{
@@ -3657,7 +3661,7 @@
 				"LABEL": "0x148a",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “I don't have to do anything today, "
+					"[Fal] “I don't have to do anything today,"
 				]
 			},
 			{
@@ -3680,7 +3684,8 @@
 				"LABEL": "0x14b8",
 				"TYPE": "Text",
 				"STRING": [
-					"so shall we head back together?”"
+					"so shall we",
+					"head back together?”"
 				]
 			},
 			{
@@ -3992,7 +3997,7 @@
 				"LABEL": "0x165e",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Yes. "
+					"[Fal] “Yes."
 				]
 			},
 			{
@@ -4110,8 +4115,23 @@
 				"STRING": [
 					"[Fal] “On days besides Tuesday and Thursday when I",
 					"have classes, I practice during lunch and then have to",
-					"leave straight away. I have Sundays off, but Saturdays I",
-					"work all afternoon.”"
+					"leave straight away. I have Sundays off, but",
+					"Saturdays I work"
+				]
+			},
+			{
+				"LABEL": "1738",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "173a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1712",
+				"TYPE": "Text",
+				"STRING": [
+					"[Fal] all afternoon.”"
 				]
 			},
 			{
@@ -4258,8 +4278,8 @@
 				"LABEL": "0x181a",
 				"TYPE": "Text",
 				"STRING": [
-					"I can practice until lunch time on Saturdays too, and I",
-					"have all day on Sundays.”"
+					"I can practice until lunch time on Saturdays",
+					"too, and I have all day on Sundays.”"
 				]
 			},
 			{
@@ -4446,8 +4466,23 @@
 				"STRING": [
 					"[Fal] “I cook at a trattoria called 'Copert'. I've been",
 					"working there for over two years now, and despite what",
-					"you might think, I'm actually a pretty good cook. You",
-					"should come by sometime!”"
+					"you might think, I'm actually a pretty good cook.",
+					"You should come by"
+				]
+			},
+			{
+				"LABEL": "1944",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1946",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "191e",
+				"TYPE": "Text",
+				"STRING": [
+					"[Fal] sometime!”"
 				]
 			},
 			{
