@@ -816,8 +816,22 @@
 				"STRING": [
 					"The New District, on the other hand, was made to",
 					"house the many aristocrats that came to live in the city",
-					"after it became known as the city of music. It contained",
-					"rows of newer, grander houses."
+					"after it became known as the city of music."
+				]
+			},
+			{
+				"LABEL": "452",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "454",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "436",
+				"TYPE": "Text",
+				"STRING": [
+					"It contained rows of newer, grander houses."
 				]
 			},
 			{
@@ -925,8 +939,8 @@
 				"LABEL": "0x4c4",
 				"TYPE": "Text",
 				"STRING": [
-					"Once I left the main road to the east, I was in the part of",
-					"town that I knew well."
+					"Once I left the main road to the east, I was in the part",
+					"of town that I knew well."
 				]
 			},
 			{
