@@ -4392,7 +4392,22 @@
 				"STRING": [
 					"You wouldn't see any first or second-year students, who",
 					"had classes in the morning, but when you became a",
-					"third-year, most of your lessons were private lessons",
+					"third-year, most of your lessons"
+				]
+			},
+			{
+				"LABEL": "15ac",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "15ae",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1590",
+				"TYPE": "Text",
+				"STRING": [
+					"were private lessons",
 					"and your mornings started later."
 				]
 			},
