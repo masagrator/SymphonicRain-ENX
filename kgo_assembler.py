@@ -371,7 +371,7 @@ Offsets["text_blob_start"] = 0x34
 Offsets["text_blob_size"] = 0x38
 Offsets["text_count"] = 0x3C
 
-files = glob.glob("jsons_new/*.json")
+files = glob.glob("jsons/*.json")
 
 os.makedirs("New_KGO", exist_ok=True)
 
