@@ -6705,7 +6705,7 @@
 				"STRING": [
 					"[Cordell] “If other people have already warned you,",
 					"what could I possibly say to make things better?",
-					"Besides,E426 I can help if it comes down to it.”"
+					"Besides, E426... I can help if it comes down to it.”"
 				]
 			},
 			{
@@ -6768,7 +6768,7 @@
 				"LABEL": "0x22d6",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “＊sigh＊ ”"
+					"[Chris] “＊sigh＊”"
 				]
 			},
 			{
@@ -8219,7 +8219,22 @@
 					"And in the Second Hall I was heading to, there were",
 					"many individual practice rooms even smaller than the",
 					"classrooms. It also contained the cafeteria and the",
-					"library, facilities not directly related to classes."
+					"library,"
+				]
+			},
+			{
+				"LABEL": "2aa8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "2aaa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "2a8c",
+				"TYPE": "Text",
+				"STRING": [
+					"facilities not directly related to classes."
 				]
 			},
 			{
@@ -8654,7 +8669,7 @@
 				"LABEL": "0x2d08",
 				"TYPE": "Text",
 				"STRING": [
-					"[Torta] “Umm... That habit of saying ‘for now’is...”"
+					"[Torta] “Umm... That habit of saying ‘for now’ is...”"
 				]
 			},
 			{
@@ -8787,7 +8802,22 @@
 				"STRING": [
 					"As I went through the motions of putting the slightly",
 					"cold risotto in my mouth, I watched her from the corner",
-					"of my eye. It looked like she was reading the music",
+					"of my eye."
+				]
+			},
+			{
+				"LABEL": "2dee",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "2df0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "2dd2",
+				"TYPE": "Text",
+				"STRING": [
+					"It looked like she was reading the music",
 					"intently, checking the notes."
 				]
 			},
@@ -8931,8 +8961,7 @@
 				"LABEL": "0x2eaa",
 				"TYPE": "Text",
 				"STRING": [
-					"[Torta] “But you haven't chosen a partner yet, have you?",
-					"”"
+					"[Torta] “But you haven't chosen a partner yet, have you?”"
 				]
 			},
 			{
@@ -11225,8 +11254,8 @@
 				"STRING": [
 					"[Torta] “It's the same old stuff. I think it was that the",
 					"men and women who perform together at the",
-					"graduation presentation end up together forever... Or",
-					"something.”"
+					"graduation presentation end up together forever...",
+					"Or something.”"
 				]
 			},
 			{
@@ -11241,8 +11270,7 @@
 				"LABEL": "0x3ca8",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “Yeah, that's something you'd hear at any school.",
-					"”"
+					"[Chris] “Yeah, that's something you'd hear at any school.”"
 				]
 			},
 			{
@@ -11663,6 +11691,10 @@
 				]
 			},
 			{
+				"LABEL": "3f4c",
+				"TYPE": "NewLine"
+			},
+			{
 				"LABEL": "0x3f4c",
 				"TYPE": "Text",
 				"STRING": [
@@ -11880,7 +11912,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"Their relationship was hampered by the fact that one",
-					"was by the sea, and the other surrounded  by",
+					"was by the sea, and the other surrounded by",
 					"mountains."
 				]
 			},
@@ -12872,7 +12904,7 @@
 				"LABEL": "0x466a",
 				"TYPE": "Text",
 				"STRING": [
-					"I had to heave a deep sigh in order to guard against it ."
+					"I had to heave a deep sigh in order to guard against it."
 				]
 			},
 			{
@@ -13296,7 +13328,22 @@
 					"[Torta] “It can be filled with a richer range of emotions",
 					"than other instruments. So it pairs well with vocals,",
 					"which can express the same emotional richness",
-					"according to the verse. Understand?”"
+					"according to the verse."
+				]
+			},
+			{
+				"LABEL": "4950",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "4952",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "492a",
+				"TYPE": "Text",
+				"STRING": [
+					"[Torta] Understand?”"
 				]
 			},
 			{
