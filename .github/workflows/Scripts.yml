@@ -27,10 +27,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install numpy
         pip install keystone-engine
-    - name: Compile KGOs and making exefs patch
+    - name: Compile KGOs
       run: |
         python kgo_assembler.py
+    - name: Make exefs patch
+      run: |
         python CreatePatch.py
+    - name: Make table
+      run: |
         python Maketbl.py
     - name: Move contents
       run: |
