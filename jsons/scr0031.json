@@ -388,8 +388,23 @@
 				"STRING": [
 					"I remembered our conversation from the other day",
 					"about her part-time job being in the afternoon, after",
-					"she'd practiced a little. But when I asked her about it,",
-					"she answered with that same vague smile."
+					"she'd practiced a little. But when I asked her about",
+					"it, she answered with"
+				]
+			},
+			{
+				"LABEL": "27a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "27c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "25e",
+				"TYPE": "Text",
+				"STRING": [
+					"that same vague smile."
 				]
 			},
 			{
@@ -718,19 +733,12 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Fal] “They want me to write twenty copies of this score",
-					"that will be used in class tomorrow. ”"
+					"that will be used in class tomorrow.”"
 				]
 			},
 			{
-				"LABEL": "0x462",
-				"TYPE": "NewLine"
-			},
-			{
-				"LABEL": "0x464",
-				"TYPE": "Wait",
-				"U32": [
-					3000
-				]
+				"LABEL": "462",
+				"TYPE": "KeyWait"
 			},
 			{
 				"LABEL": "0x46c",
@@ -742,11 +750,15 @@
 				]
 			},
 			{
+				"LABEL": "0x462",
+				"TYPE": "NewPage"
+			},
+			{
 				"LABEL": "0x480",
 				"TYPE": "Text",
 				"STRING": [
 					"[Fal] “I've got about two hours until my shift, so I think I",
-					"will be able to get it done by myself, "
+					"will be able to get it done by myself,"
 				]
 			},
 			{
@@ -769,7 +781,8 @@
 				"LABEL": "0x4ae",
 				"TYPE": "Text",
 				"STRING": [
-					"but I'll probably be pushing it.”"
+					" but I'll",
+					"probably be pushing it.”"
 				]
 			},
 			{
@@ -864,7 +877,7 @@
 				"LABEL": "0x524",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Really? "
+					"[Fal] “Really?"
 				]
 			},
 			{
@@ -887,7 +900,7 @@
 				"LABEL": "0x552",
 				"TYPE": "Text",
 				"STRING": [
-					"Thank you so much, I really appreciate it!”"
+					" Thank you so much, I really appreciate it!”"
 				]
 			},
 			{
@@ -1043,8 +1056,8 @@
 				"STRING": [
 					"[Fal] “I borrow the key to an empty classroom while I",
 					"was at it. There are still classes underway in the other",
-					"classrooms, so I figured it'd be quiet and I'd be able to",
-					"concentrate.”"
+					"classrooms, so I figured it'd be quiet and I'd be",
+					"able to concentrate.”"
 				]
 			},
 			{
@@ -1366,7 +1379,7 @@
 				"LABEL": "0x81a",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Aha-ha. "
+					"[Fal] “Aha-ha."
 				]
 			},
 			{
@@ -1389,8 +1402,9 @@
 				"LABEL": "0x848",
 				"TYPE": "Text",
 				"STRING": [
-					"I guess since I attend a lot of lectures and come here by",
-					"myself, too, it doesn't really feel new at all.”"
+					" I guess since I attend a lot of lectures",
+					"and come here by myself, too, it doesn't really feel",
+					"new at all.”"
 				]
 			},
 			{
@@ -1712,7 +1726,7 @@
 				"LABEL": "0xa38",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “...So which should I be, hmm? "
+					"[Fal] “...So which should I be, hmm?"
 				]
 			},
 			{
@@ -1735,7 +1749,8 @@
 				"LABEL": "0xa66",
 				"TYPE": "Text",
 				"STRING": [
-					"Anyway that doesn't really matter. "
+					" Anyway that doesn't",
+					"really matter."
 				]
 			},
 			{
@@ -1758,8 +1773,8 @@
 				"LABEL": "0xa8a",
 				"TYPE": "Text",
 				"STRING": [
-					"I'm glad you brought something, this pen's the only one",
-					"I have. "
+					" I'm glad you brought something,",
+					"this pen's the only one I have."
 				]
 			},
 			{
@@ -1782,7 +1797,8 @@
 				"LABEL": "0xab8",
 				"TYPE": "Text",
 				"STRING": [
-					"Okay, I'm going to get started.”"
+					"Okay, I'm going",
+					"to get started.”"
 				]
 			},
 			{
@@ -2077,8 +2093,9 @@
 				"LABEL": "0xc56",
 				"TYPE": "Text",
 				"STRING": [
-					"Oh, I guess you must have been bored while you were",
-					"waiting. You could have kept talking, you know?”"
+					"Oh, I guess you must have been bored while you",
+					"were waiting. You could have kept talking,",
+					"you know?”"
 				]
 			},
 			{
@@ -2227,7 +2244,7 @@
 				"LABEL": "0xd30",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “I guess that's possible. "
+					"[Fal] “I guess that's possible."
 				]
 			},
 			{
@@ -2250,8 +2267,9 @@
 				"LABEL": "0xd5e",
 				"TYPE": "Text",
 				"STRING": [
-					"I've lost count of how many times I've copied scores,",
-					"even just in my personal time.”"
+					" I've lost count of how",
+					"many times I've copied scores, even just in my",
+					"personal time.”"
 				]
 			},
 			{
@@ -2424,7 +2442,7 @@
 				"LABEL": "0xe48",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Hehe... "
+					"[Fal] “Hehe..."
 				]
 			},
 			{
@@ -2447,7 +2465,8 @@
 				"LABEL": "0xe76",
 				"TYPE": "Text",
 				"STRING": [
-					"I guess talking to you at the same time doesn't help?”"
+					" I guess talking to you at the same time",
+					"doesn't help?”"
 				]
 			},
 			{
@@ -2510,8 +2529,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Fal] “I suppose I'm used to it, when I was a member of",
-					"the student board, we always chatted while we worked.",
-					"”"
+					"the student board, we always chatted while we worked.”"
 				]
 			},
 			{
@@ -3284,7 +3302,7 @@
 				"LABEL": "0x1388",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Effort? "
+					"[Fal] “Effort?"
 				]
 			},
 			{
@@ -3307,7 +3325,7 @@
 				"LABEL": "0x13b6",
 				"TYPE": "Text",
 				"STRING": [
-					"If it's needed, yes.”"
+					" If it's needed, yes.”"
 				]
 			},
 			{
@@ -3734,7 +3752,7 @@
 				"LABEL": "0x1640",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “I had a feeling you'd say that. "
+					"[Fal] “I had a feeling you'd say that."
 				]
 			},
 			{
@@ -3757,7 +3775,8 @@
 				"LABEL": "0x166e",
 				"TYPE": "Text",
 				"STRING": [
-					"In that case, why don't you come to my trattoria?”"
+					" In that case,",
+					"why don't you come to my trattoria?”"
 				]
 			},
 			{
@@ -3841,7 +3860,7 @@
 				"LABEL": "0x16f4",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Really, it wouldn't be anything special. "
+					"[Fal] “Really, it wouldn't be anything special."
 				]
 			},
 			{
@@ -3864,8 +3883,12 @@
 				"LABEL": "0x1722",
 				"TYPE": "Text",
 				"STRING": [
-					"Oh, and... "
+					" Oh, and..."
 				]
+			},
+			{
+				"LABEL": "1762",
+				"TYPE": "NewLine"
 			},
 			{
 				"LABEL": "0x172a",
@@ -3887,8 +3910,8 @@
 				"LABEL": "0x1746",
 				"TYPE": "Text",
 				"STRING": [
-					"If I ask about it today, I should be able to take my break",
-					"when you come by.”"
+					"If I ask about it today, I should be able to take",
+					"my break when you come by.”"
 				]
 			},
 			{
@@ -4295,8 +4318,7 @@
 				"LABEL": "0x19a6",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “So, what time should I drop by tomorrow night?",
-					"”"
+					"[Chris] “So, what time should I drop by tomorrow night?”"
 				]
 			},
 			{
@@ -4470,7 +4492,7 @@
 				"LABEL": "0x1ad8",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Seven it is, then. "
+					"[Fal] “Seven it is, then."
 				]
 			},
 			{
@@ -4493,8 +4515,8 @@
 				"LABEL": "0x1b06",
 				"TYPE": "Text",
 				"STRING": [
-					"When you come by, I'll make sure to serve you some of",
-					"the specials!”"
+					" When you come by, I'll make",
+					"sure to serve you some of the specials!”"
 				]
 			},
 			{
