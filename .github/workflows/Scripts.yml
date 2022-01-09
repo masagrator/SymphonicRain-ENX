@@ -40,7 +40,6 @@ jobs:
         mkdir -p exefs_patches/SymphonicRainENX
         cd ../
         mv E9A68278EDF6287D6543DE1B96A69A16.ips atmosphere/exefs_patches/SymphonicRainENX
-        mv Scene.tbl atmosphere/contents/01002F800CB16000/romfs/jp/script
     - name: Upload Artifact
       uses: actions/upload-artifact@v2
       with:
