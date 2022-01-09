@@ -815,8 +815,22 @@
 				"STRING": [
 					"It was a trivial thing that I normally would have ignored,",
 					"but from the sudden interest that had just arisen in me,",
-					"and the fact that I was searching for a partner, I decided",
-					"to take a peek inside."
+					"and the fact that I was searching for a partner,"
+				]
+			},
+			{
+				"LABEL": "46a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "46c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "46e",
+				"TYPE": "Text",
+				"STRING": [
+					"I decided to take a peek inside."
 				]
 			},
 			{
@@ -1590,7 +1604,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"I spoke to her, concerned but all the while feeling",
-					"slightly indignant ."
+					"slightly indignant."
 				]
 			},
 			{
