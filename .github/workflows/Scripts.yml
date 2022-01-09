@@ -6,7 +6,7 @@ on:
     paths:
     - 'CreatePatch.py'
     - 'jsons/**'
-    - 'workflows/**'
+    - '.github/workflows/**'
     - 'kgo_assembler.py'
     - 'kgo_commands.py'
     - 'Maketbl.py'
