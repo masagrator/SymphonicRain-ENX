@@ -516,7 +516,7 @@
 				"LABEL": "0x312",
 				"TYPE": "Text",
 				"STRING": [
-					"[Phorni] “That's right! "
+					"[Phorni] “That's right!"
 				]
 			},
 			{
@@ -539,7 +539,7 @@
 				"LABEL": "0x340",
 				"TYPE": "Text",
 				"STRING": [
-					"So? Dinner with Asino?”"
+					" So? Dinner with Asino?”"
 				]
 			},
 			{
@@ -608,7 +608,8 @@
 				"LABEL": "0x3ac",
 				"TYPE": "Text",
 				"STRING": [
-					"What's this ‘going to Fal's’ business...? "
+					"What's this",
+					"‘going to Fal's’ business...?"
 				]
 			},
 			{
@@ -631,7 +632,7 @@
 				"LABEL": "0x3da",
 				"TYPE": "Text",
 				"STRING": [
-					"I'm telling Arie!”"
+					" I'm telling Arie!”"
 				]
 			},
 			{
@@ -977,8 +978,7 @@
 				"LABEL": "0x5cc",
 				"TYPE": "Text",
 				"STRING": [
-					"[Phorni] “Something you don't want Arie to know about!",
-					"”"
+					"[Phorni] “Something you don't want Arie to know about!”"
 				]
 			},
 			{
@@ -1875,7 +1875,7 @@
 				"LABEL": "0xafc",
 				"TYPE": "Text",
 				"STRING": [
-					"[Phorni] “R-Right? "
+					"[Phorni] “R-Right?"
 				]
 			},
 			{
@@ -1898,7 +1898,7 @@
 				"LABEL": "0xb2a",
 				"TYPE": "Text",
 				"STRING": [
-					"This is all your fault, isn't it, Chris?”"
+					" This is all your fault, isn't it, Chris?”"
 				]
 			},
 			{
@@ -1936,7 +1936,7 @@
 				"LABEL": "0xb5e",
 				"TYPE": "Text",
 				"STRING": [
-					"[Phorni] “O-Oh, right. "
+					"[Phorni] “O-Oh, right."
 				]
 			},
 			{
@@ -1959,7 +1959,7 @@
 				"LABEL": "0xb8c",
 				"TYPE": "Text",
 				"STRING": [
-					"Okay.”"
+					" Okay.”"
 				]
 			},
 			{
@@ -2711,8 +2711,12 @@
 				"LABEL": "0xf68",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “It's fine, I've already done my share of the work. "
+					"[Fal] “It's fine, I've already done my share of the work."
 				]
+			},
+			{
+				"LABEL": "f5c",
+				"TYPE": "NewLine"
 			},
 			{
 				"LABEL": "0xf7a",
@@ -2734,7 +2738,7 @@
 				"LABEL": "0xf96",
 				"TYPE": "Text",
 				"STRING": [
-					"More importantly, "
+					"More importantly,"
 				]
 			},
 			{
@@ -2757,7 +2761,8 @@
 				"LABEL": "0xfc4",
 				"TYPE": "Text",
 				"STRING": [
-					"if you let it get cold, it won't taste as good.”"
+					" if you let it get cold, it won't taste",
+					"as good.”"
 				]
 			},
 			{
@@ -3029,7 +3034,7 @@
 				"LABEL": "0x1156",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Well, we're fine anyway. "
+					"[Fal] “Well, we're fine anyway."
 				]
 			},
 			{
@@ -3052,7 +3057,8 @@
 				"LABEL": "0x1184",
 				"TYPE": "Text",
 				"STRING": [
-					"Now, eat up before it really does get cold.”"
+					" Now, eat up before it",
+					"really does get cold.”"
 				]
 			},
 			{
@@ -3229,7 +3235,7 @@
 				"LABEL": "0x1292",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “I'm not sure that counts as food. "
+					"[Fal] “I'm not sure that counts as food."
 				]
 			},
 			{
@@ -3252,9 +3258,10 @@
 				"LABEL": "0x12c0",
 				"TYPE": "Text",
 				"STRING": [
-					"This place isn't that big, and the prices are pretty",
-					"reasonable, but the owner has a strict policy when it",
-					"comes to making good food.”"
+					"This place isn't",
+					"that big, and the prices are pretty reasonable, but",
+					"the owner has a strict policy when it comes to",
+					"making good food.”"
 				]
 			},
 			{
@@ -3633,6 +3640,10 @@
 				]
 			},
 			{
+				"LABEL": "14f8",
+				"TYPE": "NewLine"
+			},
+			{
 				"LABEL": "0x1514",
 				"TYPE": "Wait",
 				"U32": [
@@ -3738,7 +3749,7 @@
 				"LABEL": "0x15b6",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Great. "
+					"[Fal] “Great."
 				]
 			},
 			{
@@ -3761,7 +3772,7 @@
 				"LABEL": "0x15e4",
 				"TYPE": "Text",
 				"STRING": [
-					"Hmm... I should probably get back to it.”"
+					" Hmm... I should probably get back to it.”"
 				]
 			},
 			{
@@ -3807,7 +3818,7 @@
 				"LABEL": "0x1622",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Only thirty minutes. "
+					"[Fal] “Only thirty minutes."
 				]
 			},
 			{
@@ -3830,8 +3841,8 @@
 				"LABEL": "0x1650",
 				"TYPE": "Text",
 				"STRING": [
-					"I suppose I have to work another... Hmm, two and a half",
-					"hours?”"
+					" I suppose I have to work",
+					"another... Hmm, two and a half hours?”"
 				]
 			},
 			{
@@ -4461,8 +4472,7 @@
 				"LABEL": "0x19fe",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “Not necessarily... But that was the case tonight.",
-					"”"
+					"[Chris] “Not necessarily... But that was the case tonight.”"
 				]
 			},
 			{
