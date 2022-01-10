@@ -1232,8 +1232,7 @@
 				"LABEL": "0x706",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “The only thing I need to do now is practice, right?",
-					"”"
+					"[Fal] “The only thing I need to do now is practice, right?”"
 				]
 			},
 			{
@@ -1568,8 +1567,23 @@
 				"STRING": [
 					"Besides taking a quick break at lunchtime to eat some",
 					"sandwiches, we basically hadn't taken anything that",
-					"constituted an actual break, and spent the whole",
-					"afternoon until dinnertime practicing."
+					"constituted an actual break,"
+				]
+			},
+			{
+				"LABEL": "8ec",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "8ee",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "8da",
+				"TYPE": "Text",
+				"STRING": [
+					"and spent the whole afternoon until dinnertime",
+					"practicing."
 				]
 			},
 			{
@@ -2560,7 +2574,7 @@
 				"STRING": [
 					"[Fal] “Of course not, the afternoon is fine. Also, there's",
 					"that recital at the concert hall that I want to go to at",
-					"three o' clock.”"
+					"three o'clock.”"
 				]
 			},
 			{
@@ -2671,8 +2685,8 @@
 				"STRING": [
 					"[Fal] “This is something I wish they'd ask us students",
 					"about, but it seems that the number of tickets",
-					"themselves is limited, and they are barely sold to the",
-					"public.”"
+					"themselves is limited, and they are barely sold to",
+					"the public.”"
 				]
 			},
 			{
@@ -3134,7 +3148,8 @@
 				"LABEL": "0x1156",
 				"TYPE": "Text",
 				"STRING": [
-					"Oh, come in your uniform, okay?”"
+					" Oh,",
+					"come in your uniform, okay?”"
 				]
 			},
 			{
