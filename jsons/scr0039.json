@@ -286,7 +286,22 @@
 					"Stopping the music in my head at a good point, I",
 					"peeked inside Copert a number of times to check the",
 					"clock, and when I was doing so, my eyes met with",
-					"those of someone I was not expecting."
+					"those of someone"
+				]
+			},
+			{
+				"LABEL": "1ac",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1ae",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1b0",
+				"TYPE": "Text",
+				"STRING": [
+					"I was not expecting."
 				]
 			},
 			{
@@ -416,7 +431,8 @@
 				"LABEL": "0x282",
 				"TYPE": "Text",
 				"STRING": [
-					"Do you have a cooking pot at home?”"
+					"Do you have",
+					"a cooking pot at home?”"
 				]
 			},
 			{
@@ -728,8 +744,8 @@
 				"LABEL": "0x434",
 				"TYPE": "Text",
 				"STRING": [
-					"I was only going to say hello, but they asked me to help",
-					"a little.”"
+					" I was only going to say hello, but they",
+					"asked me to help a little.”"
 				]
 			},
 			{
@@ -870,7 +886,7 @@
 				"LABEL": "0x500",
 				"TYPE": "Text",
 				"STRING": [
-					"something like that.”"
+					" something like that.”"
 				]
 			},
 			{
@@ -1095,7 +1111,8 @@
 				"LABEL": "0x65a",
 				"TYPE": "Text",
 				"STRING": [
-					"Ah, this is the right way, yes?”"
+					" Ah, this is the right",
+					"way, yes?”"
 				]
 			},
 			{
@@ -1565,7 +1582,7 @@
 				"LABEL": "0x8f6",
 				"TYPE": "Text",
 				"STRING": [
-					"Oh well! Are you hungry?”"
+					" Oh well! Are you hungry?”"
 				]
 			},
 			{
@@ -1697,7 +1714,8 @@
 				"LABEL": "0x9c0",
 				"TYPE": "Text",
 				"STRING": [
-					"So don't worry, I won't burn your house down.”"
+					" So don't worry,",
+					"I won't burn your house down.”"
 				]
 			},
 			{
@@ -2075,7 +2093,8 @@
 				"STRING": [
 					"It was fine and all that I'd decided to be on the sidelines",
 					"as far as the cooking went, but it was awkward sitting",
-					"around doing nothing, so I decided to clean the table."
+					"around doing nothing, so I decided to clean",
+					"the table."
 				]
 			},
 			{
@@ -2324,7 +2343,8 @@
 				"LABEL": "0xd4c",
 				"TYPE": "Text",
 				"STRING": [
-					"The table..."
+					" The",
+					"table..."
 				]
 			},
 			{
@@ -2347,7 +2367,7 @@
 				"LABEL": "0xd7a",
 				"TYPE": "Text",
 				"STRING": [
-					"I see you cleaned it.”"
+					" I see you cleaned it.”"
 				]
 			},
 			{
@@ -2454,8 +2474,8 @@
 				"STRING": [
 					"It seemed that the lovely smell filling the room had also",
 					"piqued Phorni's interest, despite the fact she was",
-					"scrunching up her face at the steam coming out of the",
-					"pot."
+					"scrunching up her face at the steam coming out of",
+					"the pot."
 				]
 			},
 			{
@@ -2821,8 +2841,8 @@
 				"LABEL": "0xfda",
 				"TYPE": "Text",
 				"STRING": [
-					"But, I really did feel sorry for her, so I glanced at her and",
-					"sent her an apology with my eyes, and continued",
+					"But, I really did feel sorry for her, so I glanced at her",
+					"and sent her an apology with my eyes, and continued",
 					"eating."
 				]
 			},
@@ -2949,8 +2969,8 @@
 				"STRING": [
 					"With nothing to do, and not being able to talk with me",
 					"properly, Phorni asked me to place her on the",
-					"windowsill. I made an excuse for going over there, and",
-					"moved Phorni."
+					"windowsill. I made an excuse for going over there,",
+					"and moved Phorni."
 				]
 			},
 			{
@@ -3420,8 +3440,23 @@
 				"STRING": [
 					"[Fal] “Part of it is because I like working too. And",
 					"besides, even though as of yesterday my hours are",
-					"shorter, I'm still going to get the same pay as before.",
-					"Don't you think that's amazing?”"
+					"shorter, I'm still going to get the same pay as",
+					"before."
+				]
+			},
+			{
+				"LABEL": "1334",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1336",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "130e",
+				"TYPE": "Text",
+				"STRING": [
+					"[Fal] Don't you think that's amazing?”"
 				]
 			},
 			{
@@ -4241,7 +4276,7 @@
 			},
 			{
 				"LABEL": "0x1712",
-				"TYPE": "NewLine"
+				"TYPE": "NewPage"
 			},
 			{
 				"LABEL": "0x1714",
@@ -4263,7 +4298,7 @@
 			},
 			{
 				"LABEL": "0x1726",
-				"TYPE": "NewPage"
+				"TYPE": "NewLine"
 			},
 			{
 				"LABEL": "0x1728",
