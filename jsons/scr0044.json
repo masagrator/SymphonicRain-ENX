@@ -533,7 +533,8 @@
 				"STRING": [
 					"The Mass during Natale was different to those held on",
 					"other holidays, as all the church doors were opened",
-					"wide so that as many people as possible could attend."
+					"wide so that as many people as possible could",
+					"attend."
 				]
 			},
 			{
@@ -599,7 +600,22 @@
 				"STRING": [
 					"Of course, as the church was open to the public, it was",
 					"possible to just go straight in and start praying, but it",
-					"was normal to wait, in a line that stretched outside",
+					"was normal to wait,"
+				]
+			},
+			{
+				"LABEL": "348",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "34a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "34c",
+				"TYPE": "Text",
+				"STRING": [
+					"in a line that stretched outside",
 					"depending on the time of day, for a blessing."
 				]
 			},
@@ -803,8 +819,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Chris] “Yeah... We're going to a recital later, and we",
-					"have to be formally dressed, which is why I'm in uniform.",
-					"”"
+					"have to be formally dressed, which is why I'm in uniform.”"
 				]
 			},
 			{
@@ -904,7 +919,8 @@
 				"LABEL": "0x528",
 				"TYPE": "Text",
 				"STRING": [
-					"You're going too, right?”"
+					 " You're going",
+					 "too, right?”"
 				]
 			},
 			{
@@ -973,7 +989,8 @@
 				"LABEL": "0x59e",
 				"TYPE": "Text",
 				"STRING": [
-					"I guess I might see you there, then.”"
+					" I guess I might see you",
+					"there, then.”"
 				]
 			},
 			{
@@ -1487,8 +1504,7 @@
 				"LABEL": "0x8a0",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “Which is why you don't need to worry about it...",
-					"”"
+					"[Chris] “Which is why you don't need to worry about it...”"
 				]
 			},
 			{
@@ -1972,7 +1988,8 @@
 				"LABEL": "0xb6c",
 				"TYPE": "Text",
 				"STRING": [
-					"I never do my shopping here, either.”"
+					" I",
+					"never do my shopping here, either.”"
 				]
 			},
 			{
@@ -2182,8 +2199,9 @@
 				"LABEL": "0xca0",
 				"TYPE": "Text",
 				"STRING": [
-					"To tell the truth, I was thinking the same thing. We're in",
-					"agreement, then. We're such good partners!”"
+					" To tell the truth, I was thinking the",
+					"same thing. We're in agreement, then. We're such",
+					"good partners!”"
 				]
 			},
 			{
@@ -2681,7 +2699,8 @@
 				"STRING": [
 					"We were only at about the middle point of the line, and",
 					"there was no way to tell how much longer it would take",
-					"for us to enter, offer prayers, and receive a blessing."
+					"for us to enter, offer prayers, and receive",
+					"a blessing."
 				]
 			},
 			{
@@ -3457,8 +3476,23 @@
 				"STRING": [
 					"Of course it would be impossible for someone like me,",
 					"who wasn't a Father, to feel the presence of God, but",
-					"when I looked up at the massive church in front of me, I",
-					"couldn't feel even a trace of his presence."
+					"when I looked up at the massive church",
+					"in front of me,"
+				]
+			},
+			{
+				"LABEL": "139a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "139c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "139e",
+				"TYPE": "Text",
+				"STRING": [
+					"I couldn't feel even a trace of his presence."
 				]
 			},
 			{
@@ -3616,8 +3650,8 @@
 				"LABEL": "0x1482",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “It's just about the right time for us to go. Shall we?",
-					"”"
+					"[Fal] “It's just about the right time for us to go.",
+					"Shall we?”"
 				]
 			},
 			{
@@ -4196,9 +4230,9 @@
 				"LABEL": "0x17ce",
 				"TYPE": "Text",
 				"STRING": [
-					"Well, it doesn't matter. I haven't heard you two perform",
-					"together, but perhaps you make an unexpectedly good",
-					"pair.”"
+					" Well, it doesn't",
+					"matter. I haven't heard you two perform together,",
+					"but perhaps you make an unexpectedly good pair.”"
 				]
 			},
 			{
@@ -4642,7 +4676,8 @@
 				"LABEL": "0x1a8a",
 				"TYPE": "Text",
 				"STRING": [
-					"It might be a nice alternative to going to church.”"
+					" It might be a nice alternative to",
+					"going to church.”"
 				]
 			},
 			{
@@ -5384,9 +5419,24 @@
 				"TYPE": "Text",
 				"STRING": [
 					"I was overwhelmed by a comfortable sense of",
-					"despondency once the recital had finished, and my ears",
-					"were still sharp, searching for any remnants of sound",
-					"that could have been lingering in the hall."
+					"despondency once the recital had finished,",
+					"and my ears were still sharp,"
+				]
+			},
+			{
+				"LABEL": "1e94",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1e96",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1e98",
+				"TYPE": "Text",
+				"STRING": [
+					"searching for any remnants of sound that could",
+					"have been lingering in the hall."
 				]
 			},
 			{
@@ -5667,7 +5717,7 @@
 				"LABEL": "0x2042",
 				"TYPE": "Text",
 				"STRING": [
-					"Well, I guess I might be...”"
+					" Well, I guess I might be...”"
 				]
 			},
 			{
@@ -5775,8 +5825,9 @@
 				"LABEL": "0x20ec",
 				"TYPE": "Text",
 				"STRING": [
-					"Actually, perhaps it would be appropriate to say that I",
-					"was unhappy about 'something.'”"
+					" Actually,",
+					"perhaps it would be appropriate to say that I was",
+					"unhappy about 'something.'”"
 				]
 			},
 			{
@@ -6434,7 +6485,7 @@
 				"LABEL": "0x248a",
 				"TYPE": "Text",
 				"STRING": [
-					"Anyway, let's go!”"
+					" Anyway, let's go!”"
 				]
 			},
 			{
@@ -6865,8 +6916,23 @@
 				"TYPE": "Text",
 				"STRING": [
 					"Perhaps I was glorifying it, but I thought that those who",
-					"were successful in this recital would later join renowned",
-					"orchestras, or at least get preferential treatment if they",
+					"were successful in this recital would later join",
+					"renowned orchestras,"
+				]
+			},
+			{
+				"LABEL": "26a8",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "26aa",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "26ac",
+				"TYPE": "Text",
+				"STRING": [
+					"or at least get preferential treatment if they",
 					"wanted to become a music teacher in other countries."
 				]
 			},
@@ -7478,8 +7544,8 @@
 				"LABEL": "0x2a2a",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “I know. But I want to be a professional, as soon as",
-					"humanly possible.”"
+					"[Fal] “I know. But I want to be a professional, as soon",
+					"as humanly possible.”"
 				]
 			},
 			{
@@ -7744,8 +7810,8 @@
 				"LABEL": "0x2bc8",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “You don't know what it is either though, do you...",
-					"?”"
+					"[Fal] “You don't know what it is either though,",
+					"do you...?”"
 				]
 			},
 			{
@@ -7875,7 +7941,7 @@
 				"LABEL": "0x2c8c",
 				"TYPE": "Text",
 				"STRING": [
-					"“From here on in?”Did she just mean the recital?"
+					"“From here on in?” Did she just mean the recital?"
 				]
 			},
 			{
@@ -8194,8 +8260,8 @@
 				"LABEL": "0x2e1a",
 				"TYPE": "Text",
 				"STRING": [
-					"I felt a sense of being as one, different to what I had felt",
-					"earlier as a member of the audience."
+					"I felt a sense of being as one, different to what I had",
+					"felt earlier as a member of the audience."
 				]
 			},
 			{
@@ -8341,8 +8407,8 @@
 				"STRING": [
 					"She had been aware for a long time that she was",
 					"lacking something, and she had undoubtedly been",
-					"practicing like crazy in order to make up for whatever it",
-					"was."
+					"practicing like crazy in order to make up for",
+					"whatever it was."
 				]
 			},
 			{
@@ -8732,7 +8798,7 @@
 				"LABEL": "0x311e",
 				"TYPE": "Text",
 				"STRING": [
-					"It's supposed to be Natale...”"
+					" It's supposed to be Natale...”"
 				]
 			},
 			{
@@ -8966,8 +9032,23 @@
 				"STRING": [
 					"[Chris] “It was a long time ago, but I got in trouble with",
 					"the security guard once. I think it was when Asino and I",
-					"went to get something that he left at school. We got",
-					"caught and the guard really went off at us.”"
+					"went to get something that he left at school.”"
+				]
+			},
+			{
+				"LABEL": "326c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "326e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "3270",
+				"TYPE": "Text",
+				"STRING": [
+					"[Chris] “We got caught and the guard really went off",
+					"at us.”"
 				]
 			},
 			{
@@ -9190,7 +9271,7 @@
 				"LABEL": "0x33e6",
 				"TYPE": "Text",
 				"STRING": [
-					"Oh, by the way, are you getting hungry?”"
+					" Oh, by the way, are you getting hungry?”"
 				]
 			},
 			{
@@ -9336,7 +9417,8 @@
 				"LABEL": "0x34b2",
 				"TYPE": "Text",
 				"STRING": [
-					"All I have to do is bake it, and it'll be ready!”"
+					" All I have to do is",
+					"bake it, and it'll be ready!”"
 				]
 			},
 			{
@@ -9605,8 +9687,8 @@
 				"LABEL": "0x3604",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “We have to at least do a little practice, you know?",
-					"”"
+					"[Fal] “We have to at least do a little practice,",
+					"you know?”"
 				]
 			},
 			{
@@ -9763,7 +9845,7 @@
 				"LABEL": "0x3706",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “At two o' clock..”"
+					"[Chris] “At two o'clock..”"
 				]
 			},
 			{
