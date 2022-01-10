@@ -130,7 +130,8 @@
 				"STRING": [
 					"I finished my last class of the year with Ms. Cordell, and",
 					"then headed to the practice room at the far end of the",
-					"hallway, as if this was another course in my curriculum."
+					"hallway, as if this was another course in my",
+					"curriculum."
 				]
 			},
 			{
@@ -544,7 +545,8 @@
 				"LABEL": "0x34c",
 				"TYPE": "Text",
 				"STRING": [
-					"Well... Actually, I kind of made her tell me."
+					" Well... Actually, I kind of made",
+					"her tell me."
 				]
 			},
 			{
@@ -567,7 +569,7 @@
 				"LABEL": "0x37a",
 				"TYPE": "Text",
 				"STRING": [
-					"I'm sorry.”"
+					" I'm sorry.”"
 				]
 			},
 			{
@@ -1034,8 +1036,9 @@
 				"LABEL": "0x62a",
 				"TYPE": "Text",
 				"STRING": [
-					"But after I first heard the way you play, and then",
-					"rehearsing with you..."
+					" But after I",
+					"first heard the way you play, and then rehearsing",
+					"with you..."
 				]
 			},
 			{
@@ -1058,7 +1061,7 @@
 				"LABEL": "0x662",
 				"TYPE": "Text",
 				"STRING": [
-					"I felt something.”"
+					" I felt something.”"
 				]
 			},
 			{
@@ -1935,6 +1938,10 @@
 				]
 			},
 			{
+				"LABEL": "b38",
+				"TYPE": "NewLine"
+			},
+			{
 				"LABEL": "0xb10",
 				"TYPE": "MoveChar",
 				"U32": [
@@ -1984,8 +1991,8 @@
 				"STRING": [
 					"After some time had passed and the feeling of elation",
 					"was beginning to fade, I started to notice that my",
-					"fingers and shoulders were much more tired than I had",
-					"thought."
+					"fingers and shoulders were much more tired than I",
+					"had thought."
 				]
 			},
 			{
@@ -2151,8 +2158,8 @@
 				"LABEL": "0xc6c",
 				"TYPE": "Text",
 				"STRING": [
-					"Well, I suppose we should at least take it a little easier",
-					"during Natale.”"
+					" Well, I suppose we should at least take it",
+					"a little easier during Natale.”"
 				]
 			},
 			{
@@ -2246,8 +2253,8 @@
 				"LABEL": "0xd06",
 				"TYPE": "Text",
 				"STRING": [
-					"But tomorrow is going to be another hard day of",
-					"practice, you know?”"
+					" But tomorrow is going to be another",
+					"hard day of practice, you know?”"
 				]
 			},
 			{
@@ -2417,7 +2424,7 @@
 				"LABEL": "0xde6",
 				"TYPE": "Text",
 				"STRING": [
-					"At the three -street junction where we often parted",
+					"At the three-street junction where we often parted",
 					"ways, Fal decided to confirm what we would be doing."
 				]
 			},
@@ -2631,8 +2638,8 @@
 				"LABEL": "0xf48",
 				"TYPE": "Text",
 				"STRING": [
-					"Okay, how about this? What if you think of it as going",
-					"to a friends house to visit?”"
+					" Okay, how about this? What if you think",
+					"of it as going to a friends house to visit?”"
 				]
 			},
 			{
@@ -2937,8 +2944,23 @@
 				"STRING": [
 					"It wasn't like I wanted someone to attest to what kind",
 					"of friends Fal and I were, but entering a deeper",
-					"relationship other than for music could end up in a",
-					"bitter result for both of us."
+					"relationship other than for music could end up",
+					"in a bitter result"
+				]
+			},
+			{
+				"LABEL": "1118",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "111a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "111c",
+				"TYPE": "Text",
+				"STRING": [
+					"for both of us."
 				]
 			},
 			{
@@ -3150,8 +3172,23 @@
 				"STRING": [
 					"[Fal] “Actually, there's something I haven't mentioned,",
 					"sorry... I'm going to be busy and won't be able to",
-					"practice from the end of Natale, until the day before",
-					"school starts again.”"
+					"practice from the end of Natale, until the day",
+					"before school starts"
+				]
+			},
+			{
+				"LABEL": "1270",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1272",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "124a",
+				"TYPE": "Text",
+				"STRING": [
+					"[Fal] again.”"
 				]
 			},
 			{
@@ -3287,8 +3324,8 @@
 				"STRING": [
 					"[Chris] “Sure, that's no problem. Either way we'll be",
 					"practicing all day long after school starts again, so it",
-					"should be a good break for both of us. Are you going to",
-					"go somewhere?”"
+					"should be a good break for both of us. Are you going",
+					"to go somewhere?”"
 				]
 			},
 			{
@@ -3380,7 +3417,8 @@
 				"LABEL": "0x13fc",
 				"TYPE": "Text",
 				"STRING": [
-					"You have to practice during the break too, you know?”"
+					" You have to practice during the break",
+					"too, you know?”"
 				]
 			},
 			{
