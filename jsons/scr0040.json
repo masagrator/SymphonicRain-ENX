@@ -853,7 +853,7 @@
 				"LABEL": "0x46c",
 				"TYPE": "Text",
 				"STRING": [
-					"In that case...”"
+					" In that case...”"
 				]
 			},
 			{
@@ -969,7 +969,8 @@
 				"LABEL": "0x520",
 				"TYPE": "Text",
 				"STRING": [
-					"Let's clean up and head home.”"
+					"Let's clean up",
+					"and head home.”"
 				]
 			},
 			{
@@ -2815,7 +2816,8 @@
 				"STRING": [
 					"I checked the clock hanging on the wall on my way out",
 					"of the building, and noticed it was over an hour and a",
-					"half earlier than the usual time I would have finished up."
+					"half earlier than the usual time I would have",
+					"finished up."
 				]
 			},
 			{
@@ -2916,8 +2918,8 @@
 				"LABEL": "0x1056",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “This is just right for me. I have a feeling that if I left",
-					"you in charge, we'd be going home at this time",
+					"[Fal] “This is just right for me. I have a feeling that if I",
+					"left you in charge, we'd be going home at this time",
 					"everyday.”"
 				]
 			},
@@ -3313,6 +3315,10 @@
 				]
 			},
 			{
+				"LABEL": "128a",
+				"TYPE": "NewLine"
+			},
+			{
 				"LABEL": "0x12ae",
 				"TYPE": "MoveChar",
 				"U32": [
@@ -3655,8 +3661,9 @@
 				"LABEL": "0x14b4",
 				"TYPE": "Text",
 				"STRING": [
-					"There probably isn't anyone who doesn't know her, she",
-					"used to be the class president.”"
+					" There probably isn't anyone",
+					"who doesn't know her, she used to be the class",
+					"president.”"
 				]
 			},
 			{
@@ -4001,6 +4008,10 @@
 				]
 			},
 			{
+				"LABEL": "16e0",
+				"TYPE": "NewLine"
+			},
+			{
 				"LABEL": "0x16ba",
 				"TYPE": "MoveChar",
 				"U32": [
@@ -4159,7 +4170,7 @@
 				"LABEL": "0x17ae",
 				"TYPE": "Text",
 				"STRING": [
-					"Ah, yes!”"
+					" Ah, yes!”"
 				]
 			},
 			{
@@ -4718,8 +4729,8 @@
 				"LABEL": "0x1b08",
 				"TYPE": "Text",
 				"STRING": [
-					"All I did was say that he shouldn't act in such a way, you",
-					"know?”"
+					" All I did was say that he",
+					"shouldn't act in such a way, you know?”"
 				]
 			},
 			{
@@ -4905,7 +4916,7 @@
 				"LABEL": "0x1c18",
 				"TYPE": "Text",
 				"STRING": [
-					"Ah..."
+					" Ah..."
 				]
 			},
 			{
@@ -4928,7 +4939,8 @@
 				"LABEL": "0x1c3c",
 				"TYPE": "Text",
 				"STRING": [
-					"But before that, can I ask you one thing?”"
+					" But before that, can I ask you",
+					"one thing?”"
 				]
 			},
 			{
@@ -5402,7 +5414,7 @@
 				"LABEL": "0x1eea",
 				"TYPE": "Text",
 				"STRING": [
-					"What will it be?”"
+					" What will it be?”"
 				]
 			},
 			{
@@ -5525,7 +5537,7 @@
 				"LABEL": "0x1f92",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “No, don't actually forget about it,"
+					"[Fal] “No, don't actually forget about it."
 				]
 			},
 			{
@@ -5548,7 +5560,7 @@
 				"LABEL": "0x1fc0",
 				"TYPE": "Text",
 				"STRING": [
-					"Umm..."
+					" Umm..."
 				]
 			},
 			{
@@ -5571,7 +5583,8 @@
 				"LABEL": "0x1fe4",
 				"TYPE": "Text",
 				"STRING": [
-					"Just wait a moment.”"
+					" Just wait",
+					"a moment.”"
 				]
 			},
 			{
@@ -5658,7 +5671,7 @@
 				"LABEL": "0x2070",
 				"TYPE": "Text",
 				"STRING": [
-					"You might have plans,"
+					" You might have plans,"
 				]
 			},
 			{
@@ -5681,8 +5694,8 @@
 				"LABEL": "0x2094",
 				"TYPE": "Text",
 				"STRING": [
-					"and even if you don't, you might have some in the",
-					"future.”"
+					" and even if",
+					"you don't, you might have some in the future.”"
 				]
 			},
 			{
@@ -5796,8 +5809,8 @@
 				"STRING": [
 					"[Fal] “So um, I was thinking that if you were thinking of",
 					"choosing me as your partner for the graduation recital,",
-					"we should... Because, you know, it's almost that time",
-					"now.”"
+					"we should... Because, you know, it's almost that",
+					"time now.”"
 				]
 			},
 			{
@@ -5852,7 +5865,8 @@
 				"LABEL": "0x21a4",
 				"TYPE": "Text",
 				"STRING": [
-					"And if you do, perhaps we can practice on Natale, too.”"
+					" And if you do,",
+					"perhaps we can practice on Natale, too.”"
 				]
 			},
 			{
@@ -5960,7 +5974,7 @@
 				"LABEL": "0x2262",
 				"TYPE": "Text",
 				"STRING": [
-					"Didn't you know?”"
+					" Didn't you know?”"
 				]
 			},
 			{
@@ -6026,9 +6040,23 @@
 				"STRING": [
 					"But in actuality, it wasn't as if students could afford not",
 					"to practice for the ten or so days between the end of",
-					"the year and the beginning of the next one, so the last",
-					"day of school, which was the 23rd of December, was",
-					"considered the typical time limit."
+					"the year and the beginning of the next one,"
+				]
+			},
+			{
+				"LABEL": "0x22b6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "0x22b8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x22ba",
+				"TYPE": "Text",
+				"STRING": [
+					"so the last day of school, which was the 23rd",
+					"of December, was considered the typical time limit."
 				]
 			},
 			{
@@ -6088,7 +6116,8 @@
 				"LABEL": "0x2326",
 				"TYPE": "Text",
 				"STRING": [
-					"I have to work on Thursday instead, however.”"
+					" I have to work on Thursday instead,",
+					"however.”"
 				]
 			},
 			{
@@ -6190,7 +6219,7 @@
 				"LABEL": "0x23c8",
 				"TYPE": "Text",
 				"STRING": [
-					"I know it's hard for you say no sometimes,"
+					" I know it's hard for you say no sometimes,"
 				]
 			},
 			{
@@ -6199,6 +6228,10 @@
 				"U32": [
 					2000
 				]
+			},
+			{
+				"LABEL": "2386",
+				"TYPE": "NewLine"
 			},
 			{
 				"LABEL": "0x23d8",
@@ -6213,7 +6246,22 @@
 				"LABEL": "0x23ec",
 				"TYPE": "Text",
 				"STRING": [
-					"so it might just be easier if you didn't come...”"
+					"so it might just be"
+				]
+			},
+			{
+				"LABEL": "23fe",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "2400",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "2402",
+				"TYPE": "Text",
+				"STRING": [
+					"[Fal] easier if you didn't come...”"
 				]
 			},
 			{
@@ -6282,7 +6330,8 @@
 				"LABEL": "0x2462",
 				"TYPE": "Text",
 				"STRING": [
-					"But, do you agree?”"
+					" But, do you",
+					"agree?”"
 				]
 			},
 			{
