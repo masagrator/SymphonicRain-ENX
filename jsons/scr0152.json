@@ -269,8 +269,23 @@
 				"STRING": [
 					"I wondered if today would have actually been the last",
 					"day that I received a letter. It was a feeling of longing,",
-					"but one of sentimentality that I felt as I looked at the",
-					"mailbox, and then rushed off to school."
+					"but one of sentimentality that I felt as I looked at",
+					"the mailbox,"
+				]
+			},
+			{
+				"LABEL": "1aa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1ac",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1ae",
+				"TYPE": "Text",
+				"STRING": [
+					"and then rushed off to school."
 				]
 			},
 			{
@@ -1598,7 +1613,8 @@
 				"LABEL": "0x908",
 				"TYPE": "Text",
 				"STRING": [
-					"We talked about this before, right?"
+					" We talked about this before,",
+					"right?"
 				]
 			},
 			{
@@ -1621,7 +1637,7 @@
 				"LABEL": "0x92c",
 				"TYPE": "Text",
 				"STRING": [
-					"That there was something I was lacking.”"
+					" That there was something I was lacking.”"
 				]
 			},
 			{
@@ -1751,7 +1767,7 @@
 				"LABEL": "0x9e0",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “I wonder if it's...magic.”"
+					"[Chris] “I wonder if it's... magic.”"
 				]
 			},
 			{
@@ -1995,8 +2011,7 @@
 				"LABEL": "0xb70",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “You didn't do, or feel anything special at the time?",
-					"”"
+					"[Fal] “You didn't do, or feel anything special at the time?”"
 				]
 			},
 			{
@@ -2225,7 +2240,7 @@
 				"LABEL": "0xcf6",
 				"TYPE": "Text",
 				"STRING": [
-					"Yes, I've heard this before.”"
+					" Yes, I've heard this before.”"
 				]
 			},
 			{
