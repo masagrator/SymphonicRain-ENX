@@ -428,8 +428,22 @@
 				"STRING": [
 					"[Chris] “I wonder if you'll be able to understand this. I",
 					"like her on a human level of course, but also in terms of",
-					"music there's something special about her, so I can't",
-					"help it if I'm a bit excited.”"
+					"music there's something special about her,"
+				]
+			},
+			{
+				"LABEL": "2b6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "2b8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "2ba",
+				"TYPE": "Text",
+				"STRING": [
+					"[Chris] so I can't help it if I'm a bit excited.”"
 				]
 			},
 			{
@@ -688,8 +702,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Phorni] “Why apologize? It was written in that letter",
-					"from Arie, wasn't it? To do what you thought was right?",
-					"”"
+					"from Arie, wasn't it? To do what you thought was right?”"
 				]
 			},
 			{
@@ -796,7 +809,7 @@
 				"LABEL": "0x53a",
 				"TYPE": "Text",
 				"STRING": [
-					"Okay then, see you later.”"
+					" Okay then, see you later.”"
 				]
 			},
 			{
@@ -1128,7 +1141,8 @@
 				"STRING": [
 					"After navigating the surprisingly crowded hallway and",
 					"then entering our practice room, I saw that Fal was",
-					"sitting down as she had already finished getting ready."
+					"sitting down as she had already finished getting",
+					"ready."
 				]
 			},
 			{
@@ -1289,8 +1303,9 @@
 				"LABEL": "0x7e4",
 				"TYPE": "Text",
 				"STRING": [
-					"I want to warm up too, I'm too scared to just suddenly",
-					"go and rehearse in front of her.”"
+					" I want to",
+					"warm up too, I'm too scared to just suddenly go and",
+					"rehearse in front of her.”"
 				]
 			},
 			{
@@ -1417,8 +1432,8 @@
 				"STRING": [
 					"Of course I was worried about her physical state, but I",
 					"was also concerned about the words she said",
-					"yesterday. However, it seemed that she was back to the",
-					"usual old Fal."
+					"yesterday. However, it seemed that she was back to",
+					"the usual old Fal."
 				]
 			},
 			{
@@ -2321,7 +2336,8 @@
 				"STRING": [
 					"[Cordell] “To be honest when I heard that you were",
 					"partnering up with Falsita, I had felt some concern, but",
-					"it seems that your compatibility wasn't so bad after all.”"
+					"it seems that your compatibility wasn't so bad after",
+					"all.”"
 				]
 			},
 			{
@@ -2391,7 +2407,7 @@
 				"LABEL": "0xdf6",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “Is that...praise?”"
+					"[Chris] “Is that... praise?”"
 				]
 			},
 			{
@@ -2453,7 +2469,7 @@
 				"LABEL": "0xe5a",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Not bad...you say.”"
+					"[Fal] “Not bad... you say.”"
 				]
 			},
 			{
@@ -2470,7 +2486,8 @@
 				"STRING": [
 					"[Chris] “Coming from Ms. Cordell, that's actually quite",
 					"the serving of praise. Normally, even if you did a good",
-					"job she'd just tell you to do it again, and that was it.”"
+					"job she'd just tell you to do it again, and that",
+					"was it.”"
 				]
 			},
 			{
@@ -3767,8 +3784,8 @@
 				"LABEL": "0x161e",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “If I see him, shall I tell him you'd like to see him?",
-					"”"
+					"[Chris] “If I see him, shall I tell him you'd like to see",
+					"him?”"
 				]
 			},
 			{
@@ -4206,8 +4223,8 @@
 				"LABEL": "0x18c8",
 				"TYPE": "Text",
 				"STRING": [
-					"I wouldn't say something like that unless I liked the",
-					"person.”"
+					" I wouldn't say",
+					"something like that unless I liked the person.”"
 				]
 			},
 			{
