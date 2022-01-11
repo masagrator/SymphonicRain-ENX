@@ -522,7 +522,8 @@
 				"LABEL": "0x31e",
 				"TYPE": "Text",
 				"STRING": [
-					"Anyway, why don't we go inside for now?”"
+					" Anyway, why don't we go",
+					"inside for now?”"
 				]
 			},
 			{
@@ -781,6 +782,10 @@
 				"U32": [
 					1000
 				]
+			},
+			{
+				"LABEL": "4b8",
+				"TYPE": "NewLine"
 			},
 			{
 				"LABEL": "0x490",
@@ -1055,7 +1060,22 @@
 				"STRING": [
 					"[Chris] “Fal said that she got a kind of unofficial okay",
 					"from the teachers when she straight up asked them to",
-					"allow her, saying that she didn't want to waste any time",
+					"allow her,"
+				]
+			},
+			{
+				"LABEL": "60c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "60e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "610",
+				"TYPE": "Text",
+				"STRING": [
+					"[Chris] saying that she didn't want to waste any time",
 					"she could have spent practicing.”"
 				]
 			},
@@ -1786,8 +1806,8 @@
 				"STRING": [
 					"[Torta] “That's something else entirely. It's different to",
 					"having a partner like Fortelle players have to. The",
-					"singing is the only thing they focus on, the piano doesn't",
-					"get judged.”"
+					"singing is the only thing they focus on, the piano",
+					"doesn't get judged.”"
 				]
 			},
 			{
@@ -3248,8 +3268,9 @@
 				"LABEL": "0x12b8",
 				"TYPE": "Text",
 				"STRING": [
-					"I mean, she probably wasn't expecting you to partner",
-					"up with a girl that isn't Tortinita.”"
+					" I mean,",
+					"she probably wasn't expecting you to partnerup with",
+					"a girl that isn't Tortinita.”"
 				]
 			},
 			{
@@ -3664,7 +3685,7 @@
 				"LABEL": "0x150a",
 				"TYPE": "Text",
 				"STRING": [
-					"Was he...worried about me?"
+					"Was he... worried about me?"
 				]
 			},
 			{
@@ -4360,8 +4381,8 @@
 				"LABEL": "0x193a",
 				"TYPE": "Text",
 				"STRING": [
-					"She must have really been in a rush, as she ran a little as",
-					"she left."
+					"She must have really been in a rush, as she ran a little",
+					"as she left."
 				]
 			},
 			{
