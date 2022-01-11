@@ -1240,8 +1240,8 @@
 				"LABEL": "0x70e",
 				"TYPE": "Text",
 				"STRING": [
-					"Well then, shall we go to the school? Or would you like",
-					"to practice somewhere else?”"
+					" Well then, shall we go to the school? Or",
+					"would you like to practice somewhere else?”"
 				]
 			},
 			{
@@ -1297,6 +1297,10 @@
 				"U32": [
 					3000
 				]
+			},
+			{
+				"LABEL": "7a0",
+				"TYPE": "NewLine"
 			},
 			{
 				"LABEL": "0x77a",
@@ -1609,8 +1613,8 @@
 				"STRING": [
 					"While I was wiping my hair and clothes down with the",
 					"nicely scented towel, Fal had gone into her place and",
-					"gotten a rather familiar looking score from out of her",
-					"bag."
+					"gotten a rather familiar looking score from out of",
+					"her bag."
 				]
 			},
 			{
@@ -1721,8 +1725,8 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Fal] “I think it's just because it's something I've looked",
-					"at so many times. I feel at peace when I have it with me.",
-					"”"
+					"at so many times. I feel at peace when I have it",
+					"with me.”"
 				]
 			},
 			{
@@ -1833,8 +1837,7 @@
 				"LABEL": "0xa92",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “I guess the fact you've gotten that out means...?",
-					"”"
+					"[Chris] “I guess the fact you've gotten that out means...?”"
 				]
 			},
 			{
@@ -2055,7 +2058,7 @@
 			},
 			{
 				"LABEL": "0xbb0",
-				"TYPE": "NewLine"
+				"TYPE": "NewPage"
 			},
 			{
 				"LABEL": "0xbb2",
@@ -2072,7 +2075,7 @@
 			},
 			{
 				"LABEL": "0xbc6",
-				"TYPE": "NewPage"
+				"TYPE": "NewLine"
 			},
 			{
 				"LABEL": "0xbc8",
@@ -2146,7 +2149,7 @@
 			},
 			{
 				"LABEL": "0xc22",
-				"TYPE": "NewLine"
+				"TYPE": "NewPage"
 			},
 			{
 				"LABEL": "0xc24",
@@ -3265,8 +3268,8 @@
 				"LABEL": "0x12c0",
 				"TYPE": "Text",
 				"STRING": [
-					"Hey, speaking of Ms. Cordell, I just remembered",
-					"something.”"
+					" Hey, speaking of Ms. Cordell,",
+					"I just remembered something.”"
 				]
 			},
 			{
@@ -3521,7 +3524,7 @@
 				"LABEL": "0x144a",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “Does my singing...have any value?”"
+					"[Fal] “Does my singing... have any value?”"
 				]
 			},
 			{
@@ -3771,8 +3774,8 @@
 				"LABEL": "0x15bc",
 				"TYPE": "Text",
 				"STRING": [
-					"Her response was a little slow, but she did it with a faint",
-					"smile."
+					"Her response was a little slow, but she did it with",
+					"a faint smile."
 				]
 			},
 			{
