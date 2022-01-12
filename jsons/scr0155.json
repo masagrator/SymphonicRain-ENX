@@ -753,8 +753,23 @@
 				"STRING": [
 					"Furthermore, for every Fortelle player recital there was",
 					"one less vocal student performing on vocal course",
-					"recital days, so in actuality there would be around 30",
-					"pairs performing in one day."
+					"recital days,"
+				]
+			},
+			{
+				"LABEL": "432",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "434",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "436",
+				"TYPE": "Text",
+				"STRING": [
+					"so in actuality there would be around 30 pairs",
+					"performing in one day."
 				]
 			},
 			{
@@ -903,7 +918,7 @@
 				"LABEL": "0x51a",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “... Hmph."
+					"[Fal] “...Hmph."
 				]
 			},
 			{
@@ -926,9 +941,9 @@
 				"LABEL": "0x548",
 				"TYPE": "Text",
 				"STRING": [
-					"Anyway, the practice rooms are still open tomorrow",
-					"too, so let's meet at the same time, and practice a little",
-					"before we take on the recital.”"
+					" Anyway, the practice rooms are still open",
+					"tomorrow too, so let's meet at the same time, and",
+					"practice a little before we take on the recital.”"
 				]
 			},
 			{
@@ -989,7 +1004,7 @@
 				"LABEL": "0x5b0",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “Just to confirm but...until which of us is",
+					"[Chris] “Just to confirm but... until which of us is",
 					"satisfied?”"
 				]
 			},
@@ -1863,7 +1878,7 @@
 				"LABEL": "0xa58",
 				"TYPE": "Text",
 				"STRING": [
-					"Anyway, why don't you come over later?”"
+					" Anyway, why don't you come over later?”"
 				]
 			},
 			{
@@ -1971,7 +1986,8 @@
 				"LABEL": "0xaf8",
 				"TYPE": "Text",
 				"STRING": [
-					"And things after that.”"
+					" And things",
+					"after that.”"
 				]
 			},
 			{
@@ -3032,7 +3048,7 @@
 			},
 			{
 				"LABEL": "0xff8",
-				"TYPE": "NewLine"
+				"TYPE": "NewPage"
 			},
 			{
 				"LABEL": "0xffa",
@@ -3212,7 +3228,7 @@
 			},
 			{
 				"LABEL": "0x10b6",
-				"TYPE": "NewLine"
+				"TYPE": "NewPage"
 			},
 			{
 				"LABEL": "0x10b8",
@@ -3228,7 +3244,7 @@
 			},
 			{
 				"LABEL": "0x10cc",
-				"TYPE": "NewPage"
+				"TYPE": "NewLine"
 			},
 			{
 				"LABEL": "0x10ce",
@@ -3323,7 +3339,7 @@
 			},
 			{
 				"LABEL": "0x1124",
-				"TYPE": "NewLine"
+				"TYPE": "NewPage"
 			},
 			{
 				"LABEL": "0x1126",
@@ -3605,7 +3621,7 @@
 				"LABEL": "0x12b4",
 				"TYPE": "Text",
 				"STRING": [
-					"Okay, it won't take too long.”"
+					" Okay, it won't take too long.”"
 				]
 			},
 			{
@@ -4926,7 +4942,7 @@
 				"LABEL": "0x199c",
 				"TYPE": "Text",
 				"STRING": [
-					"This? This is what you meant!?”"
+					" This? This is what you meant!?”"
 				]
 			},
 			{
@@ -5171,7 +5187,8 @@
 				"LABEL": "0x1b26",
 				"TYPE": "Text",
 				"STRING": [
-					"I'm sorry, but I was just using you.”"
+					" I'm sorry,",
+					"but I was just using you.”"
 				]
 			},
 			{
@@ -5413,7 +5430,7 @@
 				"LABEL": "0x1ca4",
 				"TYPE": "Text",
 				"STRING": [
-					"I'm...”"
+					" I'm...”"
 				]
 			},
 			{
@@ -5574,8 +5591,9 @@
 				"LABEL": "0x1da4",
 				"TYPE": "Text",
 				"STRING": [
-					"And what makes you so different? Can you even tell me",
-					"why you're different? Did you hear that, Chris?”"
+					"And what makes you",
+					"so different? Can you even tell me why",
+					"you're different? Did you hear that, Chris?”"
 				]
 			},
 			{
@@ -5622,7 +5640,7 @@
 				"LABEL": "0x1e00",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “Wait a minute! Please...could someone just",
+					"[Chris] “Wait a minute! Please... could someone just",
 					"explain what's going on? Please...”"
 				]
 			},
@@ -5909,8 +5927,8 @@
 				"LABEL": "0x1fe8",
 				"TYPE": "Text",
 				"STRING": [
-					"perhaps you just shouldn't have done any of this in the",
-					"first place.”"
+					" perhaps you just shouldn't have done",
+					"any of this in the first place.”"
 				]
 			},
 			{
@@ -5985,7 +6003,7 @@
 				"LABEL": "0x2046",
 				"TYPE": "Text",
 				"STRING": [
-					"...Was like that of a hurt child"
+					"...Was like that of a hurt child."
 				]
 			},
 			{
@@ -6195,7 +6213,7 @@
 				"LABEL": "0x217a",
 				"TYPE": "Text",
 				"STRING": [
-					"Chris, I... It's not like that...”"
+					" Chris, I... It's not like that...”"
 				]
 			},
 			{
@@ -6733,7 +6751,7 @@
 				"LABEL": "0x24a0",
 				"TYPE": "Text",
 				"STRING": [
-					"[Asino] “I'm...leaving.”"
+					"[Asino] “I'm... leaving.”"
 				]
 			},
 			{
@@ -6802,7 +6820,8 @@
 				"LABEL": "0x2516",
 				"TYPE": "Text",
 				"STRING": [
-					"Just leave me alone, please... I'm sorry.”"
+					" Just leave me alone, please... I'm",
+					"sorry.”"
 				]
 			},
 			{
@@ -6915,7 +6934,7 @@
 				"LABEL": "0x25c6",
 				"TYPE": "Text",
 				"STRING": [
-					"[Asino] “Thanks for what you just said though..”"
+					"[Asino] “Thanks for what you just said though.”"
 				]
 			},
 			{
@@ -7342,7 +7361,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Fal] “I've said nothing but the truth. I just wanted you",
-					"to see the true me...what I am really like.”"
+					"to see the true me... what I am really like.”"
 				]
 			},
 			{
@@ -7421,7 +7440,7 @@
 				"LABEL": "0x28d4",
 				"TYPE": "Text",
 				"STRING": [
-					"She was...so diligent..."
+					"She was... so diligent..."
 				]
 			},
 			{
@@ -7552,7 +7571,8 @@
 				"LABEL": "0x2994",
 				"TYPE": "Text",
 				"STRING": [
-					"Hey... What do you think of me?”"
+					" Hey... What do you think of",
+					"me?”"
 				]
 			},
 			{
@@ -8178,8 +8198,23 @@
 				"STRING": [
 					"[Fal] “By doing so, my tuition was waived, and I was",
 					"able to find a cheap place to live. I also got the chance",
-					"to learn how to sing. And now, I can use everything I",
-					"have gained to move up in the music world.”"
+					"to learn how to sing. And now, I can use everything",
+					"I have gained to move up"
+				]
+			},
+			{
+				"LABEL": "2d7a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "2d7b",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "2d54",
+				"TYPE": "Text",
+				"STRING": [
+					"[Fal] in the music world.”"
 				]
 			},
 			{
@@ -8328,7 +8363,7 @@
 				"LABEL": "0x2e6c",
 				"TYPE": "Text",
 				"STRING": [
-					"And to do that, I need you.”"
+					" And to do that, I need you.”"
 				]
 			},
 			{
@@ -9182,7 +9217,7 @@
 				"LABEL": "0x32f8",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “Shut up! I don't want to be used...and I don't",
+					"[Chris] “Shut up! I don't want to be used... and I don't",
 					"want to use you, either!”"
 				]
 			},
@@ -9565,7 +9600,7 @@
 				"LABEL": "0x34be",
 				"TYPE": "Text",
 				"STRING": [
-					"[Fal] “And that's because...I'm in love with you, Chris.”"
+					"[Fal] “And that's because... I'm in love with you, Chris.”"
 				]
 			},
 			{
@@ -10115,8 +10150,23 @@
 				"STRING": [
 					"[Fal] “But, that doesn't mean that singing was just a",
 					"means to an end, it has always been my dream. I love",
-					"singing, and I can only imagine how happy I would be",
-					"to make it my life's work.”"
+					"singing, and I can only imagine how happy I would",
+					"be to make it my life's"
+				]
+			},
+			{
+				"LABEL": "37de",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "37e0",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "37b8",
+				"TYPE": "Text",
+				"STRING": [
+					"[Fal] work.”"
 				]
 			},
 			{
@@ -10141,7 +10191,22 @@
 					"[Fal] “And I've spared no effort in order to achieve that.",
 					"Always practicing, always making an effort to avoid",
 					"conflict with people, always accepting people's",
-					"requests for help with a smile.”"
+					"requests for help with"
+				]
+			},
+			{
+				"LABEL": "3810",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "3812",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "37ea",
+				"TYPE": "Text",
+				"STRING": [
+					"[Fal] a smile.”"
 				]
 			},
 			{
@@ -10156,7 +10221,7 @@
 				"LABEL": "0x3814",
 				"TYPE": "Text",
 				"STRING": [
-					"... I was aware of all these things."
+					"...I was aware of all these things."
 				]
 			},
 			{
