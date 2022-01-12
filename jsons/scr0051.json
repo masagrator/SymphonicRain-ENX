@@ -312,8 +312,9 @@
 				"LABEL": "0x200",
 				"TYPE": "Text",
 				"STRING": [
-					"You're rehearsing with a first year. You have to pass the",
-					"time until she gets out of class.”"
+					" You're rehearsing with a first year.",
+					"You have to pass the time until she gets out of",
+					"class.”"
 				]
 			},
 			{
@@ -568,7 +569,8 @@
 				"LABEL": "0x37a",
 				"TYPE": "Text",
 				"STRING": [
-					"Oh well. I'm going to head there now, what about you?”"
+					" Oh well. I'm",
+					"going to head there now, what about you?”"
 				]
 			},
 			{
@@ -803,8 +805,8 @@
 				"LABEL": "0x4e6",
 				"TYPE": "Text",
 				"STRING": [
-					"But, you're totally welcome to come. I'd be a bit uneasy",
-					"by myself.”"
+					" But, you're totally welcome",
+					"to come. I'd be a bit uneasy by myself.”"
 				]
 			},
 			{
@@ -1092,7 +1094,8 @@
 				"LABEL": "0x692",
 				"TYPE": "Text",
 				"STRING": [
-					"We're already making a bad first impression.”"
+					" We're already",
+					"making a bad first impression.”"
 				]
 			},
 			{
@@ -1552,7 +1555,8 @@
 				"LABEL": "0x93a",
 				"TYPE": "Text",
 				"STRING": [
-					"When I tell you to get out, you get out posthaste.”"
+					" When I tell you to get out, you get",
+					"out posthaste.”"
 				]
 			},
 			{
@@ -1765,7 +1769,7 @@
 				"LABEL": "0xa1c",
 				"TYPE": "Text",
 				"STRING": [
-					"[Grave] “Allow me to begin with an introduction. I, am",
+					"[Grave] “Allow me to begin with an introduction. I am",
 					"Grave Cesarini.”"
 				]
 			},
@@ -1806,8 +1810,8 @@
 				"STRING": [
 					"[Grave] “Now, I believe I made it clear how many",
 					"applicants would be accepted, but it would appear we",
-					"have too many. You should all be more realistic about",
-					"your worth to me.”"
+					"have too many. You should all be more realistic",
+					"about your worth to me.”"
 				]
 			},
 			{
@@ -2830,8 +2834,23 @@
 				"STRING": [
 					"[Grave] “They are not the fingers of a Fortelle player.",
 					"Long fingernails only obstruct the playing of the keys.",
-					"From that alone I can tell how much skill you have, even",
-					"without hearing you play.”"
+					"From that alone I can tell how much skill you have,",
+					"even without hearing you"
+				]
+			},
+			{
+				"LABEL": "105e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1060",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1038",
+				"TYPE": "Text",
+				"STRING": [
+					"[Grave] play.”"
 				]
 			},
 			{
@@ -3280,7 +3299,8 @@
 				"STRING": [
 					"There is a school of thought that the best instrument is",
 					"the one that you're used to, but this Fortelle felt so",
-					"incredible that I could easily have believed otherwise."
+					"incredible that I could easily have believed",
+					"otherwise."
 				]
 			},
 			{
@@ -3568,8 +3588,8 @@
 				"LABEL": "0x13d0",
 				"TYPE": "Text",
 				"STRING": [
-					"If I were to do a self evaluation, I would have to say that",
-					"I played well."
+					"If I were to do a self evaluation, I would have to say",
+					"that I played well."
 				]
 			},
 			{
@@ -3724,7 +3744,8 @@
 				"LABEL": "0x14b4",
 				"TYPE": "Text",
 				"STRING": [
-					"But, there's still some seats left. You just wait!”"
+					" But, there's still some seats left. You",
+					"just wait!”"
 				]
 			},
 			{
@@ -4294,7 +4315,7 @@
 			},
 			{
 				"LABEL": "0x1792",
-				"TYPE": "NewLine"
+				"TYPE": "NewPage"
 			},
 			{
 				"LABEL": "0x1794",
@@ -4767,7 +4788,7 @@
 				"LABEL": "0x19ce",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “What do you mean, ‘for a change?’ Wait...that's",
+					"[Chris] “What do you mean, ‘for a change?’ Wait... that's",
 					"it!”"
 				]
 			},
