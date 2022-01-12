@@ -284,7 +284,8 @@
 				"STRING": [
 					"If only I hadn't seen how relieved Lise had been when",
 					"she heard I wasn't going to this lecture, I would've",
-					"attended it just to see what kind of person Grave was."
+					"attended it just to see what kind of person Grave",
+					"was."
 				]
 			},
 			{
@@ -866,8 +867,8 @@
 				"STRING": [
 					"[Grave] “The Fortelle is fundamentally different from",
 					"other instruments that produce sound merely by the",
-					"touch of a key. Without magic, it wouldn't even make a",
-					"single sound.”"
+					"touch of a key. Without magic, it wouldn't even make",
+					"a single sound.”"
 				]
 			},
 			{
@@ -891,8 +892,23 @@
 				"STRING": [
 					"[Grave] “One does not play the Fortelle with one's",
 					"body, but with one's heart. Remember that. Through",
-					"rote practice, your fingers may learn to move on their",
-					"own, but now is not the time.”"
+					"rote practice, your fingers may learn to move on",
+					"their own, but now is not"
+				]
+			},
+			{
+				"LABEL": "4ea",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "4ec",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "0x4c4",
+				"TYPE": "Text",
+				"STRING": [
+					"[Grave] the time.”"
 				]
 			},
 			{
@@ -916,8 +932,23 @@
 				"STRING": [
 					"[Grave] “And that is why you will keep playing new",
 					"songs for me. If a problem arises, I will provide",
-					"instruction. If you run out of songs to play, then the",
-					"lecture is over for you.”"
+					"instruction. If you run out of songs to play, then",
+					"the lecture is over for"
+				]
+			},
+			{
+				"LABEL": "51c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "51e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "4f6",
+				"TYPE": "Text",
+				"STRING": [
+					"[Grave] you.”"
 				]
 			},
 			{
@@ -977,17 +1008,6 @@
 				"TYPE": "NewPage"
 			},
 			{
-				"LABEL": "0x57a",
-				"TYPE": "Text",
-				"STRING": [
-					"[Grave]"
-				]
-			},
-			{
-				"LABEL": "0x582",
-				"TYPE": "NewLine"
-			},
-			{
 				"LABEL": "0x584",
 				"TYPE": "Voice",
 				"U32": [
@@ -998,7 +1018,7 @@
 				"LABEL": "0x58c",
 				"TYPE": "Text",
 				"STRING": [
-					"“With your heart, of course.”"
+					"[Grave] “With your heart, of course.”"
 				]
 			},
 			{
@@ -1022,7 +1042,8 @@
 				"STRING": [
 					"[Grave] “I do not mean that metaphorically, not at all.",
 					"Decipher the song's meaning, the composer's intent,",
-					"and express it accurately. Enough talk, let's begin.”"
+					"and express it accurately. Enough talk, let's",
+					"begin.”"
 				]
 			},
 			{
@@ -1062,8 +1083,23 @@
 				"STRING": [
 					"[Grave] “What's the matter, the lecture has begun...",
 					"Shall I add another condition? If you stop playing for",
-					"more than ten seconds, you shall be deemed lacking in",
-					"purpose, and your time will be up.”"
+					"more than ten seconds, you shall be deemed lacking",
+					"in purpose, and your time"
+				]
+			},
+			{
+				"LABEL": "60e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "610",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "5e8",
+				"TYPE": "Text",
+				"STRING": [
+					"[Grave] will be up.”"
 				]
 			},
 			{
@@ -1851,7 +1887,7 @@
 			},
 			{
 				"LABEL": "0x9ee",
-				"TYPE": "NewLine"
+				"TYPE": "NewPage"
 			},
 			{
 				"LABEL": "0x9f0",
@@ -1866,7 +1902,7 @@
 			},
 			{
 				"LABEL": "0x9fa",
-				"TYPE": "NewPage"
+				"TYPE": "NewLine"
 			},
 			{
 				"LABEL": "0x9fc",
@@ -2778,7 +2814,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"It was the former, or so that question suggested, at",
-					"least"
+					"least."
 				]
 			},
 			{
@@ -2831,8 +2867,7 @@
 				"LABEL": "0xed4",
 				"TYPE": "Text",
 				"STRING": [
-					"[Grave] “...Is that so? Chris Vertin. So you were the one.",
-					"”"
+					"[Grave] “...Is that so? Chris Vertin. So you were the one.”"
 				]
 			},
 			{
