@@ -196,7 +196,7 @@
 				"LABEL": "0x142",
 				"TYPE": "Text",
 				"STRING": [
-					"It wasn't even ten o' clock yet."
+					"It wasn't even ten o'clock yet."
 				]
 			},
 			{
@@ -229,9 +229,23 @@
 				"TYPE": "Text",
 				"STRING": [
 					"Phorni and I were supposed to do an ensemble",
-					"tomorrow, but I also had plans to visit Ninna's house, so",
-					"it may have been a better idea to get the ensemble out",
-					"of the way today, instead."
+					"tomorrow, but I also had plans to visit Ninna's house,"
+				]
+			},
+			{
+				"LABEL": "160",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "162",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "164",
+				"TYPE": "Text",
+				"STRING": [
+					"so it may have been a better idea to get the ensemble",
+					"out of the way today, instead."
 				]
 			},
 			{
@@ -444,6 +458,10 @@
 				]
 			},
 			{
+				"LABEL": "0x2bc",
+				"TYPE": "NewLine"
+			},
+			{
 				"LABEL": "0x296",
 				"TYPE": "MoveChar",
 				"U32": [
@@ -456,7 +474,7 @@
 				"LABEL": "0x2aa",
 				"TYPE": "Text",
 				"STRING": [
-					"Huh? Huh?”"
+					" Huh? Huh?”"
 				]
 			},
 			{
@@ -1808,7 +1826,8 @@
 				"LABEL": "0x9e2",
 				"TYPE": "Text",
 				"STRING": [
-					"Wouldn't you prefer to play with someone else?”"
+					" Wouldn't you prefer to play with",
+					"someone else?”"
 				]
 			},
 			{
@@ -2539,7 +2558,8 @@
 				"LABEL": "0xdf6",
 				"TYPE": "Text",
 				"STRING": [
-					"[Lise] [Chris] “Uh, Chris...”“Lise...”"
+					"[Lise] “Uh, Chris...”",
+					"[Chris] “Lise...”"
 				]
 			},
 			{
@@ -3125,9 +3145,24 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Chris] “Well, I'm only going to grab something at the",
-					"cafeteria. Why don't you come too? If you don't eat",
-					"anything from now until late afternoon, you're going to",
-					"run out of energy later.”"
+					"cafeteria. Why don't you come too?”"
+				]
+			},
+			{
+				"LABEL": "1152",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1154",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1156",
+				"TYPE": "Text",
+				"STRING": [
+					"[Chris] “If you don't eat anything from now until",
+					"late afternoon, you're going to run out of energy",
+					"later.”"
 				]
 			},
 			{
@@ -3508,10 +3543,6 @@
 			{
 				"LABEL": "0x1356",
 				"TYPE": "KeyWait"
-			},
-			{
-				"LABEL": "0x1358",
-				"TYPE": "NewLine"
 			},
 			{
 				"LABEL": "0x135a",
@@ -4038,10 +4069,24 @@
 				"LABEL": "0x1634",
 				"TYPE": "Text",
 				"STRING": [
-					"Worried that it was only a meal for one woman... I took",
-					"a look inside the basket, however I found that the",
-					"amount of food was befitting someone of her size, and",
-					"that it would be enough for both Lise and me."
+					"Worried that it was only a meal for one woman..."
+				]
+			},
+			{
+				"LABEL": "1630",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1632",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1634",
+				"TYPE": "Text",
+				"STRING": [
+					"I took a look inside the basket, however I found that",
+					"the amount of food was befitting someone of her size,",
+					"and that it would be enough for both Lise and me."
 				]
 			},
 			{
@@ -5326,7 +5371,7 @@
 				"LABEL": "0x1d68",
 				"TYPE": "Text",
 				"STRING": [
-					"Um...”"
+					" Um...”"
 				]
 			},
 			{
@@ -6022,7 +6067,7 @@
 				"LABEL": "0x2100",
 				"TYPE": "Text",
 				"STRING": [
-					"[Lise] “Am I...too skinny?”"
+					"[Lise] “Am I... too skinny?”"
 				]
 			},
 			{
@@ -6084,7 +6129,7 @@
 				"LABEL": "0x215e",
 				"TYPE": "Text",
 				"STRING": [
-					"[Lise] “Do you prefer girls who...aren't skinny?”"
+					"[Lise] “Do you prefer girls who... aren't skinny?”"
 				]
 			},
 			{
@@ -7354,7 +7399,7 @@
 				"LABEL": "0x287c",
 				"TYPE": "Text",
 				"STRING": [
-					"Could it be, you went to school?”"
+					" Could it be, you went to school?”"
 				]
 			},
 			{
