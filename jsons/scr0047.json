@@ -491,6 +491,10 @@
 				]
 			},
 			{
+				"LABEL": "2fa",
+				"TYPE": "NewLine"
+			},
+			{
 				"LABEL": "0x31e",
 				"TYPE": "MoveChar",
 				"U32": [
@@ -876,7 +880,7 @@
 				"LABEL": "0x564",
 				"TYPE": "Text",
 				"STRING": [
-					"[Asino] “ Some friend you are."
+					"[Asino] “Some friend you are."
 				]
 			},
 			{
@@ -899,8 +903,9 @@
 				"LABEL": "0x592",
 				"TYPE": "Text",
 				"STRING": [
-					"Anyway, if you change your mind, let me know. I'm",
-					"probably going to be a bit nervous if I go by myself.”"
+					" Anyway, if you change",
+					"your mind, let me know. I'm probably going to be",
+					"a bit nervous if I go by myself.”"
 				]
 			},
 			{
@@ -1056,7 +1061,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"There was also something written about applicants",
-					"being screened and hand- selected if there were too",
+					"being screened and hand-selected if there were too",
 					"many people wanting to attend."
 				]
 			},
@@ -1226,7 +1231,7 @@
 				"LABEL": "0x75c",
 				"TYPE": "Text",
 				"STRING": [
-					"Yeah... That's right.”"
+					" Yeah... That's right.”"
 				]
 			},
 			{
@@ -1374,7 +1379,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"I turned around, wondering about how it seemed",
-					"everyone wanted to talk to me today ."
+					"everyone wanted to talk to me today."
 				]
 			},
 			{
@@ -1755,7 +1760,7 @@
 				"LABEL": "0xa28",
 				"TYPE": "Text",
 				"STRING": [
-					"In that case, it's fine."
+					" In that case, it's fine."
 				]
 			},
 			{
@@ -1778,7 +1783,8 @@
 				"LABEL": "0xa4c",
 				"TYPE": "Text",
 				"STRING": [
-					"I... was just wondering, that's all.”"
+					" I... was just wondering,",
+					"that's all.”"
 				]
 			},
 			{
@@ -2202,7 +2208,8 @@
 				"LABEL": "0xcda",
 				"TYPE": "Text",
 				"STRING": [
-					"Well, maybe she was just worried about you.”"
+					" Well, maybe she was just",
+					"worried about you.”"
 				]
 			},
 			{
@@ -2241,8 +2248,23 @@
 				"STRING": [
 					"[Asino] “Rumor has it the special lectures are pretty",
 					"intense. I don't know the details, but I've heard that",
-					"there were girls who ran out of the classroom crying,",
-					"that sort of thing.”"
+					"there were girls who ran out of the classroom",
+					"crying, that sort of"
+				]
+			},
+			{
+				"LABEL": "d34",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "d36",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "d0e",
+				"TYPE": "Text",
+				"STRING": [
+					"[Asino] thing.”"
 				]
 			},
 			{
