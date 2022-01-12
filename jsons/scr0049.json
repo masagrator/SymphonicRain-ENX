@@ -349,8 +349,8 @@
 				"LABEL": "0x21c",
 				"TYPE": "Text",
 				"STRING": [
-					"I didn't really see you at the practice rooms last week,",
-					"so I was wondering.”"
+					" I didn't really see you at the practice",
+					"rooms last week, so I was wondering.”"
 				]
 			},
 			{
@@ -410,7 +410,8 @@
 				"LABEL": "0x27e",
 				"TYPE": "Text",
 				"STRING": [
-					"But, who have you been practicing with?”"
+					" But, who have you been",
+					"practicing with?”"
 				]
 			},
 			{
@@ -641,7 +642,8 @@
 				"LABEL": "0x3da",
 				"TYPE": "Text",
 				"STRING": [
-					"Oh well... Introduce me to her someday!”"
+					" Oh well... Introduce",
+					"me to her someday!”"
 				]
 			},
 			{
@@ -987,7 +989,7 @@
 				"LABEL": "0x60e",
 				"TYPE": "Text",
 				"STRING": [
-					"I'll have a cioccolata, thanks.”"
+					" I'll have a cioccolata, thanks.”"
 				]
 			},
 			{
@@ -1364,7 +1366,7 @@
 				"LABEL": "0x814",
 				"TYPE": "Text",
 				"STRING": [
-					"Ahh, but... Where is she going?”"
+					" Ahh, but... Where is she going?”"
 				]
 			},
 			{
@@ -1686,8 +1688,7 @@
 				"LABEL": "0x9d6",
 				"TYPE": "Text",
 				"STRING": [
-					"[Lise] “I-It's okay, I... Didn't realize it was you. I'm sorry...",
-					"”"
+					"[Lise] “I-It's okay, I... Didn't realize it was you. I'm sorry...”"
 				]
 			},
 			{
@@ -2008,7 +2009,8 @@
 				"LABEL": "0xbae",
 				"TYPE": "Text",
 				"STRING": [
-					"I just happened to be passing by. Anyway, I'd better be",
+					" I just",
+					"happened to be passing by. Anyway, I'd better be",
 					"going.”"
 				]
 			},
@@ -2586,7 +2588,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"I wasn't expecting her to suddenly start singing with a",
-					"smile on her face, but, Lise continued to just look at me",
+					"smile on her face, but Lise continued to just look at me",
 					"with the same expression on her face."
 				]
 			},
@@ -2731,8 +2733,23 @@
 				"STRING": [
 					"[Chris] “However, it's just about the time that I have to",
 					"make a decision about who I partner up with, and since",
-					"I said I've been practicing, well... I suppose it's natural",
-					"that she got the wrong idea.”"
+					"I said I've been practicing, well...”"
+				]
+			},
+			{
+				"LABEL": "fd6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "fd8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "fda",
+				"TYPE": "Text",
+				"STRING": [
+					"[Chris] “I suppose it's natural that she got",
+					"the wrong idea.”"
 				]
 			},
 			{
@@ -3125,7 +3142,7 @@
 				"LABEL": "0x1234",
 				"TYPE": "Text",
 				"STRING": [
-					"That's not true.”"
+					" That's not true.”"
 				]
 			},
 			{
@@ -3645,7 +3662,7 @@
 				"LABEL": "0x1500",
 				"TYPE": "Text",
 				"STRING": [
-					"But, that's not what I...”"
+					" But, that's not what I...”"
 				]
 			},
 			{
@@ -3986,7 +4003,7 @@
 			},
 			{
 				"LABEL": "0x16be",
-				"TYPE": "NewLine"
+				"TYPE": "NewPage"
 			},
 			{
 				"LABEL": "0x16c0",
@@ -4002,7 +4019,7 @@
 			},
 			{
 				"LABEL": "0x16d4",
-				"TYPE": "NewPage"
+				"TYPE": "NewLine"
 			},
 			{
 				"LABEL": "0x16d6",
