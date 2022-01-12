@@ -935,8 +935,8 @@
 				"LABEL": "0x52a",
 				"TYPE": "Text",
 				"STRING": [
-					"In any case, you can't practice here. Find somewhere",
-					"else.”"
+					" In any case,",
+					"you can't practice here. Find somewhere else.”"
 				]
 			},
 			{
@@ -1122,8 +1122,23 @@
 				"STRING": [
 					"[Cordell] “Only the back door is still unlocked, in case",
 					"students have left anything inside. But I must say,",
-					"there've been many forgotten items today. In fact, a first",
-					"year female student just went inside.”"
+					"there've been many forgotten items today. In fact,",
+					"a first year"
+				]
+			},
+			{
+				"LABEL": "668",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "66a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "642",
+				"TYPE": "Text",
+				"STRING": [
+					"[Cordell] female student just went inside.”"
 				]
 			},
 			{
@@ -1564,8 +1579,7 @@
 				"LABEL": "0x904",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “Would be nice if we could continue somewhere.",
-					"”"
+					"[Chris] “Would be nice if we could continue somewhere.”"
 				]
 			},
 			{
@@ -2052,7 +2066,7 @@
 				"LABEL": "0xbf6",
 				"TYPE": "Text",
 				"STRING": [
-					"... Which means my room was the only option left."
+					"...Which means my room was the only option left."
 				]
 			},
 			{
@@ -2357,7 +2371,7 @@
 				"LABEL": "0xdd6",
 				"TYPE": "Text",
 				"STRING": [
-					"... But if Lise said she could meet on Natale, how should",
+					"...But if Lise said she could meet on Natale, how should",
 					"I respond?"
 				]
 			},
@@ -2753,7 +2767,8 @@
 				"LABEL": "0xffc",
 				"TYPE": "Text",
 				"STRING": [
-					"Well, this building will be off limits from now on. Even",
+					" Well,",
+					"this building will be off limits from now on. Even",
 					"the back door will be locked.”"
 				]
 			},
@@ -2868,7 +2883,7 @@
 				"LABEL": "0x109a",
 				"TYPE": "Text",
 				"STRING": [
-					"... Now that I think about it, didn't Grave refer to me",
+					"...Now that I think about it, didn't Grave refer to me",
 					"and Asino as Cordell's students?"
 				]
 			},
@@ -2948,8 +2963,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Cordell] “Alright. I'll walk around for a while longer until",
-					"another teacher takes over. I have lessons after this too.",
-					"”"
+					"another teacher takes over. I have lessons after this too.”"
 				]
 			},
 			{
@@ -3387,7 +3401,7 @@
 				"LABEL": "0x138c",
 				"TYPE": "Text",
 				"STRING": [
-					"... That's why I had to be vague in my answer to Torta."
+					"...That's why I had to be vague in my answer to Torta."
 				]
 			},
 			{
@@ -5099,8 +5113,7 @@
 				"LABEL": "0x1c66",
 				"TYPE": "Text",
 				"STRING": [
-					"[Lise] “I'm sorry. I'd like to think about things for a while.",
-					"”"
+					"[Lise] “I'm sorry. I'd like to think about things for a while.”"
 				]
 			},
 			{
