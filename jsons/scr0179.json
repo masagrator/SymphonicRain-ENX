@@ -534,7 +534,8 @@
 				"LABEL": "0x31a",
 				"TYPE": "Text",
 				"STRING": [
-					"Are you going to apologize to her?”"
+					" Are you going to",
+					"apologize to her?”"
 				]
 			},
 			{
@@ -573,8 +574,23 @@
 				"STRING": [
 					"[Cordell] “Let's see... Liselsia should be in homeroom 1B",
 					"of the first-year Fortelle course. And you'll find the",
-					"timetable on the bulletin board. It's the start of the",
-					"school term, after all.”"
+					"timetable on the bulletin board. It's the start of",
+					"the school term, after"
+				]
+			},
+			{
+				"LABEL": "36a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "36c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "344",
+				"TYPE": "Text",
+				"STRING": [
+					"[Cordell] all.”"
 				]
 			},
 			{
@@ -681,7 +697,8 @@
 				"LABEL": "0x40c",
 				"TYPE": "Text",
 				"STRING": [
-					"Anyway, there isn't much time left. Don't mess it up.”"
+					" Anyway, there isn't",
+					"much time left. Don't mess it up.”"
 				]
 			},
 			{
