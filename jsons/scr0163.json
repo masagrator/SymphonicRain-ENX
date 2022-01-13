@@ -375,7 +375,8 @@
 				"LABEL": "0x230",
 				"TYPE": "Text",
 				"STRING": [
-					"At this point, I had no idea what to say to her if saw her."
+					"At this point, I had no idea what to say to her if saw",
+					"her."
 				]
 			},
 			{
@@ -1586,7 +1587,7 @@
 				"LABEL": "0x88a",
 				"TYPE": "Text",
 				"STRING": [
-					"[Lise] “... Y-Yes.”"
+					"[Lise] “...Y-Yes.”"
 				]
 			},
 			{
@@ -2130,7 +2131,7 @@
 				"LABEL": "0xbbc",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “... Mr. Cesarini, do you mind answering the",
+					"[Chris] “...Mr. Cesarini, do you mind answering the",
 					"question?”"
 				]
 			},
@@ -2318,7 +2319,7 @@
 				"LABEL": "0xce4",
 				"TYPE": "Text",
 				"STRING": [
-					"All she has to do is sit in a chair.”"
+					" All she has to do is sit in a chair.”"
 				]
 			},
 			{
@@ -2571,8 +2572,8 @@
 				"LABEL": "0xe42",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “...That is not for you to say. I'll decide for myself.",
-					"”"
+					"[Chris] “...That is not for you to say. I'll decide for",
+					"myself.”"
 				]
 			},
 			{
@@ -3212,7 +3213,7 @@
 				"LABEL": "0x116a",
 				"TYPE": "Text",
 				"STRING": [
-					"[Lise] “Go back? ... Yes, I must go back...”"
+					"[Lise] “Go back? ...Yes, I must go back...”"
 				]
 			},
 			{
@@ -5645,7 +5646,8 @@
 				"STRING": [
 					"[Phorni] “Because she'd worry about you worrying",
 					"about me. You may say one thing, Chris, but I'm sure",
-					"you won't be able to ignore me, so this is for the best.”"
+					"you won't be able to ignore me, so this is for the",
+					"best.”"
 				]
 			},
 			{
@@ -5700,6 +5702,10 @@
 				"U32": [
 					3000
 				]
+			},
+			{
+				"LABEL": "1f04",
+				"TYPE": "NewLine"
 			},
 			{
 				"LABEL": "0x1ede",
@@ -6450,7 +6456,7 @@
 				"LABEL": "0x22e4",
 				"TYPE": "Text",
 				"STRING": [
-					"... I don't mind at all. But you...”"
+					"...I don't mind at all. But you...”"
 				]
 			},
 			{
@@ -7057,8 +7063,7 @@
 				"LABEL": "0x2628",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “I'm fine with it. Come on, you should sleep early.",
-					"”"
+					"[Chris] “I'm fine with it. Come on, you should sleep early.”"
 				]
 			},
 			{
