@@ -8,10 +8,10 @@
 				"UNK1": 23376,
 				"UNK2": 0,
 				"UNK3": 0,
-				"UNK4": 1205,
-				"UNK5": 1325,
-				"UNK6": 0,
-				"UNK7": 0,
+				"DATE_START": 1205,
+				"HOUR_START": 1325,
+				"DATE_END": 0,
+				"HOUR_END": 0,
 				"STRING": "btm01_1"
 			},
 			{
@@ -19,10 +19,10 @@
 				"UNK1": 23377,
 				"UNK2": 0,
 				"UNK3": 0,
-				"UNK4": 1207,
-				"UNK5": 1325,
-				"UNK6": 0,
-				"UNK7": 0,
+				"DATE_START": 1207,
+				"HOUR_START": 1325,
+				"DATE_END": 0,
+				"HOUR_END": 0,
 				"STRING": "btm01_2"
 			},
 			{
@@ -30,10 +30,10 @@
 				"UNK1": 23378,
 				"UNK2": 0,
 				"UNK3": 0,
-				"UNK4": 1209,
-				"UNK5": 1325,
-				"UNK6": 0,
-				"UNK7": 0,
+				"DATE_START": 1209,
+				"HOUR_START": 1325,
+				"DATE_END": 0,
+				"HOUR_END": 0,
 				"STRING": "btm01_3"
 			}
 		],
@@ -1223,8 +1223,8 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Chris] “Exactly. Anyway, the truth is, I have a song, but I",
-					"don't like it very much. So if we pair up, I was hoping we",
-					"could use your song, Torta...”"
+					"don't like it very much. So if we pair up, I was hoping",
+					"we could use your song, Torta...”"
 				]
 			},
 			{
@@ -1455,8 +1455,9 @@
 				"LABEL": "0x8ce",
 				"TYPE": "Text",
 				"STRING": [
-					"No problem, I'll do it. Besides, it's not like I expected",
-					"you to do it in the first place.”"
+					" No problem, I'll do it. Besides,",
+					"it's not like I expected you to do it in the first",
+					"place.”"
 				]
 			},
 			{

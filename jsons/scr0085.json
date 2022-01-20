@@ -8,10 +8,10 @@
 				"UNK1": 62088,
 				"UNK2": 0,
 				"UNK3": 0,
-				"UNK4": 1226,
-				"UNK5": 800,
-				"UNK6": 0,
-				"UNK7": 0,
+				"DATE_START": 1226,
+				"HOUR_START": 800,
+				"DATE_END": 0,
+				"HOUR_END": 0,
 				"STRING": "dx02"
 			}
 		],
@@ -738,8 +738,8 @@
 				"LABEL": "0x4bc",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “I mean, I like her in the way I like you, Phorni, or",
-					"Asino. It's different from how I like Arietta.”"
+					"[Chris] “I mean, I like her in the way I like you, Phorni,",
+					"or Asino. It's different from how I like Arietta.”"
 				]
 			},
 			{
@@ -1024,7 +1024,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Phorni] “O-Of course I will. I can't very well refuse, can",
-					"I?.”"
+					"I?”"
 				]
 			},
 			{
@@ -1093,7 +1093,8 @@
 				"LABEL": "0x716",
 				"TYPE": "Text",
 				"STRING": [
-					"Ah, but what about the letter? Have you written back?”"
+					" Ah, but what about the letter? Have you",
+					"written back?”"
 				]
 			},
 			{

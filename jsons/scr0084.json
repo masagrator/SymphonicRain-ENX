@@ -8,10 +8,10 @@
 				"UNK1": 62087,
 				"UNK2": 0,
 				"UNK3": 0,
-				"UNK4": 1225,
-				"UNK5": 800,
-				"UNK6": 0,
-				"UNK7": 0,
+				"DATE_START": 1225,
+				"HOUR_START": 800,
+				"DATE_END": 0,
+				"HOUR_END": 0,
 				"STRING": "dx01"
 			}
 		],
@@ -526,7 +526,7 @@
 				"LABEL": "0x2f4",
 				"TYPE": "Text",
 				"STRING": [
-					"... When I got up to get a drink, suddenly there was a",
+					"...When I got up to get a drink, suddenly there was a",
 					"knock on the door."
 				]
 			},
@@ -828,7 +828,8 @@
 				"LABEL": "0x4c6",
 				"TYPE": "Text",
 				"STRING": [
-					"and on the last day they let me take time off.”"
+					" and on the last day they let me take",
+					"time off.”"
 				]
 			},
 			{
@@ -944,8 +945,8 @@
 				"LABEL": "0x584",
 				"TYPE": "Text",
 				"STRING": [
-					"That's good... I was worried about imposing on you,",
-					"Chris...”"
+					" That's good... I was worried about",
+					"imposing on you, Chris...”"
 				]
 			},
 			{
@@ -1030,7 +1031,7 @@
 				"LABEL": "0x60a",
 				"TYPE": "Text",
 				"STRING": [
-					"[Phorni] “Huh? ... I thought she wasn't coming?”"
+					"[Phorni] “Huh? ...I thought she wasn't coming?”"
 				]
 			},
 			{
@@ -1361,7 +1362,8 @@
 				"LABEL": "0x814",
 				"TYPE": "Text",
 				"STRING": [
-					"Is it okay if I do the laundry?”"
+					" Is it okay if I do the",
+					"laundry?”"
 				]
 			},
 			{
@@ -3471,9 +3473,9 @@
 				"LABEL": "0x138c",
 				"TYPE": "Text",
 				"STRING": [
-					"My father went to church in the afternoon, and he",
-					"complained that there were so many people, he wasn't",
-					"able to receive a blessing.”"
+					" My father went to church in the",
+					"afternoon, and he complained that there were so many",
+					"people, he wasn't able to receive a blessing.”"
 				]
 			},
 			{
@@ -3569,7 +3571,8 @@
 				"STRING": [
 					"The Mass during Natale was different to those held on",
 					"other holidays, as all the church doors were opened",
-					"wide so that as many people as possible could attend."
+					"wide so that as many people as possible could",
+					"attend."
 				]
 			},
 			{
@@ -4611,7 +4614,7 @@
 				"LABEL": "0x1984",
 				"TYPE": "Text",
 				"STRING": [
-					"For two years ——— no, three years in a row, we'd",
+					"For two years— no, three years in a row, we'd",
 					"waited in line."
 				]
 			},
@@ -4837,7 +4840,7 @@
 				"LABEL": "0x1aea",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “Huh? ... You mean, Piova?”"
+					"[Chris] “Huh? ...You mean, Piova?”"
 				]
 			},
 			{
@@ -5001,7 +5004,7 @@
 				"LABEL": "0x1c12",
 				"TYPE": "Text",
 				"STRING": [
-					"[Arie] “Yes... What?"
+					"[Arie] “Yes..."
 				]
 			},
 			{
@@ -5024,7 +5027,7 @@
 				"LABEL": "0x1c40",
 				"TYPE": "Text",
 				"STRING": [
-					"Are you implying something?”"
+					" What? Are you implying something?”"
 				]
 			},
 			{
@@ -5487,8 +5490,8 @@
 				"LABEL": "0x1eb0",
 				"TYPE": "Text",
 				"STRING": [
-					"For a time-a really short period of time, Arie had tried to",
-					"distance herself from music."
+					"For a time - a really short period of time - Arie had tried",
+					"to distance herself from music."
 				]
 			},
 			{
@@ -6714,7 +6717,7 @@
 				"LABEL": "0x24e6",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “Huh? ... Uh, yeah.”"
+					"[Chris] “Huh? ...Uh, yeah.”"
 				]
 			},
 			{
@@ -7696,7 +7699,8 @@
 				"LABEL": "0x2a6c",
 				"TYPE": "Text",
 				"STRING": [
-					"Come on, I want to hear more of your Fortelle.”"
+					" Come on, I want to hear more of your",
+					"Fortelle.”"
 				]
 			},
 			{
@@ -8222,6 +8226,10 @@
 				]
 			},
 			{
+				"LABEL": "2d40",
+				"TYPE": "NewLine"
+			},
+			{
 				"LABEL": "0x2d64",
 				"TYPE": "MoveChar",
 				"U32": [
@@ -8498,8 +8506,8 @@
 				"LABEL": "0x2f28",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “I see. Well, I'm a bit tired, so I'll take a break. I'm",
-					"all practiced out for today.”"
+					"[Chris] “I see. Well, I'm a bit tired, so I'll take a break.",
+					"I'm all practiced out for today.”"
 				]
 			},
 			{
@@ -9339,7 +9347,8 @@
 				"LABEL": "0x33e0",
 				"TYPE": "Text",
 				"STRING": [
-					"Seeing you from the train would make me sad.”"
+					" Seeing you from the train would make me",
+					"sad.”"
 				]
 			},
 			{
@@ -9478,7 +9487,8 @@
 				"LABEL": "0x34c0",
 				"TYPE": "Text",
 				"STRING": [
-					"I may have said it in my letters, but..."
+					" I may have said it in my letters,",
+					"but..."
 				]
 			},
 			{
@@ -9501,7 +9511,7 @@
 				"LABEL": "0x34e4",
 				"TYPE": "Text",
 				"STRING": [
-					"I'm a bit scared.”"
+					" I'm a bit scared.”"
 				]
 			},
 			{
@@ -9706,7 +9716,7 @@
 				"LABEL": "0x3616",
 				"TYPE": "Text",
 				"STRING": [
-					"I'll get to see you every day..."
+					" I'll get to see you every day..."
 				]
 			},
 			{
@@ -9715,6 +9725,10 @@
 				"U32": [
 					1000
 				]
+			},
+			{
+				"LABEL": "3644",
+				"TYPE": "NewLine"
 			},
 			{
 				"LABEL": "0x3626",
@@ -9891,7 +9905,7 @@
 				"LABEL": "0x3736",
 				"TYPE": "Text",
 				"STRING": [
-					"... Guess I'll see you in a few months?”"
+					" ...Guess I'll see you in a few months?”"
 				]
 			},
 			{
@@ -9951,8 +9965,8 @@
 				"LABEL": "0x378e",
 				"TYPE": "Text",
 				"STRING": [
-					"If we draw this out, it's just going to make me even",
-					"sadder.”"
+					" If we draw this out, it's just going",
+					"to make me even sadder.”"
 				]
 			},
 			{
