@@ -371,7 +371,7 @@ Offsets["text_blob_start"] = 0x34
 Offsets["text_blob_size"] = 0x38
 Offsets["text_count"] = 0x3C
 
-files = glob.glob("jsons_new/*.json")
+files = glob.glob("jsons/*.json")
 
 os.makedirs("New_KGO", exist_ok=True)
 
@@ -457,7 +457,7 @@ for y in range(0, len(files)):
 		entry[0] = numpy.uint16(len(b"".join(entry)))
 		text_block_registration.append(b"".join(entry))
 
-	file = open("New_KGO/%s.kgo" % files[y][10:-5], "wb")
+	file = open("New_KGO/%s.kgo" % files[y][6:-5], "wb")
 	file.write(b"SR10")
 	file.write(b"\x00" * 4)
 	file.write(numpy.uint32(dump["HEADER"]["FILE_ID"]))
