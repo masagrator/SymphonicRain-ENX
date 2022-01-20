@@ -8,10 +8,10 @@
 				"UNK1": 28394,
 				"UNK2": 0,
 				"UNK3": 0,
-				"UNK4": 1128,
-				"UNK5": 1325,
-				"UNK6": 0,
-				"UNK7": 0,
+				"DATE_START": 1128,
+				"HOUR_START": 1325,
+				"DATE_END": 0,
+				"HOUR_END": 0,
 				"STRING": "at01_1"
 			},
 			{
@@ -19,10 +19,10 @@
 				"UNK1": 28395,
 				"UNK2": 0,
 				"UNK3": 0,
-				"UNK4": 1129,
-				"UNK5": 1325,
-				"UNK6": 0,
-				"UNK7": 0,
+				"DATE_START": 1129,
+				"HOUR_START": 1325,
+				"DATE_END": 0,
+				"HOUR_END": 0,
 				"STRING": "at01_2"
 			},
 			{
@@ -30,10 +30,10 @@
 				"UNK1": 28396,
 				"UNK2": 0,
 				"UNK3": 0,
-				"UNK4": 1130,
-				"UNK5": 1325,
-				"UNK6": 0,
-				"UNK7": 0,
+				"DATE_START": 1130,
+				"HOUR_START": 1325,
+				"DATE_END": 0,
+				"HOUR_END": 0,
 				"STRING": "at01_3"
 			},
 			{
@@ -41,10 +41,10 @@
 				"UNK1": 28397,
 				"UNK2": 0,
 				"UNK3": 0,
-				"UNK4": 1202,
-				"UNK5": 1325,
-				"UNK6": 0,
-				"UNK7": 0,
+				"DATE_START": 1202,
+				"HOUR_START": 1325,
+				"DATE_END": 0,
+				"HOUR_END": 0,
 				"STRING": "at01_4"
 			}
 		],
@@ -6724,7 +6724,8 @@
 				"LABEL": "0x2718",
 				"TYPE": "Text",
 				"STRING": [
-					"and urged me to continue."
+					" and urged me to",
+					"continue."
 				]
 			},
 			{

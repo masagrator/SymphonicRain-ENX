@@ -8,10 +8,10 @@
 				"UNK1": 42145,
 				"UNK2": 0,
 				"UNK3": 0,
-				"UNK4": 1207,
-				"UNK5": 1325,
-				"UNK6": 0,
-				"UNK7": 0,
+				"DATE_START": 1207,
+				"HOUR_START": 1325,
+				"DATE_END": 0,
+				"HOUR_END": 0,
 				"STRING": "btm02_1"
 			},
 			{
@@ -19,10 +19,10 @@
 				"UNK1": 42146,
 				"UNK2": 0,
 				"UNK3": 0,
-				"UNK4": 1209,
-				"UNK5": 1325,
-				"UNK6": 0,
-				"UNK7": 0,
+				"DATE_START": 1209,
+				"HOUR_START": 1325,
+				"DATE_END": 0,
+				"HOUR_END": 0,
 				"STRING": "btm02_2"
 			},
 			{
@@ -30,10 +30,10 @@
 				"UNK1": 42147,
 				"UNK2": 0,
 				"UNK3": 0,
-				"UNK4": 1212,
-				"UNK5": 1325,
-				"UNK6": 0,
-				"UNK7": 0,
+				"DATE_START": 1212,
+				"HOUR_START": 1325,
+				"DATE_END": 0,
+				"HOUR_END": 0,
 				"STRING": "btm02_3"
 			}
 		],
@@ -327,8 +327,7 @@
 				"LABEL": "0x250",
 				"TYPE": "Text",
 				"STRING": [
-					"[Torta] “I know that much. You've been like that forever.",
-					"”"
+					"[Torta] “I know that much. You've been like that forever.”"
 				]
 			},
 			{
@@ -1624,8 +1623,7 @@
 				"LABEL": "0x964",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “What's with the pause? I'm being serious, okay?",
-					"”"
+					"[Chris] “What's with the pause? I'm being serious, okay?”"
 				]
 			},
 			{
