@@ -933,7 +933,8 @@
 				"LABEL": "0x5fc",
 				"TYPE": "Text",
 				"STRING": [
-					"I'll be mad if you make Torta cry.”"
+					" I'll be",
+					"mad if you make Torta cry.”"
 				]
 			},
 			{
@@ -993,8 +994,8 @@
 				"LABEL": "0x65e",
 				"TYPE": "Text",
 				"STRING": [
-					"I'm a girl too after all. I'd like it if you didn't invite me so",
-					"lightly.”"
+					" I'm a girl too after all.",
+					"I'd like it if you didn't invite me so lightly.”"
 				]
 			},
 			{
@@ -1315,7 +1316,8 @@
 				"STRING": [
 					"[Phorni] “Because this is where students from the",
 					"Communal Music School live. And because I'm a musical",
-					"fairy. It's fine. You just think about yourself, Chris.”"
+					"fairy. It's fine. You just think about yourself,",
+					"Chris.”"
 				]
 			},
 			{
@@ -1804,8 +1806,7 @@
 				"LABEL": "0xb64",
 				"TYPE": "Text",
 				"STRING": [
-					"[Phorni] “Appear... I guess there's no other way to say it.",
-					"”"
+					"[Phorni] “Appear... I guess there's no other way to say it.”"
 				]
 			},
 			{
@@ -2416,7 +2417,8 @@
 				"STRING": [
 					"[Cordell] “Yeah. They're coming here together. There's",
 					"almost no time. It's only until noon today, but I'm going",
-					"to use the time to the fullest. That poor first year.”"
+					"to use the time to the fullest. That poor first",
+					"year.”"
 				]
 			},
 			{
@@ -3403,8 +3405,7 @@
 				"LABEL": "0x1498",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “Ms. Cordell is going to watch us practice now...",
-					"”"
+					"[Chris] “Ms. Cordell is going to watch us practice now...”"
 				]
 			},
 			{
@@ -5702,8 +5703,23 @@
 				"STRING": [
 					"[Cordell] “That's no good... Chris is on first in the",
 					"afternoon. Asino is on last in the afternoon. Meaning",
-					"he's the last of the day. Your performance will already",
-					"be over, so you'll be able to relax.”"
+					"he's the last of the day. Your performance will",
+					"already be over,"
+				]
+			},
+			{
+				"LABEL": "22d4",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "22d6",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "22ae",
+				"TYPE": "Text",
+				"STRING": [
+					"[Cordell] so you'll be able to relax.”"
 				]
 			},
 			{
@@ -7153,8 +7169,8 @@
 				"STRING": [
 					"[Torta] “But let's just leave it all until after the",
 					"graduation recital is over. Now we just have to work",
-					"hard to give a good performance. It won't be too late",
-					"then.”"
+					"hard to give a good performance. It won't be too",
+					"late then.”"
 				]
 			},
 			{
