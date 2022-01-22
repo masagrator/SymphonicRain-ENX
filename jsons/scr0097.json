@@ -1641,7 +1641,7 @@
 				"LABEL": "0x9fa",
 				"TYPE": "Text",
 				"STRING": [
-					"[Torta] “And...to get good marks.”"
+					"[Torta] “And... to get good marks.”"
 				]
 			},
 			{
@@ -1990,7 +1990,8 @@
 				"STRING": [
 					"[Torta] “You said you didn't know whether or not you",
 					"wanted to become a professional on Natale, right? Even",
-					"so, you might decide you want to be, after graduation.”"
+					"so, you might decide you want to be, after",
+					"graduation.”"
 				]
 			},
 			{
@@ -2014,8 +2015,23 @@
 				"STRING": [
 					"[Torta] “Thinking you should have done something",
 					"differently in the past when that time comes is too late.",
-					"So if we just give a good graduation recital, you can go",
-					"down whatever path you like.”"
+					"So if we just give a good graduation recital, you",
+					"can go down whatever path"
+				]
+			},
+			{
+				"LABEL": "c92",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "c94",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "c6c",
+				"TYPE": "Text",
+				"STRING": [
+					"[Torta] you like.”"
 				]
 			},
 			{

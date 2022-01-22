@@ -3813,9 +3813,23 @@
 				"TYPE": "Text",
 				"STRING": [
 					"Arie would take the overnight train the night before and",
-					"I'd meet her at the station in the morning. We'd go",
-					"straight to the cathedral for Mass, and then back to my",
-					"apartment until late at night."
+					"I'd meet her at the station in the morning."
+				]
+			},
+			{
+				"LABEL": "165e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1660",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1642",
+				"TYPE": "Text",
+				"STRING": [
+					"We'd go straight to the cathedral for Mass,",
+					"and then back to my apartment until late at night."
 				]
 			},
 			{
@@ -4447,7 +4461,8 @@
 				"STRING": [
 					"[Torta] “Hmm? Oh, it's fine. She won't listen to anyone",
 					"when she's like that. She's been alive for so long, she's",
-					"much better than I am at cooking, even if she can't see.”"
+					"much better than I am at cooking, even if she can't",
+					"see.”"
 				]
 			},
 			{
@@ -6452,8 +6467,7 @@
 				"LABEL": "0x25a4",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “＊sigh＊ I was thinking I could sleep in this year.",
-					"”"
+					"[Chris] “＊sigh＊ I was thinking I could sleep in this year.”"
 				]
 			},
 			{
@@ -7289,7 +7303,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Chris] “This isn't you showing some kind of weird",
-					"courtesy, is it? ”"
+					"courtesy, is it?”"
 				]
 			},
 			{

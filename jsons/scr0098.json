@@ -1501,8 +1501,7 @@
 				"LABEL": "0x7e4",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “Why didn't you tell me you weren't feeling well?",
-					"”"
+					"[Chris] “Why didn't you tell me you weren't feeling well?”"
 				]
 			},
 			{
@@ -1726,7 +1725,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Chris] “Listen. If you keep this up, we won't get any real",
-					"practice in today . You understand that much, right?”"
+					"practice in today. You understand that much, right?”"
 				]
 			},
 			{
@@ -2052,7 +2051,7 @@
 				"LABEL": "0xafa",
 				"TYPE": "Text",
 				"STRING": [
-					"No, I didn't say anything.”"
+					" No, I didn't say anything.”"
 				]
 			},
 			{
@@ -2089,8 +2088,7 @@
 				"LABEL": "0xb24",
 				"TYPE": "Text",
 				"STRING": [
-					"[Torta] “She would have stopped me if I'd said anything.",
-					"”"
+					"[Torta] “She would have stopped me if I'd said anything.”"
 				]
 			},
 			{
@@ -4020,8 +4018,8 @@
 				"STRING": [
 					"I thought having one around the house wouldn't get in",
 					"the way, so I tried to choose a good quality umbrella",
-					"that two people could fit under without our shoulders",
-					"poking out."
+					"that two people could fit under without our",
+					"shoulders poking out."
 				]
 			},
 			{
@@ -4179,8 +4177,7 @@
 				"LABEL": "0x1716",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “I see. That's good. Oh, and thanks for the towel.",
-					"”"
+					"[Chris] “I see. That's good. Oh, and thanks for the towel.”"
 				]
 			},
 			{
@@ -5093,7 +5090,22 @@
 					"[Torta] “I don't have any memories with you, Chris... I",
 					"don't so, I thought it would be okay just once... I",
 					"wanted to try as hard as I could, give a great",
-					"performance, and create a memory.”"
+					"performance, and create"
+				]
+			},
+			{
+				"LABEL": "1c06",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1c08",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1c12",
+				"TYPE": "Text",
+				"STRING": [
+					"[Torta] a memory.”"
 				]
 			},
 			{
@@ -5243,7 +5255,7 @@
 				"LABEL": "0x1cd4",
 				"TYPE": "Text",
 				"STRING": [
-					"Since I had mistakenly called her Arie...no, even before",
+					"Since I had mistakenly called her Arie... no, even before",
 					"that."
 				]
 			},
@@ -5670,8 +5682,8 @@
 				"LABEL": "0x1ea2",
 				"TYPE": "Text",
 				"STRING": [
-					"[Torta] “Yeah. I'm going back to sleep. I still don't feel so",
-					"well. I'll go home tonight, so let me sleep here until",
+					"[Torta] “Yeah. I'm going back to sleep. I still don't feel",
+					"so well. I'll go home tonight, so let me sleep here until",
 					"then.”"
 				]
 			},
@@ -6170,8 +6182,8 @@
 				"LABEL": "0x2176",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “I'll walk you to the house. I won't argue about it.",
-					"”"
+					"[Chris] “I'll walk you to the house. I won't argue about",
+					"it.”"
 				]
 			},
 			{
@@ -6264,8 +6276,7 @@
 				"LABEL": "0x2210",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “Yeah-yeah. I'll listen when we get to your house.",
-					"”"
+					"[Chris] “Yeah-yeah. I'll listen when we get to your house.”"
 				]
 			},
 			{
@@ -7075,8 +7086,7 @@
 				"LABEL": "0x26d8",
 				"TYPE": "Text",
 				"STRING": [
-					"[Ninna] “Hehe... Alright, I'll leave the talking-to out, then.",
-					"”"
+					"[Ninna] “Hehe... Alright, I'll leave the talking-to out, then.”"
 				]
 			},
 			{

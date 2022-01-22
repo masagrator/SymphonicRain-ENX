@@ -1069,7 +1069,8 @@
 				"STRING": [
 					"The impudent question made Torta freeze for a",
 					"moment... Which actually turned into quite a long time,",
-					"after which she finally spoke in a exasperated voice."
+					"after which she finally spoke in a exasperated",
+					"voice."
 				]
 			},
 			{
@@ -2355,7 +2356,7 @@
 				"LABEL": "0xe54",
 				"TYPE": "Text",
 				"STRING": [
-					"Torta looked really pleased as she said this , then",
+					"Torta looked really pleased as she said this, then",
 					"continued with a slightly teasing tone."
 				]
 			},
@@ -2520,8 +2521,23 @@
 				"STRING": [
 					"[Torta] “Early afternoon is fine. Quantity is important,",
 					"but so is quality. Also, since we'll be practicing all",
-					"through the break, I don't mind if you take it a little easy",
-					"on the day before Natale.”"
+					"through the break, I don't mind if you take it a",
+					"little easy on the day"
+				]
+			},
+			{
+				"LABEL": "f70",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "f72",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "f4a",
+				"TYPE": "Text",
+				"STRING": [
+					"[Torta] before Natale.”"
 				]
 			},
 			{
