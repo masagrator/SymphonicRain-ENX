@@ -639,7 +639,7 @@
 				"TYPE": "Text",
 				"STRING": [
 					"But she was in such good shape that she didn't look it,",
-					"and her gait was also steady ."
+					"and her gait was also steady."
 				]
 			},
 			{
@@ -723,7 +723,22 @@
 				"STRING": [
 					"Of course we didn't have a formal agreement, and since",
 					"I would have to start practicing for the graduation",
-					"recital that month, I had already told her that I may not",
+					"recital that month,"
+				]
+			},
+			{
+				"LABEL": "45a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "45c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "45e",
+				"TYPE": "Text",
+				"STRING": [
+					"I had already told her that I may not",
 					"be able to get home while she was still there."
 				]
 			},

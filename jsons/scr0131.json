@@ -586,8 +586,8 @@
 				"LABEL": "0x31a",
 				"TYPE": "Text",
 				"STRING": [
-					"If I sat down and rested, I didn't think I would be able to",
-					"get up again, so I quickly started to get ready for",
+					"If I sat down and rested, I didn't think I would be able",
+					"to get up again, so I quickly started to get ready for",
 					"rehearsal."
 				]
 			},
@@ -1678,8 +1678,22 @@
 					"[Chris] “I'm only asking because you haven't answered",
 					"my question, Torta. In that case, why do you want it to",
 					"be perfect? Actually, no, why does it have to be",
-					"perfect? For my sake? There's more to it than that, isn't",
-					"there?”"
+					"perfect? For my sake?"
+				]
+			},
+			{
+				"LABEL": "910",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "912",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "8ea",
+				"TYPE": "Text",
+				"STRING": [
+					"[Chris] There's more to it than that, isn't there?”"
 				]
 			},
 			{
@@ -1887,8 +1901,7 @@
 				"LABEL": "0xa08",
 				"TYPE": "Text",
 				"STRING": [
-					"[Chris] “I feel like you've just been lying since yesterday.",
-					"”"
+					"[Chris] “I feel like you've just been lying since yesterday.”"
 				]
 			},
 			{
@@ -1975,7 +1988,8 @@
 				"STRING": [
 					"[Chris] “You know... We're not going to get anywhere",
 					"talking like this. In any case, you're going home. Rest up",
-					"properly, and let's rehearse again when you're better.”"
+					"properly, and let's rehearse again when you're",
+					"better.”"
 				]
 			},
 			{
@@ -2614,8 +2628,8 @@
 				"LABEL": "0xdce",
 				"TYPE": "Text",
 				"STRING": [
-					"I felt that if I lay down on the bed, I wouldn't be able to",
-					"get back up again."
+					"I felt that if I lay down on the bed, I wouldn't be able",
+					"to get back up again."
 				]
 			},
 			{
@@ -2944,8 +2958,7 @@
 				"LABEL": "0xf70",
 				"TYPE": "Text",
 				"STRING": [
-					"[Torta] “I didn't have an appetite, so I skipped breakfast.",
-					"”"
+					"[Torta] “I didn't have an appetite, so I skipped breakfast.”"
 				]
 			},
 			{
@@ -5720,9 +5733,24 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Torta] “I just wanted to share a special memory with",
-					"you. In the very end, I get to perform with you in the",
-					"most important recital we'll ever do, so I just wanted to",
-					"make it the best it could be.”"
+					"you.”"
+				]
+			},
+			{
+				"LABEL": "1c0e",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1c10",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1c12",
+				"TYPE": "Text",
+				"STRING": [
+					"[Torta] “In the very end, I get to perform with you in",
+					"the most important recital we'll ever do, so I just",
+					"wanted to make it the best it could be.”"
 				]
 			},
 			{
@@ -5738,9 +5766,23 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Torta] “I don't have any memories just with you, Chris...",
-					"None at all... So, I'll be happy with just one... I want to",
-					"put everything I have into it, make it the best recital,",
-					"and create a special memory.”"
+					"None at all... So, I'll be happy with just one...”"
+				]
+			},
+			{
+				"LABEL": "1c38",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1c3a",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1c3c",
+				"TYPE": "Text",
+				"STRING": [
+					"[Torta] “I want to put everything I have into it, make it",
+					"the best recital, and create a special memory.”"
 				]
 			},
 			{
@@ -6566,8 +6608,8 @@
 				"LABEL": "0x2082",
 				"TYPE": "Text",
 				"STRING": [
-					"[Torta] “This is far enough, I can walk the rest by myself.",
-					"”"
+					"[Torta] “This is far enough, I can walk the rest by",
+					"myself.”"
 				]
 			},
 			{
@@ -7416,8 +7458,8 @@
 				"LABEL": "0x2550",
 				"TYPE": "Text",
 				"STRING": [
-					"If my cold didn't get better, I wondered if I would I really",
-					"have to spend the entire day in bed."
+					"If my cold didn't get better, I wondered if I would I",
+					"really have to spend the entire day in bed."
 				]
 			},
 			{

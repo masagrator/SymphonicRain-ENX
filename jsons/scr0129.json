@@ -1802,7 +1802,8 @@
 				"STRING": [
 					"[Torta] “If you get so nervous just over this, what are",
 					"you going to do when you actually perform on stage?",
-					"You're supposed to be a guy, but you're so sensitive.”"
+					"You're supposed to be a guy, but you're so",
+					"sensitive.”"
 				]
 			},
 			{
@@ -3255,7 +3256,7 @@
 				"LABEL": "0x1230",
 				"TYPE": "Text",
 				"STRING": [
-					"[Torta] “To Chris...? No, nothing”"
+					"[Torta] “To Chris...? No, nothing.”"
 				]
 			},
 			{
@@ -3326,7 +3327,22 @@
 					"[Cordell] “It comes with age. You're still a child, even if",
 					"you try to act like you're not. No different to Chris. And",
 					"besides, I can tell that something is wrong just by",
-					"hearing the way Chris plays his Fortelle.”"
+					"hearing the way Chris"
+				]
+			},
+			{
+				"LABEL": "12bc",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "12be",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1296",
+				"TYPE": "Text",
+				"STRING": [
+					"[Cordell] plays his Fortelle.”"
 				]
 			},
 			{
@@ -3622,9 +3638,24 @@
 				"TYPE": "Text",
 				"STRING": [
 					"[Torta] “The appeal? I think it's the particular... How",
-					"should I put it, essence of the Fortelle...? There is a",
-					"difference between each player, and the way that Chris",
-					"sounds different is what makes his sound special...”"
+					"should I put it, essence of the Fortelle...?”"
+				]
+			},
+			{
+				"LABEL": "1480",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1482",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1484",
+				"TYPE": "Text",
+				"STRING": [
+					"[Torta] “There is a difference between each player,",
+					"and the way that Chris sounds different is what",
+					"makes his sound special...”"
 				]
 			},
 			{
@@ -3711,7 +3742,22 @@
 					"[Cordell] “He is now a teacher at this school, teaching",
 					"Fortelle theory, I believe. Perhaps you have heard this",
 					"before? You would have learned this in the first or",
-					"second year, even if you are in the vocal course.”"
+					"second year, even if you"
+				]
+			},
+			{
+				"LABEL": "1542",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1544",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "151c",
+				"TYPE": "Text",
+				"STRING": [
+					"[Cordell] are in the vocal course.”"
 				]
 			},
 			{
@@ -4133,7 +4179,7 @@
 				"STRING": [
 					"[Cordell] “And just before Natale, you played for me",
 					"one time, did you not? I think that was the time that the",
-					"way he played sounded the most...cheerful.”"
+					"way he played sounded the most... cheerful.”"
 				]
 			},
 			{
@@ -4292,7 +4338,22 @@
 					"[Cordell] “Then the happier be becomes, the more the",
 					"magic will fade. To tell the truth, I had felt this about",
 					"two weeks ago when I heard him play before Natale.",
-					"Did you not feel it yourself?”"
+					"Did you not feel it"
+				]
+			},
+			{
+				"LABEL": "18e6",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "18e8",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "18c0",
+				"TYPE": "Text",
+				"STRING": [
+					"[Cordell] yourself?”"
 				]
 			},
 			{
@@ -4799,8 +4860,23 @@
 				"STRING": [
 					"[Cordell] “That's an interesting opinion. Of course, I",
 					"think there's more to him than that. Oh... But we're not",
-					"here to talk about Asino, are we? All I'm saying is don't",
-					"jump to conclusions.”"
+					"here to talk about Asino, are we? All I'm saying is",
+					"don't jump to"
+				]
+			},
+			{
+				"LABEL": "1c30",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "1c32",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "1c0a",
+				"TYPE": "Text",
+				"STRING": [
+					"[Cordell] conclusions.”"
 				]
 			},
 			{
@@ -5416,8 +5492,8 @@
 				"STRING": [
 					"[Cordell] “However, the next day I was over it. And the",
 					"way I played music had reverted to how it always was.",
-					"Sadness isn't forever. It only feels like it might be forever",
-					"at the time.”"
+					"Sadness isn't forever. It only feels like it might",
+					"be forever at the time.”"
 				]
 			},
 			{
@@ -5441,8 +5517,23 @@
 				"STRING": [
 					"[Cordell] “However, when you're in the middle of",
 					"something like this, you can't really reflect in such a",
-					"way. But, when looking at the bigger picture, it's just",
-					"something to laugh about.”"
+					"way. But, when looking at the bigger picture, it's",
+					"just something to laugh"
+				]
+			},
+			{
+				"LABEL": "208c",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "208e",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "2066",
+				"TYPE": "Text",
+				"STRING": [
+					"[Cordell] about.”"
 				]
 			},
 			{
@@ -5529,8 +5620,8 @@
 				"STRING": [
 					"[Cordell] “I think it was the day after that. He came to",
 					"me and said that he loved me, and that he was sorry for",
-					"not being honest about how he felt. I was in a state of",
-					"bliss.”"
+					"not being honest about how he felt. I was in a state",
+					"of bliss.”"
 				]
 			},
 			{
@@ -5605,8 +5696,22 @@
 					"[Cordell] “However... There isn't even a trace of that left",
 					"now. I never had a particularly intense range of",
 					"emotion, so unless something really big happened,",
-					"there was never really much change in the way my",
-					"music sounded.”"
+					"there was never really"
+				]
+			},
+			{
+				"LABEL": "21aa",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "21ac",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "2184",
+				"TYPE": "Text",
+				"STRING": [
+					"[Cordell] much change in the way my music sounded.”"
 				]
 			},
 			{
@@ -5630,8 +5735,8 @@
 				"STRING": [
 					"[Cordell] “But... There is a special kind of music that is",
 					"found through happiness. Even if it meant for Chris that",
-					"he would lose the thing that currently gives appeal to",
-					"the way he plays.”"
+					"he would lose the thing that currently gives appeal",
+					"to the way he plays.”"
 				]
 			},
 			{
@@ -6123,7 +6228,8 @@
 				"STRING": [
 					"[Cordell] “I suppose he was being whimsical. He",
 					"changed his mind after that... And everything ended.",
-					"And to think that at one point we were engaged, too.”"
+					"And to think that at one point we were engaged,",
+					"too.”"
 				]
 			},
 			{
@@ -6286,8 +6392,8 @@
 				"STRING": [
 					"[Cordell] “I'm still in my 20s. All of that happened when I",
 					"was around five, I think? He was a childhood friend and",
-					"I was in love. Apparently I said I was going to marry",
-					"him.”"
+					"I was in love. Apparently I said I was going to",
+					"marry him.”"
 				]
 			},
 			{
