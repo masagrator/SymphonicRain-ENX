@@ -14,7 +14,8 @@ Status: **Beta**
 Game was tested following this walkthrough:
 https://forums.fuwanovel.net/topic/2430-symphonic-rain/
 
-By following it you have 100% warranty that you won't meet any crash, text going out of bounds, and other glitches related to this mod.
+By following it and passing positively all minigames you have 100% warranty that you won't meet any crash, text going out of bounds, and other glitches related to this mod.
+Minigames can be avoided by forcing game to play them for you in settings.
 Walkthrough is using fantranslation lines which are almost never 1:1 with official translation, but it's understandable enough to not get lost.
 
 If you don't want to follow walkthrough, be sure to save at the beginning of each day inside game (not quick save), this will help you skip game back to where you have ended in case of meeting unexpected glitch that can crash game or make it stuck in infinite loop.
