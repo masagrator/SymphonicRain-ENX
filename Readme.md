@@ -3,7 +3,7 @@
 This is a port of official translation to Nintendo Switch version of game Symphonic Rain.
 It works correctly only with version 1.0.0 since no update was released for this game when mod was finished.
 
-It should work with both jailbraked Nintendo Switch and emulators.
+It should work with both jailbroken Nintendo Switch and emulators.
 
 ---
 
