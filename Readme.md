@@ -19,7 +19,7 @@ Walkthrough is using fantranslation lines which are almost never 1:1 with offici
 
 If you don't want to follow walkthrough, be sure to save at the beginning of each day inside game (not quick save), this will help you skip game back to where you have ended in case of meeting unexpected glitch that can crash game or make it stuck in infinite loop.
 
-If you will find any issue, provide screenshot of text that is causing issue and post it in Issues. Before crash (which is predictable because of sound thread being terminated aka background sounds stop suddenly) you have few seconds to make screenshot before app will close.
+If you will find any issue, provide screenshot of text that is causing issue and post it in [Issues](https://github.com/masagrator/SymphonicRain-ENX/issues). Before crash (which is predictable because of sound thread being terminated aka background sounds stop suddenly) you have few seconds to make screenshot before app will close.
 
 Some text blocks in ADV mode had more than 4 lines which is not something game supports. Part of them were voiced messages. 
 Voice file is stopped when you're switching to next page of text, that's why in case of 5-line messages You will see only 4 lines of message when voice is played and 5th line is available in next page without voice file.
