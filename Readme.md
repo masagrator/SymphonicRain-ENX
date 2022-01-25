@@ -36,6 +36,8 @@ Don't update mod if it's not necessary. If next updates changed commands blob re
 -- 3rd line cannot go over the space dedicated to book icon otherwise game will crash (this means averagely 52 characters max)
 -- 4th line cannot have more than 25 glyphs otherwise game will crash or stuck in infinite loop
 - When game is using WAIT command, it adds additional space between next messages if they are rendered next to each other. Issue is this happens only in ADV window and with disabled skipping. In backlog this space is not saved. That's why I was trying to implement in those places hardcoded spaces where they were needed, which in normal play speed results in rendering those lines with wider space than necessary.
+- Engine by default renders glyphs at fixed width for any character outside of ASCII table. Patch blocks this feature for all characters.
+- Patch also changes date format in saves to match Steam version.
 
 ---
 
