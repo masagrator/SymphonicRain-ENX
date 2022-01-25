@@ -10,6 +10,7 @@ on:
     - 'kgo_assembler.py'
     - 'kgo_commands.py'
     - 'Maketbl.py'
+    - 'Readme.md'
 
 jobs:
   build:
