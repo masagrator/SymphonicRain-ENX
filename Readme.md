@@ -47,7 +47,7 @@ Don't update mod if it's not necessary. If next updates changed commands blob re
 Install mod for Nintendo Switch:
 - Download newest release [HERE](https://github.com/masagrator/SymphonicRain-ENX/releases) or latest artifacts from [HERE](https://github.com/masagrator/SymphonicRain-ENX/actions) (github account is required, assets and scenario must be downloaded separately).
   - Release: Put "atmosphere" folder to the root of your sdcard
-  - Artifacts: Put "contents" and "exefs_patches" folder inside "atmosphere" folder on your sdcard
+  - Artifacts: Put "contents" and "exefs_patches" folders inside "atmosphere" folder on your sdcard
 - Play game
 
 For emulators go to each dedicated to them Discords for support about installing mods.
