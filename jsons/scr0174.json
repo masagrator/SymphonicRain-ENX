@@ -2327,7 +2327,8 @@
 				"STRING": [
 					"Only family was allowed to visit, but he had",
 					"remembered my face from the one time I visited in the",
-					"past three years, and treated me as if I were her family."
+					"past three years, and treated me as if I were her",
+					"family."
 				]
 			},
 			{
@@ -3478,8 +3479,22 @@
 				"STRING": [
 					"I didn't know if I should be thankful, but there was a",
 					"baseless rumor that I'd performed excellently at the",
-					"Piova Communal School of Music, so we had an endless",
-					"supply of interested students."
+					"Piova Communal School of Music,"
+				]
+			},
+			{
+				"LABEL": "115a",
+				"TYPE": "KeyWait"
+			},
+			{
+				"LABEL": "113c",
+				"TYPE": "NewPage"
+			},
+			{
+				"LABEL": "113e",
+				"TYPE": "Text",
+				"STRING": [
+					"so we had an endless supply of interested students."
 				]
 			},
 			{
@@ -3672,7 +3687,7 @@
 				"LABEL": "0x1256",
 				"TYPE": "Text",
 				"STRING": [
-					"[Arie] “Oh...okay.”"
+					"[Arie] “Oh... okay.”"
 				]
 			},
 			{
