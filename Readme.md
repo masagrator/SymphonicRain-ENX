@@ -18,6 +18,7 @@ By following it you have 100% warranty that you won't meet any crash, text going
 Walkthrough is using fantranslation lines which are almost never 1:1 with official translation, but it's understandable enough to not get lost.
 
 If you don't want to follow walkthrough, be sure to save at the beginning of each day inside game (not quick save), this will help you skip game back to where you have ended in case of meeting unexpected glitch that can crash game or make it stuck in infinite loop.
+
 If you will find any issue, provide screenshot of text that is causing issue and post it in Issues. Before crash (which is predictable because of sound thread being terminated aka background sounds stop suddenly) you have few seconds to make screenshot before app will close.
 
 Some text blocks in ADV mode had more than 4 lines which is not something game supports. Part of them were voiced messages. 
